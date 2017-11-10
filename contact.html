@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis%7CRoboto+Mono%7CScada" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script>
+    	$('body').css('display','none');
+    	$(document).ready(function() {
+    		$('body').fadeIn();
+    		$('a').on('click',function(event){
+    			var thetarget = this.getAttribute('target')
+    			if (thetarget != "_blank"){
+    				var thehref = this.getAttribute('href')
+    				event.preventDefault();
+    				$('body').fadeOut(function(){
+    					//alert(thehref)
+    					window.location = thehref
+    				});
+    			}
+    		});
+    	});
+    	setTimeout(function(){
+    		$('body').fadeIn();
+    	},1000)
+    </script>
+
+
+    <!-- INTRO -->
+    <div class="background-gradient">
+      <header class="container">
+        <div class="row">
+          <div class="col-md-12 header-spacing">
+            <h1 class="name">Branden Ng</h1>
+            <p class="title">Junior Front-End Developer</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 main-img-container">
+            <img class="me" src="img/me.jpg" alt="A picture of me!">
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- FEATURED WORK -->
+    <main class="featured-work">
+      <div class="container">
+        <div class="row afc">
+          <div class="col-sm-4 ">
+            <a href="about.html"><h2 class="about">About</h2></a>
+          </div>
+          <div class="col-sm-4">
+            <a href="index.html"><h2 class="featured">Featured Work</h2></a>
+          </div>
+          <div class="col-sm-4">
+            <a href="contact.html"><h2 class="contact active">Contact</h2><a>
+          </div>
+        </div>
+        <div class="row connect">
+          <div class="col-md-6 right">
+            <h2 class="email">Email:</h2>
+            <a class="mailto" href="mailto:brandendanielng@gmail.com">brandendanielng@gmail.com</a>
+          </div>
+          <div class="col-md-6 left">
+            <h2 class="mobile">Mobile:</h2>
+            <p class="number">04 32375587</p>
+          </div>
+          <div class="col-md-12 social">
+            <a href="https://github.com/BrandenDaniel" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/BrandenDaniel" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <small class="sticky-footer">Branden Ng &copy;</small>
+    </footer>
+
+    <!-- JQuery, Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <scri$="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
