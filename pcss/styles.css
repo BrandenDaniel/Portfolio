@@ -284,7 +284,7 @@ a:hover {
 }
 
 .download-cv a {
-  color: #511cbf;
+  color: #2d1068;
   font-family: "Scada", helvetica;
   font-weight: bold;
   padding: .8em;
@@ -509,7 +509,7 @@ footer{
   }
 
   .me {
-    width: 70% !important;
+    width: 50% !important;
   }
 }
 
