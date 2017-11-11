@@ -5,13 +5,13 @@
     <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Dosis%7CRoboto+Mono%7CScada" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis%7CRoboto+Mono%7CScada%7CCabin+Sketch" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="pcss/styles.css">
   </head>
   <body>
     <script
@@ -51,7 +51,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 main-img-container">
-            <img class="me" src="img/me.jpg" alt="A picture of me!">
+            <img class="me" src="pimg/me.jpg" alt="A picture of me!">
           </div>
         </div>
       </header>
@@ -61,11 +61,11 @@
     <main class="featured-work">
       <div class="container">
         <div class="row afc">
+          <div class="col-sm-4">
+            <a href="pindex.html"><h2 class="projects">Projects</h2></a>
+          </div>
           <div class="col-sm-4 ">
             <a href="about.html"><h2 class="about active">About</h2></a>
-          </div>
-          <div class="col-sm-4">
-            <a href="index.html"><h2 class="featured">Featured Work</h2></a>
           </div>
           <div class="col-sm-4">
             <a href="contact.html"><h2 class="contact">Contact</h2><a>
@@ -73,8 +73,21 @@
         </div>
         <div class="row">
           <div class="col-md-12 about-me">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ipsam recusandae quisquam voluptas, ratione ullam molestias vero suscipit error quod, distinctio qui nemo modi nulla magnam beatae dolores quae, inventore quis. Incidunt magni nemo ratione sunt aliquam sit repudiandae doloribus nam harum, quasi est illum unde quod similique velit quibusdam!</p>
+            <h1 class="who-am-i">Who Am I?</h1>
+            <div class="my-story">
+              <p>My name is Branden, I'm 21, I am a passionate self-taught web developer.</p>
+              <p>I have been learning code for a little under a year, and have developed a strong interest in creating awesome and intuitive designs. My passion doesn't stop at coding - I'm also a PC and hardware enthusiats (which really goes hand in hand with making websites).</p>
+              <p>Shown in my <a href="pindex.html">projects</a>, I've created websites to show off my web design capabilities, and also demonstrate my knowledge in responsive design.</p>
+              <p>I pride myself with my quick learning abilties in areas of new technologies. I am also a percectionist who is able to point out pixels at odd offsets.</p>
+              <p>Although learning at home is great, I desire to develop myself in fast paced environments where developer teams and companies could teach advanced developing and learn new languages and libraries.</p>
+              <p>My goal is to land on my first career job as a junior web developr. If you see potential in me or think your company could use my skills, don't hesitate to contact! I am always available, and am always up for a challenge!</p>
+              <p>- Branden</p>
+            </div>
           </div>
+          <div class="download-cv">
+            <a href="#">Download My CV</a>
+          </div>
+
         </div>
       </div>
     </main>
@@ -86,5 +99,6 @@
     <!-- $, Bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="pjs/effects.js"></script>
   </body>
 </html>
