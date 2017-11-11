@@ -276,19 +276,18 @@ a:hover {
 
 .download-cv {
   margin: 2.5em auto 0 auto;
-  padding: .6em;
-  border: 2px solid  #8046fc;
-  border-bottom: 3px solid #6224e2;
+  padding: .5em;
+  border-bottom: 3px solid #511cbf;
   border-radius: 10px;
   background: #a175ff;
 
 }
 
 .download-cv a {
-  color: #6224e2;
+  color: #511cbf;
   font-family: "Scada", helvetica;
   font-weight: bold;
-  padding: .9em;
+  padding: .8em;
 }
 
 
@@ -348,11 +347,13 @@ footer{
   }
 
   .right {
-    margin-right: 1.2em;
+    margin-right: 1.1em;
+    text-align: left;
   }
 
   .left {
-    margin-left: 1.2em;
+    margin-left: 1.1em;
+    text-align: right;
   }
 
   .mailto:hover {
@@ -389,7 +390,7 @@ footer{
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .featured-title {
     margin-bottom: -.5em;
   }
@@ -449,6 +450,14 @@ footer{
     margin: 0 5em .5em 0;
   }
 
+  .left {
+    text-align: right;
+  }
+
+  .right {
+    text-align: left;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -482,7 +491,7 @@ footer{
     }
 }
 
-@media (min-width: 390px) and (max-width: 576px) {
+@media (min-width: 390px) and (max-width: 575px) {
   .description {
     color: #89a6bf;
     font-weight: 400;
