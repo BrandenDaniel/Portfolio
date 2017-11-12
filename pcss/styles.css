@@ -406,12 +406,18 @@ footer{
   }
 
   .me {
-    margin-bottom: 5em;
-    width: 30%;
+    margin-bottom: 4em;
+    width: 36%;
   }
 
   .title {
     padding-bottom: 1em;
+    font-size: 1em;
+  }
+
+  .name {
+    font-size: 2.75em;
+    margin-bottom: 0;
   }
 
   .social i {
@@ -423,9 +429,9 @@ footer{
   }
 
   .my-story {
-    padding: 1.5em !important;
+    padding: 1em !important;
     line-height: 1.1em;
-    padding-top: 2.5em !important;
+    padding-top: 2em !important;
   }
 
   .who-am-i {
@@ -438,23 +444,29 @@ footer{
   }
 
   .projects {
-    margin: .5em 0 .5em 5em;
+    margin-left: 5.5em;
   }
 
   .about {
-    margin-bottom: .5em;
+    margin: 1.1em 0em !important;;
+  }
+
+  .projects, .contact {
+    margin-bottom: 0;
   }
 
   .contact {
-    margin: 0 5em .5em 0;
+    margin-right: 5em !important;;
   }
 
   .left {
     text-align: right;
+    margin-right: 1.5em;
   }
 
   .right {
     text-align: left;
+    margin-left: 1.5em;
   }
 
 }
