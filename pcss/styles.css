@@ -40,13 +40,13 @@ html {
   font-family: "Dosis", sans-serif;
   font-size: 1.1em;
   font-weight: bold;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 /*PROFILE*/
 .me {
-  margin-bottom: 5em;
-  width: 30%;
+  margin-bottom: 7em;
+  width: 25%;
   max-width: 300px;
   border-radius: 50%;
   transition: .3s ease-in-out;
@@ -98,17 +98,14 @@ main {
 
 .e-com:hover .description {
   display: block;
-  cursor: default;
 }
 
 .cms:hover .description {
   display: block;
-  cursor: default;
 }
 
 .ow:hover .description {
   display: block;
-  cursor: default;
 }
 
 .e-com:hover .thumbnail-image, .cms:hover .thumbnail-image, .ow:hover .thumbnail-image {
@@ -246,10 +243,10 @@ a:hover {
   background: #008e86;
   border-radius: 10px;
   padding: .2em;
-  font-size: 2.5em;
+  font-size: 2.3em;
   z-index: 1;
   position: relative;
-  font-family: "Cabin Sketch", helvetica;
+  font-family: "Scada", helvetica;
   font-weight: bold;
   border-top: 3px solid #005e59;
   border-bottom: 3px solid #005e59;
@@ -395,7 +392,8 @@ footer{
   }
 
   .about, .projects, .contact {
-    font-size: 1.3em;
+    font-size: 1em;
+    border-bottom: 3px solid #2d3c49;
   }
 
   .about:hover, .contact:hover, .projects:hover, .active {
@@ -403,20 +401,21 @@ footer{
     color: #2d3c49;
     background-color: #006e8e;
     transition: .5s;
-    font-size: 1.6em;
+    font-size: 1.2em;
     text-transform: uppercase;
   }
 
   .me {
-    margin-bottom: 2.8em;
+    margin-bottom: 5em;
+    width: 30%;
+  }
+
+  .title {
+    padding-bottom: 1em;
   }
 
   .social i {
     margin: .7em .2em 0 .2em;
-  }
-
-  .about, .contact, .projects, .active {
-    border-bottom: 3px solid #2d3c49;
   }
 
   .my-story, .who-am-i {
@@ -425,12 +424,13 @@ footer{
 
   .my-story {
     padding: 1.5em !important;
-    line-height: 1.3em;
+    line-height: 1.1em;
     padding-top: 2.5em !important;
   }
 
   .who-am-i {
     margin: auto;
+    font-size: 1.7em;
   }
 
   .my-story p {
@@ -507,9 +507,6 @@ footer{
     width: 80%;
   }
 
-  .me {
-    width: 50% !important;
-  }
 }
 
 @media (max-width: 389px) {
@@ -517,9 +514,9 @@ footer{
     color: #89a6bf;
     font-weight: 400;
     position: absolute;
-    top: 35%;
+    top: 33%;
     padding: 0em 1.4em;
-    margin-left: 3.4em;
+    margin-left: 3.1em;
     width: 70%;
     display: none;
     font-size: 1.2em;
@@ -533,9 +530,6 @@ footer{
     width: 80%;
   }
 
-  .me {
-    width: 60%;
-  }
 }
 
 @media (max-width: 1199px) {
