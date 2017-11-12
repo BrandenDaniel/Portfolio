@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #02b3e4;
+  background-color: #00adc4;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -22,7 +22,7 @@ html {
 
 /*HEADER*/
 .background-gradient {
-  background-image: linear-gradient(#f4feff , #02b3e4);
+  background-image: linear-gradient(#f4feff , #00adc4);
 }
 
 .header-spacing {
@@ -46,11 +46,11 @@ html {
 /*PROFILE*/
 .me {
   margin-bottom: 5em;
-  width: 40%;
+  width: 30%;
   max-width: 300px;
   border-radius: 50%;
-  border: 3px solid #43585e;
   transition: .3s ease-in-out;
+  border: 3px solid #006e8e;
 }
 
 .me:hover {
@@ -64,13 +64,13 @@ html {
 
 /*FEATURED WORK//CONTACT//ABOUT / BODY*/
 main {
-  background-color: #02b3e4;
+  background-color: #00adc4;
 }
 
 .featured-work, .about-page, .contact-page {
   text-align: center;
   padding-bottom: 4em;
-  background-color: #02b3e4;
+  background-color: #00adc4;
 }
 
 .thumbnail-image {
@@ -128,7 +128,6 @@ main {
   border-radius: 10px;
   transition: .3s ease-in-out;
 }
-
 
 .about:hover, .contact:hover, .projects:hover {
   text-decoration: underline;
@@ -325,6 +324,10 @@ footer{
     font-size: 1.6em;
   }
 
+  .me {
+    width: 40%;
+  }
+
   .thumbnail-image {
     width: 80%;
   }
@@ -335,10 +338,6 @@ footer{
 
   .me:hover {
     transform: scale(1.1);
-  }
-
-  .me {
-    width: 50%;
   }
 
   .mailto {
@@ -431,7 +430,7 @@ footer{
   }
 
   .who-am-i {
-      margin: auto;
+    margin: auto;
   }
 
   .my-story p {
@@ -537,7 +536,6 @@ footer{
   .me {
     width: 60%;
   }
-
 }
 
 @media (max-width: 1199px) {
