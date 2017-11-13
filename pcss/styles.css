@@ -73,44 +73,28 @@ main {
   background-color: #00adc4;
 }
 
+.project-title {
+  margin: 4em auto -.5em auto;
+  padding: .4em .4em .8em .4em;
+  background-color: #009687;
+  border: 2px solid #006b60;
+  border-radius: 10px 10px 0 0;
+  color: #004740;
+  font-weight: bold;
+  font-family: "Scada", sans-serif;
+  text-decoration: underline;
+  width: 100%;
+}
+
 .thumbnail-image {
   width: 100%;
-  margin: 3em 0;
-  border: 3px solid #2d3c49;
-  border-radius: 15px;
+  margin: 0 0 3em 0;
+  border: 2px solid #2d3c49;
+  border-radius: 10px;
 }
 
 .e-com {
   position: relative;
-}
-
-.description {
-  color: #89a6bf;
-  font-weight: 400;
-  position: absolute;
-  top: 33%;
-  left: -1%;
-  padding: 0em 1.4em;
-  display: none;
-  font-family: "Scada", sans-serif;
-  font-size: 1.3em;
-}
-
-.e-com:hover .description {
-  display: block;
-}
-
-.cms:hover .description {
-  display: block;
-}
-
-.ow:hover .description {
-  display: block;
-}
-
-.e-com:hover .thumbnail-image, .cms:hover .thumbnail-image, .ow:hover .thumbnail-image {
-  filter:blur(1px) brightness(30%);
-  transition: .3s;
 }
 
 .about, .contact, .projects {
@@ -141,7 +125,7 @@ main {
   width: 100%;
   text-align: center;
   margin: -4em auto auto auto;
-  padding : 1.6em .8em .8em .8em;
+  padding : 1.4em 1em 1em 1em;
   border: 1px solid #2d3c49;
   border-radius: 0px 0px 15px 15px;
   font-weight: 500;
@@ -149,6 +133,8 @@ main {
   color: #7d97ad;
   font-family: "Scada", sans-serif;
   margin-bottom: 1.5em;
+  text-align: justify;
+  line-height: 1.4em;
 }
 
 a:hover {
@@ -258,16 +244,17 @@ a:hover {
   margin: 0 auto;
   text-align: justify;
   background: #00c1b6;
-  padding: 2em 4em;
+  padding: 2em 3em;
   border-radius: 0 0 10px 10px;
   font-family: "Scada", helvetica;
   margin-top: -1.25em;
   border-bottom: 4px solid #005e59;
   color: #003a37;
+  line-height: 1.4em;
 }
 
 .my-story p {
-  padding: .3em 0;
+  padding: .2em 0;
 }
 
 .download-cv {
@@ -309,18 +296,6 @@ footer{
     margin-top: 1em;
   }
 
-  .description {
-    color: #89a6bf;
-    font-weight: 400;
-    position: absolute;
-    top: 33%;
-    padding: 0em 1.4em;
-    margin-left: 3.4em;
-    width: 70%;
-    display: none;
-    font-size: 1.6em;
-  }
-
   .me {
     width: 40%;
   }
@@ -329,7 +304,7 @@ footer{
     width: 80%;
   }
 
-  .work-description {
+  .work-description, .project-title {
     width: 80%;
   }
 
@@ -382,7 +357,12 @@ footer{
   }
 
   .my-story {
-    padding: .5em;
+    padding: .5em;.
+    line-height: 1em;
+  }
+
+  .my-story p {
+    padding: .15em 0;
   }
 }
 
@@ -440,7 +420,7 @@ footer{
   }
 
   .my-story p {
-    padding: .3em 0;
+    padding: .15em 0;
   }
 
   .projects {
@@ -472,7 +452,7 @@ footer{
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .thumbnail-image, .work-description {
+    .thumbnail-image, .work-description, .project-title {
       width: 80%;
     }
 
@@ -480,21 +460,9 @@ footer{
       font-size: .85em;
     }
 
-    .description {
-      color: #89a6bf;
-      font-weight: 400;
-      position: absolute;
-      top: 40%;
-      padding: 0em 1.4em;
-      margin-left: 4.85em;
-      width: 70%;
-      display: none;
-      font-size: 1.85em;
-    }
-
     .work-description {
-      font-size: 1.5em;
-      margin-top: -3em;
+      font-size: 1em;
+      margin-top: -4em;
     }
 
     .my-story, .who-am-i {
@@ -503,42 +471,15 @@ footer{
 }
 
 @media (min-width: 390px) and (max-width: 575px) {
-  .description {
-    color: #89a6bf;
-    font-weight: 400;
-    position: absolute;
-    top: 35%;
-    padding: 0em 1.4em;
-    margin-left: 3.4em;
-    width: 70%;
-    display: none;
-    font-size: 1.2em;
-  }
-
-  .thumbnail-image, .work-description {
+  .thumbnail-image, .work-description, .project-title {
     width: 80%;
   }
 
 }
 
 @media (max-width: 389px) {
-  .description {
-    color: #89a6bf;
-    font-weight: 400;
-    position: absolute;
-    top: 33%;
-    padding: 0em 1.4em;
-    margin-left: 3.1em;
-    width: 70%;
-    display: none;
-    font-size: 1.2em;
-  }
 
-  .cms .description {
-    top: 30%;
-  }
-
-  .thumbnail-image, .work-description {
+  .thumbnail-image, .work-description, .project-title {
     width: 80%;
   }
 
