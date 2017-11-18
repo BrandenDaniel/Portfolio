@@ -6,6 +6,7 @@
 
 body {
   background-color: #009db2;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -21,9 +22,7 @@ html {
 }
 
 /*HEADER*/
-.background-gradient {
-  background-image: linear-gradient(#f4feff , #009db2);
-}
+
 
 .header-spacing {
   text-align: center;
@@ -45,12 +44,11 @@ html {
 
 /*PROFILE*/
 .me {
-  margin-bottom: 7em;
+  margin: 5em 0 2em 0;
   width: 25%;
   max-width: 300px;
   border-radius: 50%;
-  border: 3px solid #2d3c49;
-  filter: brightness(80%);
+  filter: brightness(90%);
 }
 
 .main-img-container {
@@ -59,14 +57,10 @@ html {
 }
 
 /*FEATURED WORK//CONTACT//ABOUT / BODY*/
-main {
-  background-color: #009db2;
-}
 
 .featured-work, .about-page, .contact-page {
   text-align: center;
   padding-bottom: 4em;
-  background-color: #009db2;
 }
 
 .project-title {
@@ -121,7 +115,7 @@ main {
   width: 100%;
   text-align: center;
   margin: -4em auto auto auto;
-  padding : 1.4em 1em 1em 1em;
+  padding : 1.6em 1em 1em 1em;
   border: 1px solid #2d3c49;
   border-radius: 0px 0px 15px 15px;
   font-weight: 500;
@@ -215,10 +209,6 @@ a:hover {
   transition: .5s;
 }
 
-.about-me {
-  margin-top: 4em;
-}
-
 .who-am-i {
   width: 60%;
   margin: .3em auto;
@@ -246,7 +236,7 @@ a:hover {
   margin-top: -1.25em;
   border-bottom: 4px solid #005e59;
   color: #003a37;
-  line-height: 1.4em;
+  line-height: 1.2em;
 }
 
 .my-story p {
@@ -284,12 +274,6 @@ footer{
 
 .sticky-footer {
   font-family: "Scada", sans-serif;
-}
-
-@media (min-width: 576px) and (max-width:767px) {
-  .me {
-    margin-bottom: 5em;
-  }
 }
 
 /*MEDIA QUERIES*/
@@ -392,10 +376,7 @@ footer{
     text-transform: uppercase;
   }
 
-  .me {
-    margin-bottom: 4em;
-    width: 36%;
-  }
+
 
   .title {
     padding-bottom: 1em;
