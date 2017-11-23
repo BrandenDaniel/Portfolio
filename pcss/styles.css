@@ -31,6 +31,7 @@ html {
   font-weight: 100;
   font-size: 3.6em;
   font-family: "Scada", sans-serif;
+  color: #2d3c49;
 }
 
 .title {
@@ -38,6 +39,7 @@ html {
   font-size: 1.1em;
   font-weight: bold;
   padding-bottom: 2em;
+  color: #2d3c49;
 }
 
 /*PROFILE*/
@@ -112,7 +114,7 @@ html {
   background-color: #2d3c49;
   width: 100%;
   text-align: center;
-  margin: -4em auto auto auto;
+  margin: -4.75em auto auto auto;
   padding : 1.6em 1em 1em 1em;
   border: 1px solid #2d3c49;
   border-radius: 0px 0px 15px 15px;
@@ -123,6 +125,7 @@ html {
   margin-bottom: 1.5em;
   text-align: justify;
   line-height: 1.4em;
+  font-size: .85em;
 }
 
 a:hover {
@@ -228,30 +231,27 @@ a:hover {
   margin: 0 auto;
   text-align: justify;
   background: #00c1b6;
-  padding: 2em 3em;
+  padding: 1.5em 1.5em;
   border-radius: 0 0 10px 10px;
   font-family: "Scada", helvetica;
   margin-top: -1.25em;
   border-bottom: 4px solid #005e59;
   color: #003a37;
   line-height: 1.2em;
-}
-
-.my-story p {
-  padding: .2em 0;
+  font-size: .9em;
 }
 
 .download-cv {
   margin: 2.5em auto 0 auto;
   padding: .5em;
-  border-bottom: 3px solid #511cbf;
+  border-bottom: 3px solid #422521;
   border-radius: 10px;
-  background: #a175ff;
+  background: #ce6f61;
 
 }
 
 .download-cv a {
-  color: #2d1068;
+  color: #422521;
   font-family: "Scada", helvetica;
   font-weight: bold;
   padding: .8em;
@@ -345,14 +345,6 @@ footer{
     width: 100%;
   }
 
-  .my-story {
-    padding: .5em;.
-    line-height: 1em;
-  }
-
-  .my-story p {
-    padding: .15em 0;
-  }
 }
 
 @media (max-width: 575px) {
@@ -395,9 +387,7 @@ footer{
   }
 
   .my-story {
-    padding: 1em !important;
-    line-height: 1.1em;
-    padding-top: 2em !important;
+    padding: 2em 1em 1em 1em !important;
   }
 
   .who-am-i {
@@ -405,9 +395,7 @@ footer{
     font-size: 1.7em;
   }
 
-  .my-story p {
-    padding: .15em 0;
-  }
+
 
   .projects {
     margin-left: 5.5em;
@@ -473,7 +461,7 @@ footer{
 
 @media (max-width: 1199px) {
   .my-story {
-    padding: 2em;
+    padding: 1.5em 1em;
   }
 }
 
