@@ -157,15 +157,15 @@ a:hover {
 
 .mailto, .number {
   background: #d5efeb;
-  padding: .7em;
+  padding: .5em;
   border-radius: 10px;
   font-family: "Scada", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #2d3c49;
   display: inline-block;
-  width: 270px;
+  width: 240px;
   border-bottom: 4px solid #2d3c49;
-  box-shadow: 0 5px 15px -4px #333;
+  box-shadow: 0 3px 15px -4px #333;
 
 }
 
@@ -174,7 +174,7 @@ a:hover {
 }
 
 .number:hover {
-  width: 375px;
+  width: 340px;
 }
 
 .mailto:hover::before {
@@ -182,7 +182,7 @@ a:hover {
 }
 
 .mailto:hover {
-  width: 470px;
+  width: 430px;
 }
 
 .connect h2 {
@@ -198,7 +198,7 @@ a:hover {
 }
 
 .social {
-  margin-top: .5em;
+  margin-top: 1.5em;
 }
 
 .social i {
@@ -237,10 +237,12 @@ a:hover {
   border-radius: 0 0 10px 10px;
   font-family: "Scada", helvetica;
   margin-top: -1.25em;
-  border-bottom: 4px solid #005e59;
+  border-bottom: 3px solid #005e59;
   color: #003a37;
   line-height: 1.2em;
   font-size: .9em;
+  box-shadow: 0 3px 15px -4px #222;
+
 }
 
 .download-cv {
@@ -343,7 +345,6 @@ footer {
   .my-story, .who-am-i {
     width: 100%;
   }
-
 }
 
 @media (max-width: 575px) {
@@ -364,8 +365,6 @@ footer {
     font-size: 1.2em;
     text-transform: uppercase;
   }
-
-
 
   .title {
     margin-bottom: 4.5em;
@@ -393,8 +392,6 @@ footer {
     margin: auto;
     font-size: 1.7em;
   }
-
-
 
   .projects {
     margin-left: 5.5em;
@@ -440,6 +437,23 @@ footer {
 
     .my-story, .who-am-i {
       width: 85%;
+    }
+
+    .mailto:hover::before {
+      content: "";
+    }
+
+    .number:hover::after {
+      content: "";
+      width: 270px;
+    }
+
+    .mailto:hover {
+      width: 270px;
+    }
+
+    .number:hover {
+      width: 270px;
     }
 }
 
