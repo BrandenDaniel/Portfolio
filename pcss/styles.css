@@ -215,16 +215,16 @@ a:hover {
 .who-am-i {
   width: 60%;
   margin: .3em auto;
-  background: #008e86;
+  background: #007c75;
   border-radius: 10px;
   padding: .2em;
-  font-size: 2.3em;
+  font-size: 2em;
   z-index: 1;
   position: relative;
   font-family: "Scada", helvetica;
   font-weight: bold;
-  border-top: 3px solid #005e59;
-  border-bottom: 3px solid #005e59;
+  border-top: 2px solid #005e59;
+  border-bottom: 2px solid #005e59;
   color: #003a37;
 }
 
@@ -232,7 +232,7 @@ a:hover {
   width: 60%;
   margin: 0 auto;
   text-align: justify;
-  background: #00c1b6;
+  background: #01ada2;
   padding: 1.5em 1.5em;
   border-radius: 0 0 10px 10px;
   font-family: "Scada", helvetica;
