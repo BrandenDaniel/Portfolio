@@ -216,7 +216,7 @@ a:hover {
 .who-am-i {
   width: 60%;
   margin: .3em auto;
-  background-color: #8697ba;
+  background-color: #7da0ad;
   background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
   padding: .2em;
   font-size: 1.75em;
@@ -224,7 +224,7 @@ a:hover {
   position: relative;
   font-family: "Scada", helvetica;
   font-weight: bold;
-  color: #2a364f;
+  color: #263a42;
   border-radius: 10px 10px 0 0;
 }
 
@@ -236,28 +236,28 @@ a:hover {
   border-radius: 10px;
   font-family: "Scada", helvetica;
   margin-top: -1.25em;
-  color: #374156;
+  color: #263a42;
   line-height: 1.2em;
   font-size: .8em;
-  box-shadow: 0 3px 15px -4px #222;
-  background-color: #8f9dba;
+  box-shadow: 0 4px 15px -6px #222;
+  background-color: #7da0ad;
   background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 .download-cv {
   margin: 2.5em auto 0 auto;
-  padding: .5em;
-  border-bottom: 3px solid #422521;
+  padding: .2em;
+  border-bottom: 2px solid #663f39;
   border-radius: 10px;
-  background: #ce6f61;
-
+  background: #dd8e82;
 }
 
 .download-cv a {
-  color: #422521;
+  color: #663f39;
   font-family: "Scada", helvetica;
   font-weight: bold;
-  padding: .8em;
+  padding: .5em;
+  font-size: .85em;
 }
 
 
