@@ -80,10 +80,10 @@ html {
 .project-title {
   margin: 4em auto -.5em auto;
   padding: .4em .4em .8em .4em;
-  background-color: #86a026;
-  border: 1px solid #687c1b;
+  background-color: #d6593e;
+  border: 1px solid #af3811;
   border-radius: 10px 10px 0 0;
-  color: #343f08;
+  color: #511b09;
   font-weight: bold;
   font-family: "Scada", sans-serif;
   text-decoration: underline;
@@ -229,9 +229,9 @@ a:hover {
 .who-am-i {
   width: 60%;
   margin: .3em auto;
-  background: #7b9da0;
+  background: #798baf;
   padding: .2em;
-  font-size: 2em;
+  font-size: 1.75em;
   z-index: 1;
   position: relative;
   font-family: "Scada", helvetica;
