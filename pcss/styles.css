@@ -66,10 +66,10 @@ html {
 .project-title {
   margin: 4em auto -.5em auto;
   padding: .4em .4em .8em .4em;
-  background-color: #7d97ad;
-  border: 1px solid #2d3c49;
+  background-color: #7dada2;
+  border: 1px solid #437271;
   border-radius: 10px 10px 0 0;
-  color: #2d3c49;
+  color: #2c4847;
   font-weight: 400;
   font-family: "Scada", sans-serif;
   text-decoration: underline;
