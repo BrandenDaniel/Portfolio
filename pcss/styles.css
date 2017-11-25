@@ -80,13 +80,8 @@ html {
 .project-title {
   margin: 4em auto -.5em auto;
   padding: .4em .4em .8em .4em;
-<<<<<<< HEAD
   background-color: #d6593e;
   border: 1px solid #af3811;
-=======
-  background-color: #009687;
-  border: 1px solid #006b60;
->>>>>>> 8c183ac29f6c7ad5151e157417664b371f1d11cf
   border-radius: 10px 10px 0 0;
   color: #511b09;
   font-weight: bold;
