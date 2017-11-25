@@ -80,11 +80,11 @@ html {
 .project-title {
   margin: 4em auto -.5em auto;
   padding: .4em .4em .8em .4em;
-  background-color: #cc7f63;
-  border: 1px solid #7f4d3b;
+  background-color: #65747a;
+  border: 1px solid #3b4447;
   border-radius: 10px 10px 0 0;
-  color: #601a00;
-  font-weight: bold;
+  color: #b6cad3;
+  font-weight: 400;
   font-family: "Scada", sans-serif;
   text-decoration: underline;
   width: 100%;
@@ -94,7 +94,6 @@ html {
   width: 100%;
   margin: 0 0 3em 0;
   border: 1px solid #2d3c49;
-  border-top-color: #7f4d3b;
   border-radius: 10px;
 }
 
@@ -179,8 +178,8 @@ a:hover {
   color: #2d3c49;
   display: inline-block;
   width: 240px;
-  border-bottom: 4px solid #2d3c49;
-  box-shadow: 0 3px 15px -4px #333;
+  border-bottom: 2px solid #2d3c49;
+  box-shadow: 0 3px 10px -4px #333;
 
 }
 
@@ -230,7 +229,7 @@ a:hover {
 .who-am-i {
   width: 60%;
   margin: .3em auto;
-  background-color: #798baf;
+  background-color: #8697ba;
   background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
   padding: .2em;
   font-size: 1.75em;
