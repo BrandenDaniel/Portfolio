@@ -216,7 +216,7 @@ a:hover {
 .who-am-i {
   width: 60%;
   margin: .3em auto;
-  background-color: #7da0ad;
+  background-color: #7dada2;
   background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
   padding: .2em;
   font-size: 1.75em;
@@ -240,7 +240,7 @@ a:hover {
   line-height: 1.2em;
   font-size: .8em;
   box-shadow: 0 4px 15px -6px #222;
-  background-color: #7da0ad;
+  background-color: #7dada2;
   background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
@@ -265,7 +265,8 @@ a:hover {
 footer {
   text-align: center;
   background: #00353a;
-  color: #08938d;
+  color: #097c77
+  ;
   font-size: 900;
   padding: .2em;
 }
