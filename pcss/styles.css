@@ -33,7 +33,6 @@ html {
 }
 
 .name {
-  font-weight: 100;
   font-size: 3.6em;
   font-family: "Scada", sans-serif;
   color: #2d3c49;
@@ -266,18 +265,17 @@ a:hover {
 }
 
 /*FOOTER*/
-footer {
+/*footer {
   text-align: center;
-  background: #00353a;
-  color: #097c77
-  ;
-  font-size: 900;
-  padding: .2em;
+  color: #444;
+  padding: .3em;
 }
 
 .sticky-footer {
-  font-family: "Scada", sans-serif;
-}
+  font-family: helvetica;
+  font-size: .75em;
+  font-weight: 400;
+}*/
 
 /*MEDIA QUERIES*/
 @media (max-width: 767px) {
