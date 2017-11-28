@@ -129,7 +129,7 @@ html {
   font-family: "Scada", sans-serif;
   margin-bottom: 1.5em;
   text-align: justify;
-  line-height: 1.4em;
+  line-height: 1.285em;
   font-size: .85em;
 }
 
@@ -246,6 +246,10 @@ a:hover {
   box-shadow: 0 4px 15px -6px #222;
   background-color: #7dada2;
   background-image: url("../pimg/gplay.png");
+}
+
+.my-story p {
+  margin-bottom: .9em;
 }
 
 .download-cv {
