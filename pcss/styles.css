@@ -329,13 +329,13 @@ a:hover {
 
   .about, .projects, .contact {
     font-size: 1em;
-    border-bottom: 3px solid #2d3c49;
+    border-bottom: 3px solid #4c3117;
   }
 
   .about:hover, .contact:hover, .projects:hover, .active {
     text-decoration: underline;
-    color: #2d3c49;
-    background-color: #006e8e;
+    color: #4c3117;
+    background-color: #a8723e;
     transition: .5s;
     font-size: 1.2em;
     text-transform: uppercase;
