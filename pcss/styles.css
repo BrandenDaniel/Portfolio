@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #0cb7af;
+  background-color: #949994;
   background-image: url("../pimg/cubes.png");
   display: flex;
   flex-direction: column;
@@ -69,7 +69,7 @@ html {
 
 .project-title {
   margin: 4em auto -.5em auto;
-  padding: .4em .4em .8em .4em;
+  padding: .2em .2em .6em .2em;
   background-color: #7dada2;
   background-image: url("../pimg/60-lines.png");
   border: 1px solid #437271;
@@ -120,7 +120,7 @@ html {
   width: 100%;
   text-align: center;
   margin: -4.75em auto auto auto;
-  padding : 1.6em 1em 1em 1em;
+  padding : 1.6em .75em .5em .75em;
   border: 1px solid #2d3c49;
   border-radius: 0px 0px 15px 15px;
   font-weight: 500;
@@ -171,23 +171,6 @@ a:hover {
   width: 240px;
   border-bottom: 2px solid #2d3c49;
   box-shadow: 0 3px 10px -4px #333;
-
-}
-
-.number:hover::after {
-  content: " - feel free to call or text me!";
-}
-
-.number:hover {
-  width: 340px;
-}
-
-.mailto:hover::before {
-  content: "feel free to email me at ";
-}
-
-.mailto:hover {
-  width: 430px;
 }
 
 .connect h2 {
@@ -209,11 +192,11 @@ a:hover {
 .social i {
   font-size: 1.8em;
   margin: .7em .3em 0 .3em;
-  color: #333e47;
+  color: #111;
 }
 
 .social i:hover {
-  color: #000;
+  color: #333;
   transition: .5s;
 }
 
@@ -306,14 +289,6 @@ a:hover {
     width: 225px;
   }
 
-  .mailto:hover {
-    width: 225px;
-  }
-
-  .number:hover {
-    width: 225px;
-  }
-
   .right {
     margin-right: 1.1em;
     text-align: left;
@@ -324,18 +299,9 @@ a:hover {
     text-align: right;
   }
 
-  .mailto:hover::before {
-    content: "";
-  }
-
   .number {
     font-size: 1em;
     width: 225px;
-  }
-
-  .number:hover::after {
-    content: "";
-    width: 270px;
   }
 
   .about, .projects, .contact {
@@ -427,6 +393,10 @@ a:hover {
     margin-left: 1.5em;
   }
 
+  .work-description {
+    line-height: 1.1em;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -440,30 +410,14 @@ a:hover {
 
     .work-description {
       font-size: 1em;
-      margin-top: -4em;
+      margin-top: -4.35em;
+      line-height: 1.1em;
+
     }
 
     .my-story, .who-am-i {
       width: 85%;
     }
-
-    .mailto:hover::before {
-      content: "";
-    }
-
-    .number:hover::after {
-      content: "";
-      width: 270px;
-    }
-
-    .mailto:hover {
-      width: 270px;
-    }
-
-    .number:hover {
-      width: 270px;
-    }
-
 }
 
 @media (min-width: 390px) and (max-width: 575px) {
