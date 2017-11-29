@@ -162,12 +162,12 @@ a:hover {
 }
 
 .mailto, .number {
-  background: #d5efeb;
+  background: #dee0df;
   padding: .5em;
   border-radius: 10px;
   font-family: "Scada", sans-serif;
   font-size: 1.1em;
-  color: #2d3c49;
+  color: #333;
   display: inline-block;
   width: 240px;
   border-bottom: 2px solid #2d3c49;
