@@ -35,7 +35,7 @@ html {
 .name {
   font-size: 3.6em;
   font-family: "Scada", sans-serif;
-  color: #2d3c49;
+  color: #333;
 }
 
 .title {
@@ -43,7 +43,7 @@ html {
   font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 5em;
-  color: #2d3c49;
+  color: #333;
 }
 
 /*PROFILE PICTURE & LOGO*/
@@ -95,24 +95,25 @@ html {
 .about, .contact, .projects {
   font-size: 1.3em;
   font-weight: 600;
-  color: #2d3c49;
+  color: #4c3117;
   font-family: "Roboto Mono", monospace;
   text-decoration: underline;
   display: inline-block;
-  background: #008cb5;
+  background: #bf8952;
   padding: .4em;
   border-radius: 10px;
   transition: .3s ease-in-out;
+  border-bottom: 3px solid #4c3117;
 }
 
 .about:hover, .contact:hover, .projects:hover {
   text-decoration: underline;
-  color: #2d3c49;
-  background-color: #006e8e;
+  color: #4c3117;
+  background-color: #a8723e;
   transition: .5s;
   font-size: 1.4em;
   text-transform: uppercase;
-  border-bottom: 4px solid #2d3c49;
+  border-bottom: 3px solid #4c3117;
 }
 
 .work-description {
@@ -139,12 +140,12 @@ a:hover {
 
 .active {
   text-decoration: underline;
-  color: #2d3c49;
-  background-color: #006e8e;
+  color: #4c3117;
+  background-color: #bf8952;
   transition: 1s;
   font-size: 1.4em;
   text-transform: uppercase;
-  border-bottom: 4px solid #2d3c49;
+  border-bottom: 4px solid #4c3117;
 }
 
 .connect {
