@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #949994;
+  background-color: #919191;
   background-image: url("../pimg/cubes.png");
   display: flex;
   flex-direction: column;
@@ -70,9 +70,9 @@ html {
 .project-title {
   margin: 4em auto -.5em auto;
   padding: .2em .2em .6em .2em;
-  background-color: #7dada2;
+  background-color: #98ad99;
   background-image: url("../pimg/60-lines.png");
-  border: 1px solid #437271;
+  border: 1px solid #738474;
   border-radius: 10px 10px 0 0;
   color: #2c4847;
   font-weight: 400;
@@ -84,7 +84,7 @@ html {
 .thumbnail-image {
   width: 100%;
   margin: 0 0 3em 0;
-  border: 1px solid #2d3c49;
+  border: 1px solid #738474;
   border-radius: 10px;
 }
 
@@ -204,7 +204,7 @@ a:hover {
 .who-am-i {
   width: 60%;
   margin: .3em auto;
-  background-color: #a0afa1;
+  background-color: #98ad99;
   background-image: url("../pimg/60-lines.png");
   padding: .2em;
   font-size: 1.75em;
@@ -228,7 +228,7 @@ a:hover {
   line-height: 1.2em;
   font-size: .8em;
   box-shadow: 0 4px 15px -6px #222;
-  background-color: #a0afa1;
+  background-color: #98ad99;
   background-image: url("../pimg/gplay.png");
 }
 
@@ -241,7 +241,7 @@ a:hover {
   padding: .2em;
   border-bottom: 2px solid #663f39;
   border-radius: 10px;
-  background: #dd8e82;
+  background: #ce8377;
 }
 
 .download-cv a {
