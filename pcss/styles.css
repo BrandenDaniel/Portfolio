@@ -122,17 +122,17 @@ html {
   width: 100%;
   text-align: center;
   margin: -4.75em auto auto auto;
-  padding : 1.6em .75em .5em .75em;
+  padding : 1.55em .75em .7em .75em;
   border: 1px solid #2d3c49;
-  border-radius: 0px 0px 15px 15px;
+  border-radius: 0px 0px 10px 10px;
   font-weight: 500;
   box-shadow: 0 6px 15px -4px #222;
   color: #7d97ad;
   font-family: "Scada", sans-serif;
   margin-bottom: 1.5em;
   text-align: justify;
-  line-height: 1.285em;
-  font-size: .85em;
+  line-height: 1.3em;
+  font-size: .8em;
 }
 
 a:hover {
@@ -192,7 +192,7 @@ a:hover {
 }
 
 .social i {
-  font-size: 1.8em;
+  font-size: 1.65em;
   margin: .7em .3em 0 .3em;
   color: #111;
 }
@@ -202,7 +202,7 @@ a:hover {
   transition: .5s;
 }
 
-.who-am-i {
+/*.who-am-i {
   width: 60%;
   margin: .3em auto;
   background-color: #e2dddc;
@@ -215,7 +215,7 @@ a:hover {
   font-weight: bold;
   color: #263a42;
   border-radius: 10px 10px 0 0;
-}
+}*/
 
 .my-story {
   width: 60%;
@@ -224,16 +224,23 @@ a:hover {
   padding: 1.2em;
   border-radius: 10px;
   font-family: "Scada", helvetica;
-  color: #423a39;
+  color: #3d3839;
   line-height: 1.25em;
-  font-size: .8em;
+  font-size: .85em;
   box-shadow: 0 4px 15px -6px #222;
-  background-color: #ced6cd;
-  background-image: url("../pimg/gplay.png");
+  background-color: #bc8d9b;
+  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+  border-bottom: 3px solid #8e6873;
+  font-weight: 400;
 }
 
 .my-story p {
   margin-bottom: .9em;
+}
+
+.my-story a {
+  color: #2d2024;
+  text-decoration: underline !important;
 }
 
 .download-cv {
