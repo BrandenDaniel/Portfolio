@@ -96,25 +96,25 @@ html {
 .about, .contact, .projects {
   font-size: 1.3em;
   font-weight: 600;
-  color: #4c3117;
+  color: #63402f;
   font-family: "Roboto Mono", monospace;
   text-decoration: underline;
   display: inline-block;
-  background: #bf8952;
+  background: #cc8663;
   padding: .4em;
   border-radius: 10px;
   transition: .3s ease-in-out;
-  border-bottom: 3px solid #4c3117;
+  border-bottom: 3px solid #63402f;
 }
 
 .about:hover, .contact:hover, .projects:hover {
   text-decoration: underline;
-  color: #4c3117;
-  background-color: #a8723e;
+  color: #472d21;
+  background-color: #a56d51;
   transition: .5s;
   font-size: 1.4em;
   text-transform: uppercase;
-  border-bottom: 3px solid #4c3117;
+  border-bottom: 3px solid #472d21;
 }
 
 .work-description {
@@ -141,12 +141,12 @@ a:hover {
 
 .active {
   text-decoration: underline;
-  color: #4c3117;
-  background-color: #a8723e;
+  color: #472d21;
+  background-color: #a56d51;
   transition: 1s;
   font-size: 1.4em;
   text-transform: uppercase;
-  border-bottom: 4px solid #4c3117;
+  border-bottom: 4px solid #472d21;
 }
 
 .connect {
@@ -224,13 +224,13 @@ a:hover {
   padding: 1.2em;
   border-radius: 10px;
   font-family: "Scada", helvetica;
-  color: #3d3839;
+  color: #505b5b;
   line-height: 1.25em;
   font-size: .85em;
   box-shadow: 0 4px 15px -6px #222;
-  background-color: #bc8d9b;
+  background-color: #d0e2e2;
   background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
-  border-bottom: 3px solid #8e6873;
+  border-bottom: 3px solid #aec4c4;
   font-weight: 400;
 }
 
@@ -246,13 +246,14 @@ a:hover {
 .download-cv {
   margin: 2.5em auto 0 auto;
   padding: .2em;
-  border-bottom: 2px solid #663f39;
+  border-bottom: 2px solid #3e4242;
   border-radius: 10px;
-  background: #ce8377;
+  background: #909696;
+
 }
 
 .download-cv a {
-  color: #663f39;
+  color: #3e4242;
   font-family: "Scada", helvetica;
   font-weight: bold;
   padding: .5em;
@@ -336,13 +337,13 @@ a:hover {
 
   .about, .projects, .contact {
     font-size: 1em;
-    border-bottom: 3px solid #4c3117;
+    border-bottom: 3px solid #63402f;
   }
 
   .about:hover, .contact:hover, .projects:hover, .active {
     text-decoration: underline;
-    color: #4c3117;
-    background-color: #a8723e;
+    color: #63402f;
+    background-color: #cc8663;
     transition: .5s;
     font-size: 1.2em;
     text-transform: uppercase;
