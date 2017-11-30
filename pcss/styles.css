@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #919191;
+  background-color: #b3b7b6;
   background-image: url("../pimg/cubes.png");
   display: flex;
   flex-direction: column;
@@ -205,7 +205,7 @@ a:hover {
 .who-am-i {
   width: 60%;
   margin: .3em auto;
-  background-color: #98ad99;
+  background-color: #e2dddc;
   background-image: url("../pimg/60-lines.png");
   padding: .2em;
   font-size: 1.75em;
@@ -221,15 +221,14 @@ a:hover {
   width: 60%;
   margin: 0 auto;
   text-align: justify;
-  padding: 1.85em 1.5em .2em 1.5em;
+  padding: 1.2em;
   border-radius: 10px;
   font-family: "Scada", helvetica;
-  margin-top: -1.25em;
-  color: #263a42;
-  line-height: 1.2em;
+  color: #423a39;
+  line-height: 1.25em;
   font-size: .8em;
   box-shadow: 0 4px 15px -6px #222;
-  background-color: #98ad99;
+  background-color: #ced6cd;
   background-image: url("../pimg/gplay.png");
 }
 
@@ -274,7 +273,7 @@ a:hover {
 
   .me {
     width: 32%;
-    margin: 5.5em 0 3.5em 0;
+    margin: 5.5em 0 3em 0;
 
   }
 
@@ -361,7 +360,7 @@ a:hover {
   }
 
   .my-story {
-    padding: 2.4em 1em .25em 1em !important;
+    padding: 1.2em !important;
   }
 
   .who-am-i {
