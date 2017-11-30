@@ -342,8 +342,8 @@ a:hover {
 
   .about:hover, .contact:hover, .projects:hover, .active {
     text-decoration: underline;
-    color: #63402f;
-    background-color: #cc8663;
+    color: #472d21;
+    background-color: #a56d51;
     transition: .5s;
     font-size: 1.2em;
     text-transform: uppercase;
