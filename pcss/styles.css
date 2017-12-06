@@ -100,7 +100,7 @@ html {
   font-family: "Roboto Mono", monospace;
   text-decoration: underline;
   display: inline-block;
-  background: rgba(204,134,99,.6);
+  background: rgba(204,134,99,.5);
   padding: .4em;
   border-radius: 10px;
   transition: .3s ease-in-out;
@@ -110,7 +110,7 @@ html {
 .about:hover, .contact:hover, .projects:hover {
   text-decoration: underline;
   color: #472d21;
-  background-color: rgba(165,109,81,.6);
+  background-color: rgba(165,109,81,.7);
   transition: .5s;
   font-size: 1.4em;
   text-transform: uppercase;
@@ -131,7 +131,7 @@ html {
   font-family: "Scada", sans-serif;
   margin-bottom: 1.5em;
   text-align: justify;
-  line-height: 1.3em;
+  line-height: 1.35em;
   font-size: .8em;
 }
 
@@ -142,7 +142,7 @@ a:hover {
 .active {
   text-decoration: underline;
   color: #472d21;
-  background-color: rgba(165,109,81,.6);
+  background-color: rgba(165,109,81,.8);
   transition: 1s;
   font-size: 1.4em;
   text-transform: uppercase;
@@ -328,7 +328,7 @@ a:hover {
   .about:hover, .contact:hover, .projects:hover, .active {
     text-decoration: underline;
     color: #472d21;
-    background-color: #a56d51;
+    background-color: rgba(165,109,81,.8);
     transition: .5s;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -388,7 +388,7 @@ a:hover {
   }
 
   .work-description {
-    line-height: 1.1em;
+    line-height: 1.25em;
   }
 
 }
