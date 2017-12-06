@@ -100,7 +100,7 @@ html {
   font-family: "Roboto Mono", monospace;
   text-decoration: underline;
   display: inline-block;
-  background: rgba(204,134,99);
+  background: rgb(204,134,99);
   padding: .4em;
   border-radius: 10px;
   transition: .3s ease-in-out;
