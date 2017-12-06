@@ -100,7 +100,7 @@ html {
   font-family: "Roboto Mono", monospace;
   text-decoration: underline;
   display: inline-block;
-  background: #cc8663;
+  background: rgba(204,134,99,.6);
   padding: .4em;
   border-radius: 10px;
   transition: .3s ease-in-out;
@@ -110,7 +110,7 @@ html {
 .about:hover, .contact:hover, .projects:hover {
   text-decoration: underline;
   color: #472d21;
-  background-color: #a56d51;
+  background-color: rgba(165,109,81,.6);
   transition: .5s;
   font-size: 1.4em;
   text-transform: uppercase;
@@ -142,7 +142,7 @@ a:hover {
 .active {
   text-decoration: underline;
   color: #472d21;
-  background-color: #a56d51;
+  background-color: rgba(165,109,81,.6);
   transition: 1s;
   font-size: 1.4em;
   text-transform: uppercase;
@@ -201,21 +201,6 @@ a:hover {
   color: #333;
   transition: .5s;
 }
-
-/*.who-am-i {
-  width: 60%;
-  margin: .3em auto;
-  background-color: #e2dddc;
-  background-image: url("../pimg/60-lines.png");
-  padding: .2em;
-  font-size: 1.75em;
-  z-index: 1;
-  position: relative;
-  font-family: "Scada", helvetica;
-  font-weight: bold;
-  color: #263a42;
-  border-radius: 10px 10px 0 0;
-}*/
 
 .my-story {
   width: 60%;
