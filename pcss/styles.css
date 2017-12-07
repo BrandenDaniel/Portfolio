@@ -97,25 +97,36 @@ html {
 .about, .contact, .projects {
   font-size: 1em;
   font-weight: 600;
-  color: #63402f;
+  color: #343838;
   font-family: "Roboto Mono", monospace;
   text-decoration: underline;
   display: inline-block;
-  background: rgb(204,134,99);
+  background-color: #98a0a0;
+  background-image: url("../pimg/rocky-wall.png");
   padding: .4em;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: .3s ease-in-out;
-  border-bottom: 2px solid #63402f;
+  border-bottom: 2px solid #343838;
 }
 
 .about:hover, .contact:hover, .projects:hover {
   text-decoration: underline;
-  color: #472d21;
-  background-color: rgb(165,109,81);
+  color: #343838;
+  background-color: #636868;
   transition: .5s;
   font-size: 1.2em;
   text-transform: uppercase;
-  border-bottom: 2px solid #472d21;
+  border-bottom: 2px solid #343838;
+}
+
+.active {
+  text-decoration: underline;
+  color: #343838;
+  background-color: #636868;
+  transition: 1s;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-bottom: 3px solid #343838;
 }
 
 .work-description {
@@ -127,7 +138,7 @@ html {
   border: 1px solid #565656;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0 5px 10px -4px #222;
-  color: #9b9b9b;
+  color: #969696;
   font-family: "Scada", sans-serif;
   margin-bottom: 1.5em;
   text-align: justify;
@@ -172,22 +183,12 @@ html {
 }
 
 .javascript {
-  background-color: #ccc16a;
+  background-color: #a89b34;
   color: rgba(0,0,0,.5);
 }
 
 a:hover {
   text-decoration: none;
-}
-
-.active {
-  text-decoration: underline;
-  color: #472d21;
-  background-color: rgb(165,109,81);
-  transition: 1s;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  border-bottom: 3px solid #472d21;
 }
 
 .connect {
@@ -204,7 +205,7 @@ a:hover {
 }
 
 .mailto, .number {
-  background: #dee0df;
+  background: #d6d6d6;
   padding: .5em;
   border-radius: 10px;
   font-family: "Scada", sans-serif;
@@ -239,7 +240,7 @@ a:hover {
 }
 
 .social i:hover {
-  color: #333;
+  color: #444;
   transition: .5s;
 }
 
@@ -250,12 +251,12 @@ a:hover {
   padding: 1.2em;
   border-radius: 10px;
   font-family: "Scada", helvetica;
-  color: #505b5b;
+  color: #3a4242;
   line-height: 1.25em;
   font-size: .85em;
   box-shadow: 0 4px 15px -6px #222;
-  background-color: #a8b7b7;
-  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+  background-color: #7e898a;
+  background-image: url("../pimg/rocky-wall.png");
   border-bottom: 3px solid #7c8787;
   font-weight: 400;
 }
@@ -355,13 +356,13 @@ a:hover {
 
   .about, .projects, .contact {
     font-size: .85em;
-    border-bottom: 3px solid #63402f;
+    border-bottom: 3px solid #343838;
   }
 
   .about:hover, .contact:hover, .projects:hover, .active {
     text-decoration: underline;
-    color: #472d21;
-    background-color: rgb(165,109,81);
+    color: #343838;
+    background-color: #636868;
     transition: .5s;
     font-size: 1.1em;
     text-transform: uppercase;
@@ -386,7 +387,7 @@ a:hover {
   }
 
   .my-story, .who-am-i {
-    width: 85%;
+    width: 75%;
   }
 
   .my-story {
