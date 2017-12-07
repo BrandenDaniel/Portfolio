@@ -6,7 +6,7 @@
 
 body {
   background-color: #b3b7b6;
-  background-image: url("../pimg/cubes.png");
+  background-image: url("../pimg/mochaGrunge.png");
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -48,10 +48,10 @@ html {
 
 /*PROFILE PICTURE & LOGO*/
 .me {
-  margin: 5em 0 2.5em 0;
+  margin: 5em 0 1em 0;
   width: 15%;
-  max-width: 300px;
   border-radius: 50%;
+  max-width: 300px;
   filter: brightness(85%);
 }
 
@@ -68,13 +68,13 @@ html {
 }
 
 .project-title {
-  margin: 4em auto -.5em auto;
-  padding: .2em .2em .6em .2em;
-  background-color: #98ad99;
-  background-image: url("../pimg/60-lines.png");
+  margin: 4em auto 0 auto;
+  padding: .2em;
+  background-color: rgba(152,173,153, .5);
   border: 1px solid #738474;
+  border-bottom-color: rgba(0,0,0,0);
   border-radius: 10px 10px 0 0;
-  color: #2c4847;
+  color: #576057;
   font-weight: 400;
   font-family: "Scada", sans-serif;
   text-decoration: underline;
@@ -84,9 +84,10 @@ html {
 .thumbnail-image {
   width: 100%;
   margin: 0 0 3em 0;
-  border: 1px solid #2d3c49;
+  border: 1px solid #6d6d6d;
+  border-left-color: rgba(0,0,0,0);
+  border-right-color: rgba(0,0,0,0);
   border-top-color: #738474;
-  border-radius: 10px;
 }
 
 .e-com {
@@ -94,7 +95,7 @@ html {
 }
 
 .about, .contact, .projects {
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: 600;
   color: #63402f;
   font-family: "Roboto Mono", monospace;
@@ -104,7 +105,7 @@ html {
   padding: .4em;
   border-radius: 10px;
   transition: .3s ease-in-out;
-  border-bottom: 3px solid #63402f;
+  border-bottom: 2px solid #63402f;
 }
 
 .about:hover, .contact:hover, .projects:hover {
@@ -112,27 +113,67 @@ html {
   color: #472d21;
   background-color: rgb(165,109,81);
   transition: .5s;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-transform: uppercase;
-  border-bottom: 3px solid #472d21;
+  border-bottom: 2px solid #472d21;
 }
 
 .work-description {
-  background-color: #2d3c49;
+  background-color: rgba(0,0,0,.3);
   width: 100%;
   text-align: center;
-  margin: -4.75em auto auto auto;
-  padding : 1.55em .75em .7em .75em;
-  border: 1px solid #2d3c49;
+  margin: -3.4em auto auto auto;
+  padding: .75em;
+  border: 1px solid #565656;
   border-radius: 0px 0px 10px 10px;
-  font-weight: 500;
-  box-shadow: 0 6px 15px -4px #222;
-  color: #7d97ad;
+  box-shadow: 0 5px 10px -4px #222;
+  color: #9b9b9b;
   font-family: "Scada", sans-serif;
   margin-bottom: 1.5em;
   text-align: justify;
-  line-height: 1.35em;
-  font-size: .8em;
+  line-height: 1.3em;
+  font-size: .9em;
+}
+
+.work-description a {
+  color: #303030;
+}
+
+.lang-lib {
+  display: block;
+  padding: 1.35em 0 .5em 0;
+}
+
+.lang-lib span {
+  margin-right: .85em;
+  border-radius: 8px;
+  padding: .3em;
+  /*color: #8e98a0;*/
+}
+
+.html {
+  background-color: #d1775e;
+  color: rgba(0,0,0,.5);;
+}
+
+.css {
+  background-color: #395584;
+  color: rgba(0,0,0,.5);
+}
+
+.jquery {
+  background-color: #81b1c6;
+  color: rgba(0,0,0,.5);
+}
+
+.bootstrap {
+  background-color: #83719b;
+  color: rgba(0,0,0,.5);
+}
+
+.javascript {
+  background-color: #ccc16a;
+  color: rgba(0,0,0,.5);
 }
 
 a:hover {
@@ -144,9 +185,9 @@ a:hover {
   color: #472d21;
   background-color: rgb(165,109,81);
   transition: 1s;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-transform: uppercase;
-  border-bottom: 4px solid #472d21;
+  border-bottom: 3px solid #472d21;
 }
 
 .connect {
@@ -203,7 +244,7 @@ a:hover {
 }
 
 .my-story {
-  width: 60%;
+  width: 45%;
   margin: 0 auto;
   text-align: justify;
   padding: 1.2em;
@@ -213,7 +254,7 @@ a:hover {
   line-height: 1.25em;
   font-size: .85em;
   box-shadow: 0 4px 15px -6px #222;
-  background-color: #d0e2e2;
+  background-color: #a8b7b7;
   background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
   border-bottom: 3px solid #7c8787;
   font-weight: 400;
@@ -229,11 +270,11 @@ a:hover {
 }
 
 .download-cv {
-  margin: 2.5em auto 0 auto;
+  margin: 1em auto 3em auto;
   padding: .2em;
   border-bottom: 2px solid #3e4242;
   border-radius: 10px;
-  background: #909696;
+  background: #777777;
 
 }
 
@@ -265,8 +306,8 @@ a:hover {
   }
 
   .me {
-    width: 32%;
-    margin: 5.5em 0 3em 0;
+    width: 33%;
+    margin: 5.5em 0 .5em 0;
 
   }
 
@@ -298,20 +339,12 @@ a:hover {
     width: 225px;
   }
 
-  .about, .projects, .contact {
-    font-size: 1.3em;
-  }
-
-  .about:hover, .projects:hover, .contact:hover {
-    font-size: 1.52em;
-  }
-
-  .active {
-    font-size: 1.52em;
-  }
-
-  .my-story, .who-am-i {
+  .who-am-i {
     width: 100%;
+  }
+
+  .my-story {
+    width: 80%;
   }
 }
 
@@ -321,7 +354,7 @@ a:hover {
   }
 
   .about, .projects, .contact {
-    font-size: 1em;
+    font-size: .85em;
     border-bottom: 3px solid #63402f;
   }
 
@@ -330,8 +363,12 @@ a:hover {
     color: #472d21;
     background-color: rgb(165,109,81);
     transition: .5s;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
+  }
+
+  .active {
+    font-size: 1.1em;
   }
 
   .title {
@@ -403,14 +440,18 @@ a:hover {
     }
 
     .work-description {
-      font-size: 1em;
-      margin-top: -4.35em;
+      font-size: .85em;
+      margin-top: -4.55em;
       line-height: 1.1em;
 
     }
 
     .my-story, .who-am-i {
-      width: 85%;
+      width: 65%;
+    }
+
+    .me {
+      width: 23%;
     }
 }
 
