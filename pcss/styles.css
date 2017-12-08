@@ -313,10 +313,10 @@ a:hover {
 }
 
 .download-cv {
-  margin: 1em auto 1em 0;
+  margin: 1em auto .5em 0;
   padding: .05em;
-  border-bottom: 2px solid #51433e;
-  border-radius: 7px;
+  border-bottom: 1px solid #51433e;
+  border-radius: 5px;
   background: #c18b74;
   width: 112px;
   font-size: 1.2em;
@@ -442,6 +442,7 @@ footer {
     padding: 1.2em !important;
     margin-top: 2em;
     font-size: .7em;
+    line-height: 1.15em;
   }
 
   .projects {
@@ -493,6 +494,7 @@ footer {
 
   .download-cv {
     width: 98px;
+    margin-bottom: 0;
   }
 
 }
