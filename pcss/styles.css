@@ -232,7 +232,7 @@ a:hover {
 }
 
 .connect {
-  margin-top: 8em;
+  margin-top: 6em;
 }
 
 .work {
@@ -246,10 +246,10 @@ a:hover {
 
 .mailto, .number {
   background: #d6d6d6;
-  padding: .5em;
+  padding: .4em;
   border-radius: 10px;
   font-family: "Scada", sans-serif;
-  font-size: .9em;
+  font-size: .85em;
   color: #333;
   display: inline-block;
   width: 200px;
@@ -258,7 +258,7 @@ a:hover {
 }
 
 .connect h2 {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .right {
