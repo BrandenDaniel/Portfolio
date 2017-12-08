@@ -61,6 +61,13 @@ html {
   width: 100%;
 }
 
+.languages {
+  margin: .4em 0 0 5.95em;
+  font-size: 1.55em;
+  color: #4f4f4e;
+}
+
+
 /*FEATURED WORK//CONTACT//ABOUT / BODY*/
 
 .featured-work, .about-page, .contact-page {
@@ -75,7 +82,7 @@ html {
   font-size: 1.15em;
   font-family: "Scada", sans-serif;
   width: 100%;
-  background: #757777;
+  background: #72726e;
   display: inline;
   padding: 0 7px 0 7px;
 
@@ -98,7 +105,7 @@ html {
 .about, .contact, .projects {
   font-size: 1em;
   font-weight: 600;
-  color: #4f5454;
+  color: #393d3d;
   font-family: "Roboto Mono", monospace;
   text-decoration: underline;
   display: inline-block;
@@ -131,14 +138,14 @@ html {
 }
 
 .work-description {
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0,0,0,.4);
   width: 100%;
   margin: -3.4em auto auto auto;
   padding: .75em;
   border: 1px solid #565656;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0 5px 10px -4px #222;
-  color: #919191;
+  color: #878784;
   font-family: "Scada", sans-serif;
   margin-bottom: 1.1em;
   line-height: 1.3em;
@@ -154,6 +161,18 @@ html {
 
 .work-description a {
   color: #303030;
+}
+
+.fa-html5 {
+  color: #c15c3f;
+}
+
+.fa-js-square {
+  color: #d6c224;
+}
+
+.fa-css3-alt {
+  color: #193a70;
 }
 
 .lang-lib {
@@ -181,19 +200,19 @@ html {
 
 .css {
   background-color: #395584;
-  color: rgba(0,0,0,.5);
+  color: #84837c;
   padding: .25em .25em .1em .25em;
 }
 
 .jquery {
   background-color: #81b1c6;
-  color: rgba(0,0,0,.5);
+  color: #3f3f3e;
   padding: .25em .25em .1em .25em;
 }
 
 .bootstrap {
   background-color: #83719b;
-  color: rgba(0,0,0,.5);
+  color: #3f3f3e;
   padding: .25em .25em .1em .25em;
 }
 
@@ -289,16 +308,16 @@ a:hover {
 
 .download-cv {
   margin: 1em auto 1em 0;
-  padding: .1em;
-  border-bottom: 2px solid #3e4242;
+  padding: .05em;
+  border-bottom: 2px solid #51433e;
   border-radius: 7px;
-  background: #777777;
+  background: #c18b74;
   width: 115px;
   font-size: 1.2em;
 }
 
 .download-cv a {
-  color: #3e4242;
+  color: #51433e;
   font-family: "Scada", helvetica;
   font-weight: bold;
   padding: .5em;
@@ -327,6 +346,12 @@ a:hover {
   .me {
     width: 33%;
     margin: 5.5em 0 0 0;
+  }
+
+  .languages {
+    margin: .65em 0 0 0em;
+    font-size: 1.55em;
+    color: #4f4f4e;
   }
 
   .thumbnail-image {
@@ -404,22 +429,23 @@ a:hover {
     width: 80%;
     padding: 1.2em !important;
     margin-top: 2em;
+    font-size: .7em;
   }
 
   .projects {
-    margin-left: 5.5em;
+    margin: 1.1em 0 !important;
   }
 
   .about {
-    margin: 1.1em 0em !important;;
+    margin-left: 8em;
   }
 
-  .projects, .contact {
+  .about, .contact {
     margin-bottom: 0;
   }
 
   .contact {
-    margin-right: 5em !important;;
+    margin-right: 8em;
   }
 
   .left {
@@ -432,12 +458,9 @@ a:hover {
     margin-left: 1.5em;
   }
 
-  .work-description {
-    line-height: 1.15em;
-  }
-
   .description {
     font-size: .8em;
+    line-height: 1.3em;
   }
 
   .built {
@@ -450,6 +473,10 @@ a:hover {
 
   .project-title {
     font-size: 1em;
+  }
+
+  .languages {
+    font-size: 1.25em;
   }
 
 }
@@ -471,12 +498,17 @@ a:hover {
 
     .my-story {
       width: 100%;
-
     }
 
     .me {
       width: 65%;
       margin: 7em 0 1em 0em;
+    }
+
+    .languages {
+      margin: .4em 0 0 0em;
+      font-size: 1.55em;
+      color: #4f4f4e;
     }
 }
 
