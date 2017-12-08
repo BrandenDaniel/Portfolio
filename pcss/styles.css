@@ -55,14 +55,20 @@ hr {
 .me {
   margin: 7em 0 1em 9em;
   width: 45%;
-  border-radius: 50%;
+  border-radius: 15px;
   max-width: 300px;
-  filter: brightness(85%);
+  transition: .1s linear;
+}
+
+.me:hover {
+  transform: scale(1.3);
 }
 
 .main-img-container {
   text-align: center;
   width: 100%;
+  height: 100%;
+  overflow: hidden !important;
 }
 
 .languages {
@@ -320,8 +326,9 @@ a:hover {
   color: #51433e;
   font-family: "Scada", helvetica;
   font-weight: bold;
-  padding: .5em;
+  padding: .65em;
   font-size: .85em;
+  text-decoration: none !important;
 }
 
 /*FOOTER*/
@@ -345,7 +352,7 @@ footer {
   }
 
   .me {
-    width: 33%;
+    width: 25%;
     margin: 5.5em 0 0 0;
   }
 
@@ -386,6 +393,10 @@ footer {
   .my-story {
     width: 80%;
     margin: 4em auto 0 auto;
+  }
+
+  .me:hover {
+    transform: scale(1);
   }
 }
 
@@ -481,7 +492,7 @@ footer {
   }
 
   .download-cv {
-    width: 97px;
+    width: 98px;
   }
 
 }
