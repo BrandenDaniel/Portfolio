@@ -41,12 +41,12 @@ hr {
   font-family: "Roboto", helvetica;
   color: #222;
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .title {
   font-family: "Dosis", sans-serif;
-  font-size: 1em;
+  font-size: .8em;
   margin-bottom: 5em;
   color: #424241;
 }
@@ -54,7 +54,7 @@ hr {
 /*PROFILE PICTURE & LOGO*/
 .me {
   margin: 7em 0 1em 9em;
-  width: 45%;
+  width: 55%;
   border-radius: 15px;
   max-width: 300px;
   transition: .1s linear;
@@ -313,11 +313,11 @@ a:hover {
 
 .download-cv {
   margin: 1em auto .5em 0;
-  padding: .05em;
+  padding: .15em 0 .15em 0;
   border-bottom: 1px solid #51433e;
   border-radius: 5px;
   background: #c18b74;
-  width: 112px;
+  width: 110px;
   font-size: 1.2em;
 }
 
@@ -492,8 +492,13 @@ footer {
   }
 
   .download-cv {
-    width: 98px;
+    width: 97px;
+    padding: .1em 0 .1em 0;
     margin-bottom: 0;
+  }
+
+  .me {
+    width: 30%;
   }
 
 }
