@@ -38,10 +38,10 @@ hr {
 
 .name {
   font-size: 2.6em;
-  font-family: "Roboto", helvetica;
+  font-family: 'Roboto Slab', helvetica !important;
   color: #222;
   margin-bottom: 0;
-  font-weight: 400;
+  font-weight: lighter;
 }
 
 .title {
@@ -110,13 +110,13 @@ hr {
 
 .about, .contact, .projects {
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 400;
   color: #393d3d;
-  font-family: "Roboto", helvetica;
+  font-family: "Roboto Slab", helvetica;
   display: inline-block;
   background-color: #919696;
   background-image: url("../pimg/rocky-wall.png");
-  padding: .3em .3em .1em .3em;
+  padding: .4em .4em .2em .4em;
   border-radius: 7px;
   transition: .3s ease-in-out;
   border-bottom: 2px solid #4f5454;
@@ -151,10 +151,9 @@ hr {
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0 5px 10px -4px #222;
   color: #878784;
-  font-family: "Roboto", helvetica;
+  font-family: "Scada", helvetica;
   margin-bottom: 1.1em;
   line-height: 1.2em;
-  font-size: .9em;
   text-align: left;
 }
 
@@ -162,6 +161,8 @@ hr {
   text-align: justify;
   font-size: .9em;
   margin-bottom: .5em;
+  font-size: .75em;
+
 }
 
 .work-description a {
