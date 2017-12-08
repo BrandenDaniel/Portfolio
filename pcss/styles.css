@@ -396,7 +396,7 @@ footer {
 
   .about, .projects, .contact {
     font-size: .8em;
-    border-bottom: 3px solid #343838;
+    border-bottom: 2px solid #343838;
   }
 
   .about:hover, .contact:hover, .projects:hover, .active {
