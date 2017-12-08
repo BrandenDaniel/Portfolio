@@ -95,7 +95,6 @@ hr {
   background: #72726e;
   display: inline;
   padding: 0 5px 0 5px;
-
 }
 
 .thumbnail-image {
@@ -146,14 +145,14 @@ hr {
   background-color: rgba(0,0,0,.4);
   width: 100%;
   margin: -3.4em auto auto auto;
-  padding: .75em .75em 0.2em .75em;
+  padding: 1em .75em 0.2em .75em;
   border: 1px solid #565656;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0 5px 10px -4px #222;
   color: #878784;
   font-family: "Scada", helvetica;
   margin-bottom: 1.1em;
-  line-height: 1.2em;
+  line-height: 1.1em;
   text-align: left;
 }
 
@@ -161,7 +160,7 @@ hr {
   text-align: justify;
   font-size: .9em;
   margin-bottom: .5em;
-  font-size: .75em;
+  font-size: .85em;
 
 }
 
@@ -472,16 +471,16 @@ footer {
   }
 
   .description {
-    font-size: .8em;
+    font-size: .75em;
     line-height: 1.3em;
   }
 
   .built {
-    font-size: .85em !important;
+    font-size: .8em !important;
   }
 
   .lang-lib {
-    font-size: .90em;
+    font-size: .80em;
   }
 
   .project-title {
