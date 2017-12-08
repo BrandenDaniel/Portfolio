@@ -41,10 +41,10 @@ html {
 
 .title {
   font-family: "Dosis", sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
   margin-bottom: 5em;
-  color: #444;
+  color: #424241;
 }
 
 /*PROFILE PICTURE & LOGO*/
@@ -76,7 +76,7 @@ html {
 }
 
 .project-title {
-  border-radius: 6px;
+  border-radius: 4px;
   color: #333;
   font-weight: 400;
   font-size: 1.15em;
@@ -84,7 +84,7 @@ html {
   width: 100%;
   background: #72726e;
   display: inline;
-  padding: 0 7px 0 7px;
+  padding: 0 5px 0 5px;
 
 }
 
@@ -92,10 +92,6 @@ html {
   width: 100%;
   margin: 5em 0 3em 0;
   border-radius: 10px 10px 0 0;
-  border: 1px solid #6d6d6d;
-  border-left-color: rgba(0,0,0,0);
-  border-right-color: rgba(0,0,0,0);
-  border-top-color: #738474;
 }
 
 .e-com {
@@ -109,7 +105,7 @@ html {
   font-family: "Roboto Mono", monospace;
   text-decoration: underline;
   display: inline-block;
-  background-color: #98a0a0;
+  background-color: #919696;
   background-image: url("../pimg/rocky-wall.png");
   padding: .4em;
   border-radius: 8px;
@@ -200,7 +196,7 @@ html {
 
 .css {
   background-color: #395584;
-  color: #84837c;
+  color: inherit;
   padding: .25em .25em .1em .25em;
 }
 
@@ -217,7 +213,7 @@ html {
 }
 
 .javascript {
-  background-color: #a89b34;
+  background-color: #91894d;
   color: rgba(0,0,0,.5);
   padding: .25em .25em .1em .25em;
 }
@@ -265,17 +261,17 @@ a:hover {
 }
 
 .social {
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 .social i {
   font-size: 1.65em;
   margin: .7em .3em 0 .3em;
-  color: #111;
+  color: #222;
 }
 
 .social i:hover {
-  color: #444;
+  color: #42413f;
   transition: .5s;
 }
 
@@ -325,17 +321,18 @@ a:hover {
 }
 
 /*FOOTER*/
-/*footer {
+footer {
   text-align: center;
-  color: #444;
-  padding: .3em;
+  background-color: rgba(0,0,0, .5);
+  color: #969694;
+  padding: 0em;
 }
 
 .sticky-footer {
   font-family: helvetica;
   font-size: .75em;
   font-weight: 400;
-}*/
+}
 
 /*MEDIA QUERIES*/
 @media (max-width: 767px) {
@@ -450,12 +447,12 @@ a:hover {
 
   .left {
     text-align: right;
-    margin-right: 1.5em;
+    margin-right: 2.5em;
   }
 
   .right {
     text-align: left;
-    margin-left: 1.5em;
+    margin-left: 2.5em;
   }
 
   .description {
