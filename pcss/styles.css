@@ -37,10 +37,11 @@ hr {
 }
 
 .name {
-  font-size: 3.1em;
-  font-family: "Scada", sans-serif;
+  font-size: 2.6em;
+  font-family: "Roboto", helvetica;
   color: #222;
   margin-bottom: 0;
+  font-weight: lighter;
 }
 
 .title {
@@ -90,7 +91,7 @@ hr {
   color: #333;
   font-weight: 400;
   font-size: 1.15em;
-  font-family: "Scada", sans-serif;
+  font-family: "Roboto", helvetica;
   width: 100%;
   background: #72726e;
   display: inline;
@@ -112,31 +113,30 @@ hr {
   font-size: 1em;
   font-weight: 600;
   color: #393d3d;
-  font-family: "Roboto Mono", monospace;
-  text-decoration: underline;
+  font-family: "Roboto", helvetica;
   display: inline-block;
   background-color: #919696;
   background-image: url("../pimg/rocky-wall.png");
-  padding: .4em;
-  border-radius: 8px;
+  padding: .3em;
+  border-radius: 7px;
   transition: .3s ease-in-out;
   border-bottom: 2px solid #4f5454;
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  text-decoration: underline;
   color: #343838;
   background-color: #636868;
   transition: .5s;
   font-size: 1.1em;
   text-transform: uppercase;
   border-bottom: 2px solid #343838;
+  font-weight: 600;
 }
 
 .active {
-  text-decoration: underline;
   color: #343838;
   background-color: #636868;
+  font-weight: 600;
   transition: 1s;
   font-size: 1.1em;
   text-transform: uppercase;
@@ -152,9 +152,9 @@ hr {
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0 5px 10px -4px #222;
   color: #878784;
-  font-family: "Scada", sans-serif;
+  font-family: "Roboto", helvetica;
   margin-bottom: 1.1em;
-  line-height: 1.3em;
+  line-height: 1.2em;
   font-size: .9em;
   text-align: left;
 }
