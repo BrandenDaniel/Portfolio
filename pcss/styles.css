@@ -22,8 +22,9 @@ html {
 }
 
 .afc {
-  max-width: 820px;
+  max-width: 440px;
   margin: 0 auto;
+  text-align: center;
 }
 
 hr {
@@ -112,8 +113,6 @@ hr {
   color: #343838;
   background-color: #636868;
   transition: .5s;
-  font-size: 1.1em;
-  text-transform: uppercase;
   border-bottom: 2px solid #343838;
   font-weight: 600;
 }
@@ -123,8 +122,6 @@ hr {
   background-color: #636868;
   font-weight: 600;
   transition: 1s;
-  font-size: 1.1em;
-  text-transform: uppercase;
   border-bottom: 3px solid #343838;
 }
 
@@ -511,11 +508,6 @@ footer {
 }
 
 @media (min-width: 993px) and (max-width: 1199px) {
-  .afc {
-    max-width: 670px;
-    margin: 0 auto;
-  }
-
   .me {
     width: 93%;
     margin: 7em 0 1em 4em;
