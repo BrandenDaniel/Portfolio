@@ -54,9 +54,9 @@ hr {
 
 /*PROFILE PICTURE & LOGO*/
 .me {
-  margin: 7em 0 1em 8.5em;
-  width: 73%;
-  border-radius: 15px;
+  margin: 7em 0 1em 9.5em;
+  width: 69%;
+  border-radius: 10px;
   max-width: 300px;
 }
 
@@ -141,7 +141,6 @@ hr {
 }
 
 .description {
-  text-align: justify;
   font-size: .9em;
   margin-bottom: .5em;
   font-size: .85em;
@@ -462,6 +461,7 @@ footer {
 
   .me {
     width: 30%;
+    margin-bottom: 1.5em;
   }
 
 }
@@ -509,7 +509,7 @@ footer {
 
 @media (min-width: 993px) and (max-width: 1199px) {
   .me {
-    width: 93%;
+    width: 88%;
     margin: 7em 0 1em 4em;
   }
 
