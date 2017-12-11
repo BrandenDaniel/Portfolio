@@ -77,12 +77,12 @@ hr {
 }
 
 .projects {
-  margin: 0 .6em;
+  margin: 0 1.5em;
 }
 
 .project-title {
   border-radius: 3px;
-  color: #333;
+  color: rgba(0,0,0,.4);
   font-weight: 600;
   font-size: .85em;
   font-family: "Roboto", helvetica;
@@ -103,29 +103,29 @@ hr {
 }
 
 .about, .contact, .projects {
-  font-size: .65em;
+  font-size: .7em;
   font-weight: 400;
   color: #393d3d;
   font-family: "Roboto Slab", helvetica;
   display: inline-block;
-  padding: .4em .4em .2em .4em;
-  transition: .3s ease-in-out;
+  padding: .4em 0;
+  transition: .4s ease-in-out;
 }
 
 .about:hover, .contact:hover, .projects:hover {
   color: #343838;
   transition: .5s;
   font-weight: 600;
-  border: 1px solid #555;
-  padding: .4em;
+  border-bottom: 3px solid #555;
+  padding: .4em 0;
 }
 
 .active {
   color: #343838;
   font-weight: 600;
   transition: 1s;
-  border: 1px solid #555;
-  padding: .4em;
+  border-bottom: 3px solid #555;
+  padding: .4em 0;
 }
 
 .work-description {
@@ -145,7 +145,7 @@ hr {
 
 .description {
   margin-bottom: .5em;
-  font-size: .8em;
+  font-size: .75em;
 }
 
 .work-description a {
@@ -178,8 +178,11 @@ a:hover {
 }
 
 .get-touch {
-  margin: 0 auto .2em auto;
+  margin: 3em auto .2em auto;
   font-size: 1.35em;
+  padding: .65em;
+  background: rgba(0,0,0,.2);
+  text-decoration: underline;
 }
 
 .social {
@@ -197,7 +200,7 @@ a:hover {
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
-  width: 185px;
+  width: 187px;
   margin: 0 .4em;
 }
 
@@ -206,7 +209,7 @@ a:hover {
   color: #333;
   background: rgba(0,0,0,.1);
   margin: 0 auto 3em auto;
-  padding: .25em;
+  padding: .45em;
   border-radius: 4px;
   width: 185px;
 }
@@ -246,28 +249,20 @@ a:hover {
 }
 
 .line-2 {
+  height: 12px;
+  width: 3px;
+  background: #333;
+  display: block;
+  margin: .5em auto;
+}
+
+/*.line-3 {
   height: 3px;
-  width: 15px;
+  width: 115px;
   background: #333;
   display: block;
-  margin: .5em auto;
-}
-
-.line-3 {
-  height: 2px;
-  width: 70px;
-  background: #333;
-  display: block;
-  margin: .5em auto;
-}
-
-.line-4 {
-  height: 2px;
-  width: 70px;
-  background: #333;
-  display: block;
-  margin: 5em auto .5em auto;
-}
+  margin: 0em auto;
+}*/
 
 .hello {
   font-size: 2em;
@@ -432,7 +427,6 @@ footer {
   }
 
   .get-touch {
-    margin: 0 auto 0 auto;
     font-size: 1.2em;
   }
 
