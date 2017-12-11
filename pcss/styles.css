@@ -181,7 +181,7 @@ a:hover {
 }
 
 .get-touch {
-  margin: 3em auto .2em auto;
+  margin: 0 auto .2em auto;
   font-size: 1.5em;
 }
 
@@ -200,8 +200,8 @@ a:hover {
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
-  margin: 0 .45em;
-  width: 175px;
+  width: 185px;
+  margin: 0 .4em;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
@@ -211,6 +211,7 @@ a:hover {
   margin: 0 auto 3em auto;
   padding: .25em;
   border-radius: 4px;
+  width: 185px;
 }
 
 .social h3 a {
@@ -248,19 +249,27 @@ a:hover {
 }
 
 .line-2 {
-  height: 4px;
-  width: 30px;
+  height: 3px;
+  width: 15px;
   background: #333;
   display: block;
-  margin: .75em auto;
+  margin: .5em auto;
 }
 
 .line-3 {
   height: 4px;
-  width: 100px;
+  width: 50px;
   background: #333;
   display: block;
-  margin: 1em auto;
+  margin: .7em auto;
+}
+
+.line-4 {
+  height: 4px;
+  width: 50px;
+  background: #333;
+  display: block;
+  margin: 5em auto .65em auto;
 }
 
 .hello {
@@ -429,8 +438,12 @@ footer {
   }
 
   .get-touch {
-    margin: 3em auto 0 auto;
+    margin: 0 auto 0 auto;
     font-size: 1.4em;
+  }
+
+  .line-4 {
+    margin: 5em auto .5em auto;
   }
 
   .social {
