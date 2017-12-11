@@ -114,7 +114,6 @@ hr {
 
 .about:hover, .contact:hover, .projects:hover {
   color: #343838;
-  transition: .5s;
   font-weight: 600;
   border-bottom: 3px solid #555;
   padding: .4em 0;
@@ -158,6 +157,27 @@ hr {
   margin-top: .35em;
 }
 
+.devicon-html5-plain {
+  color: #d86a4b;
+}
+
+.devicon-jquery-plain {
+  color: #7acef4;
+}
+
+.devicon-css3-plain {
+  color: #143872;
+}
+
+.devicon-bootstrap-plain {
+  color: #6a5c99;
+}
+
+.devicon-javascript-plain {
+  color: #e5d44e;
+}
+
+
 .lang-lib span {
   margin-right: .55em;
   border-radius: 5px;
@@ -180,7 +200,7 @@ a:hover {
 .get-touch {
   margin: 3em auto .2em auto;
   font-size: 1.35em;
-  padding: .65em;
+  padding: .75em 1em;
   background: rgba(0,0,0,.2);
   text-decoration: underline;
 }
@@ -218,9 +238,10 @@ a:hover {
   color: #333;
 }
 
-.social h3 a:hover {
-  color: #333;
-  text-decoration: underline;
+.mobile i:hover, .email i:hover, .github i:hover, .linkedin i:hover {
+  background: rgba(0,0,0,.2);
+  color: #bbb;
+  transition: .3s;
 }
 
 .my-story {
@@ -251,18 +272,10 @@ a:hover {
 .line-2 {
   height: 12px;
   width: 3px;
-  background: #333;
+  background: #444;
   display: block;
   margin: .5em auto;
 }
-
-/*.line-3 {
-  height: 3px;
-  width: 115px;
-  background: #333;
-  display: block;
-  margin: 0em auto;
-}*/
 
 .hello {
   font-size: 2em;
@@ -368,6 +381,7 @@ footer {
     margin: .7em .2em 0 .2em;
   }
 
+
   .my-story {
     width: 80%;
     padding: 1.2em !important;
@@ -397,10 +411,6 @@ footer {
   .description {
     font-size: .75em;
     line-height: 1.3em;
-  }
-
-  .built {
-    font-size: .8em !important;
   }
 
   .lang-lib {
