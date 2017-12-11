@@ -213,10 +213,13 @@ a:hover {
   border-radius: 4px;
 }
 
-.social h2 {
-  font-size: .8em;
-  margin-top: .5em;
-  color: #222;
+.social h3 a {
+  color: #333;
+}
+
+.social h3 a:hover {
+  color: #333;
+  text-decoration: underline;
 }
 
 .my-story {
