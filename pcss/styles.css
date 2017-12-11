@@ -22,7 +22,7 @@ html {
 }
 
 hr {
-  margin: .7em 0;
+  margin: .5em 0;
 }
 
 /*HEADER*/
@@ -83,8 +83,8 @@ hr {
 .project-title {
   border-radius: 3px;
   color: #333;
-  font-weight: 400;
-  font-size: 1em;
+  font-weight: 600;
+  font-size: .85em;
   font-family: "Roboto", helvetica;
   width: 100%;
   background: #72726e;
@@ -165,7 +165,8 @@ hr {
 }
 
 .lang-lib i {
-  margin-right: .23em;
+  margin-right: .35em;
+  font-size: .85em;
 }
 
 a:hover {
@@ -173,12 +174,12 @@ a:hover {
 }
 
 .work {
-  margin-top: 1em;
+  margin: 1em auto 0 auto;
 }
 
 .get-touch {
   margin: 0 auto .2em auto;
-  font-size: 1.5em;
+  font-size: 1.35em;
 }
 
 .social {
@@ -253,19 +254,19 @@ a:hover {
 }
 
 .line-3 {
-  height: 4px;
-  width: 50px;
+  height: 2px;
+  width: 70px;
   background: #333;
   display: block;
-  margin: .7em auto;
+  margin: .5em auto;
 }
 
 .line-4 {
-  height: 4px;
-  width: 50px;
+  height: 2px;
+  width: 70px;
   background: #333;
   display: block;
-  margin: 5em auto .7em auto;
+  margin: 5em auto .5em auto;
 }
 
 .hello {
@@ -346,19 +347,16 @@ footer {
   }
 
   .about, .projects, .contact {
-    font-size: .75em;
-    border-bottom: 2px solid #343838;
+    font-size: .6em;
   }
 
   .about:hover, .contact:hover, .projects:hover, .active {
-    text-decoration: underline;
     color: #343838;
-    background-color: #636868;
     transition: .5s;
   }
 
   .active {
-    font-size: .9em;
+    font-size: .6em;
   }
 
   .title {
@@ -415,7 +413,7 @@ footer {
   }
 
   .project-title {
-    font-size: 1em;
+    font-size: .85em;
   }
 
   .download-cv {
@@ -435,11 +433,15 @@ footer {
 
   .get-touch {
     margin: 0 auto 0 auto;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .line-4 {
-    margin: 5em auto .6em auto;
+    margin: 5em auto .4em auto;
+  }
+
+  .line-3 {
+    margin: .5em auto;
   }
 
   .social {
