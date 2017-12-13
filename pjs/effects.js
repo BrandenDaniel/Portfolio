@@ -12,7 +12,7 @@ $('.mobile h3 a').hover(function() {
   $('.mobile i').css({'background': 'rgba(0,0,0,.2)', 'color': '#bbb'});
   $(this).css('text-decoration', 'underline');
 }, function() {
-  $('.mobile i').css({'background': 'rgba(255,255,255,.25)', 'transition': '.2s', 'color': '#333'});
+  $('.mobile i').css({'background': 'rgba(255,255,255,.25)', 'transition': '.4s', 'color': '#333'});
   $(this).css('text-decoration', 'none');
 });
 
@@ -30,7 +30,7 @@ $('.email h3 a').hover(function() {
   $('.email i').css({'background': 'rgba(0,0,0,.2)', 'color': '#bbb'});
   $(this).css('text-decoration', 'underline');
 }, function() {
-  $('.email i').css({'background': 'rgba(255,255,255,.25)', 'transition': '.2s', 'color': '#333'});
+  $('.email i').css({'background': 'rgba(255,255,255,.25)', 'transition': '.4s', 'color': '#333'});
   $(this).css('text-decoration', 'none');
 });
 
@@ -48,7 +48,7 @@ $('.github h3 a').hover(function() {
   $('.github i').css({'background': 'rgba(0,0,0,.2)', 'color': '#bbb'});
   $(this).css('text-decoration', 'underline');
 }, function() {
-  $('.github i').css({'background': 'rgba(255,255,255,.25)', 'transition': '.2s', 'color': '#333'});
+  $('.github i').css({'background': 'rgba(255,255,255,.25)', 'transition': '.4s', 'color': '#333'});
   $(this).css('text-decoration', 'none');
 });
 
@@ -66,6 +66,6 @@ $('.linkedin h3 a').hover(function() {
   $('.linkedin i').css({'background': 'rgba(0,0,0,.2)', 'color': '#bbb'});
   $(this).css('text-decoration', 'underline');
 }, function() {
-  $('.linkedin i').css({'background': 'rgba(255,255,255,.25)', 'transition': '.2s', 'color': '#333'});
+  $('.linkedin i').css({'background': 'rgba(255,255,255,.25)', 'transition': '.4s', 'color': '#333'});
   $(this).css('text-decoration', 'none');
 });
