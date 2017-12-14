@@ -93,9 +93,9 @@ hr {
   font-size: .85em;
   font-family: "Roboto", helvetica;
   width: 100%;
-  background: #878785;
+  background: #999;
   display: inline;
-  padding: 2px 4px 2px 4px;
+  padding: 3px 5px 3px 5px;
 }
 
 .thumbnail-image {
@@ -134,7 +134,7 @@ hr {
 }
 
 .work-description {
-  background-color: rgba(0,0,0,.25);
+  background-color: rgba(68,68,68,.25);
   width: 80%;
   margin: -3.4em auto auto auto;
   padding: 1em .75em 0.2em .75em;
@@ -264,7 +264,7 @@ a:hover {
   line-height: 1.15em;
   font-size: .8em;
   box-shadow: 0 5px 10px -4px #999;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0,0,0,.2);
   border-bottom: 2px solid rgba(0,0,0,.2);
   font-weight: 400;
 }
@@ -348,7 +348,7 @@ footer {
   }
 
   .my-story {
-    width: 80%;
+    width: 70%;
     margin: 2.5em auto 0 auto;
   }
   .about, .projects, .contact {
@@ -401,7 +401,6 @@ footer {
 
 
   .my-story {
-    width: 80%;
     padding: 1.2em !important;
     margin-top: 0.5em;
     font-size: .7em;
