@@ -29,8 +29,8 @@ hr {
 .header-spacing {
   text-align: center;
   margin-top: 2.3em;
-  border: 1px solid #6b6b6b;
-  padding: .85em .65em .35em .65em;
+  border: 1px solid #999;
+  padding: .85em .65em .15em .65em;
   width: 260px;
   margin: 2.3em auto;
 }
