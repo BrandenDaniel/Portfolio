@@ -204,13 +204,10 @@ a:hover {
 }
 
 .get-touch {
-  margin: 3em auto .2em auto;
+  margin: 4em auto 0em auto;
   font-size: 1.35em;
   padding: .75em 1em;
-  background: rgba(0,0,0,.2);
-  text-decoration: underline;
   font-family: "Montserrat", helvetica;
-
 }
 
 .social {
