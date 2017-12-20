@@ -1,4 +1,5 @@
 /*GLOBAL STYLES*/
+
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +13,7 @@ body {
   min-height: 100vh;
 }
 
-body,
-html {
+body, html {
   overflow-x: hidden;
 }
 
@@ -26,6 +26,7 @@ hr {
 }
 
 /*HEADER*/
+
 header {
   margin: 1em 0 2em 0;
 }
@@ -42,7 +43,6 @@ header {
   font-family: 'Montserrat', helvetica;
   color: #222;
   margin-bottom: 0;
-
 }
 
 .title {
@@ -52,6 +52,7 @@ header {
 }
 
 /*PROFILE PICTURE STORY CONTAINER*/
+
 .me {
   width: 49%;
   border-radius: 4px;
@@ -94,7 +95,7 @@ header {
 
 .project-title {
   border-radius: 4px;
-  color: rgba(0,0,0,.4);
+  color: rgba(0, 0, 0, .4);
   font-weight: 600;
   font-size: .85em;
   font-family: "Roboto", helvetica;
@@ -140,7 +141,7 @@ header {
 }
 
 .work-description {
-  background-color: rgba(68,68,68,.25);
+  background-color: rgba(68, 68, 68, .25);
   width: 80%;
   margin: -3.4em auto auto auto;
   padding: 1em .75em 0.2em .75em;
@@ -189,7 +190,6 @@ header {
   color: #e5d44e;
 }
 
-
 .lang-lib span {
   margin-right: .55em;
   font-size: .8em;
@@ -221,7 +221,7 @@ a:hover {
 
 .social i {
   font-size: 1.5em;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 50%;
   padding: .55em;
   width: 52px;
@@ -232,7 +232,7 @@ a:hover {
   display: inline-block;
   width: 210px;
   margin: .5em;
-  background: rgba(0,0,0,.1);
+  background: rgba(0, 0, 0, .1);
   padding: 1em 0 1em 0;
   border-radius: 4px;
 }
@@ -251,7 +251,7 @@ a:hover {
 }
 
 .mobile i:hover, .email i:hover, .github i:hover, .linkedin i:hover {
-  background: rgba(0,0,0,.2);
+  background: rgba(0, 0, 0, .2);
   color: #bbb;
   transition: .3s;
 }
@@ -267,8 +267,8 @@ a:hover {
   line-height: 1.15em;
   font-size: .75em;
   box-shadow: 0 5px 10px -4px #999;
-  background-color: rgba(0,0,0,.2);
-  border-bottom: 2px solid rgba(0,0,0,.2);
+  background-color: rgba(0, 0, 0, .2);
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
   font-weight: 400;
 }
 
@@ -322,9 +322,10 @@ a:hover {
 }
 
 /*FOOTER*/
+
 footer {
   text-align: center;
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(0, 0, 0, .5);
   color: #969694;
   padding: 0em;
 }
@@ -336,147 +337,116 @@ footer {
 }
 
 /*MEDIA QUERIES*/
+
 @media (max-width: 767px) {
   .me {
     width: 30%;
     margin: 5.5em 0 0 0;
   }
-
   .thumbnail-image {
     width: 80%;
   }
-
   .work-description, .project-title {
     width: 80%;
   }
-
   .my-story {
     width: 70%;
     margin: 0 auto 0 auto;
   }
-
   .main-img-container {
     margin: 1em auto;
   }
-
   .story-container {
     margin: 1em auto 0 auto;
     width: 100%;
     height: 100%;
   }
-
   .about, .projects, .contact {
     font-size: .65em;
   }
-
 }
 
 @media (max-width: 575px) {
-
   .featured-title {
     margin-bottom: -.5em;
   }
-
   .about, .projects, .contact {
     font-size: .65em;
   }
-
   .about:hover, .contact:hover, .projects:hover, .active {
     color: #343838;
     transition: .5s;
   }
-
   .active {
     font-size: .7em;
   }
-
-
   .header-spacing {
     width: 245px;
     padding-bottom: 0em;
   }
-
   .nav-space {
     margin-top: .65em;
   }
-
   .name {
     font-size: 2.15em;
     margin-bottom: 0;
   }
-
   .title {
     font-size: .63em;
   }
-
   .my-story {
     padding: 1.2em !important;
     font-size: .7em;
     line-height: 1.2em;
   }
-
   .description {
     font-size: .75em;
     line-height: 1.3em;
   }
-
   .lang-lib {
     font-size: .80em;
   }
-
   .project-title {
     font-size: .85em;
   }
-
   .download-cv {
     width: 97px;
     padding: .1em 0 .1em 0;
     margin-bottom: 0;
   }
-
   .me {
     width: 30%;
   }
-
   .line {
     width: 54px;
   }
-
   .get-touch {
     font-size: 1.2em;
   }
-
   .line-4 {
     margin: 5em auto .4em auto;
   }
-
   .line-3 {
     margin: .5em auto;
   }
-
   .social {
     margin: 2em auto 0 auto;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .thumbnail-image, .work-description, .project-title {
     width: 100%;
   }
-
   .work-description {
     font-size: .95em;
     margin-top: -3.55em;
     line-height: 1em;
   }
-
   .me {
     width: 60%;
     margin-right: -7em;
   }
-
-
   .my-story {
     width: 100%;
   }
@@ -486,31 +456,25 @@ footer {
   .thumbnail-image, .work-description {
     width: 80%;
   }
-
 }
 
 @media (max-width: 389px) {
   .thumbnail-image, .work-description, {
     width: 80%;
   }
-
   .name {
     font-size: 2em;
   }
-
   .title {
     font-size: .65em;
   }
-
   .header-spacing {
     width: 230px;
     padding-bottom: 0;
   }
-
   .nav-space {
     margin-top: .25em;
   }
-
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -518,11 +482,9 @@ footer {
     width: 64.5%;
     margin-right: -7.5em;
   }
-
   .my-story {
     font-size: .75em;
     line-height: 1.16em;
     width: 75%;
   }
-
 }

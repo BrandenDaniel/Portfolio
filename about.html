@@ -1,94 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono%7CScada%7CRoboto+Slab%7CMontserrat" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="pcss/styles.css">
-  </head>
-  <body>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    <script>
-    	$('body').css('display','none');
-    	$(document).ready(function() {
-    		$('body').fadeIn();
-    		$('a').on('click',function(event){
-    			var thetarget = this.getAttribute('target')
-    			if (thetarget != "_blank"){
-    				var thehref = this.getAttribute('href')
-    				event.preventDefault();
-    				$('body').fadeOut(function(){
-    					//alert(thehref)
-    					window.location = thehref
-    				});
-    			}
-    		});
-    	});
-    	setTimeout(function(){
-    		$('body').fadeIn();
-    	},1000)
-    </script>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono%7CScada%7CRoboto+Slab%7CMontserrat" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="pcss/styles.css">
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script>
+    $('body').css('display', 'none');
+    $(document).ready(function() {
+      $('body').fadeIn();
+      $('a').on('click', function(event) {
+        var thetarget = this.getAttribute('target')
+        if (thetarget != "_blank") {
+          var thehref = this.getAttribute('href')
+          event.preventDefault();
+          $('body').fadeOut(function() {
+            //alert(thehref)
+            window.location = thehref
+          });
+        }
+      });
+    });
+    setTimeout(function() {
+      $('body').fadeIn();
+    }, 1000)
+  </script>
 
 
-    <!-- HEADER -->
-    <header>
-      <div class="header-spacing">
-          <h1 class="name">Branden D.</h1>
-          <p class="title">Front-End Developer / Web Designer</p>
+  <!-- HEADER -->
+  <header>
+    <div class="header-spacing">
+      <h1 class="name">Branden D.</h1>
+      <p class="title">Front-End Developer / Web Designer</p>
+    </div>
+  </header>
+
+  <!-- FEATURED WORK -->
+  <main class="featured-work">
+    <div class="container">
+      <div class="row">
+        <ul class="menu">
+          <li class="navi"><a href="about.html"><h2 class="about active">ABOUT</h2></a></li>
+          <li class="navi"><a href="pindex.html"><h2 class="projects">PROJECTS</h2></a></li>
+          <li class="navi"><a href="contact.html"><h2 class="contact">CONTACT</h2></a></li>
+        </ul>
       </div>
-    </header>
-
-    <!-- FEATURED WORK -->
-    <main class="featured-work">
-      <div class="container">
-        <div class="row">
-          <ul class="menu">
-            <li class="navi"><a href="about.html"><h2 class="about active">ABOUT</h2></a></li>
-            <li class="navi"><a href="pindex.html"><h2 class="projects">PROJECTS</h2></a></li>
-            <li class="navi"><a href="contact.html"><h2 class="contact">CONTACT</h2></a></li>
-          </ul>
+      <div class="row">
+        <div class="col-md-6 main-img-container">
+          <img class="me" src="pimg/me.jpg" alt="A picture of me!">
         </div>
-        <div class="row">
-          <div class="col-md-6 main-img-container">
-            <img class="me" src="pimg/me.jpg" alt="A picture of me!">
-          </div>
-          <div class="col-md-6 story-container">
-            <div class="my-story">
-              <span class="line"></span>
-              <p class="hello">Hello!</p>
-              <hr>
-              <p>The name is <b>Branden</b>, and I have been learning code for just under a year, and have come to found a <b>strong interest</b> in creating awesome and intuitive websites.</p>
-              <p>Shown in my <b><a href="pindex.html">projects</a></b>, I've created websites to show off my capabilities, and also demonstrate my knowledge in <b>responsive web-designs.</b></p>
-              <p>Although learning at home is great, I desire to grow my skills and learn/work with others <b>who share the same passion</b> as I do.</p>
-              <p>If you see potential in me or think your company could use my skills, don't hesitate to contact. I am always available and am always <b>up for a challenge!</b></p>
-              <p>- Branden</p>
-              <!-- <div class="download-cv">
+        <div class="col-md-6 story-container">
+          <div class="my-story">
+            <span class="line"></span>
+            <p class="hello">Hello!</p>
+            <hr>
+            <p>The name is <b>Branden</b>, and I have been learning code for just under a year, and have come to found a <b>strong interest</b> in creating awesome and intuitive websites.</p>
+            <p>Shown in my <b><a href="pindex.html">projects</a></b>, I've created websites to show off my capabilities, and also demonstrate my knowledge in <b>responsive web-designs.</b></p>
+            <p>Although learning at home is great, I desire to grow my skills and learn/work with others <b>who share the same passion</b> as I do.</p>
+            <p>If you see potential in me or think your company could use my skills, don't hesitate to contact. I am always available and am always <b>up for a challenge!</b></p>
+            <p>- Branden</p>
+            <!-- <div class="download-cv">
                 <a href="#">Download My CV</a>
               </div> -->
-            </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <!-- <footer>
+  <!-- <footer>
       <small class="sticky-footer">Copyright &copy; 2017 Branden Ng</small>
     </footer> -->
 
-    <!-- $, Bootstrap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="pjs/effects.js"></script>
-  </body>
+  <!-- $, Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="pjs/effects.js"></script>
+</body>
+
 </html>
