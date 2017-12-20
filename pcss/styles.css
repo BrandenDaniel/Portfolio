@@ -26,17 +26,15 @@ hr {
 }
 
 /*HEADER*/
-.header-spacing {
-  text-align: center;
-  margin-top: 2.3em;
-  border: 1px solid #999;
-  padding: .85em .65em .15em .65em;
-  width: 260px;
-  margin: 2.3em auto;
+header {
+  margin: 1em 0 2em 0;
 }
 
-.nav-space {
-  margin-top: 1.5em;
+.header-spacing {
+  text-align: center;
+  padding: .85em .65em .15em .65em;
+  width: 260px;
+  margin: 0 auto;
 }
 
 .name {
@@ -44,6 +42,7 @@ hr {
   font-family: 'Montserrat', helvetica;
   color: #222;
   margin-bottom: 0;
+
 }
 
 .title {
@@ -52,16 +51,23 @@ hr {
   color: #424241;
 }
 
-/*PROFILE PICTURE & LOGO*/
+/*PROFILE PICTURE STORY CONTAINER*/
 .me {
-  margin: 7em 0 1em 9em;
-  width: 73%;
-  border-radius: 5px;
+  width: 49%;
+  border-radius: 4px;
   max-width: 300px;
+  margin-right: -15.5em;
 }
 
 .main-img-container {
   text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 7em auto;
+}
+
+.story-container {
+  margin: 7em auto 0;
   width: 100%;
   height: 100%;
 }
@@ -87,7 +93,7 @@ hr {
 }
 
 .project-title {
-  border-radius: 3px;
+  border-radius: 4px;
   color: rgba(0,0,0,.4);
   font-weight: 600;
   font-size: .85em;
@@ -95,13 +101,13 @@ hr {
   width: 100%;
   background: #999;
   display: inline;
-  padding: 3px 5px 3px 5px;
+  padding: 4px 6px;
 }
 
 .thumbnail-image {
   width: 80%;
-  margin: 3.5em 0 3em 0;
-  border-radius: 10px 10px 0 0;
+  margin: 3.5em 0 3.2em 0;
+  border-radius: 4px 4px 0 0;
 }
 
 .e-com {
@@ -109,19 +115,19 @@ hr {
 }
 
 .about, .contact, .projects {
-  font-size: .75em;
-  font-weight: 400;
+  font-size: .7em;
+  font-weight: 500;
   color: #343838;
   font-family: "Montserrat", helvetica;
   display: inline-block;
   padding: .4em 0;
-  transition: .4s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  color: #222;
-  font-weight: 600;
-  border-bottom: 2px solid #555;
+  color: #343838;
+  font-weight: 500;
+  border-bottom: 2px solid #aaa;
   padding: .4em 0;
 }
 
@@ -139,7 +145,7 @@ hr {
   margin: -3.4em auto auto auto;
   padding: 1em .75em 0.2em .75em;
   border-bottom: 1px solid #999;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0 5px 10px -4px #999;
   color: #444;
   font-family: "Scada", helvetica;
@@ -186,7 +192,6 @@ hr {
 
 .lang-lib span {
   margin-right: .55em;
-  border-radius: 5px;
   font-size: .8em;
 }
 
@@ -211,12 +216,12 @@ a:hover {
 }
 
 .social {
-  margin: 3em auto 0 auto;
+  margin: 1em auto 0 auto;
 }
 
 .social i {
   font-size: 1.5em;
-  background-color: rgba(255,255,255,.25);
+  background-color: rgba(255,255,255,0);
   border-radius: 50%;
   padding: .55em;
   width: 52px;
@@ -225,15 +230,17 @@ a:hover {
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
-  width: 187px;
-  margin: 0 .4em;
+  width: 210px;
+  margin: .5em;
+  background: rgba(0,0,0,.1);
+  padding: 1em 0 1em 0;
+  border-radius: 4px;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
   font-size: .75em;
   color: #333;
-  background: rgba(0,0,0,.1);
-  margin: 0 auto 3em auto;
+  margin: 0 auto .5em auto;
   padding: .45em;
   border-radius: 4px;
   width: 185px;
@@ -251,15 +258,14 @@ a:hover {
 
 .my-story {
   width: 75%;
-  margin: 8.65em 3em;
   text-align: left;
   padding: 1em;
   padding-bottom: 0;
-  border-radius: 5px;
+  border-radius: 4px;
   font-family: "Scada", helvetica;
   color: #2b2b28;
   line-height: 1.15em;
-  font-size: .8em;
+  font-size: .75em;
   box-shadow: 0 5px 10px -4px #999;
   background-color: rgba(0,0,0,.2);
   border-bottom: 2px solid rgba(0,0,0,.2);
@@ -300,7 +306,7 @@ a:hover {
   margin: 1em auto .5em 0;
   padding: .15em 0 .15em 0;
   border-bottom: 1px solid #51433e;
-  border-radius: 5px;
+  border-radius: 4px;
   background: #c18b74;
   width: 110px;
   font-size: 1.2em;
@@ -332,7 +338,7 @@ footer {
 /*MEDIA QUERIES*/
 @media (max-width: 767px) {
   .me {
-    width: 25%;
+    width: 30%;
     margin: 5.5em 0 0 0;
   }
 
@@ -346,10 +352,21 @@ footer {
 
   .my-story {
     width: 70%;
-    margin: 2.5em auto 0 auto;
+    margin: 0 auto 0 auto;
   }
+
+  .main-img-container {
+    margin: 1em auto;
+  }
+
+  .story-container {
+    margin: 1em auto 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+
   .about, .projects, .contact {
-    font-size: .8em;
+    font-size: .65em;
   }
 
 }
@@ -361,7 +378,7 @@ footer {
   }
 
   .about, .projects, .contact {
-    font-size: .7em;
+    font-size: .65em;
   }
 
   .about:hover, .contact:hover, .projects:hover, .active {
@@ -392,34 +409,10 @@ footer {
     font-size: .63em;
   }
 
-  .social i {
-    margin: .7em .2em 0 .2em;
-  }
-
-
   .my-story {
     padding: 1.2em !important;
-    margin-top: 0.5em;
     font-size: .7em;
-    line-height: 1.15em;
-  }
-
-  .projects {
-    margin: 1em 1em;
-  }
-
-  .about {
-    margin-bottom: 0;
-  }
-
-  .left {
-    text-align: right;
-    margin-right: 2.5em;
-  }
-
-  .right {
-    text-align: left;
-    margin-left: 2.5em;
+    line-height: 1.2em;
   }
 
   .description {
@@ -443,7 +436,6 @@ footer {
 
   .me {
     width: 30%;
-    margin-bottom: 1.5em;
   }
 
   .line {
@@ -469,26 +461,25 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .thumbnail-image, .work-description, .project-title {
-      width: 100%;
-    }
+  .thumbnail-image, .work-description, .project-title {
+    width: 100%;
+  }
 
-    .work-description {
-      font-size: .95em;
-      margin-top: -3.55em;
-      line-height: 1em;
-    }
+  .work-description {
+    font-size: .95em;
+    margin-top: -3.55em;
+    line-height: 1em;
+  }
 
-    .my-story {
-      width: 100%;
-      margin: 8.65em -3em;
-    }
+  .me {
+    width: 60%;
+    margin-right: -7em;
+  }
 
-    .me {
-      width: 65%;
-      margin: 7em 0 1em 0em;
-    }
 
+  .my-story {
+    width: 100%;
+  }
 }
 
 @media (min-width: 390px) and (max-width: 575px) {
@@ -524,8 +515,14 @@ footer {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .me {
-    width: 93.5%;
-    margin: 7em 0 1em 4em;
+    width: 64.5%;
+    margin-right: -7.5em;
+  }
+
+  .my-story {
+    font-size: .75em;
+    line-height: 1.16em;
+    width: 75%;
   }
 
 }
