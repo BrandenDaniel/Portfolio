@@ -289,13 +289,22 @@ a:hover {
   margin: .5em auto;
 }
 
-.nav-line {
+.nav-line-top {
   height: 1px;
-  width: 200px;
+  width: 190px;
+  display: block;
+  margin: .63em auto;
+  background: #555;
+}
+
+.nav-line-bottom {
+  height: 1px;
+  width: 190px;
   display: block;
   margin: .35em auto;
-  background: #444;
+  background: #555;
 }
+
 
 .hello {
   font-size: 2em;
