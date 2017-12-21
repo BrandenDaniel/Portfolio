@@ -20,23 +20,24 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script>
     $('body').css('display', 'none');
-    $(document).ready(function() {
+    $(document).ready(function () {
       $('body').fadeIn();
-      $('a').on('click', function(event) {
-        var thetarget = this.getAttribute('target')
+      $('a').on('click', function (event) {
+        var thetarget = this.getAttribute('target');
         if (thetarget != "_blank") {
-          var thehref = this.getAttribute('href')
+          var thehref = this.getAttribute('href');
           event.preventDefault();
-          $('body').fadeOut(function() {
+          $('body').fadeOut(function () {
             //alert(thehref)
-            window.location = thehref
+            window.location = thehref;
           });
         }
       });
     });
-    setTimeout(function() {
+
+    setTimeout(function () {
       $('body').fadeIn();
-    }, 1000)
+    }, 1000);
   </script>
 
 
@@ -51,6 +52,7 @@
   <!-- FEATURED WORK -->
   <main class="featured-work">
     <div class="container">
+      <span class="nav-line"></span>
       <div class="row">
         <ul class="menu">
           <li class="navi"><a href="about.html"><h2 class="about active">ABOUT</h2></a></li>
@@ -58,6 +60,8 @@
           <li class="navi"><a href="contact.html"><h2 class="contact">CONTACT</h2></a></li>
         </ul>
       </div>
+      <span class="nav-line"></span>
+
       <div class="row">
         <div class="col-md-6 main-img-container">
           <img class="me" src="pimg/me.jpg" alt="A picture of me!">
