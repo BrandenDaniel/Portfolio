@@ -231,7 +231,7 @@ a:hover {
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
-  width: 180px;
+  width: 185px;
   margin: .5em;
   background: rgba(0, 0, 0, .1);
   padding: 1em 0 1em 0;
@@ -384,12 +384,12 @@ footer {
 
   .nav-line-top {
     width: 170px;
-    margin: 0em auto;
+    margin: 0.2em auto;
   }
 
   .nav-line-bottom {
     width: 170px;
-    margin: -.15em auto;
+    margin: 0 auto;
   }
 }
 
