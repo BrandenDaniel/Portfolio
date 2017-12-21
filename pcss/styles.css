@@ -291,7 +291,7 @@ a:hover {
 
 .nav-line-top {
   height: 1px;
-  width: 190px;
+  width: 200px;
   display: block;
   margin: .63em auto;
   background: #555;
@@ -299,12 +299,11 @@ a:hover {
 
 .nav-line-bottom {
   height: 1px;
-  width: 190px;
+  width: 200px;
   display: block;
   margin: .35em auto;
   background: #555;
 }
-
 
 .hello {
   font-size: 2em;
@@ -381,6 +380,14 @@ footer {
   }
   .about, .projects, .contact {
     font-size: .65em;
+  }
+
+  .nav-line-top {
+    width: 190px;
+  }
+
+  .nav-line-bottom {
+    width: 190px;
   }
 }
 
