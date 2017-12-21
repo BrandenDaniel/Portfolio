@@ -294,7 +294,7 @@ a:hover {
   width: 200px;
   display: block;
   margin: .63em auto;
-  background: #555;
+  background: rgba(0,0,0, .45);
 }
 
 .nav-line-bottom {
@@ -302,7 +302,7 @@ a:hover {
   width: 200px;
   display: block;
   margin: .35em auto;
-  background: #555;
+  background: rgba(0,0,0, .45);
 }
 
 .hello {
@@ -379,15 +379,19 @@ footer {
     height: 100%;
   }
   .about, .projects, .contact {
-    font-size: .65em;
+    font-size: .55em;
   }
 
   .nav-line-top {
     width: 190px;
+    margin: .36em auto;
+
   }
 
   .nav-line-bottom {
     width: 190px;
+    margin: 0em auto;
+
   }
 }
 
