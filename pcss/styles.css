@@ -90,7 +90,7 @@ header {
 }
 
 .projects {
-  margin: 0 1.5em;
+  margin: 0 1.75em;
 }
 
 .project-title {
@@ -276,7 +276,7 @@ a:hover {
 }
 
 .line {
-  height: 6px;
+  height: 4px;
   width: 58px;
   background: #333;
   display: block;
@@ -290,22 +290,6 @@ a:hover {
   display: block;
   margin: .5em auto;
 }
-
-/* .nav-line-top {
-  height: 1px;
-  width: 195px;
-  display: block;
-  margin: .45em auto;
-  background: rgba(0,0,0, .3);
-}
-
-.nav-line-bottom {
-  height: 1px;
-  width: 195px;
-  display: block;
-  margin: .1em auto;
-  background: rgba(0,0,0, .3);
-} */
 
 .my-story p {
   margin-bottom: .75em;
@@ -385,16 +369,6 @@ footer {
     font-size: .55em;
   }
 
-  /* .nav-line-top {
-    width: 170px;
-    margin: 0.2em auto;
-  }
-
-  .nav-line-bottom {
-    width: 170px;
-    margin: 0 auto;
-  } */
-
   .hello {
     text-align: center;
   }
@@ -402,6 +376,10 @@ footer {
   .line {
     display: block;
     margin: 0 auto .85em auto;
+  }
+
+  .projects {
+    margin: 0 3.4em;
   }
 }
 
@@ -419,7 +397,9 @@ footer {
   .active {
     font-size: .6em;
     padding: .3em 0 .2em 0;
-
+  }
+  .projects {
+    margin: 0 2.8em;
   }
   .header-spacing {
     width: 245px;
