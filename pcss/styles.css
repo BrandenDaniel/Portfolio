@@ -130,7 +130,8 @@ header {
   font-weight: 500;
   border-bottom: 2px solid #aaa;
   border-top: 2px solid #aaa;
-  padding: .25em 0;
+  padding: .25em 0 .15em 0;
+  display: block;
 }
 
 .active {
@@ -139,7 +140,7 @@ header {
   transition: 1s;
   border-bottom: 2px solid #555;
   border-top: 2px solid #555;
-  padding: .25em 0;
+  padding: .3em 0 .2em 0;
 }
 
 .work-description {
@@ -417,6 +418,8 @@ footer {
   }
   .active {
     font-size: .6em;
+    padding: .3em 0 .2em 0;
+
   }
   .header-spacing {
     width: 245px;
