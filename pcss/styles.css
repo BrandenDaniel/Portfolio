@@ -8,8 +8,7 @@
 body {
   background-color: #456665;
   /* background-image: url("../pimg/concrete-texture.png"); */
-  box-shadow: 70px 70px 500px rgba(0, 0, 0, .5) inset;
-
+  box-shadow: 0 0 300em 5em rgba(0, 0, 0, .55) inset;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -381,6 +380,10 @@ footer {
   .projects {
     margin: 0 3em;
   }
+
+  body {
+    box-shadow: 0 0 300em 1em rgba(0, 0, 0, .55) inset;
+  }
 }
 
 @media (max-width: 575px) {
@@ -391,12 +394,13 @@ footer {
     font-size: .55em;
   }
   .about:hover, .contact:hover, .projects:hover, .active {
-    color: #343838;
+    color: #829693;
     transition: .1s;
   }
   .active {
     font-size: .6em;
     padding: .3em;
+    color: #829693;
   }
   .projects {
     margin: 0 1.6em;
@@ -444,10 +448,16 @@ footer {
   }
   .get-touch {
     font-size: 1.2em;
+    margin: 2.5em auto 0em auto;
+
   }
 
   .social {
     margin: 1em auto 0 auto;
+  }
+
+  body {
+    box-shadow: 0 0 300em .5em rgba(0, 0, 0, .55) inset;
   }
 }
 
@@ -466,6 +476,10 @@ footer {
   }
   .my-story {
     width: 100%;
+  }
+
+  body {
+    box-shadow: 0 0 300em 2em rgba(0, 0, 0, .55) inset;
   }
 }
 
@@ -503,5 +517,9 @@ footer {
     font-size: .75em;
     line-height: 1.16em;
     width: 75%;
+  }
+
+  body {
+    box-shadow: 0 0 300em 3em rgba(0, 0, 0, .55) inset;
   }
 }
