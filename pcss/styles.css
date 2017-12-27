@@ -29,7 +29,7 @@ hr {
 /*HEADER*/
 
 header {
-  margin: 6em 0 2em 0;
+  margin: 3em 0 2em 0;
 }
 
 .header-spacing {
@@ -272,7 +272,7 @@ a:hover {
   border-bottom: 2px solid rgba(0, 0, 0, .2);
   font-weight: 400;
 }
-/* 
+/*
 .line {
   height: 4px;
   width: 58px;
