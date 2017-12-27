@@ -6,8 +6,10 @@
 }
 
 body {
-  background-color: #b3b7b6;
-  background-image: url("../pimg/concrete-texture.png");
+  background-color: #456665;
+  /* background-image: url("../pimg/concrete-texture.png"); */
+  box-shadow: 70px 70px 500px rgba(0, 0, 0, .5) inset;
+
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -28,7 +30,7 @@ hr {
 /*HEADER*/
 
 header {
-  margin: 1em 0 2em 0;
+  margin: 6em 0 2em 0;
 }
 
 .header-spacing {
@@ -48,7 +50,7 @@ header {
 .title {
   font-family: 'Montserrat', helvetica;
   font-size: .65em;
-  color: #424241;
+  color: #829693;
 }
 
 /*PROFILE PICTURE STORY CONTAINER*/
@@ -94,13 +96,13 @@ header {
 }
 
 .project-title {
-  border-radius: 4px;
-  color: rgba(0, 0, 0, .4);
+  border-radius: 2px;
+  color: #333;
   font-weight: 600;
   font-size: .85em;
   font-family: "Roboto", helvetica;
   width: 100%;
-  background: #999;
+  background: rgba(0,0,0,.1);
   display: inline;
   padding: 4px 6px;
 }
@@ -118,52 +120,49 @@ header {
 .about, .contact, .projects {
   font-size: .675em;
   font-weight: 500;
-  color: #343838;
+  color: #222;
   font-family: "Montserrat", helvetica;
   display: inline-block;
   padding: .3em;
   transition: .1s ease-in-out;
-  border: 2px solid rgba(0,0,0,0);
-  padding: .3em;
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  color: #343838;
+  color: #829693;
   font-weight: 600;
-  border: 2px solid #aaa;
-  padding: .3em;
+
 }
 
 .active {
-  color: #222;
+  color: #829693;
   font-weight: 600;
   transition: 1s;
-  border: 2px solid #555;
-  padding: .3em;
 }
 
 .work-description {
-  background-color: rgba(68, 68, 68, .25);
+  background-color: rgba(0, 0, 0, .25);
   width: 80%;
   margin: -3.4em auto auto auto;
   padding: 1em .75em 0.2em .75em;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0 5px 10px -4px #999;
-  color: #444;
+  box-shadow: 0 5px 10px -4px rgba(0, 0, 0, .2);
+  color: #829693;
   font-family: "Scada", helvetica;
   margin-bottom: 0em;
   line-height: 1em;
   text-align: left;
+
 }
 
 .description {
   margin-bottom: .5em;
   font-size: .75em;
+  font-weight: 500;
 }
 
 .work-description a {
-  color: #303030;
+  color: #829693;
 }
 
 .lang-lib {
@@ -215,6 +214,7 @@ a:hover {
   font-size: 1.35em;
   padding: .75em 1em;
   font-family: "Montserrat", helvetica;
+  color: #222;
 }
 
 .social {
@@ -227,21 +227,21 @@ a:hover {
   border-radius: 50%;
   padding: .55em;
   width: 52px;
-  color: #444;
+  color: #829693;
 }
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
   width: 187px;
   margin: .5em;
-  background: rgba(0, 0, 0, .1);
+  background: rgba(0, 0, 0, .15);
   padding: 1em 0 1em 0;
   border-radius: 4px;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
   font-size: .7em;
-  color: #333;
+  color: #111;
   margin: 0 auto .5em auto;
   padding: .45em;
   border-radius: 4px;
@@ -249,7 +249,7 @@ a:hover {
 }
 
 .social h3 a {
-  color: #333;
+  color: #222;
 }
 
 .mobile i:hover, .email i:hover, .github i:hover, .linkedin i:hover {
@@ -265,10 +265,10 @@ a:hover {
   padding-bottom: 0;
   border-radius: 4px;
   font-family: "Scada", helvetica;
-  color: #2b2b28;
+  color: #111;
   line-height: 1.15em;
   font-size: .75em;
-  box-shadow: 0 5px 10px -4px #999;
+  box-shadow: 0 5px 10px -4px rgba(0, 0, 0, .2);
   background-color: rgba(0, 0, 0, .2);
   border-bottom: 2px solid rgba(0, 0, 0, .2);
   font-weight: 400;
@@ -277,7 +277,7 @@ a:hover {
 .line {
   height: 4px;
   width: 58px;
-  background: #333;
+  background: #829693;
   display: block;
   margin: 0 0 1em 0;
 }
@@ -285,7 +285,7 @@ a:hover {
 .line-2 {
   height: 3px;
   width: 10px;
-  background: #444;
+  background: #829693;
   display: block;
   margin: .5em auto;
 }
@@ -297,10 +297,11 @@ a:hover {
 .hello {
   font-size: 2em;
   margin: .25em 0 .5em 0 !important;
+  color: #829693;
 }
 
 .my-story a {
-  color: #2d2024;
+  color: #000;
   text-decoration: underline !important;
 }
 
@@ -378,7 +379,7 @@ footer {
   }
 
   .projects {
-    margin: 0 3.4em;
+    margin: 0 3em;
   }
 }
 
@@ -391,14 +392,14 @@ footer {
   }
   .about:hover, .contact:hover, .projects:hover, .active {
     color: #343838;
-    transition: .5s;
+    transition: .1s;
   }
   .active {
     font-size: .6em;
     padding: .3em;
   }
   .projects {
-    margin: 0 2.8em;
+    margin: 0 1.6em;
   }
   .header-spacing {
     width: 245px;
