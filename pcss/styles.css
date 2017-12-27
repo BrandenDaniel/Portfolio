@@ -459,7 +459,7 @@ footer {
   }
 
   body {
-    box-shadow: 0 0 300em 1em rgba(0, 0, 0, .55) inset;
+    box-shadow: 0 0 300em 1.5em rgba(0, 0, 0, .6) inset;
   }
 }
 
