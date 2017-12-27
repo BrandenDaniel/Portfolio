@@ -8,7 +8,7 @@
 body {
   background-color: #456665;
   /* background-image: url("../pimg/concrete-texture.png"); */
-  box-shadow: 0 0 300em 5em rgba(0, 0, 0, .55) inset;
+  box-shadow: 0 0 300em 5em rgba(0, 0, 0, .45) inset;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -55,10 +55,10 @@ header {
 /*PROFILE PICTURE STORY CONTAINER*/
 
 .me {
-  width: 47.4%;
-  border-radius: 4px;
+  width: 33%;
+  border-radius: 50%;
   max-width: 300px;
-  margin-right: -15.5em;
+  margin-right: -20em;
 }
 
 .main-img-container {
@@ -231,7 +231,7 @@ a:hover {
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
-  width: 187px;
+  width: 190px;
   margin: .5em;
   background: rgba(0, 0, 0, .15);
   padding: 1em 0 1em 0;
@@ -248,7 +248,7 @@ a:hover {
 }
 
 .social h3 a {
-  color: #222;
+  color: #829693;
 }
 
 .mobile i:hover, .email i:hover, .github i:hover, .linkedin i:hover {
@@ -384,7 +384,7 @@ footer {
   }
 
   body {
-    box-shadow: 0 0 500em 3em rgba(0, 0, 0, .6) inset;
+    box-shadow: 0 0 500em 3em rgba(0, 0, 0, .45) inset;
   }
 }
 
@@ -459,7 +459,7 @@ footer {
   }
 
   body {
-    box-shadow: 0 0 500em 1.5em rgba(0, 0, 0, .6) inset;
+    box-shadow: 0 0 500em 1.35em rgba(0, 0, 0, .6) inset;
   }
 }
 
@@ -481,7 +481,7 @@ footer {
   }
 
   body {
-    box-shadow: 0 0 300em 2em rgba(0, 0, 0, .55) inset;
+    box-shadow: 0 0 300em 2em rgba(0, 0, 0, .45) inset;
   }
 }
 
@@ -508,12 +508,16 @@ footer {
   .nav-space {
     margin-top: .25em;
   }
+
+  body {
+    box-shadow: 0 0 500em .6em rgba(0, 0, 0, .45) inset;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .me {
-    width: 62.6%;
-    margin-right: -7.5em;
+    width: 45%;
+    margin-right: -13em;
   }
   .my-story {
     font-size: .75em;
@@ -522,6 +526,6 @@ footer {
   }
 
   body {
-    box-shadow: 0 0 300em 3em rgba(0, 0, 0, .55) inset;
+    box-shadow: 0 0 300em 3em rgba(0, 0, 0, .45) inset;
   }
 }
