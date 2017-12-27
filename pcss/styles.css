@@ -55,10 +55,11 @@ header {
 /*PROFILE PICTURE STORY CONTAINER*/
 
 .me {
-  width: 47.4%;
+  width: 40%;
   border-radius: 4px;
   max-width: 300px;
   margin-right: -15.5em;
+  border-radius: 50%;
 }
 
 .main-img-container {
@@ -263,23 +264,23 @@ a:hover {
   padding: 1em;
   padding-bottom: 0;
   border-radius: 4px;
-  font-family: "Scada", helvetica;
+  font-family: 'Montserrat', helvetica;
   color: #111;
-  line-height: 1.15em;
-  font-size: .75em;
+  line-height: 1.25em;
+  font-size: .65em;
   box-shadow: 0 5px 10px -4px rgba(0, 0, 0, .2);
   background-color: rgba(0, 0, 0, .2);
   border-bottom: 2px solid rgba(0, 0, 0, .2);
   font-weight: 400;
 }
 
-.line {
+/* .line {
   height: 4px;
   width: 58px;
   background: #829693;
   display: block;
   margin: 0 0 1em 0;
-}
+} */
 
 .line-2 {
   height: 3px;
@@ -297,6 +298,7 @@ a:hover {
   font-size: 2em;
   margin: .25em 0 .5em 0 !important;
   color: #829693;
+  font-family: 'Montserrat', helvetica;
 }
 
 .my-story a {
@@ -422,7 +424,7 @@ footer {
   .my-story {
     padding: 1.2em !important;
     font-size: .7em;
-    line-height: 1.2em;
+    line-height: 1.25em;
   }
   .description {
     font-size: .75em;
@@ -457,7 +459,7 @@ footer {
   }
 
   body {
-    box-shadow: 0 0 300em .5em rgba(0, 0, 0, .55) inset;
+    box-shadow: 0 0 300em 1em rgba(0, 0, 0, .55) inset;
   }
 }
 
@@ -510,12 +512,12 @@ footer {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .me {
-    width: 62.6%;
+    width: 50%;
     margin-right: -7.5em;
   }
   .my-story {
     font-size: .75em;
-    line-height: 1.16em;
+    line-height: 1.25em;
     width: 75%;
   }
 
