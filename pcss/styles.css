@@ -258,7 +258,7 @@ a:hover {
 }
 
 .my-story {
-  width: 40%;
+  width: 44%;
   text-align: left;
   padding: 1em;
   padding-bottom: 0;
@@ -358,7 +358,7 @@ footer {
 @media (max-width: 767px) {
   .me {
     width: 35%;
-    margin: 0 auto 1em auto;
+    margin: 0 auto .65em auto;
     border-radius: 50%;
   }
 
@@ -459,8 +459,8 @@ footer {
     margin-bottom: 0;
   }
   .me {
-    width: 35%;
-    margin: 0 auto 0 auto;
+    width: 37%;
+    margin: 0 auto -.5em auto;
   }
 
   .line {
