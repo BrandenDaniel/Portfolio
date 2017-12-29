@@ -231,20 +231,20 @@ a:hover {
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
-  width: 190px;
-  margin: .5em;
+  width: 160px;
+  margin: .3em .15em;
   background: rgba(0, 0, 0, .15);
-  padding: 1em 0 1em 0;
+  padding: .5em 0 .5em 0;
   border-radius: 4px;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
-  font-size: .7em;
+  font-size: .55em;
   color: #111;
   margin: 0 auto .5em auto;
   padding: .45em;
   border-radius: 4px;
-  width: 185px;
+  width: 160px;
 }
 
 .social h3 a {
