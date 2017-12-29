@@ -55,10 +55,9 @@ header {
 /*PROFILE PICTURE STORY CONTAINER*/
 
 .me {
-  width: 82%;
+  width: 80%;
   border-radius: 50%;
-  max-width: 300px;
-  margin: 2em auto;
+  margin: 0 1em 5.5em auto;
   display: block;
 }
 
@@ -259,7 +258,7 @@ a:hover {
 }
 
 .my-story {
-  width: 50%;
+  width: 40%;
   text-align: left;
   padding: 1em;
   padding-bottom: 0;
@@ -278,14 +277,12 @@ a:hover {
 
 .text {
   display: inline-block;
-  width: 49%;
-  margin: 0 auto;
+  width: 55%;
 }
 
 .image {
   display: inline-block;
-  width: 50%;
-
+  width: 44%;
 }
 
 /*
@@ -360,8 +357,8 @@ footer {
 
 @media (max-width: 767px) {
   .me {
-    width: 30%;
-    margin: -2em 1em 1em auto;
+    width: 35%;
+    margin: 0 auto 1em auto;
     border-radius: 50%;
   }
 
@@ -375,7 +372,7 @@ footer {
     width: 80%;
   }
   .my-story {
-    width: 70%;
+    width: 60%;
     margin: 0 auto 0 auto;
   }
   .main-img-container {
@@ -462,8 +459,8 @@ footer {
     margin-bottom: 0;
   }
   .me {
-    width: 30%;
-    margin: -2em 1em 0 auto;
+    width: 35%;
+    margin: 0 auto 0 auto;
   }
 
   .line {
@@ -472,11 +469,10 @@ footer {
   .get-touch {
     font-size: 1.2em;
     margin: 2.5em auto 0em auto;
-
   }
 
   .social {
-    margin: 1em auto 0 auto;
+    margin: 1em 2em 0 2em;
   }
 
   body {
@@ -494,8 +490,8 @@ footer {
     line-height: 1em;
   }
   .me {
-    width: 85%;
-    margin-bottom: 3.5em;
+    width: 75%;
+    margin: 0 1.35em 5em auto;
   }
   .my-story {
     width: 70%;
@@ -537,13 +533,14 @@ footer {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .me {
-    width: 85%;
-    margin-bottom: 2em;
+    width: 75%;
+    margin: 0 1.35em 5.5em auto;
   }
+
   .my-story {
     font-size: .75em;
     line-height: 1.16em;
-    width: 55%;
+    width: 50%;
   }
 
   body {
