@@ -444,14 +444,18 @@ footer {
     width: 70%;
   }
   .description {
-    font-size: .58em;
+    font-size: .6em;
     line-height: 1.35em;
   }
   .lang-lib {
-    font-size: .80em;
+    font-size: .90em;
   }
   .project-title {
     font-size: .85em;
+  }
+
+  .built {
+    font-size: .7em !important;
   }
   .download-cv {
     width: 97px;
