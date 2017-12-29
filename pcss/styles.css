@@ -107,7 +107,7 @@ header {
 }
 
 .thumbnail-image {
-  width: 80%;
+  width: 70%;
   margin: 3.5em 0 3.2em 0;
   border-radius: 4px 4px 0 0;
 }
@@ -140,18 +140,25 @@ header {
 
 .work-description {
   background-color: rgba(0, 0, 0, .25);
-  width: 80%;
-  margin: -3.4em auto auto auto;
+  width: 70%;
   padding: 1em .75em 0.2em .75em;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 5px 10px -4px rgba(0, 0, 0, .2);
   color: #829693;
   font-family: "Scada", helvetica;
-  margin-bottom: 0em;
   line-height: 1em;
   text-align: left;
 }
+
+.r .work-description {
+  margin: -3.4em auto 0 0;
+}
+
+.l .work-description {
+  margin: -3.4em 0 0 auto;
+}
+
 
 .description {
   margin-bottom: .5em;
@@ -205,6 +212,14 @@ a:hover {
 
 .work {
   margin: 1em auto 0 auto;
+}
+
+.l {
+  text-align: right;
+}
+
+.r {
+  text-align: left;
 }
 
 .get-touch {
@@ -365,11 +380,17 @@ footer {
     width: 100%;
   }
   .thumbnail-image {
-    width: 80%;
+    width: 70%;
   }
   .work-description, .project-title {
-    width: 80%;
+    width: 70%;
+    margin: -3.4em auto 0 auto !important;
   }
+
+  .l, .r {
+    text-align: center;
+  }
+
   .my-story {
     width: 60%;
     margin: 0 auto 0 auto;
@@ -405,6 +426,13 @@ footer {
 }
 
 @media (max-width: 575px) {
+  .thumbnail-image {
+    width: 55%;
+  }
+  .work-description, .project-title {
+    width: 55%;
+    margin: -3.4em auto 0 auto !important;
+  }
   .featured-title {
     margin-bottom: -.5em;
   }
@@ -513,8 +541,13 @@ footer {
 }
 
 @media (max-width: 389px) {
-  .thumbnail-image, .work-description, {
+  .thumbnail-image, .work-description {
     width: 80%;
+  }
+
+  .work-description, .project-title {
+    width: 80%;
+    margin: -3.4em auto 0 auto;
   }
   .name {
     font-size: 2em;
