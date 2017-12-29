@@ -442,6 +442,7 @@ footer {
     padding: 1.2em !important;
     font-size: .7em;
     line-height: 1.2em;
+    width: 70%;
   }
   .description {
     font-size: .75em;
@@ -459,8 +460,8 @@ footer {
     margin-bottom: 0;
   }
   .me {
-    width: 37%;
-    margin: 0 auto -.5em auto;
+    width: 40%;
+    margin: 0 auto -.35em auto;
   }
 
   .line {
