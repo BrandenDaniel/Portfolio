@@ -487,7 +487,7 @@ a:hover {
     margin: 1em 0 0 0;
   }
   body {
-    box-shadow: 0 0 500em 1.35em rgba(0, 0, 0, .6) inset;
+    box-shadow: 0 0 500em .5em rgba(0, 0, 0, .6) inset;
   }
 
   .mobile, .linkedin {
@@ -542,7 +542,7 @@ a:hover {
     padding-bottom: 0;
   }
   body {
-    box-shadow: 0 0 500em .6em rgba(0, 0, 0, .45) inset;
+    box-shadow: 0 0 500em .45em rgba(0, 0, 0, .45) inset;
   }
 }
 
