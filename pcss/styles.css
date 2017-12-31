@@ -6,9 +6,9 @@
 }
 
 body {
-  background-color: #456665;
   background: linear-gradient(135deg, #62877f ,#574566);
-  box-shadow: 0 0 300em 5em rgba(0, 0, 0, .45) inset;
+  background-color: #6b827d;
+  box-shadow: 0 0 300em 5em rgba(0, 0, 0, .35) inset;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -87,12 +87,12 @@ header {
 }
 
 .projects {
-  margin: 0 1.75em;
+  margin: 0 1.55em;
 }
 
 .project-title {
   border-radius: 2px;
-  color: #333;
+  color: #9ca3a3;
   font-weight: 600;
   font-size: .85em;
   font-family: "Roboto", helvetica;
@@ -103,6 +103,14 @@ header {
   margin-left: -.4em;
 }
 
+.project-title a {
+  color: #9ca3a3;
+}
+
+.project-title a:hover {
+  text-decoration: underline;
+}
+
 .thumbnail-image {
   width: 70%;
   margin: 3.5em 0 3.2em 0;
@@ -110,7 +118,7 @@ header {
 }
 
 .about, .contact, .projects {
-  font-size: .675em;
+  font-size: .65em;
   font-weight: 500;
   color: #222;
   font-family: "Montserrat", helvetica;
@@ -122,22 +130,23 @@ header {
 .about:hover, .contact:hover, .projects:hover {
   color: #91a3a3;
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .active {
   color: #91a3a3;
   font-weight: 600;
   transition: 1s;
+  text-decoration: underline;
 }
 
 .work-description {
   background-color: rgba(0, 0, 0, .25);
   width: 70%;
   padding: 1em .75em 0.2em .75em;
-  border-bottom: 1px solid rgba(0, 0, 0, .2);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 5px 10px -4px rgba(0, 0, 0, .2);
-  color: #828d96;
+  color: #9ca3a3;
   font-family: "Scada", helvetica;
   line-height: 1em;
   text-align: left;
@@ -155,10 +164,6 @@ header {
   margin-bottom: .5em;
   font-size: .7em;
   font-weight: 500;
-}
-
-.work-description a {
-  color: #828d96;
 }
 
 .lang-lib {
@@ -219,10 +224,11 @@ a:hover {
   padding: .75em 1em;
   font-family: "Montserrat", helvetica;
   color: #222;
+  text-decoration: underline;
 }
 
 .social {
-  margin: 1em auto 0 auto;
+  margin: .35em auto 0 auto;
 }
 
 .social i {
@@ -231,15 +237,15 @@ a:hover {
   border-radius: 50%;
   padding: .55em;
   width: 52px;
-  color: #828d96;
+  color: #9ca3a3;
 }
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
-  width: 160px;
-  margin: .3em .15em;
+  width: 150px;
+  margin: .55em .15em;
   background: rgba(0, 0, 0, .15);
-  padding: .5em 0 .5em 0;
+  padding: .5em 0 .2em 0;
   border-radius: 4px;
 }
 
@@ -249,11 +255,11 @@ a:hover {
   margin: 0 auto .5em auto;
   padding: .45em;
   border-radius: 4px;
-  width: 160px;
+  width: 150px;
 }
 
 .social h3 a {
-  color: #828d96;
+  color: #9ca3a3;
 }
 
 .mobile i:hover, .email i:hover, .github i:hover, .linkedin i:hover {
@@ -270,14 +276,14 @@ a:hover {
   border-radius: 4px;
   font-family: "Scada", helvetica;
   color: #222;
-  line-height: 1.15em;
+  line-height: 1.2em;
   font-size: .75em;
   font-weight: 400;
   margin: 0 auto;
 }
 
 .my-story b {
-  color: #828d96;
+  color: #9ca3a3;
   font-size: 1.1em;
   padding: 0 .1em;
 }
@@ -295,7 +301,7 @@ a:hover {
 .line-2 {
   height: 3px;
   width: 10px;
-  background: #828d96;
+  background: #9ca3a3;
   display: block;
   margin: .5em auto;
 }
@@ -312,7 +318,7 @@ a:hover {
 .hello {
   font-size: 2em;
   margin: .25em 0 0em 0 !important;
-  color: #828d96;
+  color: #9ca3a3;
   font-family: "Montserrat", helvetica;
   background-color: rgba(0, 0, 0, .1) !important;
   padding: .45em .35em .35em .35em !important;
@@ -488,7 +494,7 @@ a:hover {
     margin: 1em 0 0 0;
   }
   body {
-    box-shadow: 0 0 500em .5em rgba(0, 0, 0, .45) inset;
+    box-shadow: 0 0 500em .5em rgba(0, 0, 0, .25) inset;
   }
 
   .mobile, .linkedin {
@@ -514,7 +520,7 @@ a:hover {
     width: 70%;
   }
   body {
-    box-shadow: 0 0 300em 2em rgba(0, 0, 0, .35) inset;
+    box-shadow: 0 0 300em 2em rgba(0, 0, 0, .25) inset;
   }
 }
 
@@ -543,7 +549,7 @@ a:hover {
     padding-bottom: 0;
   }
   body {
-    box-shadow: 0 0 500em .45em rgba(0, 0, 0, .35) inset;
+    box-shadow: 0 0 500em .45em rgba(0, 0, 0, .25) inset;
   }
 }
 
@@ -558,7 +564,7 @@ a:hover {
     width: 53%;
   }
   body {
-    box-shadow: 0 0 300em 3em rgba(0, 0, 0, .45) inset;
+    box-shadow: 0 0 300em 3em rgba(0, 0, 0, .35) inset;
   }
 }
 
