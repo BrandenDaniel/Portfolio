@@ -314,7 +314,8 @@ a:hover {
   margin: .25em 0 0em 0 !important;
   color: #828d96;
   font-family: "Montserrat", helvetica;
-  background-color: rgba(0, 0, 0, .2) !important;
+  background-color: rgba(0, 0, 0, .1) !important;
+  padding: .45em .35em .35em .35em !important;
 
 }
 
@@ -427,13 +428,13 @@ a:hover {
     font-size: .55em;
   }
   .about:hover, .contact:hover, .projects:hover, .active {
-    color: #828d96;
+    color: #91a3a3;
     transition: .1s;
   }
   .active {
     font-size: .6em;
     padding: .3em;
-    color: #828d96;
+    color: #91a3a3;
   }
   .projects {
     margin: 0 1.6em;
