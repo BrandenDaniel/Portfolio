@@ -45,7 +45,7 @@ header {
 .title {
   font-family: 'Montserrat', helvetica;
   font-size: .65em;
-  color: #828d96;
+  color: #91a3a3;
 }
 
 /*PROFILE PICTURE STORY CONTAINER*/
@@ -120,12 +120,12 @@ header {
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  color: #828d96;
+  color: #91a3a3;
   font-weight: 600;
 }
 
 .active {
-  color: #828d96;
+  color: #91a3a3;
   font-weight: 600;
   transition: 1s;
 }
