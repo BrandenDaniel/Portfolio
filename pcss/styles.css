@@ -8,7 +8,7 @@
 body {
   background: linear-gradient(135deg, #62877f ,#574566);
   background-color: #6b827d;
-  box-shadow: 0 0 300em 5em rgba(0, 0, 0, .35) inset;
+  box-shadow: 0 0 300em 20em rgba(0, 0, 0, .1) inset;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -415,7 +415,7 @@ a:hover {
     margin: 0 3em;
   }
   body {
-    box-shadow: 0 0 500em 3em rgba(0, 0, 0, .45) inset;
+    box-shadow: 0 0 500em 10em rgba(0, 0, 0, .15) inset;
   }
 }
 
@@ -492,7 +492,7 @@ a:hover {
   } */
 
   body {
-    box-shadow: 0 0 500em .5em rgba(0, 0, 0, .25) inset;
+    box-shadow: 0 0 500em 7em rgba(0, 0, 0, .15) inset;
   }
 
   .mobile, .linkedin {
@@ -518,7 +518,7 @@ a:hover {
     width: 70%;
   }
   body {
-    box-shadow: 0 0 300em 2em rgba(0, 0, 0, .25) inset;
+    box-shadow: 0 0 300em 10em rgba(0, 0, 0, .15) inset;
   }
 }
 
@@ -547,7 +547,7 @@ a:hover {
     padding-bottom: 0;
   }
   body {
-    box-shadow: 0 0 500em .45em rgba(0, 0, 0, .25) inset;
+    box-shadow: 0 0 500em 6em rgba(0, 0, 0, .15) inset;
   }
 }
 
@@ -562,7 +562,7 @@ a:hover {
     width: 53%;
   }
   body {
-    box-shadow: 0 0 300em 3em rgba(0, 0, 0, .35) inset;
+    box-shadow: 0 0 300em 20em rgba(0, 0, 0, .1) inset;
   }
 }
 
