@@ -25,7 +25,7 @@ body {
 /*HEADER*/
 
 header {
-  margin: 3em 0 2em 0;
+  margin: 1.5em 0 2em 0;
 }
 
 .header-spacing {
@@ -235,8 +235,8 @@ a:hover {
   font-size: 1.5em;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 50%;
-  padding: .55em;
-  width: 52px;
+  padding: .35em;
+  width: 43px;
   color: #999;
 }
 
@@ -247,6 +247,7 @@ a:hover {
   background: rgba(0, 0, 0, .15);
   padding: .5em 0 .2em 0;
   border-radius: 4px;
+  border: 1px solid #444;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
@@ -303,7 +304,7 @@ a:hover {
   width: 10px;
   background: #9ca3a3;
   display: block;
-  margin: .5em auto;
+  margin: .4em auto;
 }
 
 .my-story p {
@@ -315,7 +316,7 @@ a:hover {
   border-radius: 2px;
 }
 
-.hello {
+.greeting {
   font-size: 2em;
   margin: .25em 0 0em 0 !important;
   color: #9ca3a3;
@@ -404,9 +405,6 @@ a:hover {
   .about, .projects, .contact {
     font-size: .55em;
   }
-  .hello {
-    text-align: center;
-  }
   .line {
     display: block;
     margin: 0 auto .85em auto;
@@ -437,13 +435,16 @@ a:hover {
     color: #91a3a3;
     transition: .1s;
   }
+  .greeting {
+    text-align: left;
+  }
   .active {
     font-size: .6em;
     padding: .3em;
     color: #91a3a3;
   }
   .projects {
-    margin: 0 1.6em;
+    margin: 0 1.9em;
   }
   .header-spacing {
     width: 245px;
@@ -499,6 +500,24 @@ a:hover {
     display: block;
     margin: 0 auto;
   }
+
+  .social i {
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    padding: .4em;
+    width: 36px;
+    color: #999;
+  }
+
+  .line-2 {
+    height: 3px;
+    width: 10px;
+    background: #9ca3a3;
+    display: block;
+    margin: .3em auto;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
