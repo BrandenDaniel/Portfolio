@@ -48,7 +48,7 @@ header {
   font-size: .63em;
   color: #91a3a3;
   background-color: rgba(0,0,0,.3);
-  padding: 2px 0;
+  padding: 2px 0 1px 0;
   width: 196px;
   margin: auto;
 }
