@@ -20,6 +20,7 @@ body {
 
 .hr-line {
   margin: .5em 0;
+  border-top: 1px solid rgba(255,255,255,.2);
 }
 
 /*HEADER*/
@@ -31,7 +32,7 @@ header {
 .header-spacing {
   text-align: center;
   padding: .85em .65em .15em .65em;
-  width: 260px;
+  width: 225px;
   margin: 0 auto;
 }
 
@@ -46,6 +47,8 @@ header {
   font-family: 'Montserrat', helvetica;
   font-size: .65em;
   color: #91a3a3;
+  background-color: rgba(0,0,0,.3);
+  padding: 2px 0;
 }
 
 /*PROFILE PICTURE STORY CONTAINER*/
@@ -87,12 +90,12 @@ header {
 }
 
 .projects {
-  margin: 0 1.55em;
+  margin: 0 1.8em;
 }
 
 .project-title {
   border-radius: 2px;
-  color: #9ca3a3;
+  color: rgba(255,255,255,.5);
   font-weight: 600;
   font-size: .85em;
   font-family: "Roboto", helvetica;
@@ -118,7 +121,7 @@ header {
 }
 
 .about, .contact, .projects {
-  font-size: .65em;
+  font-size: .6em;
   font-weight: 500;
   color: #222;
   font-family: "Montserrat", helvetica;
@@ -141,15 +144,17 @@ header {
 }
 
 .work-description {
-  background-color: rgba(0, 0, 0, .25);
+  background-color: rgba(0, 0, 0, .2);
   width: 70%;
   padding: 1em .75em 0.2em .75em;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0 5px 10px -4px rgba(0, 0, 0, .2);
-  color: #999;
+  color: rgba(255,255,255,.5);
   font-family: "Scada", helvetica;
   line-height: 1em;
   text-align: left;
+  border-left: 1px solid rgba(255,255,255,.2);
+  border-right: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
 .r .work-description {
@@ -237,7 +242,7 @@ a:hover {
   border-radius: 50%;
   padding: .35em;
   width: 43px;
-  color: #999;
+  color: rgba(255,255,255,.45);
 }
 
 .email, .mobile, .github, .linkedin {
@@ -247,20 +252,20 @@ a:hover {
   background: rgba(0, 0, 0, .15);
   padding: .5em 0 .2em 0;
   border-radius: 4px;
-  border: 1px solid #444;
+  border: 1px solid rgba(255,255,255,.2);
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
   font-size: .55em;
-  color: #999;
+  color: rgba(255,255,255,.45);
   margin: 0 auto .5em auto;
-  padding: .45em;
+  padding: .35em;
   border-radius: 4px;
   width: 150px;
 }
 
 .social h3 a {
-  color: #9ca3a3;
+  color: rgba(255,255,255,.45);
 }
 
 .mobile i:hover, .email i:hover, .github i:hover, .linkedin i:hover {
@@ -276,15 +281,15 @@ a:hover {
   padding-bottom: 0;
   border-radius: 4px;
   font-family: "Scada", helvetica;
-  color: #222;
-  line-height: 1.2em;
+  color: rgba(255,255,255,.45);
+  line-height: 1.25em;
   font-size: .75em;
   font-weight: 400;
   margin: 0 auto;
 }
 
 .my-story b {
-  color: #9ca3a3;
+  color: #333;
   font-size: 1.1em;
   padding: 0 .1em;
 }
@@ -308,26 +313,23 @@ a:hover {
 }
 
 .my-story p {
-  background-color: rgba(0, 0, 0, .1);
-  padding: .35em;
-  padding-left: .5em;
+  background-color: rgba(0, 0, 0, .15);
+  padding: .4em .5em;
   display: inline-block;
-  margin-bottom: .65em;
+  margin-bottom: .7em;
+  margin-right: .5em;
   border-radius: 2px;
+  border: 1px solid rgba(255,255,255,.2);
 }
 
 .greeting {
   font-size: 2em;
-  margin: .25em 0 0em 0 !important;
-  color: #9ca3a3;
-  font-family: "Montserrat", helvetica;
-  background-color: rgba(0, 0, 0, .1) !important;
-  padding: .45em .35em .35em .35em !important;
+  padding-left: .35em !important;
 
 }
 
 .my-story a {
-  color: #000;
+  color: #333;
   text-decoration: underline !important;
   font-weight: 600;
 }
@@ -447,7 +449,7 @@ a:hover {
     margin: 0 1.9em;
   }
   .header-spacing {
-    width: 245px;
+    width: 222px;
     padding-bottom: 0em;
   }
   .name {
@@ -506,16 +508,19 @@ a:hover {
     background-color: rgba(255, 255, 255, 0);
     border-radius: 50%;
     padding: .4em;
-    width: 36px;
-    color: #999;
+    width: 37px;
+    color: rgba(255,255,255,.45);
   }
 
   .line-2 {
     height: 3px;
     width: 10px;
-    background: #9ca3a3;
+    color: rgba(255,255,255,.45);
     display: block;
     margin: .3em auto;
+  }
+  .email h3, .mobile h3, .github h3, .linkedin h3 {
+    padding: .15em;
   }
 
 }
@@ -562,7 +567,7 @@ a:hover {
     font-size: .59em;
   }
   .header-spacing {
-    width: 230px;
+    width: 205px;
     padding-bottom: 0;
   }
   body {
@@ -577,7 +582,7 @@ a:hover {
   }
   .my-story {
     font-size: .75em;
-    line-height: 1.16em;
+    line-height: 1.25em;
     width: 53%;
   }
   body {
