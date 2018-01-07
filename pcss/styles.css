@@ -462,6 +462,9 @@ a:hover {
     line-height: 1.35em;
     width: 70%;
   }
+  .my-story p {
+    padding: .6em .6em .4em .6em;
+  }
   .description {
     font-size: .63em;
     line-height: 1.35em;
