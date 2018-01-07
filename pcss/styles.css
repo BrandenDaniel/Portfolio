@@ -309,7 +309,7 @@ a:hover {
 
 .my-story p {
   background-color: rgba(0, 0, 0, .15);
-  padding: .4em .5em;
+  padding: .6em .6em .55em .6em;
   display: inline-block;
   margin-bottom: .7em;
   margin-right: .5em;
@@ -458,8 +458,8 @@ a:hover {
   }
   .my-story {
     padding: 1.2em !important;
-    font-size: .7em;
-    line-height: 1.2em;
+    font-size: .65em;
+    line-height: 1.35em;
     width: 70%;
   }
   .description {
