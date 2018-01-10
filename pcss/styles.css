@@ -292,7 +292,7 @@ a:hover {
   margin-bottom: .85em;
   margin-right: .5em;
   border-radius: 4px;
-  line-height: 1.35em;
+  line-height: 1.25em;
   font-size: 1em;
   font-weight: 600;
 
@@ -304,8 +304,8 @@ a:hover {
 
 .my-story h1 {
   margin-bottom: .15em;
-  color: rgba(255,255,255,.45);
-  font-size: 2.3em;
+  color: rgba(255,255,255,.35);
+  font-size: 2.1em;
 }
 
 .text {
@@ -321,7 +321,7 @@ a:hover {
 .line-2 {
   height: 3px;
   width: 10px;
-  color: rgba(255,255,255,.45);
+  background: rgba(255,255,255,.45);
   display: block;
   margin: .4em auto;
 }
@@ -333,7 +333,7 @@ a:hover {
 }
 
 .my-story a {
-  color: rgba(255,255,255,.45);
+  color: rgba(255,255,255, .35);
   text-decoration: underline !important;
   font-weight: 600;
 }
@@ -519,7 +519,7 @@ a:hover {
   }
 
   .line-2 {
-    height: 3px;
+    height: 2px;
     width: 10px;
     display: block;
     margin: .3em auto;
