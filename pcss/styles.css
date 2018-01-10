@@ -101,7 +101,7 @@ header {
   color: rgba(255,255,255,.5);
   font-weight: 600;
   font-size: .85em;
-  font-family: "Roboto", helvetica;
+  font-family: "Actor", helvetica;
   width: 100%;
   background: rgba(0, 0, 0, .1);
   display: inline;
@@ -156,7 +156,7 @@ header {
   padding: 1em .75em 0.2em .75em;
   border-radius: 0px 0px 4px 4px;
   color: rgba(255,255,255,.4);
-  font-family: "Scada", helvetica;
+  font-family: "Actor", helvetica;
   line-height: .9em;
   text-align: left;
   border-left: 1px solid rgba(255,255,255,.15);
@@ -473,8 +473,8 @@ a:hover {
     line-height: 1.35em;
   }
   .description {
-    font-size: .63em;
-    line-height: 1.35em;
+    font-size: .66em;
+    line-height: 1.3em;
   }
   .lang-lib {
     font-size: .90em;
