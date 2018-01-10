@@ -155,7 +155,7 @@ header {
   width: 70%;
   padding: 1em .75em 0.2em .75em;
   border-radius: 0px 0px 4px 4px;
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.5);
   font-family: "Actor", helvetica;
   line-height: .9em;
   text-align: left;
@@ -473,7 +473,7 @@ a:hover {
     line-height: 1.35em;
   }
   .description {
-    font-size: .66em;
+    font-size: .68em;
     line-height: 1.3em;
   }
   .lang-lib {
