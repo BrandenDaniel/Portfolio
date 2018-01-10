@@ -157,7 +157,7 @@ header {
   border-radius: 0px 0px 4px 4px;
   color: rgba(255,255,255,.4);
   font-family: "Scada", helvetica;
-  line-height: 1em;
+  line-height: .9em;
   text-align: left;
   border-left: 1px solid rgba(255,255,255,.15);
   border-right: 1px solid rgba(255,255,255,.15);
@@ -174,7 +174,7 @@ header {
 
 .description {
   margin-bottom: .5em;
-  font-size: .7em;
+  font-size: .75em;
   font-weight: 500;
 }
 
@@ -502,7 +502,7 @@ a:hover {
   } */
 
   body {
-    box-shadow: 0 0 500em 10em rgba(0, 0, 0, .15) inset;
+    box-shadow: 0 0 500em 10em rgba(0, 0, 0, 0) inset;
   }
 
   .mobile, .linkedin {
@@ -551,7 +551,7 @@ a:hover {
     padding-bottom: 0;
   }
   body {
-    box-shadow: 0 0 500em 9em rgba(0, 0, 0, .15) inset;
+    box-shadow: 0 0 500em 9em rgba(0, 0, 0, 0) inset;
   }
 }
 
