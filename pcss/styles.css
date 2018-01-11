@@ -186,7 +186,7 @@ header {
   color: rgba(255,255,255,.5);
   font-size: .8em;
   background: rgba(255,255,255,.1);
-  padding: .1em .5em .1em .5em;
+  padding: .15em .5em .15em .5em;
   border-radius: 9px;
 }
 
@@ -491,9 +491,7 @@ a:hover {
     font-size: .90em;
   }
   .project-title {
-    font-size: .85em;
-    margin-left: -.4em !important;
-
+    font-size: 1em;
   }
 
   /* .download-cv {
