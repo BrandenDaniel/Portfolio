@@ -20,7 +20,7 @@ body {
 }
 
 .hr-line {
-  margin: .5em 0;
+  margin: .4em 0;
   border-top: 1px solid rgba(255,255,255,.2);
 }
 
@@ -98,19 +98,18 @@ header {
 
 .project-title {
   border-radius: 2px;
-  color: rgba(255,255,255,.5);
-  font-weight: 600;
-  font-size: .85em;
+  color: rgba(0,0,0,.5);
+  font-size: 1.1em;
   font-family: "Actor", helvetica;
   width: 100%;
-  background: rgba(0, 0, 0, .1);
   display: inline;
-  padding: 4px 6px;
-  margin-left: -.4em;
+
 }
 
 .project-title a {
   color: rgba(255,255,255,.5);
+  font-weight: 500;
+
 }
 
 .project-title a:hover {
@@ -119,7 +118,7 @@ header {
 
 .thumbnail-image {
   width: 70%;
-  margin: 3.5em 0 3.2em 0;
+  margin: 2em 0 3.2em 0;
   border-radius: 4px 4px 0 0;
 }
 
@@ -153,7 +152,7 @@ header {
 .work-description {
   background-color: rgba(0, 0, 0, .2);
   width: 70%;
-  padding: 1em .75em 0.2em .75em;
+  padding: .75em .65em 0.1em .65em;
   border-radius: 0px 0px 4px 4px;
   color: rgba(255,255,255,.5);
   font-family: "Actor", helvetica;
@@ -178,9 +177,26 @@ header {
   font-weight: 500;
 }
 
+.external {
+  margin: .55em 0 0 -.2em;
+}
+
+.external a {
+  margin-right: .8em;
+  color: rgba(255,255,255,.5);
+  font-size: .8em;
+  background: rgba(255,255,255,.1);
+  padding: .1em .5em .1em .5em;
+  border-radius: 9px;
+}
+
+.external a:hover {
+  text-decoration: underline;
+}
+
 .lang-lib {
   display: block;
-  padding: .5em 0 0 0;
+  padding: .3em 0 0 0;
   margin-top: .35em;
 }
 
@@ -385,19 +401,14 @@ a:hover {
   }
   .thumbnail-image {
     width: 70%;
+    margin-top: 2em;
   }
   .work-description {
     width: 70%;
     margin: -3.4em auto 0 auto !important;
   }
-  .project-title {
-    margin-left: -.4em;
-  }
   .l, .r {
     text-align: center;
-  }
-  .story-container {
-    margin-top: 1.5em !important;
   }
   .my-story {
     width: 60%;
@@ -411,7 +422,7 @@ a:hover {
     margin: 1em auto;
   }
   .story-container {
-    margin: 3em auto 0 auto;
+    margin: 1.5em auto 0 auto;
     width: 100%;
     height: 100%;
   }
@@ -484,9 +495,7 @@ a:hover {
     margin-left: -.4em !important;
 
   }
-  .built {
-    font-size: .7em !important;
-  }
+
   /* .download-cv {
     width: 97px;
     padding: .1em 0 .1em 0;
