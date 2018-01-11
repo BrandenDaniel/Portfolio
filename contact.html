@@ -16,8 +16,7 @@
 </head>
 
 <body>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script>
+  <!-- <script>
     $('body').css('display', 'none');
     $(document).ready(function() {
       $('body').fadeIn();
@@ -37,16 +36,27 @@
     setTimeout(function() {
       $('body').fadeIn();
     }, 1000);
-  </script>
+  </script> -->
 
 
   <!-- HEADER -->
   <header>
     <div class="header-spacing">
-      <h1 class="name">Branden D.</h1>
+      <h1 class="name">Branden Daniel Ng</h1>
       <p class="title">Front-End Developer / Web Designer</p>
     </div>
+    <div class="hamburger-container">
+      <i class="fa fa-bars hamburger-icon" aria-hidden="true"></i>
+    </div>
   </header>
+
+  <nav class="mobile-nav">
+    <ul class="nav-list">
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="pindex.html">PROJECTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
 
   <!-- FEATURED WORK -->
   <main class="featured-work">
@@ -60,9 +70,9 @@
         </ul>
       </div>
       <span class="nav-line-bottom"></span>
-      <!-- <div class="row">
-        <h1 class="get-touch">Let's get in touch.</h1>
-      </div> -->
+      <div class="row">
+        <h1 class="get-touch">Let's Get In Touch.</h1>
+      </div>
 
       <div class="social">
         <div class="mobile">
@@ -95,6 +105,7 @@
     </footer> -->
 
   <!-- JQuery, Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script src="pjs/effects.js"></script>

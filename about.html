@@ -6,10 +6,9 @@
   <title>My Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono%7CScada%7CRoboto+Slab%7CMontserrat%7CActor" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono%7CScada%7CRoboto+Slab%7CMontserrat%7CActor%7CLobster+Two" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <!-- Custom CSS -->
@@ -17,8 +16,7 @@
 </head>
 
 <body>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script>
+  <!-- <script>
     $('body').css('display', 'none');
     $(document).ready(function() {
       $('body').fadeIn();
@@ -38,16 +36,27 @@
     setTimeout(function() {
       $('body').fadeIn();
     }, 1000);
-  </script>
+  </script> -->
 
 
   <!-- HEADER -->
   <header>
     <div class="header-spacing">
-      <h1 class="name">Branden D.</h1>
+      <h1 class="name">Branden Daniel Ng</h1>
       <p class="title">Front-End Developer / Web Designer</p>
     </div>
+    <div class="hamburger-container">
+      <i class="fa fa-bars hamburger-icon" aria-hidden="true"></i>
+    </div>
   </header>
+
+  <nav class="mobile-nav">
+    <ul class="nav-list">
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="pindex.html">PROJECTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
 
   <!-- FEATURED WORK -->
   <main class="featured-work">
@@ -67,17 +76,13 @@
             <div class="text">
               <!-- <p class="greeting">Hi!</p> -->
               <h1>A little backstory...</h1>
-                <p>I've been expoloring web-coding for just under a year, and have developed a strong interest in constructing awesome & intuitive websites.
+              <p>I've been expoloring web-coding for just under a year, and have developed a strong interest in constructing awesome & intuitive websites. Shown in my <a href="pindex.html">projects</a>, I've created web-apps & sites to demonstrate my capabilities
+                and experience in responsive web-designs.</p>
 
-                Shown in my <a href="pindex.html">projects</a>, I've created web-apps & sites to demonstrate
-                my capabilities and experience in responsive web-designs.</p>
+              <p>Continuing my coding advantures, my next milestone is to learn and work with people who share the same passion as I do. So, if you see potential, or perhaps could make use of me, my <a href="contact.html">contact's</a> here.</p>
 
-                <p>Continuing my coding advantures, my next milestone is to learn and work with people who share the same passion as I do.
-
-                So, if you see potential, or perhaps could make use of me, my <a href="contact.html">contact's</a> here.</p>
-
-                <p>Always improving, always challenged.</p>
-                <p>Branden</p>
+              <p>Always improving, always challenged.</p>
+              <p>Branden</p>
               <!-- <div class="download-cv">
                   <a href="#">Download My CV</a>
                 </div> -->
@@ -88,9 +93,6 @@
           </div>
         </div>
       </div>
-      <div clas="main-img-container">
-
-      </div>
 
     </div>
   </main>
@@ -100,6 +102,7 @@
     </footer> -->
 
   <!-- $, Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script src="pjs/effects.js"></script>

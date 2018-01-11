@@ -109,3 +109,11 @@ $('.linkedin h3 a').hover(function() {
   });
   $(this).css('text-decoration', 'none');
 });
+
+var hamburger = $('.hamburger-icon');
+var nav = $('.mobile-nav');
+
+$('.hamburger-icon').click(function(){
+   $('.mobile-nav').css('display', 'block');
+   $('body').css('overflow', 'hidden');
+});
