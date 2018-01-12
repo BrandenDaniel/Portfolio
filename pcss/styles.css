@@ -133,13 +133,11 @@ header {
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  color: #91a3a3;
-  font-weight: 600;
+  color: rgba(255,255,255,.4);
 }
 
 .active {
-  color: #91a3a3;
-  font-weight: 600;
+  color: rgba(255,255,255,.4);
   transition: 1s;
 }
 
@@ -152,6 +150,18 @@ header {
 
 .work {
   margin: 0 auto 0 auto;
+}
+
+.personal-work {
+  font-size: 1.4em;
+  margin: 3em 0 0 0;
+  font-family: 'Actor', helvetica;
+  font-weight: bold;
+  background: rgba(255,255,255,.15);
+  display: inline-block;
+  padding: .25em .5em;
+  border-radius: 20px 0 20px 0;
+  color: #333;
 }
 
 .work-description {
@@ -191,12 +201,14 @@ header {
   color: rgba(255,255,255,.5);
   font-size: .8em;
   background: rgba(255,255,255,.1);
-  padding: .15em .5em .15em .5em;
+  padding: .15em .6em .15em .6em;
   border-radius: 9px;
 }
 
 .external a:hover {
   text-decoration: underline;
+  color: #333;
+  font-weight: bold;
 }
 
 .lang-lib {
@@ -454,7 +466,6 @@ a:hover {
   }
   .mobile-nav {
     background: rgba(79,92,114,.85);
-
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -471,6 +482,11 @@ a:hover {
     display: block;
   }
 
+  .personal-work {
+     margin-top: .5em;
+     font-size: 1.5em;
+  }
+
   @keyframes modalopen {
     from{opacity: 0}
     to{opacity: 1}
@@ -484,17 +500,18 @@ a:hover {
     padding: .2em 0;
   }
   .nav-list a {
-    font-size: .9em;
+    font-size: 1em;
     color: #ccc;
     font-weight: bold;
     font-family: "Montserrat", helvetica;
   }
   .thumbnail-image {
     width: 90% !important;
+    margin-top: .75em;
   }
   .work-description, .project-title {
     width: 90% !important;
-    margin: -3.4em auto 0 auto !important;
+    margin: -3.4em auto 1em auto !important;
   }
   .menu {
     display: none;
@@ -614,7 +631,6 @@ a:hover {
     font-size: 1.5em;
     text-align: center;
     margin: 2em auto 0 auto;
-
   }
 
 }
