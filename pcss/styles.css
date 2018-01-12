@@ -103,7 +103,6 @@ header {
   font-family: "Actor", helvetica;
   width: 100%;
   display: inline;
-
 }
 
 .project-title a {
@@ -153,15 +152,25 @@ header {
 }
 
 .personal-work {
-  font-size: 1.4em;
-  margin: 3em 0 0 0;
+  font-size: 1.1em;
+  margin: 3em 0 .15em -.5em;
   font-family: 'Actor', helvetica;
   font-weight: bold;
-  background: rgba(255,255,255,.15);
   display: inline-block;
   padding: .25em .5em;
-  border-radius: 20px 0 20px 0;
   color: #333;
+}
+
+.personal {
+  border-bottom: 2px solid rgba(255,255,255,.4);
+  border-right: 2px solid rgba(255,255,255,.4);
+  padding: .2em .5em .2em .1em;
+}
+
+.inspired {
+  border-top: 2px solid rgba(255,255,255,.4);
+  padding: .2em .1em .2em .5em;
+  margin-left: -2px;
 }
 
 .work-description {
@@ -483,9 +492,11 @@ a:hover {
   }
 
   .personal-work {
-     margin-top: .5em;
-     font-size: 1.5em;
+    font-size: 1.1em;
+    margin: 2em 0 2em 0;
   }
+
+
 
   @keyframes modalopen {
     from{opacity: 0}
@@ -507,7 +518,7 @@ a:hover {
   }
   .thumbnail-image {
     width: 90% !important;
-    margin-top: .75em;
+    margin-top: 1em;
   }
   .work-description, .project-title {
     width: 90% !important;
@@ -599,9 +610,9 @@ a:hover {
     margin: 2.5em auto 0em auto;
   } */
 
-  .mobile, .linkedin {
+  .mobile, .linkedin, .email, .github {
     display: block;
-    margin: 0 auto;
+    margin: 2em auto;
   }
 
   .social i {
@@ -613,7 +624,7 @@ a:hover {
   }
 
   .social {
-    margin-top: 30%;
+    margin-top: 20%;
   }
 
   .line-2 {
