@@ -171,7 +171,7 @@ header {
 
 .inspired {
   border: 2px solid rgba(255,255,255,.4);
-  padding: .23em .35em .23em .35em;
+  padding: .25em .35em .25em .35em;
   color: rgba(255,255,255,.4);
 }
 
@@ -270,15 +270,6 @@ a:hover {
   text-align: left;
 }
 
-/* .get-touch {
-  margin: 4em auto 0em auto;
-  font-size: 1.35em;
-  padding: .75em 1em;
-  font-family: "Montserrat", helvetica;
-  color: #222;
-  text-decoration: underline;
-} */
-
 .social {
   margin: 2em auto 0 auto;
 }
@@ -300,6 +291,31 @@ a:hover {
   padding: .5em 0 .2em 0;
   border-radius: 3px;
   border: 1px solid rgba(255,255,255,.15);
+}
+.get-touch {
+  font-family: 'Actor', helvetica;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  margin: .35em auto;
+  color: rgba(0,0,0,.5);
+}
+
+.social {
+  margin-top: 2em;
+}
+
+.mobile, .linkedin, .email, .github {
+  display: inline-block;
+  margin: .1em .9em;
+}
+
+.mobile, .linkedin {
+  border-radius: 10px 0 10px 0;
+}
+
+.email, .github {
+  border-radius: 0 10px 0 10px;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
@@ -530,7 +546,7 @@ a:hover {
   .hamburger-container {
     display: inline-block;
     float: right;
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: rgba(255,255,255,.4);
     margin: .45em .6em 0 0;
   }
@@ -554,7 +570,7 @@ a:hover {
     margin: -.25em 0 0 -.1em;
     padding: 0em .35em .35em 0em;
     background-color: rgba(0,0,0,.3);
-    box-shadow: 0em .2em .6em rgba(0, 0, 0, .2);
+    box-shadow: 0em .15em .5em rgba(0, 0, 0, .2);
   }
   .header-spacing {
     width: 200px;
@@ -564,6 +580,7 @@ a:hover {
   .name {
     font-size: 1.15em;
     color: rgba(255,255,255,.4);
+    margin-bottom: .2em;
   }
   .title {
     font-size: .65em;
@@ -571,7 +588,7 @@ a:hover {
     background-color: rgba(255,255,255,.2);
     color: rgba(0,0,0,.5);
     font-weight: 600;
-    padding: 2px 0 1px 0;
+    padding: 1px 0 1px 0;
 
   }
   .story-container {
@@ -606,27 +623,15 @@ a:hover {
     display: none;
   }
   .get-touch {
-    font-family: 'Actor', helvetica;
-    font-size: 1.5em;
-    text-align: center;
-    margin: 2em auto 0 auto;
+    font-size: 1em;
   }
-
   .social {
-    margin-top: 1em;
+    margin-top: 2.5em;
   }
 
   .mobile, .linkedin, .email, .github {
     display: inline-block;
-    margin: .15em auto;
-  }
-
-  .mobile, .linkedin {
-    border-radius: 10px 0 10px 0;
-  }
-
-  .email, .github {
-    border-radius: 0 10px 0 10px;
+    margin: .13em .6em;
   }
 
   .social i {
