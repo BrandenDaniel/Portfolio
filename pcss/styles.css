@@ -448,14 +448,14 @@ a:hover {
     position: relative;
   }
   .mobile-nav {
-    background: rgba(211,211,211,.8);
+    background: rgba(50,50,50,.85);
     height: 100vh;
     width: 100vw;
     position: absolute;
     z-index: 10;
     display: none;
     animation-name: modalopen;
-    animation-duration: .7s;
+    animation-duration: .5s;
   }
 
   @keyframes modalopen {
@@ -471,8 +471,8 @@ a:hover {
     padding: .4em 0;
   }
   .nav-list a {
-    font-size: 1.1em;
-    color: #333;
+    font-size: .9em;
+    color: #999;
     font-weight: bold;
     font-family: "Montserrat", helvetica;
   }
@@ -489,9 +489,9 @@ a:hover {
   .hamburger-container {
     display: inline-block;
     float: right;
-    font-size: 2.2em;
-    color: rgba(255,255,255,.5);
-    margin: .3em .7em 0 0;
+    font-size: 1.8em;
+    color: rgba(255,255,255,.4);
+    margin: .45em .6em 0 0;
   }
   .featured-title {
     margin-bottom: -.5em;
@@ -510,8 +510,10 @@ a:hover {
     margin: 0 1.9em;
   }
   header {
-    margin: 0;
-    padding: .15em .35em;
+    margin: -.25em 0 0 -.1em;
+    padding: 0em .35em .35em 0em;
+    background-color: rgba(0,0,0,.3);
+    box-shadow: 0em .1em .45em rgba(0, 0, 0, .2);
   }
   .header-spacing {
     width: 200px;
@@ -520,22 +522,29 @@ a:hover {
   }
   .name {
     font-size: 1.15em;
+    color: rgba(255,255,255,.4);
   }
   .title {
-    font-size: .64em;
+    font-size: .65em;
     width: 175px;
+    background-color: rgba(255,255,255,.2);
+    color: rgba(0,0,0,.5);
+    font-weight: 600;
+    padding: 2px 0 1px 0;
+
   }
   .story-container {
-    margin-top: 3em;
+    margin-top: .6em;
   }
   .my-story {
-    width: 70%;
+    width: 80%;
   }
   .my-story p {
     line-height: 1.35em;
+    font-size: 1.1em;
+
   }
   .description {
-    font-size: .68em;
     line-height: 1.3em;
   }
   .lang-lib {
@@ -604,7 +613,7 @@ a:hover {
     line-height: 1.2em;
   }
   .my-story {
-    width: 80%;
+    width: 85%;
   }
   .work-description, .project-title {
     width: 90%;
