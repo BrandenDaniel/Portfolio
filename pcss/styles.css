@@ -491,7 +491,7 @@ a:hover {
   .me-2 {
     width: 39%;
     border-radius: 50%;
-    margin: 0 auto 4em 0;
+    margin: 0 auto 2.5em 0;
     display: inline;
   }
 
@@ -584,9 +584,13 @@ a:hover {
   .my-story h1 {
     border-right: 2px solid #000;
     padding-right: .3em;
-    margin: -2.5em .85em .5em 0;
+    margin: -1.85em .85em .5em 0;
     text-align: right;
     display: block;
+  }
+  .code {
+    font-size: 2em;
+    margin-top: 5em;
   }
   .description {
     line-height: 1.3em;
