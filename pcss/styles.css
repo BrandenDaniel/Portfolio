@@ -479,7 +479,7 @@ a:hover {
     width: 100vw;
     position: absolute;
     z-index: 10;
-    display: ;
+    display: none;
     animation-name: modalopen;
     animation-duration: .5s;
   }
