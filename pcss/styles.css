@@ -202,7 +202,7 @@ header {
 }
 
 .external {
-  margin: .55em 0 0 -.2em;
+  margin: .55em 0 0 0;
 }
 
 .external a {
@@ -210,8 +210,8 @@ header {
   color: #111;
   font-size: .8em;
   background: #eee;
-  padding: .15em .6em .15em .6em;
-  border-radius: 9px;
+  padding: .2em .35em .10em .35em;
+  border-radius: 5px;
   font-weight: bold;
 }
 
@@ -477,7 +477,7 @@ a:hover {
     position: relative;
   }
   .mobile-nav {
-    background: rgba(79,92,114,.85);
+    background: rgba(79,92,114,.95);
     height: 100vh;
     width: 100vw;
     position: absolute;
