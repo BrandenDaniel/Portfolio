@@ -6,9 +6,9 @@
 }
 
 body {
-  background: linear-gradient(135deg, #92a8b2 ,#776784);
-  background-color: #6b827d;
-  box-shadow: 0 0 300em 20em rgba(0, 0, 0, .1) inset;
+  /* background: linear-gradient(135deg, #92a8b2 ,#776784);
+  background-color: #6b827d; */
+  background: #eee;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -21,7 +21,7 @@ body {
 
 .hr-line {
   margin: .4em 0;
-  border-top: 1px solid rgba(255,255,255,.2);
+  border-top: 1px solid rgba(255,255,255,.1);
 }
 
 /*HEADER*/
@@ -47,8 +47,8 @@ header {
 .title {
   font-family: 'Actor', helvetica;
   font-size: .8em;
-  color: rgba(255,255,255,.45);
-  background-color: rgba(0,0,0,.2);
+  color: #fff;
+  background-color: rgba(0,0,0,.75);
   padding: 2px 0 1px 0;
   width: 220px;
   margin: auto;
@@ -110,7 +110,7 @@ header {
 .about, .contact, .projects {
   font-size: .8em;
   font-weight: 600;
-  color: #333;
+  color: #777;
   font-family: "Actor", helvetica;
   display: inline-block;
   padding: .3em;
@@ -118,11 +118,11 @@ header {
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  color: rgba(255,255,255,.5);
+  color: #000;
 }
 
 .active {
-  color: rgba(255,255,255,.5);
+  color: #000;
   transition: 1s;
 }
 
@@ -163,7 +163,6 @@ header {
 
 .project-title {
   border-radius: 2px;
-  color: rgba(0,0,0,.5);
   font-size: 1.1em;
   font-family: "Actor", helvetica;
   width: 100%;
@@ -171,18 +170,18 @@ header {
 }
 
 .project-title a {
-  color: rgba(255,255,255,.5);
+  color: #eee;
   font-weight: 500;
 }
 
 .work-description {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, .75);
   width: 70%;
   padding: .75em .65em 0.1em .65em;
   border-radius: 0px 0px 4px 4px;
-  color: rgba(255,255,255,.5);
+  color: #eee;
   font-family: "Actor", helvetica;
-  line-height: .9em;
+  line-height: 1em;
   text-align: left;
   border-left: 1px solid rgba(255,255,255,.15);
   border-right: 1px solid rgba(255,255,255,.15);
@@ -200,7 +199,6 @@ header {
 .description {
   margin-bottom: .5em;
   font-size: .75em;
-  font-weight: 500;
 }
 
 .external {
@@ -209,11 +207,12 @@ header {
 
 .external a {
   margin-right: .8em;
-  color: #ccc;
+  color: #111;
   font-size: .8em;
-  background: rgba(255,255,255,.15);
+  background: #eee;
   padding: .15em .6em .15em .6em;
   border-radius: 9px;
+  font-weight: bold;
 }
 
 .external a:hover {
@@ -280,14 +279,14 @@ a:hover {
   border-radius: 50%;
   padding: .35em;
   width: 43px;
-  color: rgba(255,255,255,.45);
+  color: #fff;
 }
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
   width: 150px;
   margin: .8em .3em;
-  background: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .7);
   padding: .5em 0 .2em 0;
   border-radius: 3px;
   border: 1px solid rgba(255,255,255,.15);
@@ -298,7 +297,8 @@ a:hover {
   font-weight: bold;
   text-align: center;
   margin: .35em auto;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .7);
+
 }
 
 .social {
@@ -320,7 +320,7 @@ a:hover {
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
   font-size: .55em;
-  color: rgba(255,255,255,.45);
+  color: #fff;
   margin: 0 auto .5em auto;
   padding: .35em;
   border-radius: 4px;
@@ -328,7 +328,7 @@ a:hover {
 }
 
 .social h3 a {
-  color: rgba(255,255,255,.45);
+  color: #fff;
 }
 
 .mobile i:hover, .email i:hover, .github i:hover, .linkedin i:hover {
@@ -343,7 +343,7 @@ a:hover {
   padding: 1em;
   padding-bottom: 0;
   font-family: 'Actor', helvetica;
-  color: rgba(0,0,0,.4);
+  color: #666;
   font-size: .83em;
   margin: 0 auto;
 }
@@ -352,20 +352,15 @@ a:hover {
   margin-bottom: .85em;
   margin-right: .5em;
   border-radius: 4px;
-  line-height: 1.25em;
-  font-size: 1em;
-  font-weight: 600;
-
-}
-
-.my-story h1 span {
-  text-decoration: underline;
+  line-height: 1.3em;
+  font-size: 1.1em;
 }
 
 .my-story h1 {
   margin-bottom: .15em;
-  color: rgba(255,255,255,.5);
-  font-size: 2.1em;
+  color: #000;
+  font-weight: bold;
+  font-size: 2.3em;
 }
 
 .text {
@@ -381,20 +376,15 @@ a:hover {
 .line-2 {
   height: 3px;
   width: 10px;
-  background: rgba(255,255,255,.5);
+  background: #fff;
   display: block;
   margin: .4em auto;
 }
 
-.greeting {
-  font-size: 2em;
-  padding-left: .35em !important;
-
-}
-
 .my-story a {
-  color: rgba(255,255,255, .45);
+  color: #000;
   text-decoration: underline !important;
+  font-weight: bold;
 }
 
 /* .download-cv {
@@ -474,9 +464,6 @@ a:hover {
     display: block;
     margin: 0 auto .85em auto;
   }
-  body {
-    box-shadow: 0 0 500em 10em rgba(0, 0, 0, .15) inset;
-  }
 }
 
 @media (min-width: 576px) {
@@ -487,7 +474,6 @@ a:hover {
 
 @media (max-width: 575px) {
   body {
-    box-shadow: 0 0 500em 10em rgba(0, 0, 0, 0.1) inset;
     position: relative;
   }
   .mobile-nav {
@@ -546,7 +532,7 @@ a:hover {
     display: inline-block;
     float: right;
     font-size: 1.5em;
-    color: #444;
+    color: #ddd;
     margin: .45em .6em 0 0;
   }
   .featured-title {
@@ -568,7 +554,7 @@ a:hover {
   header {
     margin: -.25em 0 0 -.1em;
     padding: 0em .35em .35em 0em;
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(0,0,0,.8);
     box-shadow: 0em .1em .4em rgba(0, 0, 0, .1);
   }
   .header-spacing {
@@ -578,13 +564,13 @@ a:hover {
   }
   .name {
     font-size: 1.15em;
-    color: #444;
+    color: #ddd;
     margin-bottom: .2em;
   }
   .title {
     font-size: .65em;
     width: 175px;
-    background-color: rgba(255,255,255,.4);
+    background-color: #ddd;
     color: #444;
     font-weight: 600;
     padding: 1px 0 1px 0;
@@ -667,9 +653,6 @@ a:hover {
     width: 97% !important;
     margin: -3.4em auto 0 auto;
   }
-  body {
-    box-shadow: 0 0 500em 9em rgba(0, 0, 0, 0) inset;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -682,21 +665,10 @@ a:hover {
     line-height: 1em;
   }
 
-  body {
-    box-shadow: 0 0 300em 15em rgba(0, 0, 0, .15) inset;
-  }
 }
 
 @media (min-width: 390px) and (max-width: 575px) {
   .thumbnail-image, .work-description {
     width: 80%;
-  }
-}
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-  body {
-    box-shadow: 0 0 300em 20em rgba(0, 0, 0, .1) inset;
   }
 }
