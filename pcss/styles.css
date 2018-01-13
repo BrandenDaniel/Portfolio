@@ -114,6 +114,10 @@ header {
   transition: 1s;
 }
 
+.nav-line {
+  border-top: 1px solid rgba(255,255,255,.5);
+}
+
 /*FEATURED WORK//CONTACT//ABOUT / BODY*/
 
 .featured-work, .about-page, .contact-page {
@@ -475,7 +479,7 @@ a:hover {
     width: 100vw;
     position: absolute;
     z-index: 10;
-    display: none;
+    display: ;
     animation-name: modalopen;
     animation-duration: .5s;
   }
@@ -487,28 +491,22 @@ a:hover {
     display: inline;
   }
 
-  .personal-work {
-    font-size: 1.1em;
-    margin: 2em 0 2em 0;
-  }
-
   @keyframes modalopen {
     from{opacity: 0}
     to{opacity: 1}
   }
 
   .nav-list {
-    margin-top: 50%;;
+    margin-top: 50%;
     text-align: center;
   }
   .nav-list li {
-    padding: .2em 0;
+    padding: .5em;
   }
   .nav-list a {
-    font-size: 1em;
+    font-size: 1.3em;
     color: #ccc;
-    font-weight: bold;
-    font-family: "Montserrat", helvetica;
+    font-family: "Actor", helvetica;
   }
   .thumbnail-image {
     width: 90% !important;
