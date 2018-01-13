@@ -478,7 +478,7 @@ a:hover {
     position: relative;
   }
   .mobile-nav {
-    background: rgba(79,92,114,.97);
+    background: linear-gradient(-190deg, rgba(79,92,114,.97), rgba(73, 54, 79,.97));
     height: 100vh;
     width: 100vw;
     position: absolute;
