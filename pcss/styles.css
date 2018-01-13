@@ -353,14 +353,15 @@ a:hover {
   margin-right: .5em;
   border-radius: 4px;
   line-height: 1.3em;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .my-story h1 {
-  margin-bottom: .15em;
+  margin: 0 .7em .15em 0;
   color: #000;
   font-weight: bold;
   font-size: 2.3em;
+  text-align: right;
 }
 
 .text {
@@ -490,8 +491,8 @@ a:hover {
   .me-2 {
     width: 39%;
     border-radius: 50%;
-    margin: 0 auto 2em 0;
-    display: block;
+    margin: 0 auto 4em 0;
+    display: inline;
   }
 
   .personal-work {
@@ -584,8 +585,14 @@ a:hover {
   }
   .my-story p {
     line-height: 1.35em;
-    font-size: 1.1em;
-
+    font-size: 1.1em
+  }
+  .my-story h1 {
+    border-right: 2px solid #000;
+    padding-right: .3em;
+    margin: -2.5em .85em 1em 0;
+    text-align: right;
+    display:-block;
   }
   .description {
     line-height: 1.3em;
