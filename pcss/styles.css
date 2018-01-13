@@ -115,8 +115,11 @@ header {
 }
 
 .nav-line {
-  border-top: 2px solid rgba(0,0,0,.2);
-  box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  border-top: 2px solid rgba(54, 63, 79, .4);
+  /* box-shadow: 0 1px 3px rgba(0,0,0,.05); */
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
 }
 
 /*FEATURED WORK//CONTACT//ABOUT / BODY*/
@@ -475,7 +478,7 @@ a:hover {
     position: relative;
   }
   .mobile-nav {
-    background: rgba(79,92,114,.95);
+    background: rgba(79,92,114,.97);
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -502,7 +505,7 @@ a:hover {
     text-align: center;
   }
   .nav-list li {
-    padding: .5em;
+    padding: .7em;
   }
   .nav-list a {
     font-size: 1.3em;
