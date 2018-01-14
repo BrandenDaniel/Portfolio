@@ -115,11 +115,11 @@ header {
 }
 
 .nav-line {
-  border-top: 2px solid rgba(54, 63, 79, .4);
+  border-top: 2px solid rgba(0, 0, 0, .3);
   /* box-shadow: 0 1px 3px rgba(0,0,0,.05); */
   padding: 0;
   margin: 0 auto;
-  width: 80%;
+  width: 60%;
 }
 
 /*FEATURED WORK//CONTACT//ABOUT / BODY*/
@@ -266,47 +266,22 @@ a:hover {
 
 .email, .mobile, .github, .linkedin {
   display: inline-block;
-  width: 150px;
-  margin: .8em .3em;
+  width: 175px;
   background: rgba(0, 0, 0, .7);
   padding: .5em 0 .2em 0;
   border-radius: 3px;
   border: 1px solid rgba(255,255,255,.15);
-}
-.get-touch {
-  font-family: 'Actor', helvetica;
-  font-size: 1.4em;
-  font-weight: bold;
-  text-align: center;
-  margin: .35em auto;
-  color: rgba(0, 0, 0, .7);
-
-}
-
-.social {
-  margin-top: 2em;
-}
-
-.mobile, .linkedin, .email, .github {
   display: inline-block;
-  margin: .1em .9em;
-}
-
-.mobile, .linkedin {
-  border-radius: 10px 0 10px 0;
-}
-
-.email, .github {
-  border-radius: 0 10px 0 10px;
+  margin: 0 1em;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
-  font-size: .55em;
+  font-size: .65em;
   color: #fff;
   margin: 0 auto .5em auto;
-  padding: .35em;
+  padding: .35em .35em 0 .35em;
   border-radius: 4px;
-  width: 150px;
+  width: 175px;
 }
 
 .social h3 a {
@@ -317,6 +292,24 @@ a:hover {
   background: rgba(0, 0, 0, .2);
   color: #bbb;
   transition: .3s;
+}
+
+
+.mobile, .linkedin {
+  border-radius: 10px 0 10px 0;
+}
+
+.email, .github {
+  border-radius: 0 10px 0 10px;
+}
+
+.get-touch {
+  font-family: 'Actor', helvetica;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  margin: .45em auto .4em auto;
+  color: rgba(0, 0, 0, .7);
 }
 
 .my-story {
@@ -370,11 +363,6 @@ a:hover {
   color: #000;
   text-decoration: underline !important;
   font-weight: bold;
-}
-
-.code {
-  font-size: 2em;
-  margin-top: 2em;
 }
 
 /* .download-cv {
@@ -620,12 +608,16 @@ a:hover {
   .social {
     margin-top: 2.5em;
   }
-
   .mobile, .linkedin, .email, .github {
     display: inline-block;
     margin: .13em .6em;
+    width: 152px
   }
-
+  .email h3, .mobile h3, .github h3, .linkedin h3 {
+    padding: .15em;
+    font-size: .55em;
+    width: 152px;
+  }
   .social i {
     font-size: 1.2em;
     background-color: rgba(255, 255, 255, 0);
@@ -640,15 +632,10 @@ a:hover {
     display: block;
     margin: .4em auto;
   }
-  .email h3, .mobile h3, .github h3, .linkedin h3 {
-    padding: .15em;
-  }
 
-  .code {
-    font-size: 2em;
-    margin-top: 5em;
+  .container {
+    padding: 0;
   }
-
 }
 
 @media (max-width: 389px) {
