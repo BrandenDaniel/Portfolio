@@ -16,37 +16,15 @@
 </head>
 
 <body>
-  <!-- <script>
-    $('body').css('display', 'none');
-    $(document).ready(function() {
-      $('body').fadeIn();
-      $('a').on('click', function(event) {
-        var thetarget = this.getAttribute('target');
-        if (thetarget != "_blank") {
-          var thehref = this.getAttribute('href');
-          event.preventDefault();
-          $('body').fadeOut(function() {
-            //alert(thehref)
-            window.location = thehref;
-          });
-        }
-      });
-    });
-
-    setTimeout(function() {
-      $('body').fadeIn();
-    }, 1000);
-  </script> -->
-
 
   <!-- HEADER -->
-<nav class="desktop-nav">
-  <ul class="menu">
-    <li class="navi"><a href="about.html"><h2 class="about active">about</h2></a></li>
-    <li class="navi"><a href="pindex.html"><h2 class="projects">projects</h2></a></li>
-    <li class="navi"><a href="contact.html"><h2 class="contact">contact</h2></a></li>
-  </ul>
-</nav>
+  <nav class="desktop-nav">
+    <ul class="menu">
+      <li class="navi"><a href="about.html"><h2 class="about active">about</h2></a></li>
+      <li class="navi"><a href="pindex.html"><h2 class="projects">projects</h2></a></li>
+      <li class="navi"><a href="contact.html"><h2 class="contact">contact</h2></a></li>
+    </ul>
+  </nav>
 
   <header>
     <div class="header-spacing">
@@ -70,34 +48,27 @@
 
   <!-- FEATURED WORK -->
   <main class="featured-work">
-    <div class="container">
+    <div class="col-md-12 story-container">
+      <div class="my-story">
+        <img class="me-2" src="pimg/me.jpg" alt="A picture of me!">
+        <div class="text">
+          <!-- <p class="greeting">Hi!</p> -->
+          <h1>about me</h1>
+          <p>I've been expoloring web-coding for just under a year, and have developed a strong interest in constructing awesome & intuitive websites. Shown in my <a href="pindex.html">projects</a>, I've created web-apps & sites to demonstrate my capabilities
+            and experience in responsive web-designs.</p>
 
-      <div class="row">
+          <p>Continuing my coding advantures, my next milestone is to learn and work with people who share the same passion as I do. So, if you see potential, or perhaps could make use of me, my <a href="contact.html">contact's</a> here.</p>
 
-        <div class="col-md-12 story-container">
-          <div class="my-story">
-            <img class="me-2" src="pimg/me.jpg" alt="A picture of me!">
-            <div class="text">
-              <!-- <p class="greeting">Hi!</p> -->
-              <h1>about me</h1>
-              <p>I've been expoloring web-coding for just under a year, and have developed a strong interest in constructing awesome & intuitive websites. Shown in my <a href="pindex.html">projects</a>, I've created web-apps & sites to demonstrate my capabilities
-                and experience in responsive web-designs.</p>
-
-              <p>Continuing my coding advantures, my next milestone is to learn and work with people who share the same passion as I do. So, if you see potential, or perhaps could make use of me, my <a href="contact.html">contact's</a> here.</p>
-
-              <p>Always improving, always challenged.</p>
-              <p>Branden</p>
-              <!-- <div class="download-cv">
+          <p>Always improving, always challenged.</p>
+          <p>Branden</p>
+          <!-- <div class="download-cv">
                   <a href="#">Download My CV</a>
                 </div> -->
-            </div>
-            <div class="image">
-              <img class="me" src="pimg/me.jpg" alt="A picture of me!">
-            </div>
-          </div>
+        </div>
+        <div class="image">
+          <img class="me" src="pimg/me.jpg" alt="A picture of me!">
         </div>
       </div>
-
     </div>
   </main>
 
