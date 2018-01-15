@@ -19,7 +19,7 @@ body {
 
 .hr-line {
   margin: .4em 0;
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
 /*HEADER*/
@@ -46,7 +46,7 @@ header {
   font-family: 'Actor', helvetica;
   font-size: .95em;
   color: #fff;
-  background-color: rgba(0,0,0,.75);
+  background-color: rgba(0, 0, 0, .75);
   padding: 2px 0 1px 0;
   width: 265px;
   margin: auto;
@@ -76,13 +76,14 @@ header {
 }
 
 /* NAV BARS */
+
 .menu {
   list-style: none;
   margin: 0 auto;
 }
 
 .desktop-nav {
-  background: rgba(0,0,0,.8);
+  background: rgba(0, 0, 0, .8);
   text-align: center;
 }
 
@@ -165,9 +166,9 @@ header {
   font-family: "Actor", helvetica;
   line-height: 1em;
   text-align: left;
-  border-left: 1px solid rgba(255,255,255,.15);
-  border-right: 1px solid rgba(255,255,255,.15);
-  border-bottom: 1px solid rgba(255,255,255,.15);
+  border-left: 1px solid rgba(255, 255, 255, .15);
+  border-right: 1px solid rgba(255, 255, 255, .15);
+  border-bottom: 1px solid rgba(255, 255, 255, .15);
 }
 
 .r .work-description {
@@ -270,7 +271,7 @@ a:hover {
   background: rgba(0, 0, 0, .7);
   padding: .5em 0 .2em 0;
   border-radius: 3px;
-  border: 1px solid rgba(255,255,255,.15);
+  border: 1px solid rgba(255, 255, 255, .15);
   display: inline-block;
   margin: 0 1em;
 }
@@ -293,7 +294,6 @@ a:hover {
   color: #bbb;
   transition: .3s;
 }
-
 
 .mobile, .linkedin {
   border-radius: 10px 0 10px 0;
@@ -408,7 +408,6 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-
   .me {
     width: 40%;
     margin: .75em auto .65em 0;
@@ -448,19 +447,16 @@ a:hover {
     width: 100%;
     height: 100%;
   }
-
   .line {
     display: block;
     margin: 0 auto .85em auto;
   }
-
   .me-2 {
     width: 39%;
     border-radius: 50%;
     margin: 0 auto 4em 0;
     display: inline;
   }
-
 }
 
 @media (min-width: 576px) {
@@ -474,7 +470,7 @@ a:hover {
     position: relative;
   }
   .mobile-nav {
-    background: linear-gradient(-190deg, rgba(79,92,114,.97), rgba(73, 54, 79,.97));
+    background: linear-gradient(-190deg, rgba(79, 92, 114, .97), rgba(73, 54, 79, .97));
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -483,30 +479,42 @@ a:hover {
     animation-name: modalopen;
     animation-duration: .5s;
   }
-
-  .me-2 {
-    width: 39%;
-    border-radius: 50%;
-    margin: 0 auto 2.5em 0;
-    display: inline;
-  }
-
   @keyframes modalopen {
-    from{opacity: 0}
-    to{opacity: 1}
+    from {
+      opacity: 0
+    }
+    to {
+      opacity: 1
+    }
   }
-
   .nav-list {
-    margin-top: 50%;
+    margin-top: 40%;
     text-align: center;
+    list-style: none;
   }
   .nav-list li {
-    padding: .7em;
+    padding: .4em;
+    margin: 1em auto;
   }
   .nav-list a {
     font-size: 1.3em;
     color: #bbb;
     font-family: "Actor", helvetica;
+  }
+  .nav-active {
+    border: 1px solid #bbb;
+    width: 50%;
+    margin: 0 auto;
+    background: #bbb;
+  }
+  .nav-active a {
+    color: #444;
+  }
+  .me-2 {
+    width: 39%;
+    border-radius: 50%;
+    margin: 0 auto 2.5em 0;
+    display: inline;
   }
   .thumbnail-image {
     width: 90% !important;
@@ -545,7 +553,7 @@ a:hover {
   header {
     margin: -.25em 0 0 -.1em;
     padding: 0em .35em .35em 0em;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, .8);
     box-shadow: 0em .1em .4em rgba(0, 0, 0, .1);
   }
   .header-spacing {
@@ -565,7 +573,6 @@ a:hover {
     color: #444;
     font-weight: 600;
     padding: 1px 0 1px 0;
-
   }
   .story-container {
     margin-top: 2em;
@@ -591,7 +598,6 @@ a:hover {
   .project-title {
     font-size: 1em;
   }
-
   /* .download-cv {
     width: 97px;
     padding: .1em 0 .1em 0;
@@ -625,14 +631,12 @@ a:hover {
     padding: .4em;
     width: 37px;
   }
-
   .line-2 {
     height: 2px;
     width: 10px;
     display: block;
     margin: .4em auto;
   }
-
   .container {
     padding: 0;
   }
@@ -667,7 +671,6 @@ a:hover {
     margin-top: -3.55em;
     line-height: 1em;
   }
-
 }
 
 @media (min-width: 390px) and (max-width: 575px) {
