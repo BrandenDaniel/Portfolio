@@ -420,8 +420,8 @@ footer {
 
 .fb-footer, .linkedin-footer {
   float: right;
-  margin: .75em .5em;
-  font-size: .95em;
+  margin: .45em .5em;
+  font-size: 1.1em;
 }
 
 .fb-footer a {
