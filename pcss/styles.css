@@ -477,8 +477,9 @@ a:hover {
     z-index: 10;
     display: none;
     animation-name: modalopen;
-    animation-duration: .5s;
+    animation-duration: .25s;
   }
+
   @keyframes modalopen {
     from {
       opacity: 0
@@ -487,8 +488,15 @@ a:hover {
       opacity: 1
     }
   }
+  .x {
+    color: #bbb;
+    font-size: 1.5em;
+    display: inline-block;
+    float: right;
+    margin: .65em .87em 0 0;
+  }
   .nav-list {
-    margin-top: 40%;
+    margin-top: 45%;
     text-align: center;
     list-style: none;
   }
@@ -503,9 +511,10 @@ a:hover {
   }
   .nav-active {
     border: 1px solid #bbb;
-    width: 50%;
+    width: 35%;
     margin: 0 auto;
     background: #bbb;
+    border-radius: 5px 0 5px 0;
   }
   .nav-active a {
     color: #444;
@@ -532,7 +541,7 @@ a:hover {
     float: right;
     font-size: 1.5em;
     color: #ddd;
-    margin: .45em .6em 0 0;
+    margin: .6em .6em 0 ;
   }
   .featured-title {
     margin-bottom: -.5em;
