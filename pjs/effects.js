@@ -119,3 +119,8 @@ $('.hamburger-icon').click(function(){
 $('.x').click(function(){
   $('.mobile-nav').css('display', 'none');
 });
+
+$('.back-to-top').click(function(){
+		$('html, body').animate({scrollTop : 0},500);
+		return false;
+	});
