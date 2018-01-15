@@ -262,7 +262,7 @@
   }
   .fb-footer, .linkedin-footer {
     float: right;
-    margin: .23em .7em;
+    margin: .25em .7em .2em .7em;
     font-size: 1.1em;
   }
 
