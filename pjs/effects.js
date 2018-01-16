@@ -131,7 +131,7 @@ var request = new XMLHttpRequest();
 var repoData;
 
 // Initialize a request
-request.open('get', 'https://api.github.com/users/brandendaniel');
+request.open('GET', 'https://api.github.com/users/brandendaniel');
 request.onload = function() {
    var data = JSON.parse(request.responseText);
    repoData = data.public_repos;
