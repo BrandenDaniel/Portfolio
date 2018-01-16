@@ -258,10 +258,10 @@ a:hover {
 
 .social i {
   font-size: 1.5em;
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 50%;
-  padding: .35em;
-  width: 43px;
+  padding: .4em;
+  margin: 0;
+  width: 45px;
+  height: 45px;
   color: #fff;
 }
 
@@ -269,11 +269,31 @@ a:hover {
   display: inline-block;
   width: 175px;
   background: rgba(0, 0, 0, .8);
-  padding: .5em 0 .2em 0;
+  padding: .45em 0 .2em 0;
   border-radius: 3px;
   border: 1px solid rgba(255, 255, 255, .15);
   display: inline-block;
-  margin: 0 1em;
+  margin: 0 1.1em;
+}
+
+.linkedin {
+  background: rgba(0,119,181,.8);
+  border-radius: 20px 0 20px 0;
+}
+
+.email {
+  background: rgba(219,50,54, .9);
+  border-radius: 0 20px 0 20px;
+}
+
+.github {
+  background: rgb(51,51,51);
+  border-radius: 0 20px 0 20px;
+}
+
+.mobile {
+  background: rgba(244,194,13,.85);
+  border-radius: 20px 0 20px 0;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
@@ -285,22 +305,13 @@ a:hover {
   width: 175px;
 }
 
-.social h3 a {
+.social a {
   color: #fff;
 }
 
-.mobile i:hover, .email i:hover, .github i:hover, .linkedin i:hover {
-  background: rgba(0, 0, 0, .2);
-  color: #bbb;
-  transition: .3s;
-}
-
-.mobile, .linkedin {
-  border-radius: 10px 0 10px 0;
-}
-
-.email, .github {
-  border-radius: 0 10px 0 10px;
+.social h3 a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .get-touch {
@@ -308,7 +319,7 @@ a:hover {
   font-size: 1.4em;
   font-weight: bold;
   text-align: center;
-  margin: .45em auto .4em auto;
+  margin: .55em auto .4em auto;
   color: rgba(0, 0, 0, .7);
 }
 
@@ -397,7 +408,7 @@ footer {
   font-family: 'Actor', helvetica;
   font-size: .9em;
   display: inline-block;
-  padding: .8em 0;
+  padding: 1em 0 .7em 0;
   font-weight: bold;
 }
 
@@ -418,10 +429,19 @@ footer {
   color: #555;
 }
 
-.fb-footer, .linkedin-footer {
+.fb-footer, .github-footer {
   float: right;
-  margin: .45em .5em;
+  margin: .65em .6em;
   font-size: 1.1em;
+}
+
+.linkedin-footer {
+  margin: .65em 0 .35em 0;
+  float: right;
+  font-size: 1.1em;
+  border-left: 1px solid rgba(0,0,0,.1);
+  border-right: 1px solid rgba(0,0,0,.1);
+  padding: 0 .6em;
 }
 
 .fb-footer a {
@@ -430,6 +450,14 @@ footer {
 
 .fb-footer a:hover {
   color: #263d6b;
+}
+
+.github-footer a {
+  color: #444;
+}
+
+.github-footer a:hover {
+  color: #000;
 }
 
 .linkedin-footer a {

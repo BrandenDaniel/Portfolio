@@ -260,10 +260,21 @@
     padding: .8em 0;
     font-weight: bold;
   }
-  .fb-footer, .linkedin-footer {
+
+  .fb-footer, .github-footer {
     float: right;
-    margin: .3em .7em 0em .7em;
-    font-size: 1.1em;
+    margin: .45em 0 0 0;
+    padding: 0 .6em;
+    font-size: .9em;
+  }
+
+  .linkedin-footer {
+    margin: .45em 0 0 0;
+    float: right;
+    font-size: .9em;
+    border-left: 1px solid rgba(0,0,0,.1);
+    border-right: 1px solid rgba(0,0,0,.1);
+    padding: 0 .6em;
   }
 
 }
