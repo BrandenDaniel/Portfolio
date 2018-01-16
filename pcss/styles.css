@@ -522,7 +522,7 @@ footer {
   border-radius: 50%;
   background-color: red;
   display: inline-block;
-  margin-left: .35em;
+  margin-left: .45em;
   margin-bottom: 1px;
   animation: pulse 1.5s infinite;
 }
