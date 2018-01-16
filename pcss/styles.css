@@ -376,6 +376,23 @@ a:hover {
   font-weight: bold;
 }
 
+.github-calender {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.calender {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.recent-commits {
+  font-size: 1.5em;
+  color: #000;
+  font-weight: bold;
+}
+
 /* .download-cv {
   margin: 1em auto .5em 0;
   padding: .15em 0 .15em 0;
@@ -400,7 +417,7 @@ a:hover {
 footer {
   background-color: #e2e2e2;
   color: #555;
-  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) inset;
   padding: 0em 3em;
 }
 
