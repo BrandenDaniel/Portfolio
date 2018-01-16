@@ -125,3 +125,17 @@ $('.back-to-top').click(function(){
 		$('html, body').animate({scrollTop : 0},500);
 		return false;
 	});
+
+
+var request = new XMLHttpRequest();
+var repoData;
+
+// Initialize a request
+request.open('get', 'https://api.github.com/users/brandendaniel');
+request.onload = function() {
+   var data = JSON.parse(request.responseText);
+   repoData = data.public_repos;
+   $('.repoData').append(repoData);
+};
+// Send it
+request.send();
