@@ -59,6 +59,30 @@
     margin: 0 auto 4em 0;
     display: inline;
   }
+  .recent-commits {
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    margin: 0 .75em .3em .3em;
+  }
+
+  .repoData {
+    margin-right: 1em;
+  }
+
+  .repos {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: .5em;
+
+  }
+
+  .cont-lastyear {
+    display: inline-block;
+    margin-bottom: 0;
+
+  }
 }
 
 @media (min-width: 576px) {
@@ -257,7 +281,7 @@
     font-family: 'Actor', helvetica;
     font-size: .7em;
     display: inline-block;
-    padding: .8em 0;
+    padding: .25em 0 0 0;
     font-weight: bold;
   }
 
@@ -278,7 +302,7 @@
   }
 
   .recent-commits {
-    margin: 1.2em 0 .65em 0;
+    margin: 1.2em 0 .3em .34em;
     font-size: 1.35em;
   }
 
