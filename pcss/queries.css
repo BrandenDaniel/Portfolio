@@ -59,12 +59,13 @@
     margin: 0 auto 4em 0;
     display: inline;
   }
-  .recent-commits {
+  .github-stats {
     font-size: 1.5em;
     color: #000;
     font-weight: bold;
     display: block;
     margin: 0 .75em .3em .3em;
+    border-right: none;
   }
 
   .repoData {
@@ -81,7 +82,7 @@
   .cont-lastyear {
     display: inline-block;
     margin-bottom: 0;
-
+    padding-bottom: 0;
   }
 }
 
@@ -275,7 +276,7 @@
     padding: 0;
   }
   footer {
-    padding: .25em 2em;
+    padding: .25em 1.25em .25em 2em;
   }
   .cp {
     font-family: 'Actor', helvetica;
@@ -301,7 +302,7 @@
     padding: 0 .6em;
   }
 
-  .recent-commits {
+  .github-stats {
     margin: 1.2em 0 .3em .34em;
     font-size: 1.35em;
   }
