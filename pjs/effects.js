@@ -128,7 +128,7 @@ $('.back-to-top').click(function(){
 
 
 var repoData;
-var contribution = null;
+var contribution = 12; //12 added contributions due to deleted projects that github persist to display
 
 var repoRequest = new XMLHttpRequest();
 repoRequest.open('GET', 'https://api.github.com/users/brandendaniel');

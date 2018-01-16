@@ -12,11 +12,6 @@ body {
   min-height: 100vh;
 }
 
-.featured-work {
-  flex-grow: 1;
-  margin-top: 1.5em;
-}
-
 .hr-line {
   margin: .4em 0;
   border-top: 1px solid rgba(255, 255, 255, .1);
@@ -123,9 +118,11 @@ header {
   width: 60%;
 }
 
-/*FEATURED WORK//CONTACT//ABOUT / BODY*/
+/*FEATURED WORK//CONTACT//ABOUT*/
 
-.featured-work, .about-page, .contact-page {
+.featured-work, .featured-contact, .featured-about {
+  flex-grow: 1;
+  margin-top: 4%;
   text-align: center;
   margin-bottom: 5em;
 }
@@ -546,7 +543,7 @@ footer {
   text-align: center;
   display: inline-block;
   margin-top: .8em;
-  margin-left: 2.48em;
+  margin-left: 2.25em;
   position: sticky;
 }
 
@@ -561,7 +558,13 @@ footer {
 
 .footer-about, .footer-projects, .footer-contact {
   font-size: 1em;
-  padding: 0.7em .6em;
+  margin: 0.7em .1em;
+  padding: 0 .65em;
+}
+
+.footer-projects {
+  border-left: 1px solid rgba(0,0,0,.1);
+  border-right: 1px solid rgba(0,0,0,.1);
 }
 
 .footer-active a {
