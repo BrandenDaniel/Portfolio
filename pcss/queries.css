@@ -91,7 +91,7 @@
   }
 
   .footer-nav {
-    margin-left: 2.17em;
+    margin-left: 0em;
 
   }
 
@@ -293,14 +293,14 @@
     padding: 0;
   }
   footer {
-    padding: .25em .85em .25em 1.25em;
+    padding: .55em .85em .55em 1.25em;
   }
 
   .footer-nav {
     text-align: center;
     display: inline-block;
     margin-top: 0.15em;
-    margin-left: 1.65em;
+    margin-left: 0.33em;
     position: sticky;
   }
 
@@ -318,21 +318,13 @@
     font-weight: bold;
   }
 
-  .fb-footer, .github-footer {
+  .github-footer, .linkedin-footer {
     float: right;
-    margin: .45em 0 0 0;
-    padding: 0 .5em;
-    font-size: .9em;
+    margin: .1em 0 0 0;
+    padding: 0 .35em;
+    font-size: 1.2em;
   }
 
-  .linkedin-footer {
-    margin: .45em 0 0 0;
-    float: right;
-    font-size: .9em;
-    border-left: 1px solid rgba(0,0,0,.1);
-    border-right: 1px solid rgba(0,0,0,.1);
-    padding: 0 .5em;
-  }
   .github-stats {
     margin: 1.2em 0 .3em .34em;
     font-size: 1.35em;
@@ -365,12 +357,12 @@
   }
 
   footer {
-    padding: .25em .45em .25em .75em;
+    padding: .45em .45em .45em .75em;
   }
 
   .footer-nav {
     margin-top: 0.05em;
-    margin-left: 1.6em;
+    margin-left: .52em;
   }
 
   .footer-about, .footer-projects, .footer-contact {

@@ -463,7 +463,7 @@ footer {
   background-color: #eee;
   color: #555;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) inset;
-  padding: 0em 2em 0 3em;
+  padding: .4em 1em .4em 2.5em;
   text-align: center;
 }
 
@@ -500,18 +500,16 @@ footer {
   color: #666;
 }
 
-.fb-footer, .github-footer {
+.github-footer {
   float: right;
-  margin: .65em .6em;
-  font-size: 1.1em;
+  margin: .3em;
+  font-size: 1.4em;
 }
 
 .linkedin-footer {
-  margin: .65em 0 .35em 0;
+  margin: .3em 0;
   float: right;
-  font-size: 1.1em;
-  border-left: 1px solid rgba(0, 0, 0, .1);
-  border-right: 1px solid rgba(0, 0, 0, .1);
+  font-size: 1.4em;
   padding: 0 .6em;
 }
 
@@ -543,7 +541,7 @@ footer {
   text-align: center;
   display: inline-block;
   margin-top: .8em;
-  margin-left: 2.25em;
+  margin-left: 0.15em;
   position: sticky;
 }
 
