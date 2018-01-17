@@ -127,6 +127,10 @@ header {
   margin-bottom: 5em;
 }
 
+.featured-work {
+  margin-top: .8em;
+}
+
 .project-title a:hover {
   text-decoration: underline;
 }
