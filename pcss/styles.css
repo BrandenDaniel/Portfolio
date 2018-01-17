@@ -406,7 +406,7 @@ a:hover {
 .repoData, .contribution, .addition {
   margin-right: .5em;
   font-size: 1.25em;
-  font-weight: 600;
+  font-weight: 900;
   color: #000;
   font-family: monospace;
 }
@@ -415,12 +415,14 @@ a:hover {
   display: inline-block;
   margin-left: .6em;
   font-size: .7em;
+  color: #888;
 }
 
 .cont-lastyear, .add-lastyear {
   display: inline-block;
   font-size: .7em;
   margin-left: .6em;
+  color: #888;
 }
 
 .record {
