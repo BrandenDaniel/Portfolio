@@ -21,7 +21,8 @@ githubIoReq.onload = function() {
      addition += commit[0].weeks[i].a;
    }
    $('.contribution').html(contribution);
-   $('.addition').html(addition);};
+   $('.addition').html(addition);
+ };
 // Send it
 githubIoReq.send();
 
@@ -34,7 +35,8 @@ folioReq.onload = function() {
      addition += commit[0].weeks[i].a;
    }
    $('.contribution').html(contribution);
-   $('.addition').html(addition);};
+   $('.addition').html(addition);
+ };
 // Send it
 folioReq.send();
 
@@ -47,7 +49,8 @@ froggerReq.onload = function() {
      addition += commit[0].weeks[i].a;
    }
    $('.contribution').html(contribution);
-   $('.addition').html(addition);};
+   $('.addition').html(addition);
+ };
 // Send it
 froggerReq.send();
 
@@ -60,7 +63,8 @@ matchingReq.onload = function() {
      addition += commit[0].weeks[i].a;
    }
    $('.contribution').html(contribution);
-   $('.addition').html(addition);};
+   $('.addition').html(addition);
+ };
 // Send it
 matchingReq.send();
 
@@ -73,7 +77,8 @@ eComReq.onload = function() {
      addition += commit[0].weeks[i].a;
    }
    $('.contribution').html(contribution);
-   $('.addition').html(addition);};
+   $('.addition').html(addition);
+ };
 // Send it
 eComReq.send();
 
