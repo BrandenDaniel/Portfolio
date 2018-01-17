@@ -505,7 +505,7 @@ a:hover {
   margin: .4em .5em .75em 0em;
   padding-left: 0;
   padding: .40em .55em .35em .55em;
-  border-radius: 6px;
+  border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
   border: 1px solid rgba(0,0,0,.2);
   font-family: "Actor", helvetica;
@@ -519,7 +519,7 @@ a:hover {
 .email-address {
   width: 225px;
   padding: .40em .55em .35em .55em;
-  border-radius: 6px;
+  border-radius: 4px;
   box-shadow: 0 1px 0 rgba(0,0,0,.1);
   border: 1px solid rgba(0,0,0,.2);
   font-family: "Actor", helvetica;
@@ -533,7 +533,7 @@ a:hover {
   width: 387px;
   height: 130px;
   font-family: "Actor", helvetica;
-  border-radius: 6px;
+  border-radius: 4px;
   font-size: .8em;
 }
 
