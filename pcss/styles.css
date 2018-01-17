@@ -168,6 +168,7 @@ header {
   border-bottom: 1px solid rgba(255, 255, 255, .15);
 }
 
+
 .r .work-description {
   margin: -3.4em auto 0 0;
 }
@@ -250,7 +251,7 @@ a:hover {
 }
 
 .social {
-  margin: 2em auto 0 auto;
+  margin: 0 auto;
 }
 
 .social i {
@@ -457,6 +458,86 @@ a:hover {
   text-decoration: none !important;
 } */
 
+/* EMAIL SECTION */
+
+.email-hr {
+  margin: 4em auto 2.5em auto;
+  width: 400px;
+}
+
+.email-me {
+  font-family: "Actor", helvetica;
+  font-weight: bold;
+  margin: 0 auto 0 auto;
+  width: 387px;
+  text-align: center;
+}
+
+.quick-email-container {
+  text-align: left;
+}
+
+.quick-email  {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+.via-formspree {
+  display: inline-block;
+  color: #777;
+  font-size: .75em;
+  margin: 0 .5em;
+}
+
+.email-name {
+  width: 150px;
+  margin: .4em .5em .75em 0em;
+  padding-left: 0;
+  padding: .25em .4em .15em .4em;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.1);
+  border: 1px solid rgba(0,0,0,.2);
+  font-family: "Actor", helvetica;
+  font-size: .8em;
+
+}
+
+.email-address {
+  width: 225px;
+  padding: .25em .4em .15em .4em;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.1);
+  border: 1px solid rgba(0,0,0,.2);
+  font-family: "Actor", helvetica;
+  font-size: .8em;
+}
+
+.email-msg {
+  padding: .2em .45em .1em .45em;
+  box-shadow: 0 1px 0 rgba(0,0,0,.1);
+  border: 1px solid rgba(0,0,0,.2);
+  width: 387px;
+  height: 130px;
+  font-family: "Actor", helvetica;
+  border-radius: 6px;
+  font-size: .8em;
+}
+
+.email-submit {
+  font-family: "Actor", helvetica;
+  display: block;
+  padding: .3em .45em .25em .45em;
+  width: 100%;
+  margin-top: .35em;
+  border-radius: 6px;
+  border: 0;
+  background: rgba(0,0,0,.65);
+  color: #eee;
+}
+
+
 /*FOOTER*/
 
 footer {
@@ -466,7 +547,6 @@ footer {
   padding: .4em 1em .4em 2.5em;
   text-align: center;
 }
-
 .cp {
   font-family: 'Actor', helvetica;
   font-size: .8em;
