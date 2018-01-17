@@ -176,6 +176,18 @@
     width: 90% !important;
     margin: -3.4em auto 1em auto !important;
   }
+  .description {
+    line-height: 1.3em;
+  }
+  .lang-lib {
+    font-size: .90em;
+  }
+  .project-title {
+    font-size: 1em;
+  }
+  .external a {
+    padding: .25em .35em .1em .35em;
+  }
   .menu {
     display: none;
   }
@@ -241,15 +253,7 @@
     text-align: right;
     display: block;
   }
-  .description {
-    line-height: 1.3em;
-  }
-  .lang-lib {
-    font-size: .90em;
-  }
-  .project-title {
-    font-size: 1em;
-  }
+
   /* .download-cv {
     width: 97px;
     padding: .1em 0 .1em 0;
