@@ -495,7 +495,7 @@ a:hover {
   width: 150px;
   margin: .4em .5em .75em 0em;
   padding-left: 0;
-  padding: .25em .4em .15em .4em;
+  padding: .40em .55em .35em .55em;
   border-radius: 6px;
   box-shadow: 0 1px 0 rgba(0,0,0,.1);
   border: 1px solid rgba(0,0,0,.2);
@@ -506,7 +506,7 @@ a:hover {
 
 .email-address {
   width: 225px;
-  padding: .25em .4em .15em .4em;
+  padding: .40em .55em .35em .55em;
   border-radius: 6px;
   box-shadow: 0 1px 0 rgba(0,0,0,.1);
   border: 1px solid rgba(0,0,0,.2);
@@ -515,7 +515,7 @@ a:hover {
 }
 
 .email-msg {
-  padding: .2em .45em .1em .45em;
+  padding: .40em .55em .35em .55em;
   box-shadow: 0 1px 0 rgba(0,0,0,.1);
   border: 1px solid rgba(0,0,0,.2);
   width: 387px;
