@@ -7,14 +7,11 @@
 }
 
 @media (max-width: 767px) {
+  .me {
+    display: none;
+  }
   .featured-work, .featured-contact, .featured-about {
     margin-bottom: 4em;
-  }
-  .me {
-    width: 40%;
-    margin: .75em auto .65em 0;
-    border-radius: 50%;
-    display: none;
   }
   .text, .image {
     width: 100%;
@@ -31,13 +28,13 @@
     text-align: center;
   }
   .my-story {
-    width: 60%;
+    width: 417px;
     margin: 0 auto 0 auto;
     font-size: .825em;
   }
   .my-story h1 {
     font-size: 2.35em;
-    margin: -2.5em .85em .5em 0;
+    margin: -2.5em 1.5em .5em 0;
     text-align: right;
     display: block;
   }
@@ -56,32 +53,38 @@
   .me-2 {
     width: 39%;
     border-radius: 50%;
-    margin: 0 auto 4em 0;
+    margin: 0 auto 4em 1.2em;
     display: inline;
   }
+
+  .stats-line {
+    margin: 0 0 1.8em 0;
+  }
+
   .github-stats {
     font-size: 1.5em;
     color: #000;
-    font-weight: bold;
-    display: block;
-    margin: 0 .75em .3em .3em;
+    margin: 0 0 .4em .3em;
     border-right: none;
+    display: block;
   }
 
-  .repoData {
-    margin-right: 1em;
+  .repoData, .contribution, .addition {
+    margin-right: .58em;
+    font-size: 1.25em;
+  }
+
+  .addition {
+    margin-right: 0;
+  }
+
+  .cont-lastyear, .add-lastyear {
+    font-size: .7em;
+    margin-left: 0;
   }
 
   .repos {
-    display: inline-block;
-    margin-bottom: 0;
-    margin-left: .5em;
-  }
-
-  .cont-lastyear {
-    display: inline-block;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-left: .55em;
   }
 
   .footer-about, .footer-projects, .footer-contact {
@@ -92,10 +95,7 @@
 
   .footer-nav {
     margin-left: 0em;
-
   }
-
-
 }
 
 @media (min-width: 576px) {
@@ -111,6 +111,7 @@
 
   .featured-work, .featured-contact, .featured-about {
     margin-bottom: 3.5em;
+    margin-top: 1em;
   }
 
   .mobile-nav {
@@ -242,7 +243,7 @@
     margin-top: 2em;
   }
   .my-story {
-    width: 80%;
+    width: 90%;
   }
   .my-story p {
     line-height: 1.4em;
@@ -295,6 +296,39 @@
   }
   .container {
     padding: 0;
+  }
+
+  .contribution, .addition {
+    margin-right: .4em;
+  }
+
+  .repoData {
+    margin-right: .5em;
+    font-size: 1.25em;
+  }
+
+  .contribution {
+    margin-right: 0;
+  }
+
+  .cont-lastyear {
+    font-size: .7em;
+    margin-left: 0;
+    margin-bottom: .2em !important;
+  }
+
+  .add-lastyear {
+    margin-left: .57em;
+    margin-bottom: .2em !important;
+  }
+
+  .repos {
+    margin-left: .5em;
+    margin-bottom: .2em !important;
+  }
+
+  .calender {
+    margin-top: .6em;
   }
 
   .email-hr {
@@ -410,7 +444,7 @@
     font-size: 2.1em;
   }
   .my-story {
-    width: 85%;
+    width: 95%;
   }
   .work-description, .project-title {
     width: 97% !important;

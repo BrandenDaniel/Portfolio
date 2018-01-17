@@ -51,9 +51,9 @@ header {
 /*PROFILE PICTURE STORY CONTAINER*/
 
 .me {
-  width: 60%;
+  width: 65%;
   border-radius: 50%;
-  margin: 0 6em 6.5em auto;
+  margin: 0 4em 3em auto;
   display: block;
 }
 
@@ -122,13 +122,13 @@ header {
 
 .featured-work, .featured-contact, .featured-about {
   flex-grow: 1;
-  margin-top: 4%;
+  margin-top: 2em;
   text-align: center;
   margin-bottom: 5em;
 }
 
-.featured-work {
-  margin-top: .8em;
+.featured-contact {
+  margin-top: 3.5em;
 }
 
 .project-title a:hover {
@@ -326,7 +326,7 @@ a:hover {
 }
 
 .my-story {
-  width: 580px;
+  width: 655px;
   text-align: left;
   padding: 1em;
   padding-bottom: 0;
@@ -356,12 +356,12 @@ a:hover {
 
 .text {
   display: inline-block;
-  width: 55%;
+  width: 60%;
 }
 
 .image {
   display: inline-block;
-  width: 44%;
+  width: 39%;
 }
 
 .line-2 {
@@ -389,35 +389,38 @@ a:hover {
   width: 100%;
 }
 
+.stats-line {
+  margin: .85em 0 1.4em 0;
+}
+
 .github-stats {
   font-size: 1.5em;
   color: #000;
   font-weight: bold;
   display: inline-block;
-  margin-left: .3em;
+  margin-left: .55em;
   border-right: 1px solid rgba(0, 0, 0, .2);
   padding-right: .5em;
 }
 
-.repoData, .contribution {
-  margin-top: .3em;
-  margin-right: .75em;
-  font-size: .9em;
+.repoData, .contribution, .addition {
+  margin-right: .5em;
+  font-size: 1.25em;
   font-weight: 600;
   color: #000;
+  font-family: monospace;
 }
 
 .repos {
   display: inline-block;
-  margin-left: .5em;
+  margin-left: .6em;
   font-size: .7em;
 }
 
-.cont-lastyear {
+.cont-lastyear, .add-lastyear {
   display: inline-block;
   font-size: .7em;
-  margin-left: .5em;
-  margin-bottom: 0 !important;
+  margin-left: .6em;
 }
 
 .record {
@@ -501,10 +504,14 @@ a:hover {
   padding-left: 0;
   padding: .40em .55em .35em .55em;
   border-radius: 6px;
-  box-shadow: 0 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
   border: 1px solid rgba(0,0,0,.2);
   font-family: "Actor", helvetica;
   font-size: .8em;
+}
+
+.email-name:focus, .email-address:focus, .email-msg:focus {
+  outline-color: #333;
 }
 
 .email-address {
@@ -531,13 +538,19 @@ a:hover {
 .email-submit {
   font-family: "Actor", helvetica;
   display: block;
-  padding: .35em .45em .25em .45em;
+  padding: .4em .45em .25em .45em;
   width: 100%;
   margin-top: .35em;
   border-radius: 6px;
   border: 0;
-  background: rgba(0,0,0,.65);
+  background: rgba(0,0,0,.7);
   color: #eee;
+  transition: .3s ease-in-out;
+}
+
+.email-submit:hover {
+  background: rgba(0,0,0,.9);
+  cursor: pointer;
 }
 
 
@@ -624,7 +637,7 @@ footer {
   text-align: center;
   display: inline-block;
   margin-top: .8em;
-  margin-left: 0.15em;
+  margin-left: 0;
   position: sticky;
 }
 
