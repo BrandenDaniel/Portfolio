@@ -70,7 +70,7 @@
   }
 
   .repoData, .contribution, .addition {
-    margin-right: .58em;
+    margin-right: 1em;
     font-size: 1.25em;
   }
 
@@ -266,33 +266,34 @@
     display: none;
   }
   .get-touch {
-    font-size: 1em;
+    font-size: 1.15em;
+    margin: .4em auto .4em auto;
   }
   .social {
     margin-top: 2.5em;
   }
   .mobile, .linkedin, .email, .github {
     display: inline-block;
-    margin: .13em .6em;
-    width: 152px
+    margin: 0 .85em;
+    width: 150px
   }
   .email h3, .mobile h3, .github h3, .linkedin h3 {
     padding: .15em;
     font-size: .55em;
-    width: 152px;
+    width: 150px;
   }
   .social i {
     font-size: 1.2em;
     background-color: rgba(255, 255, 255, 0);
-    border-radius: 50%;
-    padding: .4em;
+    padding: .4em 0 0 0;
     width: 37px;
+    height: 37px;
   }
   .line-2 {
     height: 2px;
     width: 10px;
     display: block;
-    margin: .4em auto;
+    margin: 0 auto .6em auto;
   }
   .container {
     padding: 0;
@@ -340,20 +341,20 @@
     width: 80%;
   }
 
-  .quick-email-container {
+  .form-title-container {
     text-align: left;
   }
 
-  .quick-email  {
+  .form-title  {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .via-formspree {
     display: inline-block;
     color: #777;
-    font-size: .75em;
-    margin: 0 .5em;
+    font-size: .65em;
+    margin: 0 .3em;
   }
 
   .email-name {
@@ -369,7 +370,6 @@
     width: 100%;
     padding: .45em .55em .35em .55em;
     margin-bottom: .75em;
-    border-radius: 6px;
     font-size: .8em;
     display: block;
   }
@@ -451,6 +451,14 @@
     margin: -3.4em auto 0 auto;
   }
 
+  .mobile, .linkedin, .email, .github {
+    margin: .3em .65em;
+  }
+
+  .get-touch {
+    margin: .1em auto .05em auto;
+  }
+
   footer {
     padding: .45em .45em .45em .75em;
   }
@@ -458,6 +466,10 @@
   .footer-nav {
     margin-top: 0.05em;
     margin-left: .52em;
+  }
+
+  .form-title {
+    font-size: 1.3em;
   }
 
   .footer-about, .footer-projects, .footer-contact {
