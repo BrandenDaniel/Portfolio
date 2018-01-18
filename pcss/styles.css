@@ -505,7 +505,7 @@ a:hover {
   padding: .40em .55em .35em .55em;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
-  border: 1px solid rgba(0,0,0,.2);
+  border: 1px solid rgba(0,0,0,.05);
   font-family: "Actor", helvetica;
   font-size: .8em;
 }
@@ -519,7 +519,7 @@ a:hover {
   padding: .40em .55em .35em .55em;
   border-radius: 4px;
   box-shadow: 0 1px 0 rgba(0,0,0,.1);
-  border: 1px solid rgba(0,0,0,.2);
+  border: 1px solid rgba(0,0,0,.05);
   font-family: "Actor", helvetica;
   font-size: .8em;
 }
@@ -527,7 +527,7 @@ a:hover {
 .email-msg {
   padding: .40em .55em .35em .55em;
   box-shadow: 0 1px 0 rgba(0,0,0,.1);
-  border: 1px solid rgba(0,0,0,.2);
+  border: 1px solid rgba(0,0,0,.05);
   width: 387px;
   height: 130px;
   font-family: "Actor", helvetica;
