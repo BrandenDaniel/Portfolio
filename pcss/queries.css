@@ -166,7 +166,7 @@
   .me-2 {
     width: 39%;
     border-radius: 50%;
-    margin: 0 auto 2.5em 0;
+    margin: 0 auto 2.5em 1em;
     display: inline;
   }
   .thumbnail-image {
@@ -178,7 +178,7 @@
     margin: -3.4em auto 1em auto !important;
   }
   .description {
-    line-height: 1.3em;
+    line-height: 1.25em;
   }
   .lang-lib {
     font-size: .90em;
@@ -347,7 +347,11 @@
 
   .form-title  {
     text-align: left;
-    font-size: 1.4em;
+    font-size: 1em;
+  }
+
+  .idea {
+    font-size: 1.75em;
   }
 
   .via-formspree {
@@ -431,7 +435,6 @@
     flex-grow: 1;
     margin-top: .5%;
   }
-
   .thumbnail-image, .work-description {
     width: 97% !important;
   }
@@ -467,8 +470,12 @@
     margin-left: .52em;
   }
 
+  .idea {
+    font-size: 1.65em;
+  }
+
   .form-title {
-    font-size: 1.3em;
+    font-size: .83em;
   }
 
   .footer-about, .footer-projects, .footer-contact {

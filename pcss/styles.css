@@ -484,9 +484,15 @@ a:hover {
 }
 
 .form-title  {
-  text-align: left;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
+  display: inline-block;
+  margin-left: .1em;
+}
+
+.idea {
+  font-weight: bold;
+  margin-bottom: 0;
   display: inline-block;
 }
 
