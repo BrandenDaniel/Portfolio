@@ -431,9 +431,9 @@ a:hover {
   border-radius: 50%;
   background-color: red;
   display: inline-block;
-  margin-left: .45em;
+  margin-left: .3em;
   margin-bottom: 1px;
-  animation: pulse 2s infinite;
+  animation: pulse 1.65s infinite;
 }
 
 @keyframes pulse {

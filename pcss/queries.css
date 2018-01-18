@@ -438,12 +438,16 @@
   .thumbnail-image, .work-description {
     width: 97% !important;
   }
+  .me-2 {
+    margin-left: 0;
+  }
   .my-story p {
     line-height: 1.35em;
     font-size: .95em !important;
   }
   .my-story h1 {
     font-size: 2.1em;
+    margin-right: .35em;
   }
   .my-story {
     width: 95%;
