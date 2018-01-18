@@ -652,7 +652,7 @@ footer {
 
 .footer-about, .footer-projects, .footer-contact {
   font-size: 1em;
-  margin: 0.7em .1em;
+  margin: 0 .1em;
   padding: 0 .65em;
 }
 
