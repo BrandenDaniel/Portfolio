@@ -161,12 +161,12 @@ header {
   font-weight: 500;
 }
 
-.work-description {
+.project-card {
   background-color: rgba(0, 0, 0, .7);
   width: 70%;
-  padding: .75em .65em 0.1em .65em;
+  padding: .75em 0.1em 0.1em .45em;
   border-radius: 0px 0px 4px 4px;
-  color: #ddd;
+  color: #eee;
   font-family: "Actor", helvetica;
   line-height: 1em;
   text-align: left;
@@ -175,17 +175,43 @@ header {
   border-bottom: 1px solid rgba(255, 255, 255, .15);
 }
 
-.r .work-description {
+.project-description::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.project-description::-webkit-scrollbar {
+	width: 8px;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.project-description::-webkit-scrollbar-thumb {
+	background-color: #eee;
+}
+
+.r .project-card {
   margin: -3.4em auto 0 0;
 }
 
-.l .work-description {
+.l .project-card {
   margin: -3.4em 0 0 auto;
 }
 
-.description {
+.description-opening {
+  font-size: .9em !important;
+  color: #eee !important;
+}
+
+.project-description {
+  height: 130px;
+  overflow: auto;
+}
+
+.project-description p {
   margin-bottom: .5em;
+  padding-right: 1em;
   font-size: .75em;
+  color: #bbb;
 }
 
 .external {
@@ -242,6 +268,22 @@ header {
 .lang-lib i {
   margin-right: .35em;
   font-size: .85em;
+}
+
+.built {
+  color: #aaa;
+}
+
+.project-status {
+  font-size: .8em;
+}
+
+.status {
+  color: #aaa;
+}
+
+.result {
+  text-decoration: underline;
 }
 
 a:hover {
@@ -340,26 +382,25 @@ a:hover {
 .my-story p {
   margin-bottom: .8em;
   margin-right: .5em;
-  border-radius: 4px;
   line-height: 1.45em;
   font-size: .95em;
   color: #666;
 }
 
 .opening-statement {
-  font-size: 1.4em !important;
+  font-size: 1.35em !important;
   font-weight: bold;
   color: #000 !important;
 }
 
 .my-story h1 {
-  margin: 0 .7em .3em 0;
+  margin: 0 .55em .3em 0;
   color: #000;
   font-weight: bold;
   font-size: 2.7em;
   text-align: right;
   border-right: 2px solid #000;
-  padding-right: .3em;
+  padding-right: 0.3em;
 }
 
 .text {
@@ -552,7 +593,7 @@ a:hover {
 .email-submit {
   font-family: "Actor", helvetica;
   display: block;
-  padding: .4em .45em .25em .45em;
+  padding: .5em 0 .4em 0;
   width: 100%;
   margin-top: .35em;
   border-radius: 4px;
