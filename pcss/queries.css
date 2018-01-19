@@ -173,7 +173,7 @@
     font-size: .90em;
   }
   .project-title {
-    font-size: 1em;
+    font-size: 1.15em;
   }
   .external a {
     padding: .2em .35em;
@@ -329,7 +329,7 @@
   }
   .form-title {
     text-align: left;
-    font-size: 1.1em;
+    font-size: .95em;
   }
   .idea {
     font-size: 1.75em;
@@ -447,7 +447,7 @@
     font-size: 1.65em;
   }
   .form-title {
-    font-size: 1em;
+    font-size: .85em;
   }
   .footer-about, .footer-projects, .footer-contact {
     margin: 0.7em 0.05em;

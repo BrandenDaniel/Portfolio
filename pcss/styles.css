@@ -67,7 +67,7 @@ header {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  padding-top: .26em;
+  padding-top: .25em;
 }
 
 /*PROFILE PICTURE STORY CONTAINER*/
@@ -173,7 +173,7 @@ header {
 
 .project-title {
   border-radius: 2px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-family: "Actor", helvetica;
   width: 100%;
   display: inline;
@@ -558,16 +558,20 @@ a:hover {
 
 .form-title {
   font-weight: bold;
-  font-size: 1.35em;
+  font-size: 1.1em;
   display: inline-block;
-  margin-left: .1em;
-  color: #555;
+  margin-left: .3em;
+  color: #222;
 }
 
 .idea {
   font-weight: bold;
-  margin-bottom: 0;
+  margin-bottom: .25em;
   display: inline-block;
+  background-color: #222;
+  color: #eee;
+  padding: .15em .35em;
+  border-radius: 30px;
 }
 
 .via-formspree {

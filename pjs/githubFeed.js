@@ -20,6 +20,11 @@ githubIoReq.onload = function() {
   for (var i = 0; i < commit[0].weeks.length; i++) {
     addition += commit[0].weeks[i].a;
   }
+  // curl -i 'https://api.github.com/users/brandendaniel?client_id=007edf113f22d4b15831&client_secret=eb161a20989f4812d71c8e3cab6c546f9057bb41'
+
+
+  // if (githubIoReq.status === )
+
   $('.contribution').html(contribution);
   $('.addition').html(addition);
 };
