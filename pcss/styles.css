@@ -253,7 +253,7 @@ header {
 }
 
 .devicon-bootstrap-plain {
-  color: #6a5c99;
+  color: #7e70ad;
 }
 
 .devicon-javascript-plain {
@@ -262,7 +262,7 @@ header {
 
 .lang-lib span {
   margin-right: .55em;
-  font-size: .8em;
+  font-size: 12px;
 }
 
 .lang-lib i {
@@ -270,16 +270,12 @@ header {
   font-size: .85em;
 }
 
-.built {
+.built, .status {
   color: #aaa;
 }
 
 .project-status {
-  font-size: .8em;
-}
-
-.status {
-  color: #aaa;
+  font-size: 12px;
 }
 
 .result {
