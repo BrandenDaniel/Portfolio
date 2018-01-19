@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  font-family: "Actor", helvetica;
 }
 
 .hr-line {
@@ -49,6 +50,24 @@ header {
   margin: auto;
   border-radius: 6px 0 6px 0;
   font-weight: 400;
+}
+
+/* THANK YOU PAGE */
+.thank-you {
+  font-weight: bold;
+  font-size: 1.6em;
+  margin-top: 1em;
+  padding: 0 1em;
+}
+
+.fa-check {
+  font-size: 2.5em;
+  background-color: #60ba6b;
+  color: #f9f9f9;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding-top: .26em;
 }
 
 /*PROFILE PICTURE STORY CONTAINER*/
@@ -123,7 +142,7 @@ header {
 
 /*FEATURED WORK//CONTACT//ABOUT*/
 
-.featured-work, .featured-contact, .featured-about {
+.featured-work, .featured-contact, .featured-about, .email-sent-container {
   flex-grow: 1;
   margin-top: 2em;
   text-align: center;
@@ -132,6 +151,10 @@ header {
 
 .featured-contact {
   margin-top: 3.5em;
+}
+
+.email-sent-container {
+  margin-top: 4em;
 }
 
 .project-title a:hover {
@@ -208,7 +231,7 @@ header {
 }
 
 .project-description p {
-  margin-bottom: .5em;
+  margin-bottom: .75em;
   padding-right: 1em;
   font-size: .75em;
   color: #bbb;
@@ -397,6 +420,11 @@ a:hover {
   text-align: right;
   border-right: 2px solid #000;
   padding-right: 0.3em;
+}
+
+.outro {
+  color: #000 !important;
+  font-weight: bold;
 }
 
 .text {
