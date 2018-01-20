@@ -16,7 +16,7 @@ body {
 }
 
 .hr-line {
-  margin: .4em 0;
+  margin: .5em 0;
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
@@ -221,8 +221,6 @@ header {
 }
 
 .description-opening {
-  font-size: .9em !important;
-  color: #eee !important;
 }
 
 .project-description {
@@ -294,7 +292,7 @@ header {
 }
 
 .built, .status {
-  color: #aaa;
+  color: #eee;
 }
 
 .project-status {
@@ -570,8 +568,8 @@ a:hover {
   display: inline-block;
   background-color: #222;
   color: #eee;
-  padding: .15em .35em;
-  border-radius: 30px;
+  padding: .15em .2em .1em .2em;
+  border-radius: 7px;
 }
 
 .via-formspree {
