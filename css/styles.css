@@ -55,7 +55,7 @@ header {
 
 /* THANK YOU PAGE */
 .thank-you {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.6em;
   margin-top: 1em;
   padding: 0 1em;
@@ -163,7 +163,7 @@ header {
 }
 
 .thumbnail-image {
-  width: 70%;
+  width: 85%;
   margin: 2em 0 3.2em 0;
   border-radius: 4px 4px 0 0;
 }
@@ -187,7 +187,7 @@ header {
 
 .project-card {
   background-color: rgba(0, 0, 0, .7);
-  width: 70%;
+  width: 85%;
   padding: .75em 0.1em 0.1em .45em;
   border-radius: 0px 0px 4px 4px;
   color: #eee;
@@ -225,7 +225,7 @@ header {
 }
 
 .project-description {
-  height: 130px;
+  height: 120px;
   overflow: auto;
 }
 
@@ -247,13 +247,13 @@ header {
   background: #ccc;
   padding: .2em .35em;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .external a:hover {
   text-decoration: underline;
   color: #333;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .lang-lib {
@@ -381,7 +381,7 @@ a:hover {
 .get-touch {
   font-family: 'Actor', helvetica;
   font-size: 1.4em;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   margin: .5em auto .45em auto;
   color: rgba(0, 0, 0, .7);
@@ -407,14 +407,14 @@ a:hover {
 
 .opening-statement {
   font-size: 1.35em !important;
-  font-weight: bold;
+  font-weight: 600;
   color: #000 !important;
 }
 
 .my-story h1 {
   margin: 0 .55em .3em 0;
   color: #000;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 2.7em;
   text-align: right;
   border-right: 2px solid #000;
@@ -423,7 +423,7 @@ a:hover {
 
 .outro {
   color: #000 !important;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .text {
@@ -447,7 +447,7 @@ a:hover {
 .my-story a {
   color: #000;
   text-decoration: underline !important;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .github-calender {
@@ -468,7 +468,7 @@ a:hover {
 .github-stats {
   font-size: 1.5em;
   color: #000;
-  font-weight: bold;
+  font-weight: 600;
   display: inline-block;
   margin-left: .55em;
   border-right: 1px solid rgba(0, 0, 0, .2);
@@ -530,7 +530,7 @@ a:hover {
 .download-cv a {
   color: #51433e;
   font-family: "Scada", helvetica;
-  font-weight: bold;
+  font-weight: 600;
   padding: .65em;
   font-size: .85em;
   text-decoration: none !important;
@@ -545,7 +545,7 @@ a:hover {
 
 .email-me {
   font-family: "Actor", helvetica;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0 auto 0 auto;
   width: 387px;
   text-align: center;
@@ -556,7 +556,7 @@ a:hover {
 }
 
 .form-title {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.1em;
   display: inline-block;
   margin-left: .3em;
@@ -564,11 +564,10 @@ a:hover {
 }
 
 .idea {
-  font-weight: bold;
-  margin-bottom: .25em;
+  font-weight: 600;
+  margin-bottom: .15em;
   display: inline-block;
-  background-color: #222;
-  color: #eee;
+  color: #222;
   padding: .15em .2em .1em .2em;
   border-radius: 7px;
 }
@@ -650,7 +649,7 @@ footer {
   font-size: .8em;
   display: inline-block;
   padding: .6em 0 0 0;
-  font-weight: bold;
+  font-weight: 600;
   float: left;
 }
 
@@ -745,5 +744,5 @@ footer {
 
 .footer-active a {
   color: #333;
-  font-weight: bold;
+  font-weight: 600;
 }
