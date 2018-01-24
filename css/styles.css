@@ -163,9 +163,9 @@ header {
 }
 
 .thumbnail-image {
-  width: 85%;
+  width: 80%;
   margin: 2em 0 3.2em 0;
-  border-radius: 4px 4px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .work {
@@ -187,9 +187,9 @@ header {
 
 .project-card {
   background-color: rgba(0, 0, 0, .7);
-  width: 85%;
+  width: 80%;
   padding: .75em 0.1em 0.1em .45em;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 10px 10px;
   color: #eee;
   font-family: "Actor", helvetica;
   line-height: 1em;
@@ -206,11 +206,11 @@ header {
 .project-description::-webkit-scrollbar {
 	width: 8px;
   background-color: rgba(0, 0, 0, 0);
-
 }
 
 .project-description::-webkit-scrollbar-thumb {
 	background-color: #eee;
+  border-radius: 3px;
 }
 
 .r .project-card {
