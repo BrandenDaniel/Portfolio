@@ -269,7 +269,7 @@ header {
   color: #5ecc82;
 }
 
-.devicon-html5-plain-wordmark {
+.devicon-html5-plain {
   color: #d86a4b;
 }
 
@@ -277,15 +277,15 @@ header {
   color: #7acef4;
 }
 
-.devicon-css3-plain-wordmark {
+.devicon-css3-plain {
   color: #143872;
 }
 
-.devicon-bootstrap-plain-wordmark {
+.devicon-bootstrap-plain {
   color: #7e70ad;
 }
 
-.devicon-javascript-plain-wordmark {
+.devicon-javascript-plain {
   color: #e5d44e;
 }
 
@@ -295,8 +295,8 @@ header {
 }
 
 .lang-lib i {
-  margin-right: .15em;
-  font-size: 1.2em;
+  margin-right: .2em;
+  font-size: 1em;
 }
 
 .built, .status {

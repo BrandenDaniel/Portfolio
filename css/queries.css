@@ -176,7 +176,7 @@
     font-size: 1.15em;
   }
   .external a {
-    padding: .2em .35em;
+    padding: .3em .35em .2em .35em;
   }
   .menu {
     display: none;
