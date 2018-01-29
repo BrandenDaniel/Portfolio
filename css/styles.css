@@ -673,7 +673,7 @@ footer {
   text-align: center;
   border-radius: 50%;
   display: inline-block;
-
+  border: 1px solid rgba(0,0,0,.1);
 }
 
 .back-to-top i {
