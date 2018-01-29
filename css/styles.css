@@ -31,11 +31,11 @@ header {
   padding: .85em .65em .15em .65em;
   /* width: 295px; */
   display: inline-block;
-  margin: .5em auto 0 auto;
+  margin: 0 auto;
 }
 
 .name {
-  font-size: 1.75em;
+  font-size: 1.45em;
   font-family: 'Montserrat', helvetica;
   color: #333;
   margin-bottom: .1em;
@@ -43,7 +43,7 @@ header {
 
 .title {
   font-family: 'Actor', helvetica;
-  font-size: .95em;
+  font-size: .8em;
   color: #fff;
   background-color: rgba(0, 0, 0, .8);
   padding: 3px 0 2px 0;
@@ -111,7 +111,7 @@ header {
 }
 
 .projects {
-  margin: 0 3.4em;
+  margin: 0 2.2em;
 }
 
 .about, .contact, .projects {
@@ -668,18 +668,17 @@ footer {
 }
 
 .back-to-top {
-  position: sticky;
   background-color: #eee;
-  margin: 0 auto -1.7em auto;
+  margin: 3em auto 2em auto;
   text-align: center;
   border-radius: 50%;
-  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1) inset;
+  display: inline-block;
+
 }
 
 .back-to-top i {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   font-size: 2.3em;
   color: #666;
 }
