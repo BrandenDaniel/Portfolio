@@ -668,19 +668,29 @@ footer {
 }
 
 .back-to-top {
-  background-color: #eee;
+  background-color: #f9f9f9;
   margin: 3em auto 2em auto;
   text-align: center;
   border-radius: 50%;
   display: inline-block;
-  border: 1px solid rgba(0,0,0,.1);
+  transition: .1s ease-in-out;
+  border: 1px solid #666;
 }
 
 .back-to-top i {
   width: 45px;
   height: 45px;
-  font-size: 2.3em;
+  font-size: 2.4em;
   color: #666;
+}
+
+.back-to-top:hover {
+  background-color: rgba(0,0,0,.8);
+  border:   border: 1px rgba(0,0,0,.8);
+}
+
+.back-to-top i:hover {
+  color: #f9f9f9;
 }
 
 .github-footer {
