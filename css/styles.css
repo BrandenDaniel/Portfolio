@@ -325,6 +325,10 @@ a:hover {
 
 .social {
   margin: 0 auto;
+  background: #333;
+  display: inline-block;
+  padding: .35em;
+  border-radius: 25px;
 }
 
 .social i {
@@ -340,7 +344,7 @@ a:hover {
   width: 185px;
   padding: .45em 0 .2em 0;
   display: inline-block;
-  margin: 0 -2px;
+  margin: 0 -1px;
 }
 
 .linkedin {
@@ -349,7 +353,7 @@ a:hover {
 }
 
 .email {
-  background: #c65349;
+  background: #333;
   border-radius: 0 20px 0 0;
 }
 
@@ -359,17 +363,19 @@ a:hover {
 }
 
 .mobile {
-  background: #615791;
+  background: #c65349;
   border-radius: 20px 0 0 0;
 }
 
 .email h3, .mobile h3, .github h3, .linkedin h3 {
-  font-size: .65em;
+  font-size: .75em;
   color: #fff;
   margin: 0 auto .5em auto;
   padding: .35em .35em 0 .35em;
   border-radius: 4px;
   width: 185px;
+  font-family: monospace;
+
 }
 
 .social a {

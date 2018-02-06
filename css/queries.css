@@ -266,6 +266,8 @@
   }
   .social {
     margin-top: 2.5em;
+    padding: .4em .53em;
+    border-radius: 25px;
   }
   .mobile, .linkedin, .email, .github {
     display: inline-block;
