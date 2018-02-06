@@ -337,19 +337,19 @@ a:hover {
 }
 
 .email, .mobile, .github, .linkedin {
-  width: 175px;
+  width: 185px;
   padding: .45em 0 .2em 0;
   display: inline-block;
   margin: 0 -2px;
 }
 
 .linkedin {
-  background: #0077B5;
+  background: #4772b7;
   border-radius: 0 0 20px 0;
 }
 
 .email {
-  background: #ea4335;
+  background: #c65349;
   border-radius: 0 20px 0 0;
 }
 
@@ -359,7 +359,7 @@ a:hover {
 }
 
 .mobile {
-  background: #5ecc82;
+  background: #615791;
   border-radius: 20px 0 0 0;
 }
 
@@ -369,7 +369,7 @@ a:hover {
   margin: 0 auto .5em auto;
   padding: .35em .35em 0 .35em;
   border-radius: 4px;
-  width: 175px;
+  width: 185px;
 }
 
 .social a {
