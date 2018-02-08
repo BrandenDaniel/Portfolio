@@ -88,6 +88,10 @@
   .footer-nav {
     margin: 0.5em 0 0 0;
   }
+
+  header {
+    width: 77%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -100,8 +104,14 @@
   body {
     position: relative;
   }
+  .menu-container {
+    display: none;
+  }
+  header {
+    width: 100% !important;
+  }
   .featured-work, .featured-contact, .featured-about {
-    margin-bottom: 3.5em;
+    margin-bottom: 2em;
     margin-top: 1em;
   }
   .mobile-nav {
@@ -207,13 +217,13 @@
   header {
     margin: -.25em 0 0 -.1em;
     padding: 0em .35em .35em 0em;
-    background-color: rgba(0, 0, 0, .8);
-    box-shadow: 0em .1em .4em rgba(0, 0, 0, .1);
+    background-color: #222;
+    width: 100%;
   }
   .header-spacing {
-    width: 200px;
     margin: 0 auto 0 0;
     display: inline-block;
+    padding: .6em .6em 0 .6em;
   }
   .name {
     font-size: 1.15em;
@@ -459,6 +469,12 @@
   }
 }
 
+@media (min-width: 390px) and (max-width: 575px) {
+  .thumbnail-image, .project-card {
+    width: 80%;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .thumbnail-image, .project-card, .project-title {
     width: 100%;
@@ -468,10 +484,15 @@
     margin-top: -3.55em;
     line-height: 1em;
   }
+
+  header {
+    width: 600px;
+  }
+
 }
 
-@media (min-width: 390px) and (max-width: 575px) {
-  .thumbnail-image, .project-card {
-    width: 80%;
+@media  (min-width: 992px) and (max-width: 1199px) {
+    header {
+      width: 645px;
+    }
   }
-}

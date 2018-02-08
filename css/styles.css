@@ -23,34 +23,37 @@ body {
 /*HEADER*/
 
 header {
-  margin: .5em auto;
+  margin: 0 auto;
+  display: inline-block;
+  width: 800px;
+  text-align: left;
 }
 
 .header-spacing {
   text-align: center;
-  padding: .85em .65em .15em .65em;
-  /* width: 295px; */
+  padding: .5em .65em .15em .65em;
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 auto 0 0;
 }
 
 .name {
-  font-size: 1.45em;
+  font-size: 1.15em;
   font-family: 'Montserrat', helvetica;
-  color: #333;
+  color: #ddd;
   margin-bottom: .1em;
+  margin-top: 0;
 }
 
 .title {
   font-family: 'Actor', helvetica;
-  font-size: .8em;
-  color: #fff;
-  background-color: rgba(0, 0, 0, .8);
+  font-size: .65em;
+  color: rgba(0, 0, 0, .8);
+  background-color: #ddd;
   padding: 3px 0 2px 0;
   width: 98%;
   margin: .3em auto;
   border-radius: 6px 0 6px 0;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* THANK YOU PAGE */
@@ -88,21 +91,33 @@ header {
 }
 
 .story-container {
-  margin: 1em auto 0 auto;
+  margin: 2em auto 0 auto;
   width: 100%;
   height: 100%;
 }
 
 /* NAV BARS */
+.menu-container {
+  display: inline-block;
+  float: right;
+  margin: 1.1em 0 0 0;
+}
 
 .menu {
   list-style: none;
   margin: 0 auto;
+  text-align: right;
+  display: inline-block;
 }
 
 .desktop-nav {
+  background-color: #222;
+  box-shadow: 0em .1em .4em rgba(0, 0, 0, .1);
+}
+
+.hamburger-container {
+  display: none;
   background: rgba(0, 0, 0, .8);
-  text-align: center;
 }
 
 .navi {
@@ -110,8 +125,13 @@ header {
   margin: .4em 0 0 0;
 }
 
+.navi
+
 .projects {
-  margin: 0 2.2em;
+  margin: 0 .6em;
+  padding: 0 1em !important;
+  border-right: 1px solid rgba(255,255,255,.2);
+  border-left: 1px solid rgba(255,255,255,.2);
 }
 
 .about, .contact, .projects {
@@ -327,7 +347,7 @@ a:hover {
   margin: 0 auto;
   background: #333;
   display: inline-block;
-  padding: .35em;
+  padding: .35em .4em;
   border-radius: 25px;
 }
 
@@ -346,6 +366,16 @@ a:hover {
   display: inline-block;
   margin: 0 -1px;
 }
+
+/* curl 'https://api.github.com/users/brandendaniel?client_id=46dfd942b5d01baaee51&client_secret=c875b8bcd6c89bee61a7bd0ee7cac10e348f5977'
+
+curl -i https://api.github.com/users/brandendaniel
+
+curl -u "BrandenDaniel" https://api.github.com/brandendaniel
+
+curl -H "Authorization: 6169056bcbba757543b253e192c79db8be7d1add" https://api.github.com/brandendaniel */
+
+
 
 .linkedin {
   background: #4772b7;
@@ -548,8 +578,8 @@ a:hover {
 /* EMAIL SECTION */
 
 .email-hr {
-  margin: 4em auto 2.5em auto;
-  width: 400px;
+  margin: 2.5em auto 1.5em auto;
+  width: 500px;
 }
 
 .email-me {
