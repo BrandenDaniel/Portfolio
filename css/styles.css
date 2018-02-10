@@ -117,15 +117,12 @@ header {
 
 .hamburger-container {
   display: none;
-  background: rgba(0, 0, 0, .8);
 }
 
 .navi {
   display: inline-block;
   margin: .4em 0 0 0;
 }
-
-.navi
 
 .projects {
   margin: 0 .6em;
