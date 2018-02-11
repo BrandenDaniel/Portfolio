@@ -13,6 +13,9 @@
   .featured-work, .featured-contact, .featured-about {
     margin-bottom: 4em;
   }
+  .featured-contact {
+    margin-top: 3em !important;
+  }
   .text, .image {
     width: 100%;
   }
@@ -88,9 +91,27 @@
   .footer-nav {
     margin: 0.5em 0 0 0;
   }
-
   header {
     width: 77%;
+  }
+  .social-container {
+    margin: 0 auto 2em auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 2em;
+  }
+  .social-container h1 {
+    margin: 0 auto .65em auto;
+  }
+  .idea {
+    font-size: 1.5em;
+  }
+  .email-me {
+    text-align: center !important;
+    margin: 0 auto;
+  }
+  .form-title-container {
+    text-align: center;
   }
 }
 
@@ -270,32 +291,6 @@
     margin: 1em auto 0 0;
     display: none;
   }
-  .get-touch {
-    font-size: 1.15em;
-    margin: .6em auto .6em auto;
-  }
-  .social {
-    margin-top: 2.5em;
-    padding: .4em .53em;
-    border-radius: 25px;
-  }
-  .mobile, .linkedin, .email, .github {
-    display: inline-block;
-    margin: 0 -2px;
-    width: 150px
-  }
-  .email h3, .mobile h3, .github h3, .linkedin h3 {
-    padding: .15em;
-    font-size: .55em;
-    width: 150px;
-  }
-  .social i {
-    font-size: 1.2em;
-    background-color: rgba(255, 255, 255, 0);
-    padding: .4em 0 0 0;
-    width: 37px;
-    height: 37px;
-  }
   .line-2 {
     height: 2px;
     width: 10px;
@@ -331,22 +326,21 @@
   .calender {
     margin-top: .6em;
   }
-  .email-hr {
-    margin: 3em auto 2.5em auto;
-    width: 80%;
-  }
   .email-me {
-    width: 325px;
+    width: 300px;
   }
   .form-title-container {
-    text-align: left;
+    margin-bottom: .65em;
   }
   .form-title {
     text-align: left;
     font-size: .95em;
   }
   .idea {
-    font-size: 1.75em;
+    font-size: 1.5em;
+  }
+  .email-section, .social-container {
+    display: block !important;
   }
   .via-formspree {
     display: inline-block;
@@ -378,6 +372,9 @@
     display: block;
     padding: .5em 0 .4em 0;
     margin-top: .35em;
+  }
+  .back-to-top {
+    display: inline-block;
   }
   footer {
     padding: .35em .85em .35em 1.25em;
@@ -441,12 +438,6 @@
     width: 97% !important;
     margin: -3.4em auto 0 auto;
   }
-  .mobile, .linkedin, .email, .github {
-    margin: -1px -2px;
-  }
-  .get-touch {
-    margin: .25em auto .25em auto;
-  }
   footer {
     padding: .45em .45em .45em .75em;
   }
@@ -469,6 +460,21 @@
   }
 }
 
+@media (max-width: 350px) {
+  .email-me {
+    width: 280px;
+  }
+  .email-msg {
+    width: 100%;
+  }
+  .email-name {
+    width: 100%;
+  }
+  .email-address {
+    width: 100%;
+  }
+}
+
 @media (min-width: 390px) and (max-width: 575px) {
   .thumbnail-image, .project-card {
     width: 80%;
@@ -484,9 +490,20 @@
     margin-top: -3.55em;
     line-height: 1em;
   }
-
   header {
     width: 600px;
+  }
+  .email-me {
+    width: 330px;
+  }
+  .email-msg {
+    width: 100%;
+  }
+  .email-name {
+    width: 139px
+  }
+  .email-address {
+    width: 180px;
   }
 
 }
