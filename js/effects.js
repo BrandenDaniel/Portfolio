@@ -1,5 +1,5 @@
 
-$('.hamburger-icon').click(function() {
+$('.hamburger-container').click(function() {
   $('.mobile-nav').css('display', 'block');
   $('body').css('overflow', 'hidden');
 });
