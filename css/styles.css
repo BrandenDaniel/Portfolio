@@ -704,8 +704,8 @@ a:hover {
   height: 110px;
   font-family: "Actor", helvetica;
   font-size: .8em;
-  box-shadow: 0 3px 2px -2px rgba(0, 0, 0, .1);
-  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
   border-top: none;
   border-left: none;
   border-right: none;
