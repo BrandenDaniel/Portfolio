@@ -105,7 +105,7 @@
     margin: 0 auto 4em auto;
   }
   .social-print p {
-    font-size: 78%;
+    font-size: 75%;
     margin-left: .8em;
   }
   .social-container h1 {
@@ -163,7 +163,7 @@
     }
   }
   .x {
-    color: #eee;
+    color: rgba(255, 255, 255, .6);
     font-size: 1.8em;
     display: inline-block;
     float: right;
