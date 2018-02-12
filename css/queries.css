@@ -352,6 +352,8 @@
   }
   .idea {
     font-size: 1.4em;
+    padding: .35em 0 .3em 0;
+
   }
   .email-section, .social-container {
     display: block !important;
