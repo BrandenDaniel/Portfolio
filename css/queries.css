@@ -105,7 +105,7 @@
     margin: 0 auto 4em auto;
   }
   .social-print p {
-    font-size: 80%;
+    font-size: 78%;
     margin-left: .8em;
   }
   .social-container h1 {
@@ -163,11 +163,11 @@
     }
   }
   .x {
-    color: rgba(255, 255, 255, .6);
-    font-size: 1.5em;
+    color: #eee;
+    font-size: 1.8em;
     display: inline-block;
     float: right;
-    margin: .65em .87em 0 0;
+    margin: .1em .87em 0 0;
   }
   .nav-list {
     margin-top: 45%;
