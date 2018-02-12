@@ -104,13 +104,20 @@
     text-align: left;
     margin: 0 auto 4em auto;
   }
-  .social-print p {
+  .social-print p, .contact-location {
     font-size: 75%;
     margin-left: .8em;
+    margin-bottom: 1px;
+  }
+  .contact-melbourne {
+    font-size: 75% !important;
+  }
+  .social-print span {
+    margin-top: 1em;
   }
   .social-container h1 {
     margin: 0 auto .55em auto;
-    padding: .25em 0 .2em 0;
+    padding: .3em 0 .15em 0;
   }
   .email-me {
     text-align: center !important;
