@@ -112,9 +112,6 @@
     margin: 0 auto .55em auto;
     padding: .25em 0 .2em 0;
   }
-  .idea {
-    font-size: 1.5em;
-  }
   .email-me {
     text-align: center !important;
     margin: 0 auto;
@@ -347,7 +344,7 @@
     font-size: .95em;
   }
   .idea {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   .email-section, .social-container {
     display: block !important;
@@ -459,7 +456,7 @@
     width: 305px;
   }
   .idea {
-    font-size: 1.65em;
+    font-size: 1.5em;
   }
   .form-title {
     font-size: .85em;
