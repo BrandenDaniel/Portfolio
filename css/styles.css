@@ -673,6 +673,7 @@ a:hover {
   border-right: none;
   font-family: "Actor", helvetica;
   font-size: .8em;
+  border-radius: 0 !important;
 }
 
 .email-name:focus, .email-address:focus, .email-msg:focus {
@@ -692,6 +693,7 @@ a:hover {
   border-top: none;
   border-left: none;
   border-right: none;
+  border-radius: 0 !important;
 }
 
 .email-msg {
@@ -708,6 +710,7 @@ a:hover {
   border-left: none;
   border-right: none;
   background-color: #f9f9f9;
+  border-radius: 0 !important;
 }
 
 .email-submit {
