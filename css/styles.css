@@ -756,7 +756,7 @@ footer {
 }
 
 .back-to-top {
-  margin: 1.2em auto .5em auto;
+  margin: .3em auto;
   text-align: center;
   display: inline-block;
   transition: .5s ease-in-out;
