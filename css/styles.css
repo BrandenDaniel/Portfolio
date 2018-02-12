@@ -520,13 +520,13 @@ a:hover {
 .social-container {
   padding: 0 0 1em 0;
   text-align: center;
-  width: 198px;
+  width: 210px;
   margin: 0 6em .65em auto;
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
 .social-print {
-  width: 198px;
+  width: 210px;
   text-align: left;
   margin: 0 6.7em 0 auto;
   font-family: monospace;
@@ -540,14 +540,17 @@ a:hover {
   text-decoration: underline;
 }
 
-.social-print p, .social-print span {
+.social-print p, .contact-location {
   font-size: .85em;
   margin-bottom: 2px;
+  margin-left: .5em;
 }
+
 
 .social-print span {
   display: inline-block;
   margin-top: 1.5em;
+  font-size: .85em;
 }
 
 .contact-location {
@@ -560,7 +563,7 @@ a:hover {
   font-weight: 600;
   border: 1px dashed rgba(0,0,0,.15);
   padding: .2em;
-  width: 94%;
+  width: 89%;
   margin: 0 auto .5em auto;
 }
 
