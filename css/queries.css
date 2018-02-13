@@ -167,7 +167,7 @@
     }
   }
   .x {
-    color: rgba(255, 255, 255, .6);
+    color: #bbb;
     font-size: 1.8em;
     display: inline-block;
     float: right;
@@ -184,13 +184,13 @@
   }
   .nav-list a {
     font-size: 1.3em;
-    color: rgba(255, 255, 255, .6);
+    color: #bbb;
     font-family: "Actor", helvetica;
   }
   .nav-active {
     width: 120px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, .5);
+    background: #bbb;
     border-radius: 30px;
     font-weight: 600;
   }
