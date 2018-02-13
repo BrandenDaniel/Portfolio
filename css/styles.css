@@ -525,6 +525,7 @@ a:hover {
 }
 
 .social-container h1 {
+  font-family: 'Actor', helvetica;
   font-size: 1.3em;
   font-weight: 600;
   border: 1px dashed rgba(0,0,0,.15);
