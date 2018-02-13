@@ -12,7 +12,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-family: "Actor", helvetica;
 }
 
 .hr-line {
@@ -38,7 +37,7 @@ header {
 
 .name {
   font-size: 1.15em;
-  font-family: 'Montserrat', helvetica;
+  font-family: 'Montserrat', helvetica !important;
   color: #ddd;
   margin-bottom: .1em;
   margin-top: 0;
@@ -50,8 +49,8 @@ header {
   color: rgba(0, 0, 0, .8);
   background-color: #ddd;
   padding: 3px 0 2px 0;
-  width: 98%;
-  margin: .3em auto;
+  width: 98% !important;
+  margin: .3em auto !important;
   border-radius: 6px 0 6px 0;
   font-weight: 600;
 }
@@ -525,6 +524,15 @@ a:hover {
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
+.social-container h1 {
+  font-size: 1.3em;
+  font-weight: 600;
+  border: 1px dashed rgba(0,0,0,.15);
+  padding: .2em;
+  width: 94%;
+  margin: 0 auto .5em auto;
+}
+
 .social-print {
   width: 198px;
   text-align: left;
@@ -553,15 +561,6 @@ a:hover {
 .contact-location {
   margin-right: 3px;
   color: #ce612f;
-}
-
-.social-container h1 {
-  font-size: 1.3em;
-  font-weight: 600;
-  border: 1px dashed rgba(0,0,0,.15);
-  padding: .2em;
-  width: 94%;
-  margin: 0 auto .5em auto;
 }
 
 .mobile a {
@@ -654,7 +653,7 @@ a:hover {
   margin-bottom: .15em;
   display: inline-block;
   padding: .25em 0 .2em 0;
-  font-size: 1.55em;
+  font-size: 1.3em;
   border: 1px dashed rgba(0,0,0,.15);
   width: 100%;
   text-align: center;
