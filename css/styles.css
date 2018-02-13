@@ -37,16 +37,16 @@ header {
 }
 
 .name {
-  font-size: 1.15em;
-  font-family: 'Montserrat', helvetica;
+  font-size: 1.3em;
+  font-family: 'Actor', helvetica ;
   color: #ddd;
   margin-bottom: .1em;
   margin-top: 0;
 }
 
 .title {
-  font-family: 'Actor', helvetica;
-  font-size: .65em;
+  font-family: 'Actor', helvetica ;
+  font-size: .6em;
   color: rgba(0, 0, 0, .8);
   background-color: #ddd;
   padding: 3px 0 2px 0;
@@ -107,7 +107,7 @@ header {
 
 .menu {
   list-style: none;
-  margin: 0 auto;
+  margin: 0 auto -1em auto;
   text-align: right;
   display: inline-block;
 }
