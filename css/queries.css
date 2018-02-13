@@ -262,12 +262,12 @@
   }
   .name {
     font-size: 1.25em;
-    margin-bottom: -2px;
+    margin-bottom: -1px;
     color: #ddd;
   }
   .title {
     font-size: .59em;
-    width: 99%;
+    width: 100%;
     background-color: #ddd;
     color: #444;
     font-weight: 600;
