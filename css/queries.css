@@ -261,19 +261,19 @@
     padding: .6em .6em 0 .6em;
   }
   .name {
-    font-size: 1.15em;
+    font-size: 1.2em;
+    margin-bottom: -3px;
     color: #ddd;
-    margin: 0 0 0 0;
   }
   .title {
-    font-size: .65em;
-    width: 98%;
+    font-size: .6em;
+    width: 99%;
     background-color: #ddd;
     color: #444;
     font-weight: 600;
     padding: 1px 0 1px 0;
     display: inline-block;
-    font-family: "Actor" , helvetica;
+    margin: 0 auto !important;
   }
   .story-container {
     margin-top: 1em;
@@ -466,7 +466,7 @@
     width: 305px;
   }
   .idea {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .form-title {
     font-size: .85em;

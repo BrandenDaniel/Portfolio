@@ -36,7 +36,7 @@ header {
 }
 
 .name {
-  font-size: 1.15em;
+  font-size: 1.25em;
   font-family: 'Montserrat', helvetica !important;
   color: #ddd;
   margin-bottom: .1em;
@@ -44,13 +44,13 @@ header {
 }
 
 .title {
-  font-family: 'Actor', helvetica !important;
-  font-size: .65em !important;
-  color: rgba(0, 0, 0, .8);
+  font-family: 'Montserrat', helvetica !important;
+  font-size: .6em;
+  color: #000;
   background-color: #ddd;
   padding: 3px 0 2px 0;
-  width: 98% !important;
-  margin: .3em auto !important;
+  width: 99% !important;
+  margin: .3em auto;
   border-radius: 6px 0 6px 0;
   font-weight: 600;
 }
