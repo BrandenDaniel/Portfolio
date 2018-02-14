@@ -7,6 +7,7 @@
 
 body {
   background: #f9f9f9;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -22,36 +23,32 @@ body {
 /*HEADER*/
 
 header {
-  margin: 0 auto;
+  margin: 0 auto !important;
   display: inline-block;
   width: 800px;
   text-align: left;
 }
 
 .header-spacing {
-  text-align: center;
+  text-align: left;
   padding: .5em .65em .15em .65em;
   display: inline-block;
   margin: 0 auto 0 0;
 }
 
 .name {
-  font-size: 1.25em;
-  font-family: 'Montserrat', helvetica !important;
+  font-size: 1.1em;
+  font-family: monospace;
   color: #ddd;
-  margin-bottom: .1em;
-  margin-top: 0;
+  margin: 0;
 }
 
 .title {
-  font-family: 'Montserrat', helvetica !important;
-  font-size: .6em;
-  color: #000;
-  background-color: #ddd;
-  padding: 3px 0 1px 0;
-  width: 98% !important;
-  margin: .3em auto;
-  border-radius: 6px 0 6px 0;
+  font-family: monospace;
+  font-size: .8em;
+  color: #ddd;
+  padding: 0;
+  margin: .3em 0 .1em 0 !important;
   font-weight: 600;
 }
 
@@ -101,12 +98,12 @@ header {
 .menu-container {
   display: inline-block;
   float: right;
-  margin: 1.1em 0 0 0;
+  margin: 1em 0 0 0;
 }
 
 .menu {
   list-style: none;
-  margin: 0 auto;
+  margin: 0 auto !important;
   text-align: right;
   display: inline-block;
 }
@@ -122,12 +119,11 @@ header {
 
 .navi {
   display: inline-block;
-  margin: .4em 0 0 0;
 }
 
 .projects {
-  margin: 0 .6em;
-  padding: 0 1em !important;
+  padding: 0 1.1em !important;
+  margin: 0 auto;
   border-right: 1px solid rgba(255, 255, 255, .2);
   border-left: 1px solid rgba(255, 255, 255, .2);
 }
@@ -136,9 +132,9 @@ header {
   font-size: .9em;
   font-weight: 600;
   color: #999;
-  font-family: "Actor", helvetica;
+  font-family: monospace;
   display: inline-block;
-  padding: .5em .3em .4em .3em;
+  padding: 0 .78em;
   transition: .1s ease-in-out;
 }
 

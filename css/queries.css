@@ -231,7 +231,7 @@
     float: right;
     font-size: 1.5em;
     color: #ddd;
-    margin: .6em .6em 0;
+    margin: .3em .6em 0;
   }
   .featured-title {
     margin-bottom: -.5em;
@@ -261,21 +261,19 @@
     padding: .6em .6em 0 .6em;
   }
   .name {
-    font-size: 1.25em;
-    margin-bottom: 0 !important;
+    font-size: 1.1em;
+    font-family: monospace;
     color: #ddd;
+    margin: 0;
   }
+
   .title {
-    font-size: .59em;
-    width: 100%;
-    max-width: 110%;
-    text-align: center;
-    background-color: #ddd;
-    color: #444;
+    font-family: monospace;
+    font-size: .8em;
+    color: #ddd;
+    padding: 0;
+    margin: .3em 0 0 0 !important;
     font-weight: 600;
-    padding: 3px 0 0 0 !important;
-    display: inline-block;
-    margin: 0 auto !important;
   }
   .story-container {
     margin-top: 1em;
@@ -389,7 +387,7 @@
   }
   .email-submit {
     display: block;
-    padding: .5em 0 .4em 0;
+    padding: .6em 0 .3em 0;
     margin-top: .35em;
   }
   .back-to-top {
