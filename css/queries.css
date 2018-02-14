@@ -231,7 +231,7 @@
     float: right;
     font-size: 1.5em;
     color: #ddd;
-    margin: .3em .6em 0;
+    margin: .15em .5em 0;
   }
   .featured-title {
     margin-bottom: -.5em;
@@ -251,14 +251,14 @@
   }
   header {
     margin: -.25em 0 0 -.1em;
-    padding: 0em .35em .35em 0em;
+    padding: 0em .35em .1em 0em;
     background-color: #222;
     width: 100%;
   }
   .header-spacing {
     margin: 0 auto 0 0;
     display: inline-block;
-    padding: .6em .6em 0 .6em;
+    padding: .5em .6em 0 .6em;
   }
   .name {
     font-size: 1.1em;
