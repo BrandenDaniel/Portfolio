@@ -45,7 +45,7 @@ header {
 
 .title {
   font-family: monospace;
-  font-size: .8em;
+  font-size: .7em;
   color: #ddd;
   padding: 0;
   margin: .3em 0 .1em 0;
@@ -98,7 +98,7 @@ header {
 .menu-container {
   display: inline-block;
   float: right;
-  margin: 1.15em 0 0 0;
+  margin: .95em 0 0 0;
 }
 
 .menu {
