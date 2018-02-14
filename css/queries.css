@@ -229,9 +229,9 @@
   .hamburger-container {
     display: inline-block;
     float: right;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #ddd;
-    margin: .2em .4em 0;
+    margin: .35em .4em 0;
   }
   .featured-title {
     margin-bottom: -.5em;
