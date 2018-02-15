@@ -31,13 +31,13 @@ header {
 
 .header-spacing {
   text-align: left;
-  padding: .5em .65em .15em .65em;
+  padding: .35em .65em .25em .65em;
   display: inline-block;
   margin: 0 auto 0 0;
 }
 
 .name {
-  font-size: 1.1em;
+  font-size: .85em;
   font-family: monospace;
   color: #ddd;
   margin: 0;
@@ -45,7 +45,7 @@ header {
 
 .title {
   font-family: monospace;
-  font-size: .7em;
+  font-size: .8em;
   color: #ddd;
   padding: 0;
   margin: .3em 0 .1em 0;
@@ -98,7 +98,7 @@ header {
 .menu-container {
   display: inline-block;
   float: right;
-  margin: .95em 0 0 0;
+  margin: 1.3em 0 0 0;
 }
 
 .menu {
