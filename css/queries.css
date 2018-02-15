@@ -261,7 +261,7 @@
     padding: .45em .6em 0 .5em;
   }
   .name {
-    font-size: .8em;
+    font-size: 11px;
     font-family: monospace;
     color: #ddd;
     margin: 0;
@@ -269,10 +269,10 @@
 
   .title {
     font-family: monospace;
-    font-size: .8em;
+    font-size: 10px;
     color: #ddd;
     padding: 0;
-    margin: .3em 0 0 1.3em !important;
+    margin: .3em 0 0 0 !important;
     font-weight: 600;
   }
   .story-container {

@@ -37,20 +37,32 @@ header {
 }
 
 .name {
-  font-size: .8em;
+  font-size: 12px ;
   font-family: monospace;
   color: #ddd;
   margin: 0;
+  font-weight: 600;
+
 }
 
 .title {
   font-family: monospace;
-  font-size: .8em;
+  font-size: 11px;
   color: #ddd;
   padding: 0;
-  margin: .3em 0 .1em 1.2em;
+  margin: .3em 0 .1em 0;
   font-weight: 600;
 }
+
+.coder {
+  background: #ddd;
+  color: #292b2c;
+  border-radius: 4px;
+  padding: 1px 2px 0 2px;
+  font-size: .8em;
+  display: inline-block;
+}
+
 
 /* THANK YOU PAGE */
 
