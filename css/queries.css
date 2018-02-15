@@ -229,7 +229,7 @@
   .hamburger-container {
     display: inline-block;
     float: right;
-    font-size: 1.6em;
+    font-size: 1.75em;
     color: #ddd;
     margin: .25em .5em 0;
   }
@@ -272,7 +272,7 @@
     font-size: .8em;
     color: #ddd;
     padding: 0;
-    margin: .3em 0 0 0 !important;
+    margin: .3em 0 0 1.3em !important;
     font-weight: 600;
   }
   .story-container {
