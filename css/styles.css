@@ -57,10 +57,11 @@ header {
 .coder {
   background: #ddd;
   color: #292b2c;
-  border-radius: 4px;
+  border-radius: 3px;
   padding: 1px 2px 0 2px;
   font-size: .8em;
   display: inline-block;
+  margin-left: 4px;
 }
 
 
