@@ -229,9 +229,9 @@
   .hamburger-container {
     display: inline-block;
     float: right;
-    font-size: 1.45em;
+    font-size: 1.6em;
     color: #ddd;
-    margin: .35em .5em 0;
+    margin: .25em .5em 0;
   }
   .featured-title {
     margin-bottom: -.5em;
@@ -258,7 +258,7 @@
   .header-spacing {
     margin: 0 auto 0 0;
     display: inline-block;
-    padding: .5em .6em 0 .5em;
+    padding: .45em .6em 0 .5em;
   }
   .name {
     font-size: .85em;
