@@ -126,6 +126,10 @@
   .form-title-container {
     text-align: center;
   }
+  .mobile a, .email a, .github a, .linkedin a {
+    padding: .35em .3em .25em .3em;
+
+  }
 }
 
 @media (min-width: 576px) {

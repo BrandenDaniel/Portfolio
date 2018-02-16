@@ -528,8 +528,8 @@ a:hover {
 .social-container {
   padding: 0 0 1em 0;
   text-align: center;
-  width: 198px;
-  margin: 0 6em .65em auto;
+  width: 200px;
+  margin: 0 6em .4em auto;
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
@@ -540,7 +540,7 @@ a:hover {
   border: 1px dashed rgba(0,0,0,.15);
   padding: .2em;
   width: 94%;
-  margin: 0 auto .5em auto;
+  margin: 0 auto .6em auto;
 }
 
 .social-print {
@@ -576,8 +576,8 @@ a:hover {
 .mobile a {
   background: #e68523;
   color: #f9f9f9;
-  /* border: 1px solid #e68523; */
   border-radius: 5px;
+  margin-left: 0 !important;
 }
 
 .mobile a:hover {
@@ -611,6 +611,7 @@ a:hover {
   background: #0077b5;
   color: #f9f9f9;
   border-radius: 5px;
+  margin-right: 0 !important;
 }
 
 .linkedin a:hover {
@@ -619,22 +620,14 @@ a:hover {
 }
 
 .mobile a, .email a, .github a, .linkedin a {
-  padding: .3em;
+  padding: .3em .3em .3em .3em;
   font-size: 1.4em;
-  margin: 0 1px;
+  margin: 0;
   transition: .1s ease-in-out;
 }
 
-.mobile a {
-  margin-left: 0;
-}
-
-.linkedin a {
-  margin-right: 0;
-}
-
 .mobile, .email, .github, .linkedin {
-  width: 30px !important;
+  width: 32px !important;
 }
 
 /* EMAIL SECTION */
