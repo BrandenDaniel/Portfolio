@@ -137,15 +137,15 @@ header {
 .projects {
   padding: 0 1.1em !important;
   margin: 0 auto;
-  border-right: 1px solid rgba(255, 255, 255, .2);
-  border-left: 1px solid rgba(255, 255, 255, .2);
+  border-right: 1px solid rgba(255, 255, 255, .15);
+  border-left: 1px solid rgba(255, 255, 255, .15);
 }
 
 .about, .contact, .projects {
   font-size: .9em;
   font-weight: 600;
   color: #999;
-  font-family: monospace;
+  font-family: 'Actor', helvetica;
   display: inline-block;
   padding: 0 .78em;
   transition: .1s ease-in-out;
