@@ -117,7 +117,7 @@
   }
   .social-container h1 {
     margin: 0 auto .6em auto;
-    padding: .6em;
+    padding: .65em auto .6em;
   }
   .email-me {
     text-align: center !important;
