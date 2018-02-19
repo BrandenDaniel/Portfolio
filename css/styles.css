@@ -54,7 +54,7 @@ header {
 }
 
 .coder {
-  background: #ddd;
+  background: #ccc;
   color: #292b2c;
   border-radius: 2px;
   padding: 1px 2px 0 2px;
@@ -200,7 +200,7 @@ header {
 }
 
 .work {
-  margin: 0 auto 0 auto;
+  margin: 1.5em auto 0 auto;
 }
 
 .projects-2018, .projects-2017 {
