@@ -39,16 +39,15 @@ header {
 .name {
   font-size: 12px ;
   font-family: monospace;
-  color: #ddd;
+  color: #ccc;
   margin: 0;
   font-weight: 600;
-
 }
 
 .title {
   font-family: monospace;
   font-size: 11px;
-  color: #ddd;
+  color: #ccc;
   padding: 0;
   margin: .3em 0 .1em 0;
   font-weight: 600;
@@ -111,7 +110,7 @@ header {
 .menu-container {
   display: inline-block;
   float: right;
-  margin: 1.55em 0 0 0;
+  margin: 1.45em 0 0 0;
 }
 
 .menu {
@@ -135,10 +134,10 @@ header {
 }
 
 .projects {
-  padding: 0 1.1em !important;
-  margin: 0 auto;
-  border-right: 1px solid rgba(255, 255, 255, .15);
-  border-left: 1px solid rgba(255, 255, 255, .15);
+  padding: 0 .5em !important;
+  margin: 0 .4em;
+  /* border-right: 1px solid rgba(255, 255, 255, .15);
+  border-left: 1px solid rgba(255, 255, 255, .15); */
 }
 
 .about, .contact, .projects {
@@ -147,16 +146,18 @@ header {
   color: #999;
   font-family: 'Actor', helvetica;
   display: inline-block;
-  padding: 0 .78em;
+  padding: 0 .5em;
   transition: .1s ease-in-out;
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  color: #ddd;
+  border-bottom: 2px solid #ccc;
+  color: #ccc;
 }
 
 .active {
-  color: #ddd;
+  border-bottom: 2px solid #ccc;
+  color: #ccc;
   transition: 1s;
 }
 
@@ -201,13 +202,18 @@ header {
 }
 
 .projects-2018, .projects-2017 {
-  margin: 1.5em auto 0 auto;
-  width: 80.5%;
+  font-size: 1.55em;
+  margin: 1em 0 0 0;
+  display: inline-block;
   font-family: monospace;
-  padding: .4em;
-  border: 1px dashed rgba(0,0,0,.3);
-  border-radius: 10px;
+  padding: .3em;
+  /* border-bottom: 2px solid rgba(0,0,0,.5); */
 }
+
+.projects-2018 span, .projects-2017 span {
+  font-size: .55em;
+}
+
 
 .project-title {
   border-radius: 2px;
@@ -353,7 +359,7 @@ a:hover {
 
 .l {
   text-align: right;
-  margin: 1em 0 2em 0;
+  margin: .5em 0 2em 0;
 }
 
 .r {
@@ -737,7 +743,8 @@ a:hover {
 .email-submit {
   font-family: monospace;
   display: block;
-  padding: .6em 0 .55em 0;
+  padding: .9
+  em;
   width: 100%;
   margin-top: .45em;
   border: 1px solid rgba(0,0,0,.2);
