@@ -404,7 +404,7 @@ a:hover {
 
 .location {
   color: #ce612f;
-  margin-right: 2px;
+  margin: 0 1px;
   display: inline-block;
 }
 
