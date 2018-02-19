@@ -364,7 +364,7 @@ a:hover {
 
 .r {
   text-align: left;
-  margin: 1em 0 2em 0;
+  margin: .5em 0 2em 0;
 
 }
 
@@ -556,8 +556,9 @@ a:hover {
   font-weight: 600;
   border: 1px dashed rgba(0,0,0,.15);
   padding: .5em;
-  width: 94%;
+  width: 95%;
   margin: 0 auto .7em auto;
+  border-radius: 5px;
 }
 
 .social-print {
@@ -677,6 +678,7 @@ a:hover {
   border: 1px dashed rgba(0,0,0,.15);
   width: 100%;
   text-align: center;
+  border-radius: 5px;
 }
 
 .via-formspree {
@@ -743,8 +745,7 @@ a:hover {
 .email-submit {
   font-family: monospace;
   display: block;
-  padding: .9
-  em;
+  padding: .9em;
   width: 100%;
   margin-top: .45em;
   border: 1px solid rgba(0,0,0,.2);
@@ -752,6 +753,7 @@ a:hover {
   font-weight: 600;
   background: #f9f9f9;
   transition: .15s ease-in-out;
+  border-radius: 5px;
 }
 
 .email-submit:hover {
