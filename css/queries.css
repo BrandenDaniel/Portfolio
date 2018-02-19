@@ -29,8 +29,9 @@
   .l, .r {
     text-align: center;
   }
-  .projects-2017 {
-    margin-top: 1em;
+  .projects-2018, .projects-2017 {
+    margin-top: 0;
+
   }
   .my-story {
     width: 417px;
