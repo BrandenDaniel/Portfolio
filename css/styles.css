@@ -204,22 +204,16 @@ header {
 }
 
 .projects-2018, .projects-2017 {
-  font-size: 12px;
+  font-size: 11px;
   display: inline-block;
   font-family: monospace;
   float: right;
   margin-right: .45em;
   background: rgba(255,255,255,.7);
-  font-weight: 600;
+  font-weight: 800;
   border-radius: 5px;
-  padding: 0 .25em;
-
+  padding: 0 .3em;
   color: rgba(0,0,0,.7);
-  /* border-bottom: 2px solid rgba(0,0,0,.5); */
-}
-
-.projects-2018 span, .projects-2017 span {
-  font-size: .55em;
 }
 
 .project-title {
