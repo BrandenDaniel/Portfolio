@@ -204,11 +204,17 @@ header {
 }
 
 .projects-2018, .projects-2017 {
-  font-size: 1.55em;
-  margin: 1em 0 .15em 0;
+  font-size: 12px;
   display: inline-block;
   font-family: monospace;
-  padding: .3em;
+  float: right;
+  margin-right: .45em;
+  background: rgba(255,255,255,.7);
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0 .25em;
+
+  color: rgba(0,0,0,.7);
   /* border-bottom: 2px solid rgba(0,0,0,.5); */
 }
 
@@ -216,10 +222,9 @@ header {
   font-size: .55em;
 }
 
-
 .project-title {
   border-radius: 2px;
-  font-size: 1.1em;
+  font-size: 1.15em;
   font-family: "Actor", helvetica;
   width: 100%;
   display: inline;

@@ -29,10 +29,6 @@
   .l, .r {
     text-align: center;
   }
-  .projects-2018, .projects-2017 {
-    width: 70%;
-    padding: .3em;
-  }
   .projects-2017 {
     margin-top: 1em;
   }
@@ -151,12 +147,6 @@
   .menu-container {
     display: none;
   }
-  .projects-2018, .projects-2017 {
-    width: 90%;
-  }
-  .projects-2017 {
-
-  }
   header {
     width: 100% !important;
   }
@@ -236,7 +226,7 @@
     font-size: .90em;
   }
   .project-title {
-    font-size: 1.15em;
+    font-size: 1em;
   }
   .external a {
     padding: .3em .35em .2em .35em;
@@ -455,9 +445,6 @@
   .thumbnail-image, .project-card {
     width: 97% !important;
   }
-  .projects-2018, .projects-2017 {
-    width: 97%;
-  }
   .me-2 {
     margin-left: 0;
   }
@@ -545,10 +532,6 @@
   }
   .email-address {
     width: 180px;
-  }
-  .projects-2018, .projects-2017 {
-    width: 100%;
-    padding: .3em;
   }
 
 }
