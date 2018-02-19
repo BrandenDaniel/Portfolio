@@ -21,7 +21,6 @@
   }
   .thumbnail-image {
     width: 70%;
-    margin-top: 2em;
   }
   .project-card {
     width: 70%;
@@ -29,6 +28,13 @@
   }
   .l, .r {
     text-align: center;
+  }
+  .projects-2018, .projects-2017 {
+    width: 70%;
+    padding: .3em;
+  }
+  .projects-2017 {
+    margin-top: 1em;
   }
   .my-story {
     width: 417px;
@@ -145,6 +151,12 @@
   .menu-container {
     display: none;
   }
+  .projects-2018, .projects-2017 {
+    width: 90%;
+  }
+  .projects-2017 {
+
+  }
   header {
     width: 100% !important;
   }
@@ -209,7 +221,6 @@
   }
   .thumbnail-image {
     width: 90% !important;
-    margin-top: 1em;
   }
   .project-card, .project-title {
     width: 90% !important;
@@ -217,6 +228,9 @@
   }
   .description {
     line-height: 1.25em;
+  }
+  .l, .r {
+    margin-bottom: 1em;
   }
   .lang-lib {
     font-size: .90em;
@@ -442,6 +456,9 @@
   .thumbnail-image, .project-card {
     width: 97% !important;
   }
+  .projects-2018, .projects-2017 {
+    width: 97%;
+  }
   .me-2 {
     margin-left: 0;
   }
@@ -529,6 +546,10 @@
   }
   .email-address {
     width: 180px;
+  }
+  .projects-2018, .projects-2017 {
+    width: 100%;
+    padding: .3em;
   }
 
 }

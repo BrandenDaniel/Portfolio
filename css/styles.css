@@ -192,12 +192,21 @@ header {
 
 .thumbnail-image {
   width: 80%;
-  margin: 2em 0 3.2em 0;
+  margin: 0 0 3.2em 0;
   border-radius: 10px 10px 0 0;
 }
 
 .work {
   margin: 0 auto 0 auto;
+}
+
+.projects-2018, .projects-2017 {
+  margin: 1.5em auto 0 auto;
+  width: 80.5%;
+  font-family: monospace;
+  padding: .4em;
+  border: 1px dashed rgba(0,0,0,.3);
+  border-radius: 10px;
 }
 
 .project-title {
@@ -344,10 +353,13 @@ a:hover {
 
 .l {
   text-align: right;
+  margin: 1em 0 2em 0;
 }
 
 .r {
   text-align: left;
+  margin: 1em 0 2em 0;
+
 }
 
 .my-story {
