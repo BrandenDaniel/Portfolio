@@ -31,7 +31,7 @@
   }
   .projects-2018, .projects-2017 {
     margin-top: 0;
-
+    padding: 0 .3em;
   }
   .my-story {
     width: 417px;
@@ -153,7 +153,6 @@
   }
   .featured-work, .featured-contact, .featured-about {
     margin-bottom: 2em;
-    margin-top: 1em;
   }
   .mobile-nav {
     background: linear-gradient(-190deg, rgba(79, 92, 114, .97), rgba(73, 54, 79, .97));

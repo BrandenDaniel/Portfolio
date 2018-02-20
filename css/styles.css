@@ -205,16 +205,14 @@ header {
 
 .projects-2018, .projects-2017 {
   font-size: 11px;
-  display: inline-block;
+  display: inline;
   font-family: monospace;
   margin-left: .5em;
-  position: absolute;
-  margin-top: 2px;
-  background: rgba(255,255,255,.7);
+  color: rgba(255,255,255,.7);
   font-weight: 800;
   border-radius: 5px;
-  padding: 0 .3em;
-  color: rgba(0,0,0,.7);
+  padding: 0 .3em !important;
+  border: 1px solid rgba(255,255,255,.7);
 }
 
 .project-title {
