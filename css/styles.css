@@ -555,7 +555,8 @@ a:hover {
   font-family: 'Actor', helvetica;
   font-size: 1.3em;
   font-weight: 600;
-  border: 1px dashed rgba(0,0,0,.1);
+  background: #222;
+  color: #f9f9f9;
   padding: .4em;
   width: 95%;
   margin: 0 auto .7em auto;
@@ -615,14 +616,14 @@ a:hover {
 }
 
 .github a {
-  background: #333;
+  background: #6e5494;
   color: #f9f9f9;
   border-radius: 5px;
 }
 
 .github a:hover {
   background: #f9f9f9;
-  color: #333;
+  color: #6e5494;
 }
 
 .linkedin a {
@@ -671,11 +672,12 @@ a:hover {
 
 .idea {
   font-weight: 600;
-  margin-bottom: .15em;
+  margin-bottom: .25em;
   display: inline-block;
   padding: .4em;
   font-size: 1.3em;
-  border: 1px dashed rgba(0,0,0,.1);
+  background: #222;
+  color: #f9f9f9;
   width: 100%;
   text-align: center;
 }
@@ -823,7 +825,7 @@ footer {
 }
 
 .github-footer a {
-  color: #444;
+  color: #6e5494;
 }
 
 .github-footer a:hover {
