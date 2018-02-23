@@ -545,7 +545,7 @@ a:hover {
 
 .social-container {
   padding: 0 0 1em 0;
-  text-align: center;
+  text-align: left;
   width: 200px;
   margin: 0 6em .4em auto;
   border-bottom: 1px solid rgba(0,0,0,.1);
@@ -557,9 +557,10 @@ a:hover {
   font-weight: 600;
   background: #222;
   color: #f9f9f9;
-  padding: .25em 0 0.12em 0;
+  padding: .25em .35em 0.12em .3em;
   width: 95%;
   margin: 0 auto .7em auto;
+
 }
 
 .social-print {
@@ -674,12 +675,12 @@ a:hover {
   font-weight: 600;
   margin-bottom: .25em;
   display: inline-block;
-  padding: .2em 0 .25em 0;
+  padding: .25em .25em .25em .3em;
   font-size: 1.3em;
   background: #222;
   color: #f9f9f9;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .via-formspree {

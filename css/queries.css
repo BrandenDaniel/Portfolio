@@ -99,7 +99,6 @@
   }
   .social-container {
     margin: 0 auto .65em auto;
-    text-align: center;
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding-bottom: 1em;
   }
@@ -120,7 +119,7 @@
   }
   .social-container h1 {
     margin: 0 auto .55em auto;
-    padding: .25em 0 0 0;
+    padding: .25em .25em 0 .25em;
   }
   .email-me {
     text-align: center !important;
@@ -364,7 +363,7 @@
   }
   .idea {
     font-size: 1.3em;
-    padding: .25em 0 .1em 0;
+    padding: .25em .3em .1em .25em;
   }
   .email-section, .social-container {
     display: block !important;
