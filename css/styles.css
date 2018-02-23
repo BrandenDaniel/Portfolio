@@ -88,7 +88,7 @@ header {
 .me {
   width: 65%;
   border-radius: 50%;
-  margin: 0 4em 5em auto;
+  margin: 0 4em 6.3em auto;
   display: block;
 }
 
@@ -394,12 +394,11 @@ a:hover {
 }
 
 .my-story h1 {
-  margin: 0 .55em .3em 0;
+  margin: 0 0.1em .5em 0;
   color: #000;
   font-weight: 600;
   font-size: 2.7em;
   text-align: right;
-  border-right: 2px solid #000;
   padding-right: 0.3em;
 }
 
@@ -419,7 +418,6 @@ a:hover {
   display: block;
   margin-top: 1em;
 }
-
 
 .location {
   color: #ce612f;
@@ -557,16 +555,15 @@ a:hover {
   font-weight: 600;
   background: #222;
   color: #f9f9f9;
-  padding: .25em .35em .2em .3em;
+  padding: .25em .35em .15em .3em;
   width: 95%;
-  margin: 0 auto .7em auto;
-
+  margin: 0 auto .7em 0;
 }
 
 .social-print {
   width: 198px;
   text-align: left;
-  margin: 0 6.7em 0 auto;
+  margin: 0 7.3em 0 auto;
   font-family: monospace;
 }
 
@@ -596,7 +593,7 @@ a:hover {
 .mobile a {
   background: #e68523;
   color: #f9f9f9;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-left: 0 !important;
 }
 
@@ -608,7 +605,7 @@ a:hover {
 .email a {
   background: #c4493a;
   color: #f9f9f9;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .email a:hover {
@@ -619,7 +616,7 @@ a:hover {
 .github a {
   background: #6e5494;
   color: #f9f9f9;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .github a:hover {
@@ -630,7 +627,7 @@ a:hover {
 .linkedin a {
   background: #0077b5;
   color: #f9f9f9;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-right: 0 !important;
 }
 
@@ -640,7 +637,7 @@ a:hover {
 }
 
 .mobile a, .email a, .github a, .linkedin a {
-  padding: .3em .3em .3em .3em;
+  padding: .3em;
   font-size: 1.4em;
   margin: 0;
   transition: .1s ease-in-out;
@@ -675,7 +672,7 @@ a:hover {
   font-weight: 600;
   margin-bottom: .25em;
   display: inline-block;
-  padding: .25em .25em .35em .3em;
+  padding: .25em .25em .3em .3em;
   font-size: 1.3em;
   background: #222;
   color: #f9f9f9;

@@ -34,14 +34,14 @@
 
   }
   .my-story {
-    width: 417px;
+    width: 450px;
     margin: 0 auto 0 auto;
     font-size: .825em;
   }
   .my-story h1 {
     font-size: 2.35em;
-    margin: -2.5em 1.5em .5em 0;
-    text-align: right;
+    margin: -3em 0 .5em 6.8em;
+    position: absolute;
     display: block;
   }
   .main-img-container {
@@ -57,9 +57,9 @@
     margin: 0 auto .85em auto;
   }
   .me-2 {
-    width: 39%;
+    width: 34%;
     border-radius: 50%;
-    margin: 0 auto 4em 1.2em;
+    margin: 0 auto 2em 1.2em;
     display: inline;
   }
   .stats-line {
@@ -206,7 +206,7 @@
   .me-2 {
     width: 39%;
     border-radius: 50%;
-    margin: 0 auto 2.5em 0;
+    margin: 0 auto 1.5em 0;
     display: inline;
   }
   .thumbnail-image {
@@ -284,28 +284,28 @@
     font-weight: 600;
   }
   .coder {
-
     margin-left:5px;
   }
   .story-container {
     margin-top: 1em;
   }
   .my-story {
-    width: 90%;
+    width: 100%;
   }
   .my-story p {
     line-height: 1.45em;
     font-size: 1em;
   }
   .my-story h1 {
-    margin: -1.85em .6em .5em 0;
+    margin: -2.3em 0 .5em 5.5em;
     text-align: right;
     display: block;
-    font-size: 2.7em;
+    font-size: 2.5em;
+    position: absolute;
   }
 
   .opening-statement {
-    font-size: 1.3em !important;
+    font-size: 1.3em;
   }
   /* .download-cv {
     width: 97px;
@@ -450,18 +450,18 @@
     margin-left: 0;
   }
   .my-story h1 {
-    font-size: 2.7em;
-    margin-right: .35em;
+    font-size: 2.3em;
+    margin-left: 4.9em;
   }
   .my-story p {
     line-height: 1.4em;
     font-size: .95em;
   }
   .opening-statement {
-    font-size: 1.5em;
+    font-size: 1.2em !important;
   }
   .my-story {
-    width: 95%;
+    width: 100%;
   }
   .project-card, .project-title {
     width: 97% !important;
@@ -502,7 +502,11 @@
   .email-address {
     width: 100%;
   }
+  .opening-statement {
+    font-size: 1.2em;
+  }
 }
+
 
 @media (min-width: 390px) and (max-width: 575px) {
   .thumbnail-image, .project-card {
