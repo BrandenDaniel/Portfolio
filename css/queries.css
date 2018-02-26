@@ -122,6 +122,11 @@
   .social-container h1 {
     margin: 0 auto .55em auto;
     padding: .25em 0 .1em 0;
+    width: 100%;
+  }
+  .idea {
+    width: 100%;
+    text-align: center;
   }
   .email-me {
     text-align: center !important;
