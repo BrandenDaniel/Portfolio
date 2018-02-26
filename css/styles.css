@@ -556,10 +556,10 @@ a:hover {
   font-family: 'Actor', helvetica;
   font-size: 1.3em;
   font-weight: 600;
-  background: rgba(255, 84, 22, .75);
-  color: #f9f9f9;
-  padding: .25em .35em .15em .3em;
-  width: 95%;
+  border-bottom: 3px dashed tomato;
+  color: #222;
+  padding: .3em .15em .3em 0;
+  display: inline-block;
   margin: 0 auto .7em 0;
 }
 
@@ -596,7 +596,7 @@ a:hover {
 .mobile a {
   background: #e68523;
   color: #f9f9f9;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-left: 0 !important;
 }
 
@@ -608,7 +608,7 @@ a:hover {
 .email a {
   background: #c4493a;
   color: #f9f9f9;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .email a:hover {
@@ -619,7 +619,7 @@ a:hover {
 .github a {
   background: #6e5494;
   color: #f9f9f9;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .github a:hover {
@@ -630,7 +630,7 @@ a:hover {
 .linkedin a {
   background: #0077b5;
   color: #f9f9f9;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-right: 0 !important;
 }
 
@@ -675,11 +675,10 @@ a:hover {
   font-weight: 600;
   margin-bottom: .25em;
   display: inline-block;
-  padding: .25em .25em .3em .3em;
+  padding: .3em .15em .3em 0;
   font-size: 1.3em;
-  background: rgba(255, 84, 22, .75);
-  color: #f9f9f9;
-  width: 100%;
+  border-bottom: 3px dashed tomato;
+  color: #222;
   text-align: left;
 }
 
