@@ -35,14 +35,15 @@
   }
   .my-story {
     width: 450px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     font-size: .825em;
   }
   .my-story h1 {
     font-size: 2.35em;
-    margin: -3em 0 .5em 6.8em;
-    position: absolute;
-    display: block;
+    text-align: center;
+    margin: .6em 0;
+    padding: 0;
+    display: block !important;
   }
   .main-img-container {
     margin: 1em auto;
@@ -57,10 +58,10 @@
     margin: 0 auto .85em auto;
   }
   .me-2 {
-    width: 34%;
+    width: 33%;
     border-radius: 50%;
-    margin: 0 auto 2em 1.2em;
-    display: inline;
+    margin: 0 auto;
+    display: block !important;
   }
   .stats-line {
     margin: 0 0 1.8em 0;
@@ -204,9 +205,8 @@
     color: #444;
   }
   .me-2 {
-    width: 39%;
+    width: 33%;
     border-radius: 50%;
-    margin: 0 auto 1.5em 0;
     display: inline;
   }
   .thumbnail-image {
@@ -297,11 +297,6 @@
     font-size: 1em;
   }
   .my-story h1 {
-    margin: -2.3em 0 .5em 5.5em;
-    text-align: right;
-    display: block;
-    font-size: 2.5em;
-    position: absolute;
   }
 
   .opening-statement {
@@ -399,7 +394,7 @@
   }
   .email-submit {
     display: block;
-    padding: .8em;
+    padding: .8em 0 .6em 0;
     margin-top: .35em;
   }
   .back-to-top {
@@ -447,11 +442,10 @@
     width: 97% !important;
   }
   .me-2 {
-    margin-left: 0;
+    width: 125px;
   }
   .my-story h1 {
-    font-size: 2.3em;
-    margin-left: 4.9em;
+    font-size: 2.1em;
   }
   .my-story p {
     line-height: 1.4em;

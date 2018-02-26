@@ -265,8 +265,6 @@ header {
   margin: -3.4em 0 0 auto;
 }
 
-.description-opening {}
-
 .project-description {
   height: 120px;
   overflow: auto;
@@ -382,24 +380,29 @@ a:hover {
 .my-story p {
   margin-bottom: .8em;
   margin-right: .5em;
-  line-height: 1.45em;
+  line-height: 1.5em;
   font-size: .95em;
   color: #666;
 }
 
 .opening-statement {
-  font-size: 1.35em !important;
+  font-size: 1.25em !important;
   font-weight: 600;
   color: #000 !important;
+  text-align: justify;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-bottom: .4em;
+  margin-bottom: .5em !important;
+  line-height: 1.35em !important;
 }
 
 .my-story h1 {
-  margin: 0 0.1em .5em 0;
+  margin: 0 .1em .5em 0;
   color: #000;
   font-weight: 600;
-  font-size: 2.7em;
+  font-size: 2.3em;
   text-align: right;
-  padding-right: 0.3em;
+  margin: 0 .4em .25em 0;
 }
 
 .outro {
@@ -553,7 +556,7 @@ a:hover {
   font-family: 'Actor', helvetica;
   font-size: 1.3em;
   font-weight: 600;
-  background: #222;
+  background: rgba(255, 84, 22, .75);
   color: #f9f9f9;
   padding: .25em .35em .15em .3em;
   width: 95%;
@@ -674,7 +677,7 @@ a:hover {
   display: inline-block;
   padding: .25em .25em .3em .3em;
   font-size: 1.3em;
-  background: #222;
+  background: rgba(255, 84, 22, .75);
   color: #f9f9f9;
   width: 100%;
   text-align: left;
@@ -744,7 +747,7 @@ a:hover {
 .email-submit {
   font-family: monospace;
   display: block;
-  padding: .9em;
+  padding: .6em;
   width: 100%;
   margin-top: .45em;
   border: 1px solid rgba(0,0,0,.2);
