@@ -607,14 +607,14 @@ a:hover {
 }
 
 .github a {
-  background: #6e5494;
+  background: #333;
   color: #f9f9f9;
   border-radius: 5px;
 }
 
 .github a:hover {
   background: #f9f9f9;
-  color: #6e5494;
+  color: #333;
 }
 
 .linkedin a {
@@ -630,7 +630,7 @@ a:hover {
 }
 
 .mobile a, .email a, .github a, .linkedin a {
-  padding: .3em;
+  padding: .35em;
   font-size: 1.4em;
   margin: 0;
   transition: .1s ease-in-out;
