@@ -100,7 +100,7 @@
   }
   .social-container {
     margin: 0 auto .65em auto;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding-bottom: 1em;
   }
@@ -122,18 +122,14 @@
   .social-container h1 {
     margin: 0 auto .55em auto;
     padding: .25em 0 .1em 0;
-    width: 100%;
-  }
-  .idea {
-    width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .email-me {
     text-align: center !important;
     margin: 0 auto;
   }
   .form-title-container {
-    text-align: center;
+    text-align: left;
   }
   .mobile a, .email a, .github a, .linkedin a {
     padding: .35em .3em .25em .3em;
