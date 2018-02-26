@@ -663,9 +663,9 @@ a:hover {
 .form-title-container h2 {
   font-weight: 600;
   display: inline-block;
-  padding: .2em .25em .15em .25em;
+  padding: .2em 0 .15em 0;
   font-size: 1.2em;
-  border: 2px dashed rgba(0,0,0,.4);
+  border-bottom: 2px dashed #222;
   color: #222;
   text-align: left;
   margin: 0 0 .15em .15em;
