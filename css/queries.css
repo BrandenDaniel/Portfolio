@@ -100,7 +100,6 @@
   }
   .social-container {
     margin: 0 auto .65em auto;
-    text-align: left;
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding-bottom: 1em;
   }
@@ -118,11 +117,6 @@
   }
   .social-print span {
     margin-top: 1em;
-  }
-  .social-container h1 {
-    margin: 0 auto .55em auto;
-    padding: .25em 0 .1em 0;
-    text-align: left;
   }
   .email-me {
     text-align: center !important;
@@ -358,7 +352,7 @@
     text-align: left;
     font-size: .95em;
   }
-  .idea {
+  ..form-title-container h2 {
     font-size: 1.3em;
     padding: .25em 0 .2em 0;
     text-align: center;
@@ -472,7 +466,7 @@
   .email-me {
     width: 305px;
   }
-  .idea {
+  ..form-title-container h2 {
     font-size: 1.3em;
   }
   .form-title {
