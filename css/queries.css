@@ -41,7 +41,7 @@
   .my-story h1 {
     font-size: 2em;
     text-align: center;
-    margin: .6em 0;
+    margin: 1.2em 0 .3em 0;
     padding: 0;
     display: block !important;
   }
@@ -60,19 +60,22 @@
   .me-2 {
     width: 33%;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0 auto 2.5em auto;
     display: block !important;
   }
-  .stats-line {
-    margin: 0 0 1.8em 0;
-  }
+
   .github-stats {
     font-size: 1.5em;
     color: #000;
-    margin: 0 0 .4em .3em;
+    margin: .6em 0 .4em .3em;
     border-right: none;
     display: block;
   }
+
+  .live-feed {
+    margin-top: 0;
+  }
+
   .repoData, .contribution, .addition {
     margin-right: 1em;
     font-size: 1.25em;

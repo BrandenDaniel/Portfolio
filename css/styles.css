@@ -88,7 +88,7 @@ header {
 .me {
   width: 65%;
   border-radius: 50%;
-  margin: 0 4em 6.3em auto;
+  margin: 0 4em 5.5em auto;
   display: block;
   box-shadow: 0 0 2em .2em rgba(0,0,0,0.25);
 }
@@ -365,7 +365,6 @@ a:hover {
 .r {
   text-align: left;
   margin: .5em 0 2em 0;
-
 }
 
 .my-story {
@@ -375,7 +374,7 @@ a:hover {
   padding-bottom: 0;
   font-family: 'Actor', helvetica;
   font-size: .83em;
-  margin: 0 auto;
+  margin: 4em auto 0 auto;
 }
 
 .my-story p {
@@ -387,24 +386,33 @@ a:hover {
 }
 
 .opening-statement {
-  font-size: 1.25em !important;
+  font-size: 1.3em !important;
   font-weight: 600;
   color: #000 !important;
   text-align: justify;
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 3px solid rgba(0,0,0,.1);
   padding-bottom: .4em;
   margin-bottom: .5em !important;
   line-height: 1.35em !important;
 }
 
-.my-story h1 {
-  margin: 0 .1em .65em 0;
+.intro {
+  text-align: right;
+  margin: 0 .4em .5em 0;
+}
+
+/* .intro-txt-about {
   color: #000;
   font-weight: 600;
   font-size: 2.3em;
-  text-align: right;
-  margin: 0 .4em .25em 0;
 }
+
+.intro-txt-me {
+  font-weight: 600;
+  font-size: 2.3em;
+  border-bottom: 4px solid rgba(0,0,0,.7);
+
+} */
 
 .outro {
   color: #000 !important;
@@ -468,18 +476,20 @@ a:hover {
   width: 100%;
 }
 
-.stats-line {
-  margin: .85em 0 1.4em 0;
-}
-
 .github-stats {
   font-size: 1.5em;
   color: #000;
   font-weight: 600;
   display: inline-block;
-  margin-left: .55em;
+  margin-left: .65em;
+  margin-top: .55em;
   border-right: 1px solid rgba(0, 0, 0, .2);
   padding-right: .5em;
+}
+
+.live-feed {
+  border-top: 3px solid rgba(0,0,0,.1);
+  margin-top: .65em;
 }
 
 .repoData, .contribution, .addition {
@@ -548,7 +558,7 @@ a:hover {
 .social-container {
   padding: 0 0 1em 0;
   text-align: center;
-  width: 200px;
+  width: 210px;
   margin: 0.4em 6em .4em auto;
   border-bottom: 1px dashed rgba(0,0,0,.1);
 }
@@ -556,7 +566,7 @@ a:hover {
 .social-print {
   width: 198px;
   text-align: left;
-  margin: 0 7.3em 0 auto;
+  margin: 0 7.7em 0 auto;
   font-family: monospace;
 }
 
