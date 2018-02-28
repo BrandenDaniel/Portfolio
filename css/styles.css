@@ -123,7 +123,7 @@ header {
 
 .desktop-nav {
   background-color: #222;
-  box-shadow: 0em .2em .5em rgba(0, 0, 0, .2);
+  box-shadow: 0em .15em .5em rgba(0, 0, 0, .6);
 }
 
 .hamburger-container {
@@ -389,9 +389,9 @@ a:hover {
   font-size: 1.3em !important;
   font-weight: 600;
   color: #000 !important;
-  text-align: justify;
-  border-bottom: 3px solid rgba(0,0,0,.1);
-  padding-bottom: .4em;
+  text-align: left;
+  background: rgba(0,0,0,.2);
+  padding: .5em;
   margin-bottom: .5em !important;
   line-height: 1.35em !important;
 }
@@ -488,7 +488,7 @@ a:hover {
 }
 
 .live-feed {
-  border-top: 3px solid rgba(0,0,0,.1);
+  border-top: 2px solid rgba(0,0,0,.1);
   margin-top: .65em;
 }
 
@@ -796,18 +796,7 @@ footer {
 }
 
 .back-to-top {
-  margin: .3em auto;
-  text-align: center;
-  display: inline-block;
-  transition: .5s ease-in-out;
   display: none;
-  font-size: 3em;
-  color: #aaa;
-}
-
-.back-to-top:hover {
-  color: #888;
-  cursor: pointer;
 }
 
 .github-footer {

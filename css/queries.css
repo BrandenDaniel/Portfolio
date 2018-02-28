@@ -400,7 +400,14 @@
   }
   .back-to-top {
     display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    transition: .5s ease-in-out;
+    font-size: 3em;
+    color: #bbb;
   }
+
   footer {
     padding: .35em .85em .35em 1.25em;
   }
