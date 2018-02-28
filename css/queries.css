@@ -292,7 +292,7 @@
     margin-top: 1em;
   }
   .my-story {
-    width: 100%;
+    width: 88%;
   }
   .my-story p {
     line-height: 1.45em;
@@ -350,7 +350,7 @@
     margin-top: .6em;
   }
   .email-me {
-    width: 300px;
+    width: 88%;
   }
   .form-title-container {
     margin-bottom: .65em;
@@ -469,9 +469,6 @@
     margin-top: 0.05em;
     margin-left: .52em;
   }
-  .email-me {
-    width: 305px;
-  }
   ..form-title-container h2 {
     font-size: 1.3em;
   }
@@ -485,9 +482,6 @@
 }
 
 @media (max-width: 350px) {
-  .email-me {
-    width: 280px;
-  }
   .email-msg {
     width: 100%;
   }
