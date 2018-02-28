@@ -386,12 +386,12 @@ a:hover {
 }
 
 .opening-statement {
-  font-size: 1.3em !important;
+  font-size: 1.25em !important;
   font-weight: 600;
-  color: #000 !important;
-  text-align: left;
-  background: rgba(0,0,0,.2);
-  padding: .5em;
+  color: #222 !important;
+  text-align: justify;
+  background: rgba(0,0,0,.1);
+  padding: .4em .6em;
   margin-bottom: .5em !important;
   line-height: 1.35em !important;
 }
