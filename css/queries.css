@@ -70,13 +70,13 @@
   .github-stats {
     font-size: 1.5em;
     color: #000;
-    margin: .5em 0 .4em .3em;
+    margin: .8em 0 .4em .3em;
     border-right: none;
     display: block;
   }
 
   .live-feed {
-    margin-top: .6em;
+    margin-top: 1em;
   }
 
   .repoData, .contribution, .addition {
@@ -157,7 +157,7 @@
     margin-bottom: 2em;
   }
   .mobile-nav {
-    background: linear-gradient(-190deg, rgba(79, 92, 114, .97), rgba(73, 54, 79, .97));
+    background: linear-gradient(-190deg, rgba(58, 90, 142, .97), rgba(66, 175, 161, .97));
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -175,7 +175,7 @@
     }
   }
   .x {
-    color: #bbb;
+    color: #ccc;
     font-size: 1.8em;
     display: inline-block;
     float: right;
@@ -192,13 +192,14 @@
   }
   .nav-list a {
     font-size: 1.3em;
-    color: #bbb;
+    color: #ccc;
+    font-weight: 600;
     font-family: "Actor", helvetica;
   }
   .nav-active {
     width: 120px;
     margin: 0 auto;
-    background: #bbb;
+    background: #ccc;
     border-radius: 30px;
     font-weight: 600;
   }
@@ -435,7 +436,7 @@
     font-size: 1.2em;
   }
   .github-stats {
-    margin: .6em 0 .3em .34em;
+    margin: .8em 0 .3em .34em;
     font-size: 1.35em;
   }
 }
