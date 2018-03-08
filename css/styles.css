@@ -596,33 +596,40 @@ a:hover {
   color: #f9f9f9;
   border-radius: 5px;
   margin-left: 0 !important;
+  border-bottom: 2px solid #ad6318;
 }
 
 .mobile a:hover {
   background: #f9f9f9;
   color: #e68523;
+  border: none;
 }
 
 .email a {
   background: #c4493a;
   color: #f9f9f9;
   border-radius: 5px;
+  border-bottom: 2px solid #873025;
+
 }
 
 .email a:hover {
   background: #f9f9f9;
   color: #c4493a;
+  border: none;
 }
 
 .github a {
-  background: #333;
+  background: #444;
   color: #f9f9f9;
   border-radius: 5px;
+  border-bottom: 2px solid #000;
 }
 
 .github a:hover {
   background: #f9f9f9;
   color: #333;
+  border: none;
 }
 
 .linkedin a {
@@ -630,15 +637,17 @@ a:hover {
   color: #f9f9f9;
   border-radius: 5px;
   margin-right: 0 !important;
+  border-bottom: 2px solid #004468;
 }
 
 .linkedin a:hover {
   background: #f9f9f9;
   color: #0077b5;
+  border: none;
 }
 
 .mobile a, .email a, .github a, .linkedin a {
-  padding: .35em;
+  padding: .35em .35em .3em .35em;
   font-size: 1.4em;
   margin: 0;
   transition: .1s ease-in-out;
@@ -781,7 +790,7 @@ footer {
   font-family: 'Actor', helvetica;
   font-size: .8em;
   display: inline-block;
-  padding: .5em 0 0 0;
+  padding: 0.1em 0 0 0;
   font-weight: 600;
   float: left;
 }
@@ -799,12 +808,12 @@ footer {
 
 .github-footer {
   float: right;
-  margin: .5em .2em 0 .2em;
+  margin: .2em .2em 0 .2em;
   font-size: 1.2em;
 }
 
 .linkedin-footer {
-  margin: .5em 0 0 0;
+  margin: .2em 0 0 0;
   float: right;
   font-size: 1.2em;
   padding: 0 .6em;
@@ -819,7 +828,7 @@ footer {
 }
 
 .github-footer a {
-  color: #6e5494;
+  color: #333;
 }
 
 .github-footer a:hover {
@@ -840,29 +849,4 @@ footer {
   margin-top: .8em;
   margin-left: 0;
   position: sticky;
-}
-
-.footer-nav a {
-  color: #666;
-}
-
-.footer-nav a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
-.footer-about, .footer-projects, .footer-contact {
-  font-size: 1em;
-  margin: 0 .1em;
-  padding: 0 .65em;
-}
-
-.footer-projects {
-  border-left: 1px solid rgba(0, 0, 0, .1);
-  border-right: 1px solid rgba(0, 0, 0, .1);
-}
-
-.footer-active a {
-  color: #333;
-  font-weight: 600;
 }
