@@ -557,23 +557,25 @@ a:hover {
   padding: 0 0 1em 0;
   text-align: center;
   width: 210px;
-  margin: 0.4em 6em .4em auto;
-  border-bottom: 1px dashed rgba(0,0,0,.2);
+  margin: 0.4em 6em 0 auto;
 }
 
 .social-print {
-  width: 198px;
+  width: 195px;
   text-align: left;
-  margin: 0 7.7em 0 auto;
+  margin: 0 7.9em 0 auto;
+  padding-top: .4em;
   font-family: monospace;
+  border-top: 1px dashed rgba(0,0,0,.2);
 }
 
 .social-print a {
-  color: #000;
+  color: #333;
 }
 
 .social-print a:hover {
   text-decoration: underline;
+  color: #000;
 }
 
 .social-print p, .social-print span {
@@ -610,7 +612,6 @@ a:hover {
   color: #f9f9f9;
   border-radius: 5px;
   border-bottom: 2px solid #873025;
-
 }
 
 .email a:hover {

@@ -105,16 +105,18 @@
     width: 77%;
   }
   .social-container {
-    margin: 0 auto .65em auto;
+    margin: 0 auto 0.15em auto;
     padding-bottom: 1em;
   }
   .social-print {
     text-align: left;
+    padding-top: .65em;
     margin: 0 auto 3em auto;
+    width: 187px;
   }
   .social-print p, .contact-location {
     font-size: 75%;
-    margin-left: .8em;
+    margin-left: 0.2em;
     margin-bottom: 1px;
   }
   .contact-melbourne {
@@ -131,7 +133,7 @@
     text-align: left;
   }
   .mobile a, .email a, .github a, .linkedin a {
-    padding: .35em .3em .25em .3em;
+    padding: .4em .3em .25em .3em;
 
   }
 }
