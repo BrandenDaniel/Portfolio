@@ -382,13 +382,14 @@ a:hover {
   margin-right: .5em;
   line-height: 1.5em;
   font-size: .95em;
-  color: #676767;
+  color: rgba(0,0,0,.55);
+  font-weight: 600;
 }
 
 .opening-statement {
   font-size: 1.25em !important;
   font-weight: 600;
-  color: #222 !important;
+  color: #000 !important;
   text-align: left;
   margin-bottom: .65em !important;
   line-height: 1.35em !important;
@@ -398,19 +399,6 @@ a:hover {
   text-align: right;
   margin: 0 .4em .5em 0;
 }
-
-/* .intro-txt-about {
-  color: #000;
-  font-weight: 600;
-  font-size: 2.3em;
-}
-
-.intro-txt-me {
-  font-weight: 600;
-  font-size: 2.3em;
-  border-bottom: 4px solid rgba(0,0,0,.7);
-
-} */
 
 .outro {
   color: #000 !important;
@@ -423,9 +411,10 @@ a:hover {
 }
 
 .melbourne {
-  color: #666;
+  color: rgba(0,0,0,.55);
   font-size: .9em;
   display: block;
+  font-weight: 600;
   margin-top: 1em;
 }
 
