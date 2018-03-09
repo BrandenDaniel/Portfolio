@@ -382,12 +382,12 @@ a:hover {
   margin-right: .5em;
   line-height: 1.5em;
   font-size: .95em;
-  color: rgba(0,0,0,.55);
+  color: rgba(0,0,0,.5);
   font-weight: 600;
 }
 
 .opening-statement {
-  font-size: 1.25em !important;
+  font-size: 1.3em !important;
   font-weight: 600;
   color: #000 !important;
   text-align: left;
@@ -411,7 +411,7 @@ a:hover {
 }
 
 .melbourne {
-  color: rgba(0,0,0,.55);
+  color: rgba(0,0,0,.5);
   font-size: .9em;
   display: block;
   font-weight: 600;
