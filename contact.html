@@ -29,29 +29,25 @@
         <h1 class="title">Font-end Developer</h1>
         <h1 class="title">Web-Designer<span class="coder"><i class="fas fa-code"></i></span></h1>
       </div>
-      <div class="hamburger-container">
+      <div class="hamburger-container" id="open-nav">
         <i class="fas fa-bars hamburger-icon" aria-hidden="true"></i>
       </div>
       <div class="menu-container">
         <ul class="menu">
           <li class="navi"><a href="about.html" class="about">About</a></li>
-          <li class="navi"><a href="index.html" class="projects">Projects</a></li>
-          <li class="navi"><a href="contact.html" class="contact active">Contact</a></li>
+          <li class="navi"><a href="index.html" class="projects active">Projects</a></li>
+          <li class="navi"><a href="contact.html" class="contact">Contact</a></li>
         </ul>
       </div>
     </header>
   </nav>
 
-  <nav class="mobile-nav">
-    <span class="x">
-      x
-    </span>
-    <ul class="nav-list">
-      <li><a href="about.html">about</a></li>
-      <li><a href="index.html">projects</a></li>
-      <li class="nav-active"><a href="contact.html">contact</a></li>
-    </ul>
-  </nav>
+  <div class="mobile-nav">
+    <a id="close-nav" href="#" class="x">&times;</a>
+    <a href="about.html">about</a>
+    <a href="index.html">projects</a>
+    <a href="contact.html" class="mobile-nav-active">contact</a>
+  </div>
 
   <!-- FEATURED WORK -->
   <main class="featured-contact">

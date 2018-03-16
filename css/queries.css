@@ -158,55 +158,50 @@
     margin-bottom: 2em;
   }
   .mobile-nav {
-    background: linear-gradient(-190deg, rgba(58, 90, 142, .97), rgba(66, 175, 161, .97));
+    background-color: #111;
     height: 100vh;
-    width: 100vw;
-    position: absolute;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: .9;
     z-index: 10;
-    display: none;
-    animation-name: modalopen;
-    animation-duration: .25s;
+    transition: .5s;
+    padding-top: 60px;
+    overflow-x: hidden;
   }
-  @keyframes modalopen {
-    from {
-      opacity: 0
-    }
-    to {
-      opacity: 1
-    }
+
+  .mobile-nav a {
+    padding: 8px;
+    width: 140px;
+    display: block;
+    color: #ccc;
+    font-size: 1.2em;
+    text-align: right;
   }
+
+  .mobile-nav-active {
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    background: #ccc;
+    color: #222 !important;
+    font-weight: 600;
+  }
+
   .x {
     color: #ccc;
     font-size: 1.8em;
-    display: inline-block;
-    float: right;
-    margin: .1em .87em 0 0;
+    display: block;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    right: .6em;
+    font-size: 1.8em !important;
+    border: none !important;
+
   }
-  .nav-list {
-    margin-top: 45%;
-    text-align: center;
-    list-style: none;
-  }
-  .nav-list li {
-    padding: .4em;
-    margin: 1em auto;
-  }
-  .nav-list a {
-    font-size: 1.3em;
-    color: #ccc;
-    font-weight: 600;
-    font-family: "Actor", helvetica;
-  }
-  .nav-active {
-    width: 120px;
-    margin: 0 auto;
-    background: #ccc;
-    border-radius: 30px;
-    font-weight: 600;
-  }
-  .nav-active a {
-    color: #444;
-  }
+
   .me-2 {
     width: 35%;
     border-radius: 50%;
