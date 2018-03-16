@@ -6,7 +6,7 @@ $('.back-to-top').click(function() {
 });
 
 $('#open-nav').click(function() {
-  $('.mobile-nav').css('width', '250px');
+  $('.mobile-nav').css('width', '60%');
   $('.hamburger-container').css('display', 'none');
   $('body').css('overflow', 'hidden');
 });

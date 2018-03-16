@@ -93,14 +93,6 @@
   .repos {
     margin-left: .55em;
   }
-  .footer-about, .footer-projects, .footer-contact {
-    font-size: .85em;
-    margin: 0 .1em;
-    padding: 0 .65em;
-  }
-  .footer-nav {
-    margin: 0.5em 0 0 0;
-  }
   header {
     width: 77%;
   }
@@ -174,7 +166,7 @@
   .mobile-nav a {
     padding: 8px 15px 8px 10px;
     margin: 0 0 6px 0;
-    width: 45%;
+    width: 60%;
     display: block;
     color: #bbb;
     font-size: 1.2em;
@@ -186,6 +178,7 @@
     background: #ccc;
     color: #222 !important;
     font-weight: 600;
+    border-bottom: 3px solid #666;
   }
 
   .x {
@@ -406,17 +399,6 @@
   footer {
     padding: .35em .85em .35em 1.25em;
   }
-  .footer-nav {
-    text-align: center;
-    display: inline-block;
-    margin: 0.2em 0 0 .47em;
-    position: sticky;
-  }
-  .footer-about, .footer-projects, .footer-contact {
-    font-size: .75em;
-    margin: 0;
-    padding: 0 .55em;
-  }
   .cp {
     font-family: 'Actor', helvetica;
     font-size: .7em;
@@ -467,19 +449,11 @@
   footer {
     padding: .45em .45em .45em .75em;
   }
-  .footer-nav {
-    margin-top: 0.05em;
-    margin-left: .52em;
-  }
-  ..form-title-container h2 {
+  .form-title-container h2 {
     font-size: 1.3em;
   }
   .form-title {
     font-size: .85em;
-  }
-  .footer-about, .footer-projects, .footer-contact {
-    margin: 0.7em 0.05em;
-    padding: 0 .4em;
   }
 }
 
