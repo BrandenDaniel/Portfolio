@@ -164,20 +164,22 @@
     position: fixed;
     top: 0;
     right: 0;
-    opacity: .9;
+    opacity: .95;
     z-index: 10;
     transition: .5s;
-    padding-top: 60px;
+    padding-top: 50px;
     overflow-x: hidden;
   }
 
   .mobile-nav a {
-    padding: 8px;
-    width: 140px;
+    padding: 7px;
+    margin: 3px 0;
+    width: 60%;
     display: block;
-    color: #ccc;
+    color: #bbb;
     font-size: 1.2em;
     text-align: right;
+    font-family: "Actor", helvetica;
   }
 
   .mobile-nav-active {
