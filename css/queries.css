@@ -167,14 +167,14 @@
     opacity: .95;
     z-index: 10;
     transition: .5s;
-    padding-top: 52px;
+    padding-top: 85px;
     overflow-x: hidden;
   }
 
   .mobile-nav a {
-    padding: 9px 12px 8px 10px;
+    padding: 8px 15px 8px 10px;
     margin: 0 0 6px 0;
-    width: 50%;
+    width: 45%;
     display: block;
     color: #bbb;
     font-size: 1.2em;
@@ -183,9 +183,6 @@
   }
 
   .mobile-nav-active {
-    border-bottom: 2px solid #ccc;
-    border-top: 2px solid #ccc;
-    border-right: 2px solid #ccc;
     background: #ccc;
     color: #222 !important;
     font-weight: 600;
