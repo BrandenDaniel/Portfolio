@@ -6,7 +6,7 @@ $('.back-to-top').click(function() {
 });
 
 $('#open-nav').click(function() {
-  $('.mobile-nav').css('width', '60%');
+  $('.mobile-nav').css('width', '50%');
   $('.hamburger-container').css('display', 'none');
   $('body').css('overflow', 'hidden');
 });
@@ -14,5 +14,6 @@ $('#open-nav').click(function() {
 $('#close-nav').click(function() {
   $('.mobile-nav').css('width', '0');
   $('body').css('overflow', 'auto');
+  $('main').css('margin-right', '0');
   $('.hamburger-container').css('display', 'inline-block');
 });

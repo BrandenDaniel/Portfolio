@@ -1,5 +1,9 @@
 /*GLOBAL STYLES*/
 
+html {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +18,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+
+
 
 .hr-line {
   margin: .5em 0;
@@ -382,8 +388,7 @@ a:hover {
   margin-right: .5em;
   line-height: 1.5em;
   font-size: .95em;
-  color: rgba(0,0,0,.5);
-  font-weight: 600;
+  color: rgba(0,0,0,.8);
 }
 
 .opening-statement {
