@@ -17,3 +17,8 @@ $('#close-nav').click(function() {
   $('main').css('margin-right', '0');
   $('.hamburger-container').css('display', 'inline-block');
 });
+
+$('main').click(function() {
+  $('.mobile-nav').css('width', '0');
+  $('.hamburger-container').css('display', 'inline-block');
+})

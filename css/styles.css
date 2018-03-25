@@ -112,6 +112,57 @@ header {
   height: 100%;
 }
 
+/* MODAL */
+.picture-modal {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,.7);
+  text-align: center;
+  display: none;
+}
+
+.content-modal {
+  margin: 3em auto;
+  width: 70%;
+  max-width: 750px;
+  z-index: 1000;
+}
+
+.main-img {
+  width: 100%;
+  margin-bottom: 1.25em;
+  max-width: 750px;
+  border-radius: 10px;
+}
+
+.gallery-link {
+  cursor: pointer;
+}
+
+.modal-thumbnail-images {
+  text-align: center;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+
+}
+
+.modal-thumbnail-images img {
+  width: 25%;
+  margin: .7em;
+  vertical-align: top;
+  cursor: pointer;
+  max-width: 170px;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+
 /* NAV BARS */
 
 .menu-container {
@@ -129,7 +180,7 @@ header {
 
 .desktop-nav {
   background-color: #222;
-  box-shadow: 0em .15em .3em rgba(0, 0, 0, .45);
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,.55);
 }
 
 .hamburger-container {

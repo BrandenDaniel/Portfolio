@@ -63,7 +63,7 @@
   .me-2 {
     width: 35%;
     border-radius: 50%;
-    margin: 0 auto 2.5em auto;
+    margin: 0 auto 1.75em auto;
     display: block !important;
   }
 
@@ -192,14 +192,12 @@
     right: .6em;
     font-size: 1.8em !important;
     border: none !important;
-
   }
-
   .me-2 {
     width: 35%;
     border-radius: 50%;
     display: inline;
-    box-shadow: 0 0 2em .1em rgba(0,0,0,.3);
+    box-shadow: 0 0 1em .1em rgba(0,0,0,.3);
   }
   .thumbnail-image {
     width: 90% !important;
