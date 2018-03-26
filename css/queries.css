@@ -104,11 +104,11 @@
     text-align: left;
     padding-top: .65em;
     margin: 0 auto 3em auto;
-    width: 187px;
+    width: 190px;
   }
   .social-print p, .contact-location {
     font-size: 75%;
-    margin-left: 0.2em;
+    margin-left: 0em;
     margin-bottom: 1px;
   }
   .contact-melbourne {
@@ -126,6 +126,7 @@
   }
   .mobile a, .email a, .github a, .linkedin a {
     padding: .4em .3em .25em .3em;
+    margin: 0 1px;
 
   }
 }
@@ -419,7 +420,7 @@
   /* MODAL */
   .content-modal {
     margin: 3.9em auto;
-    width: 90%;
+    width: 93%;
   }
 
   .main-img {
