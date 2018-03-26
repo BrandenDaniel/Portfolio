@@ -132,7 +132,7 @@
 }
 
 @media (min-width: 576px) {
-  .hamburger-icon, .mobile-nav {
+  .hamburger-container, .mobile-nav {
     display: none;
   }
 }
@@ -150,6 +150,9 @@
   .featured-work, .featured-contact, .featured-about {
     margin-bottom: 2em;
   }
+  .work {
+    margin: 1em auto 0 auto;
+  }
   .mobile-nav {
     background-color: #111;
     height: 100vh;
@@ -164,7 +167,6 @@
     overflow-x: hidden;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,.75);
   }
-
   .mobile-nav a {
     padding: 8px 15px 8px 10px;
     margin: 0 0 6px 0;
@@ -422,22 +424,17 @@
     margin: 3.9em auto;
     width: 93%;
   }
-
   .main-img {
     margin-bottom: .8em;
   }
-
   .modal-thumbnail-images img {
     margin: .5em;
-    width: 35%;
+    width: 32%;
   }
-
   .close-modal {
     top: .16em;
     right: .43em;
-
   }
-
 }
 
 @media (max-width: 389px) {

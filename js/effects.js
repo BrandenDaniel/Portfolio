@@ -21,4 +21,4 @@ $('#close-nav').click(function() {
 $('main').click(function() {
   $('.mobile-nav').css('width', '0');
   $('.hamburger-container').css('display', 'inline-block');
-})
+});
