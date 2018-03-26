@@ -415,6 +415,28 @@
     margin: .8em 0 .3em .34em;
     font-size: 1.35em;
   }
+
+  /* MODAL */
+  .content-modal {
+    margin: 3.9em auto;
+    width: 90%;
+  }
+
+  .main-img {
+    margin-bottom: .8em;
+  }
+
+  .modal-thumbnail-images img {
+    margin: .5em;
+    width: 35%;
+  }
+
+  .close-modal {
+    top: .16em;
+    right: .43em;
+
+  }
+
 }
 
 @media (max-width: 389px) {
