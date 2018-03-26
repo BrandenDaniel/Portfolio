@@ -196,6 +196,38 @@
     font-size: 1.8em !important;
     border: none !important;
   }
+
+  .side-nav-linkedin, .side-nav-github {
+    display: inline-block;
+    margin: 0 2px;
+  }
+
+  .side-nav-social {
+    text-align: left;
+    padding: 0;
+    margin: 3em auto 0 .45em;
+    width: 100%;
+  }
+
+  .side-nav-social a {
+    width: 33px;
+    text-align: center;
+    margin: 0 auto !important;
+    display: inline-block !important;
+    padding: 4px 4px 2px 4px !important;
+    font-size: 1.5em;
+  }
+
+  .side-nav-github a {
+    border-bottom: 4px solid #666;
+    color: #6e5494;
+  }
+
+  .side-nav-linkedin a {
+    border-bottom: 4px solid #666;
+    color: #0077b5;
+  }
+
   .me-2 {
     width: 35%;
     border-radius: 50%;
@@ -403,16 +435,17 @@
   }
   .cp {
     font-family: 'Actor', helvetica;
-    font-size: .7em;
+    font-size: .85em;
     display: inline-block;
     padding: .1em 0 0 0;
+    margin: .15em;
     font-weight: 600;
   }
   .github-footer, .linkedin-footer {
     float: right;
-    margin: .1em 0 0 0;
-    padding: 0 .35em;
-    font-size: 1.2em;
+    padding: 0 .55em !important;
+    margin: .2em 0 0 0;
+    font-size: 1.45em;
   }
   .github-stats {
     margin: .8em 0 .3em .34em;

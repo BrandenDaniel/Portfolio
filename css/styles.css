@@ -19,8 +19,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-
-
 .hr-line {
   margin: .5em 0;
   border-top: 1px solid rgba(255, 255, 255, .1);
@@ -43,7 +41,7 @@ header {
 }
 
 .name {
-  font-size: 12px ;
+  font-size: 12px;
   font-family: monospace;
   color: #ccc;
   margin: 0;
@@ -68,7 +66,6 @@ header {
   display: inline-block;
   margin-left: 5px;
 }
-
 
 /* THANK YOU PAGE */
 
@@ -96,7 +93,7 @@ header {
   border-radius: 50%;
   margin: 0 4em 5.5em auto;
   display: block;
-  box-shadow: 0 0 2em .2em rgba(0,0,0,0.25);
+  box-shadow: 0 0 2em .2em rgba(0, 0, 0, 0.25);
 }
 
 .main-img-container {
@@ -113,6 +110,7 @@ header {
 }
 
 /* MODAL */
+
 .picture-modal {
   position: fixed;
   z-index: 999;
@@ -121,7 +119,7 @@ header {
   height: 100%;
   width: 100%;
   overflow: auto;
-  background: rgba(0,0,0,.8);
+  background: rgba(0, 0, 0, .8);
   text-align: center;
   display: none;
 }
@@ -162,7 +160,7 @@ header {
 }
 
 .close-modal {
-  color: rgba(255,255,255,.6);
+  color: rgba(255, 255, 255, .6);
   font-size: 2.4em;
   position: absolute;
   top: .1em;
@@ -175,7 +173,6 @@ header {
   color: #fff;
   cursor: pointer;
 }
-
 
 /* NAV BARS */
 
@@ -194,7 +191,7 @@ header {
 
 .desktop-nav {
   background-color: #222;
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,.55);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .55);
 }
 
 .hamburger-container {
@@ -276,15 +273,15 @@ header {
 }
 
 .projects-2018, .projects-2017 {
-  font-size: 11px;
+  font-size: .9em;
   display: inline-block;
   font-family: monospace;
   margin-right: .5em;
-  color: rgba(255,255,255,.7);
+  color: rgba(255, 255, 255, .7);
   font-weight: 800;
   border-radius: 5px;
   padding: 1px 3px 0 3px;
-  border: 1px solid rgba(255,255,255,.25);
+  border: 1px solid rgba(255, 255, 255, .25);
   float: right;
 }
 
@@ -304,7 +301,7 @@ header {
 .project-card {
   background-color: rgba(0, 0, 0, .7);
   width: 80%;
-  padding: .75em 0.1em 0.1em .45em;
+  padding: .75em 0.1em 0.3em .45em;
   border-radius: 0px 0px 10px 10px;
   color: #eee;
   font-family: "Actor", helvetica;
@@ -338,14 +335,14 @@ header {
 }
 
 .project-description {
-  height: 120px;
+  height: 100px;
   overflow: auto;
 }
 
 .project-description p {
   margin-bottom: .75em;
   padding-right: 1em;
-  font-size: .77em;
+  font-size: .8em;
   color: #bbb;
 }
 
@@ -356,9 +353,9 @@ header {
 .external a {
   margin-right: .8em;
   color: #eee;
-  font-size: .8em;
+  font-size: .85em;
   background: rgba(0, 0, 0, 0);
-  border: 1px solid rgba(255,255,255,.25);
+  border: 1px solid rgba(255, 255, 255, .25);
   padding: .25em .35em;
   border-radius: 5px;
   font-weight: normal;
@@ -404,7 +401,7 @@ header {
 
 .lang-lib span {
   margin-right: .55em;
-  font-size: 12px;
+  font-size: .8em;
 }
 
 .lang-lib i {
@@ -417,7 +414,7 @@ header {
 }
 
 .project-status {
-  font-size: 12px;
+  font-size: .8em;
 }
 
 .result {
@@ -453,7 +450,7 @@ a:hover {
   margin-right: .5em;
   line-height: 1.5em;
   font-size: .95em;
-  color: rgba(0,0,0,.8);
+  color: rgba(0, 0, 0, .8);
 }
 
 .opening-statement {
@@ -481,7 +478,7 @@ a:hover {
 }
 
 .melbourne {
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .5);
   font-size: .9em;
   display: block;
   font-weight: 600;
@@ -545,7 +542,7 @@ a:hover {
 }
 
 .live-feed {
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid rgba(0, 0, 0, .1);
   margin-top: 1.1em;
 }
 
@@ -625,7 +622,7 @@ a:hover {
   margin: 0 7.9em 0 auto;
   padding-top: .4em;
   font-family: monospace;
-  border-top: 1px dashed rgba(0,0,0,.2);
+  border-top: 1px dashed rgba(0, 0, 0, .2);
 }
 
 .social-print a {
@@ -751,9 +748,8 @@ a:hover {
 
 .form-title-container p {
   margin: 0 0 .35em .25em;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .5);
   font-size: .8em;
-
 }
 
 .via-formspree {
@@ -781,7 +777,7 @@ a:hover {
 }
 
 .email-name:focus, .email-address:focus, .email-msg:focus {
-  outline-color: rgba(0,0,0,.5);
+  outline-color: rgba(0, 0, 0, .5);
 }
 
 .email-address {
@@ -823,7 +819,7 @@ a:hover {
   padding: .6em;
   width: 100%;
   margin-top: .45em;
-  border: 1px solid rgba(0,0,0,.2);
+  border: 1px solid rgba(0, 0, 0, .2);
   color: #777;
   font-weight: 600;
   background: #fff;
@@ -848,9 +844,9 @@ footer {
 
 .cp {
   font-family: 'Actor', helvetica;
-  font-size: .8em;
+  font-size: .9em;
   display: inline-block;
-  padding: 0.1em 0 0 0;
+  margin: 0.55em 0 0 0;
   font-weight: 600;
   float: left;
 }
@@ -868,15 +864,17 @@ footer {
 
 .github-footer {
   float: right;
-  margin: .2em .2em 0 .2em;
-  font-size: 1.2em;
+  padding: 0 .65em;
+  margin: .3em 0;
+  font-size: 1.55em;
+  border-right: 1px solid rgba(0, 0, 0, .1);
 }
 
 .linkedin-footer {
-  margin: .2em 0 0 0;
+  padding: 0 .65em;
+  margin: .3em 0;
   float: right;
-  font-size: 1.2em;
-  padding: 0 .6em;
+  font-size: 1.55em;
 }
 
 .fb-footer a {
