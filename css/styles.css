@@ -436,16 +436,17 @@ a:hover {
 }
 
 .my-story {
+  font-family: 'Actor', helvetica;
   width: 655px;
   text-align: left;
   padding: 1em;
   padding-bottom: 0;
-  font-family: 'Actor', helvetica;
   font-size: .83em;
   margin: 6em auto 0 auto;
 }
 
 .my-story p {
+  font-family: "PT Sans", helvetica;
   margin-bottom: .8em;
   margin-right: .5em;
   line-height: 1.5em;
@@ -454,6 +455,7 @@ a:hover {
 }
 
 .opening-statement {
+  font-family: 'Actor', helvetica !important;
   font-size: 1.3em !important;
   font-weight: 600;
   color: #000 !important;
@@ -717,8 +719,6 @@ a:hover {
 /* EMAIL SECTION */
 
 .email-me {
-  font-family: "Actor", helvetica;
-  font-weight: 600;
   width: 450px;
   text-align: left;
 }
@@ -727,29 +727,24 @@ a:hover {
   text-align: left;
 }
 
-.form-title {
-  font-weight: 600;
-  font-size: 1.1em;
-  display: inline-block;
-  margin-left: .3em;
-  color: #222;
-}
-
 .form-title-container h2 {
+  font-family: "Actor", helvetica;
   font-weight: 600;
   display: inline-block;
-  padding: .2em 0 .15em 0;
-  font-size: 1.3em;
-  /* border-bottom: 2px dashed #222; */
+  padding: .2em 0 0 0;
+  font-size: 1.7em;
   color: #222;
   text-align: left;
   margin: 0 0 .1em 0.1em;
 }
 
 .form-title-container p {
-  margin: 0 0 .35em .25em;
-  color: rgba(0, 0, 0, .5);
-  font-size: .8em;
+  border-bottom: 1px dashed rgba(0,0,0,.3);
+  font-family: "PT Sans", helvetica;
+  margin: 0 0 .55em .25em;
+  padding-bottom: .25em;
+  color: rgba(0, 0, 0, .6);
+  font-size: 1.1em;
 }
 
 .via-formspree {
