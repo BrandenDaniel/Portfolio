@@ -727,7 +727,7 @@ a:hover {
 .form-title-container {
   text-align: left;
   border: 1px dashed rgba(0,0,0,.3);
-  padding: .25em .6em;
+  padding: .25em .5em;
   margin-bottom: .6em;
 }
 
@@ -844,7 +844,7 @@ footer {
   font-family: 'Actor', helvetica;
   font-size: .8em;
   display: inline-block;
-  margin: .5em 0 0 0;
+  margin: .45em 0 0 0;
   font-weight: 600;
   float: left;
 }
