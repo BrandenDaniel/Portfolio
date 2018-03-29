@@ -125,7 +125,7 @@
     text-align: left;
   }
   .mobile a, .email a, .github a, .linkedin a {
-    padding: .4em .3em .25em .3em;
+    padding: .35em .3em .25em .3em;
     margin: 0 1px;
 
   }
@@ -384,11 +384,9 @@
   }
   .form-title-container h2 {
     font-size: 1.5em;
-    text-align: center;
   }
   .form-title-container p {
     font-size: .9em;
-    margin-bottom: 1.5em;
   }
   .email-section, .social-container {
     display: block !important;
@@ -510,7 +508,6 @@
   }
   .form-title-container p {
     font-size: .9em;
-    margin-bottom: 1.5em;
   }
 }
 

@@ -541,6 +541,7 @@ a:hover {
   margin-top: .8em;
   border-right: 1px solid rgba(0, 0, 0, .2);
   padding-right: .5em;
+  font-family: 'Actor', helvetica !important;
 }
 
 .live-feed {
@@ -725,26 +726,27 @@ a:hover {
 
 .form-title-container {
   text-align: left;
+  border: 1px dashed rgba(0,0,0,.3);
+  padding: .25em .6em;
+  margin-bottom: .6em;
 }
 
 .form-title-container h2 {
   font-family: "Actor", helvetica;
   font-weight: 600;
-  display: inline-block;
+  display: block;
   padding: .2em 0 0 0;
   font-size: 1.7em;
   color: #222;
   text-align: left;
-  margin: 0 0 .1em 0.1em;
+  margin: 0;
 }
 
 .form-title-container p {
-  border-bottom: 1px dashed rgba(0,0,0,.3);
   font-family: "PT Sans", helvetica;
-  margin: 0 0 .55em .25em;
-  padding-bottom: .2em;
   color: rgba(0, 0, 0, .6);
   font-size: 1em;
+  margin: 0;
 }
 
 .via-formspree {
@@ -840,9 +842,9 @@ footer {
 
 .cp {
   font-family: 'Actor', helvetica;
-  font-size: .9em;
+  font-size: .8em;
   display: inline-block;
-  margin: 0.55em 0 0 0;
+  margin: .5em 0 0 0;
   font-weight: 600;
   float: left;
 }
@@ -862,7 +864,7 @@ footer {
   float: right;
   padding: 0 .65em;
   margin: .3em 0;
-  font-size: 1.55em;
+  font-size: 1.35em;
   border-right: 1px solid rgba(0, 0, 0, .1);
 }
 
@@ -870,7 +872,7 @@ footer {
   padding: 0 .65em;
   margin: .3em 0;
   float: right;
-  font-size: 1.55em;
+  font-size: 1.35em;
 }
 
 .fb-footer a {
