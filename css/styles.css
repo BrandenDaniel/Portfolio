@@ -91,7 +91,7 @@ header {
 .me {
   width: 65%;
   border-radius: 50%;
-  margin: 0 4em 5.5em auto;
+  margin: 0 4em 11em auto;
   display: block;
   box-shadow: 0 0 2em .2em rgba(0, 0, 0, 0.25);
 }
@@ -436,7 +436,7 @@ a:hover {
 }
 
 .my-story {
-  font-family: "PT Sans", helvetica;
+  font-family: "Roboto", helvetica;
   width: 655px;
   text-align: left;
   padding: 1em;
@@ -446,22 +446,24 @@ a:hover {
 }
 
 .my-story p {
-  font-family: "PT Sans", helvetica;
+  font-family: "Roboto", helvetica;
   margin-bottom: .8em;
   margin-right: .5em;
   line-height: 1.5em;
-  font-size: .95em;
-  color: rgba(0, 0, 0, .6);
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, .8);
 }
 
 .opening-statement {
-  font-family: 'Actor', helvetica !important;
-  font-size: 1.3em !important;
+  font-family: "Roboto", helvetica;
+  font-size: 1.4em !important;
   font-weight: 600;
   color: #000 !important;
   text-align: left;
   margin-bottom: .65em !important;
   line-height: 1.35em !important;
+  border: 1px dashed rgba(0,0,0,.2);
+  padding: 8px;
 }
 
 .intro {
@@ -537,11 +539,10 @@ a:hover {
   color: #000;
   font-weight: 600;
   display: inline-block;
-  margin-left: .65em;
   margin-top: .8em;
   border-right: 1px solid rgba(0, 0, 0, .2);
   padding-right: .5em;
-  font-family: 'Actor', helvetica !important;
+  font-family: "Roboto", helvetica;
 }
 
 .live-feed {
@@ -550,7 +551,7 @@ a:hover {
 }
 
 .repoData, .contribution, .addition {
-  margin-right: .5em;
+  margin-right: .3em;
   font-size: 1.25em;
   font-weight: 900;
   color: #000;
@@ -567,7 +568,7 @@ a:hover {
 .cont-lastyear, .add-lastyear {
   display: inline-block;
   font-size: .7em;
-  margin-left: .6em;
+  margin-left: 0.15em;
   color: #888;
 }
 
@@ -732,10 +733,10 @@ a:hover {
 }
 
 .form-title-container h2 {
-  font-family: "Actor", helvetica;
+  font-family: "Roboto", helvetica;
   font-weight: 600;
   display: block;
-  padding: .2em 0 0 0;
+  padding: .2em 0 .15em 0;
   font-size: 1.7em;
   color: #222;
   text-align: left;
@@ -743,9 +744,9 @@ a:hover {
 }
 
 .form-title-container p {
-  font-family: "PT Sans", helvetica;
+  font-family: "Roboto", helvetica;
   color: rgba(0, 0, 0, .6);
-  font-size: 1em;
+  font-size: .9em;
   margin: 0;
 }
 
@@ -768,7 +769,7 @@ a:hover {
   background: #fff;
   border-left: none;
   border-right: none;
-  font-family: "Actor", helvetica;
+  font-family: "Roboto", helvetica;
   font-size: .9em;
   border-radius: 0 !important;
 }
@@ -782,7 +783,7 @@ a:hover {
   padding: .55em .55em .5em .55em;
   box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
   border: 1px solid rgba(0, 0, 0, .05);
-  font-family: "Actor", helvetica;
+  font-family: "Roboto", helvetica;
   font-size: .9em;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .1);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
@@ -799,7 +800,7 @@ a:hover {
   border: 1px solid rgba(0, 0, 0, .05);
   width: 440px;
   height: 110px;
-  font-family: "Actor", helvetica;
+  font-family: "Roboto", helvetica;
   font-size: .9em;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .1);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
