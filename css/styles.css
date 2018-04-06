@@ -287,8 +287,8 @@ header {
 
 .project-title {
   border-radius: 2px;
-  font-size: 1.15em;
-  font-family: "Actor", helvetica;
+  font-size: 1em;
+  font-family: "Roboto", helvetica;
   width: 100%;
   display: inline;
 }
@@ -442,7 +442,7 @@ a:hover {
   padding: 1em;
   padding-bottom: 0;
   font-size: .83em;
-  margin: 6em auto 0 auto;
+  margin: 4em auto 0 auto;
 }
 
 .my-story p {
@@ -457,7 +457,8 @@ a:hover {
 .opening-statement {
   font-family: "Roboto", helvetica;
   font-size: 1.4em !important;
-  font-weight: 600;
+  font-weight: 500;
+  margin-left: -9px;
   color: #000 !important;
   text-align: left;
   margin-bottom: .65em !important;
@@ -537,7 +538,6 @@ a:hover {
 .github-stats {
   font-size: 1.5em;
   color: #000;
-  font-weight: 600;
   display: inline-block;
   margin-top: .8em;
   border-right: 1px solid rgba(0, 0, 0, .2);
