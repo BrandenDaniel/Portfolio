@@ -79,7 +79,7 @@
   }
   .repoData, .contribution, .addition {
     margin-right: 1em;
-    font-size: 1.15em;
+    font-size: 1.1em;
   }
   .repos {
     margin-left: 0;
@@ -310,11 +310,6 @@
     line-height: 1.45em;
     font-size: 1.1em;
   }
-  .my-story h1 {
-  }
-  .opening-statement {
-    font-size: 1.4em;
-  }
   /* .download-cv {
     width: 97px;
     padding: .1em 0 .1em 0;
@@ -336,10 +331,6 @@
   }
   .contribution, .addition {
     margin-right: .4em;
-  }
-  .repoData {
-    margin-right: .5em;
-    font-size: 1.25em;
   }
   .contribution {
     margin-right: 0;
@@ -474,10 +465,10 @@
   }
   .my-story p {
     line-height: 1.4em;
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
   }
   .my-story {
-    width: 100%;
+    width: 97%;
   }
   .project-card, .project-title {
     width: 97% !important;

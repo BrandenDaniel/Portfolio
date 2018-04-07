@@ -91,7 +91,7 @@ header {
 .me {
   width: 65%;
   border-radius: 50%;
-  margin: 0 4em 9em auto;
+  margin: 0 4em 10em auto;
   display: block;
   box-shadow: 0 0 2em .2em rgba(0, 0, 0, 0.25);
 }
@@ -455,9 +455,9 @@ a:hover {
 }
 
 .opening-statement {
-  border-left: 4px solid rgba(0, 0, 0, .85);
+  border-left: 4px solid rgba(252, 110, 58,.9);
   padding-left: .65em;
-  margin-left: -1em;
+  margin-left: -.9em;
   margin-bottom: 1.5em !important;
 }
 
@@ -544,30 +544,30 @@ a:hover {
   margin-top: .5em;
 }
 
+
 .repoData, .contribution, .addition {
-  margin-right: .3em;
-  font-size: 1.15em;
+  margin-left: 3px;
+  font-size: 1.05em;
   font-weight: 900;
   color: #000;
   font-family: monospace;
-  mar
 }
 
 .repos {
   font-family: monospace !important;
   display: inline-block;
-  margin-left: .6em;
-  font-size: 1.2em !important;
-  color: #888;
+  margin: 0 .25em;
+  font-size: 1.25em;
+  color: rgba(0,0,0,.6) !important;
   margin-bottom: 0 !important;
 }
 
 .cont-lastyear, .add-lastyear {
+  margin: 0 .25em;
   font-family: monospace !important;
   display: inline-block;
-  font-size: 1.1em !important;
-  margin-left: 0.15em;
-  color: #888;
+  font-size: 1.25em;
+  color: rgba(0,0,0,.6) !important;
   margin-bottom: 0 !important;
 }
 
@@ -726,7 +726,10 @@ a:hover {
 
 .form-title-container {
   text-align: left;
-  border: 1px dashed rgba(0,0,0,.3);
+  border-left: 2px dashed rgba(0,0,0,.2);
+  border-right: 2px dashed rgba(0,0,0,.2);
+  border-top: 2px solid rgba(0,0,0,.2);
+  border-bottom: 2px solid rgba(0,0,0,.2);
   padding: .25em .5em;
   margin-bottom: .6em;
 }
@@ -744,7 +747,7 @@ a:hover {
 
 .form-title-container p {
   font-family: "Roboto", helvetica;
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, .75);
   font-size: .9em;
   margin: 0;
 }
