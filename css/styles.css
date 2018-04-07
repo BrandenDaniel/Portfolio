@@ -726,7 +726,7 @@ a:hover {
 
 .form-title-container {
   text-align: left;
-  border: 2px dashed rgba(252, 110, 58);
+  border: 2px dashed rgba(252, 110, 58, .8);
   padding: .25em .5em;
   margin-bottom: .6em;
 }
