@@ -156,7 +156,7 @@ header {
   cursor: pointer;
   max-width: 170px;
   overflow: auto;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .close-modal {
@@ -280,7 +280,7 @@ header {
   color: rgba(255, 255, 255, .7);
   font-weight: 800;
   border-radius: 5px;
-  padding: 1px 3px 0 3px;
+  padding: 0 3px 0 3px;
   border: 1px solid rgba(255, 255, 255, .25);
   float: right;
 }
@@ -468,7 +468,6 @@ a:hover {
 
 .outro {
   color: #000 !important;
-  font-weight: 600;
   margin-bottom: 0 !important;
 }
 
@@ -530,10 +529,10 @@ a:hover {
 }
 
 .github-stats {
-  font-size: 1.5em;
+  font-size: 1.35em;
   color: #000;
   display: inline-block;
-  margin-top: .6em;
+  margin: .6em .25em 0 0;
   border-right: 1px solid rgba(0, 0, 0, .2);
   padding-right: .5em;
   font-family: "Roboto", helvetica;
@@ -543,7 +542,6 @@ a:hover {
   border-top: 1px solid rgba(0, 0, 0, .1);
   margin-top: .5em;
 }
-
 
 .repoData, .contribution, .addition {
   margin-left: 3px;
@@ -556,14 +554,14 @@ a:hover {
 .repos {
   font-family: monospace !important;
   display: inline-block;
-  margin: 0 .25em;
+  margin: 0 1em 0 0 !important;
   font-size: 1.25em;
   color: rgba(0,0,0,.6) !important;
   margin-bottom: 0 !important;
 }
 
 .cont-lastyear, .add-lastyear {
-  margin: 0 .25em;
+  margin: 0 1em 0 0 !important;
   font-family: monospace !important;
   display: inline-block;
   font-size: 1.25em;

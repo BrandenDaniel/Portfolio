@@ -6,6 +6,7 @@ let $body = $('body');
 let currentMain;
 
 // IMAGE ARRAYS
+let foodieHotspots = ['./img/foodie-hotspots.png', './img/foodie-hotspots-2.png', './img/foodie-hotspots-3.png'];
 let redditSearcher = ['./img/reddit-searcher.png', './img/reddit-searcher-fullpage.png'];
 let memoryGame = ['./img/memory-game-playing.png', './img/memory-game.png', './img/memory-game-winner.png'];
 let frogger = ['./img/frogger.png', './img/frogger-playing.png'];
@@ -26,6 +27,29 @@ $('.close-modal').click(function() {
   $('.hamburger-icon').css('display', 'inline-block');
 })
 
+$('.foodie-gallery').click(function() {
+  $('.hamburger-icon').css('display', 'none');
+  $mainImg.attr('src', './img/foodie-hotspots.png');
+  currentMain = $mainImg.attr('src');
+  $modal.css('display', 'block');
+  $body.css('overflow', 'hidden');
+  $modalImagesCont.empty();
+
+  for (var i = 0; i < foodieHotspots.length; i++) {
+    $modalImagesCont.append(`<img src='${foodieHotspots[i]}' alt='gallery images'>`);
+  }
+
+  $('.modal-thumbnail-images img').click(function() {
+    $('.modal-thumbnail-images img').css('border', 'none');
+    $(this).css('border', '2px solid #30ba41');
+    $mainImg.attr('src', this.src);
+    currentMain = $mainImg.attr('src');
+  })
+
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
+
+})
+
 $('.reddit-gallery').click(function() {
   $('.hamburger-icon').css('display', 'none');
   $mainImg.attr('src', './img/reddit-searcher.png');
@@ -40,12 +64,12 @@ $('.reddit-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '3px solid tomato');
+    $(this).css('border', '2px solid #30ba41');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '3px solid tomato');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
 
 })
 
@@ -64,12 +88,12 @@ $('.memory-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '3px solid tomato');
+    $(this).css('border', '2px solid #30ba41');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '3px solid tomato');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
 })
 
 $('.frogger-gallery').click(function() {
@@ -86,12 +110,12 @@ $('.frogger-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '3px solid tomato');
+    $(this).css('border', '2px solid #30ba41');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '3px solid tomato');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
 })
 
 $('.eCom-gallery').click(function() {
@@ -108,12 +132,12 @@ $('.eCom-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '3px solid tomato');
+    $(this).css('border', '2px solid #30ba41');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '3px solid tomato');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
 })
 
 $('.cms-gallery').click(function() {
@@ -130,10 +154,10 @@ $('.cms-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '3px solid tomato');
+    $(this).css('border', '2px solid #30ba41');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '3px solid tomato');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
 })
