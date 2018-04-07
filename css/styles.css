@@ -91,7 +91,7 @@ header {
 .me {
   width: 65%;
   border-radius: 50%;
-  margin: 0 4em 11em auto;
+  margin: 0 4em 9em auto;
   display: block;
   box-shadow: 0 0 2em .2em rgba(0, 0, 0, 0.25);
 }
@@ -450,21 +450,15 @@ a:hover {
   margin-bottom: .8em;
   margin-right: .5em;
   line-height: 1.5em;
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: rgba(0, 0, 0, .8);
 }
 
 .opening-statement {
-  font-family: "Roboto", helvetica;
-  font-size: 1.4em !important;
-  font-weight: 500;
-  margin-left: -9px;
-  color: #000 !important;
-  text-align: left;
-  margin-bottom: .65em !important;
-  line-height: 1.35em !important;
-  border: 1px dashed rgba(0,0,0,.2);
-  padding: 8px;
+  border-left: 4px solid rgba(0, 0, 0, .85);
+  padding-left: .65em;
+  margin-left: -1em;
+  margin-bottom: 1.5em !important;
 }
 
 .intro {
@@ -530,7 +524,7 @@ a:hover {
 }
 
 .calender {
-  margin: 0 auto;
+  margin: .75em auto;
   text-align: center;
   width: 100%;
 }
@@ -539,7 +533,7 @@ a:hover {
   font-size: 1.5em;
   color: #000;
   display: inline-block;
-  margin-top: .8em;
+  margin-top: .6em;
   border-right: 1px solid rgba(0, 0, 0, .2);
   padding-right: .5em;
   font-family: "Roboto", helvetica;
@@ -547,29 +541,34 @@ a:hover {
 
 .live-feed {
   border-top: 1px solid rgba(0, 0, 0, .1);
-  margin-top: 1.1em;
+  margin-top: .5em;
 }
 
 .repoData, .contribution, .addition {
   margin-right: .3em;
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-weight: 900;
   color: #000;
   font-family: monospace;
+  mar
 }
 
 .repos {
+  font-family: monospace !important;
   display: inline-block;
   margin-left: .6em;
-  font-size: .7em;
+  font-size: 1.2em !important;
   color: #888;
+  margin-bottom: 0 !important;
 }
 
 .cont-lastyear, .add-lastyear {
+  font-family: monospace !important;
   display: inline-block;
-  font-size: .7em;
+  font-size: 1.1em !important;
   margin-left: 0.15em;
   color: #888;
+  margin-bottom: 0 !important;
 }
 
 .record {

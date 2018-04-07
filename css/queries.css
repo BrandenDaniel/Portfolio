@@ -70,18 +70,19 @@
   .github-stats {
     font-size: 1.5em;
     color: #000;
-    margin: .8em 0 .4em .3em;
+    margin: .8em 0 .4em 0;
     border-right: none;
     display: block;
   }
-
   .live-feed {
     margin-top: 1em;
   }
-
   .repoData, .contribution, .addition {
     margin-right: 1em;
-    font-size: 1.25em;
+    font-size: 1.15em;
+  }
+  .repos {
+    margin-left: 0;
   }
   .addition {
     margin-right: 0;
@@ -89,9 +90,6 @@
   .cont-lastyear, .add-lastyear {
     font-size: .7em;
     margin-left: 0;
-  }
-  .repos {
-    margin-left: .55em;
   }
   header {
     width: 77%;
@@ -177,14 +175,12 @@
     text-align: right;
     font-family: "Actor", helvetica;
   }
-
   .mobile-nav-active {
     background: #ccc;
     color: #222 !important;
     font-weight: 600;
     border-bottom: 4px solid #666;
   }
-
   .x {
     color: #ccc;
     font-size: 1.8em;
@@ -196,19 +192,16 @@
     font-size: 1.8em !important;
     border: none !important;
   }
-
   .side-nav-linkedin, .side-nav-github {
     display: inline-block;
     margin: 0 2px;
   }
-
   .side-nav-social {
     text-align: left;
     padding: 0;
     margin: 3em auto 0 .45em;
     width: 100%;
   }
-
   .side-nav-social a {
     width: 33px;
     text-align: center;
@@ -217,17 +210,14 @@
     padding: 4px 4px 2px 4px !important;
     font-size: 1.5em;
   }
-
   .side-nav-github a {
     border-bottom: 4px solid #43325b;
     color: #6e5494;
   }
-
   .side-nav-linkedin a {
     border-bottom: 4px solid #00476d;
     color: #0077b5;
   }
-
   .me-2 {
     width: 38%;
     border-radius: 50%;
@@ -299,7 +289,6 @@
     color: #ddd;
     margin: 0;
   }
-
   .title {
     font-family: monospace;
     font-size: 10px;
@@ -319,11 +308,10 @@
   }
   .my-story p {
     line-height: 1.45em;
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .my-story h1 {
   }
-
   .opening-statement {
     font-size: 1.4em;
   }
@@ -362,11 +350,9 @@
     margin-bottom: .2em !important;
   }
   .add-lastyear {
-    margin-left: .57em;
     margin-bottom: .2em !important;
   }
   .repos {
-    margin-left: .5em;
     margin-bottom: .2em !important;
   }
   .calender {
@@ -450,7 +436,7 @@
     font-size: 1.45em;
   }
   .github-stats {
-    margin: .8em 0 .3em .34em;
+    margin: .8em 0 .3em 0;
     font-size: 1.35em;
   }
 
@@ -488,9 +474,6 @@
   }
   .my-story p {
     line-height: 1.4em;
-    font-size: .95em;
-  }
-  .opening-statement {
     font-size: 1.3em !important;
   }
   .my-story {
