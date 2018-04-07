@@ -455,7 +455,7 @@ a:hover {
 }
 
 .opening-statement {
-  border-left: 4px solid rgba(252, 110, 58,.9);
+  border-left: 4px solid rgba(252, 110, 58);
   padding-left: .65em;
   margin-left: -.9em;
   margin-bottom: 1.5em !important;
