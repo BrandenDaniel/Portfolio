@@ -70,12 +70,12 @@
   .github-stats {
     font-size: 1.5em;
     color: #000;
-    margin: .8em 0 .4em 0;
+    margin: .65em 0 .4em 0;
     border-right: none;
     display: block;
   }
   .live-feed {
-    margin-top: 1em;
+    margin-top: .65em;
   }
   .repoData, .contribution, .addition {
     margin-right: 1em;
