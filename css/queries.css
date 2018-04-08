@@ -386,19 +386,19 @@
   .email-name {
     width: 100%;
     margin: .4em .5em 1em 0em;
-    padding: .55em .55em .25em .55em;
+    padding: .65em .55em .55em .55em;
     font-size: .9em;
     display: block;
   }
   .email-address {
     width: 100%;
-    padding: .55em .55em .25em .55em;
+    padding: .65em .55em .55em .55em;
     margin-bottom: 1em;
     font-size: .9em;
     display: block;
   }
   .email-msg {
-    padding: .55em .55em .25em .55em;
+    padding: .65em .55em .55em .55em;
     width: 100%;
     height: 130px;
     font-size: .9em;
@@ -535,7 +535,7 @@
     width: 100%;
   }
   .email-name {
-    width: 139px
+    width: 138px
   }
   .email-address {
     width: 180px;

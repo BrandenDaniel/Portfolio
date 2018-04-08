@@ -179,7 +179,7 @@ header {
 .menu-container {
   display: inline-block;
   float: right;
-  margin: 1.55em 0 0 0;
+  margin: 1.75em 0 0 0;
 }
 
 .menu {
@@ -203,8 +203,7 @@ header {
 }
 
 .projects {
-  padding: 0 .5em !important;
-  margin: 0 .4em;
+  margin: 0 .3em;
 }
 
 .about, .contact, .projects {
@@ -213,29 +212,21 @@ header {
   color: #999;
   font-family: 'Actor', helvetica;
   display: inline-block;
-  padding: 0 .5em;
+  padding: 0 .5em .15em .5em;
   transition: .1s ease-in-out;
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 3px solid rgb(252, 110, 58);
   font-weight: 600;
   color: #ccc;
 }
 
 .active {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 3px solid rgb(252, 110, 58);
   color: #ccc;
   transition: 1s;
   font-weight: 600;
-}
-
-.nav-line {
-  border-top: 2px solid rgba(255, 255, 255, .2);
-  /* box-shadow: 0 1px 3px rgba(0,0,0,.05); */
-  padding: 0;
-  margin: 0 auto;
-  width: 60%;
 }
 
 /*FEATURED WORK//CONTACT//ABOUT*/
@@ -453,7 +444,7 @@ a:hover {
 }
 
 .opening-statement {
-  border-left: 4px solid rgba(252, 110, 58);
+  border-left: 4px solid rgb(252, 110, 58);
   padding-left: .65em;
   margin-left: -.9em;
   margin-bottom: 1.5em !important;
@@ -722,8 +713,8 @@ a:hover {
 
 .form-title-container {
   text-align: left;
-  border: 2px dashed rgba(252, 110, 58, .8);
-  padding: .25em .5em;
+  border-left: 4px solid rgb(252, 110, 58);
+  padding: 0 .5em;
   margin-bottom: .6em;
 }
 
@@ -731,7 +722,7 @@ a:hover {
   font-family: "Roboto", helvetica;
   font-weight: 600;
   display: block;
-  padding: .2em 0 .15em 0;
+  padding: 0 0 .15em 0;
   font-size: 1.7em;
   color: #222;
   text-align: left;
@@ -770,7 +761,7 @@ a:hover {
 }
 
 .email-name:focus, .email-address:focus, .email-msg:focus {
-  outline-color: rgba(0, 0, 0, .5);
+  outline-color: rgba(0, 0, 0, .2);
 }
 
 .email-address {
