@@ -9,15 +9,19 @@ $('#open-nav').click(function() {
   $('.mobile-nav').css('width', '60%');
   $('.hamburger-container').css('display', 'none');
   $('body').css('overflow', 'hidden');
+  $('.overlay').css('display', 'block');
 });
 
 $('#close-nav').click(function() {
   $('.mobile-nav').css('width', '0');
   $('body').css('overflow', 'auto');
   $('.hamburger-container').css('display', 'inline-block');
+  $('.overlay').css('display', 'none');
 });
 
-$('main').click(function() {
+$('main, .overlay').click(function() {
+  $('body').css('overflow', 'auto');
+  $('.overlay').css('display', 'none');
   $('.mobile-nav').css('width', '0');
   $('.hamburger-container').css('display', 'inline-block');
 });
