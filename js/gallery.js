@@ -41,12 +41,12 @@ $('.foodie-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '2px solid #30ba41');
+    $(this).css('border', '2px solid rgba(252, 110, 58)');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid rgba(252, 110, 58)');
 
 })
 
@@ -64,12 +64,12 @@ $('.reddit-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '2px solid #30ba41');
+    $(this).css('border', '2px solid rgba(252, 110, 58)');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid rgba(252, 110, 58)');
 
 })
 
@@ -88,12 +88,12 @@ $('.memory-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '2px solid #30ba41');
+    $(this).css('border', '2px solid rgba(252, 110, 58)');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid rgba(252, 110, 58)');
 })
 
 $('.frogger-gallery').click(function() {
@@ -110,12 +110,12 @@ $('.frogger-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '2px solid #30ba41');
+    $(this).css('border', '2px solid rgba(252, 110, 58)');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid rgba(252, 110, 58)');
 })
 
 $('.eCom-gallery').click(function() {
@@ -132,12 +132,12 @@ $('.eCom-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '2px solid #30ba41');
+    $(this).css('border', '2px solid rgba(252, 110, 58)');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid rgba(252, 110, 58)');
 })
 
 $('.cms-gallery').click(function() {
@@ -154,10 +154,10 @@ $('.cms-gallery').click(function() {
 
   $('.modal-thumbnail-images img').click(function() {
     $('.modal-thumbnail-images img').css('border', 'none');
-    $(this).css('border', '2px solid #30ba41');
+    $(this).css('border', '2px solid rgba(252, 110, 58)');
     $mainImg.attr('src', this.src);
     currentMain = $mainImg.attr('src');
   })
 
-  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid #30ba41');
+  $(`.modal-thumbnail-images img[src$='${currentMain}']`).css('border', '2px solid rgba(252, 110, 58)');
 })

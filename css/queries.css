@@ -149,7 +149,7 @@
     margin-bottom: 2em;
   }
   .work {
-    margin: 1em auto 0 auto;
+    margin: .65em auto 0 auto;
   }
   .mobile-nav {
     background-color: #111;
@@ -174,7 +174,7 @@
     display: none;
   }
   .mobile-nav a {
-    padding: 10px 15px 8px 10px;
+    padding: 10px 20px 8px 10px;
     margin: 0 0 6px 0;
     width: 60%;
     display: block;
@@ -184,8 +184,9 @@
     font-family: "Actor", helvetica;
   }
   .mobile-nav-active {
-    background: #ddd;
+    background: #ccc;
     color: #222 !important;
+    padding: 14px 15px 12px 10px !important;
     font-weight: 600;
     border-right: 5px solid rgba(252, 110, 58);
   }
@@ -205,9 +206,9 @@
     margin: 0 2px;
   }
   .side-nav-social {
-    text-align: left;
-    padding: 0;
-    margin: 3em auto 0 .45em;
+    text-align: right;
+    padding-right: .9em;
+    margin: 3.5em .45em 0 .45em;
     width: 100%;
   }
   .side-nav-social a {
@@ -233,10 +234,10 @@
     box-shadow: 0 0 1em .1em rgba(0,0,0,.3);
   }
   .thumbnail-image {
-    width: 90% !important;
+    width: 95% !important;
   }
   .project-card, .project-title {
-    width: 90% !important;
+    width: 95% !important;
     margin: -3.4em auto 1em auto !important;
   }
   .description {
@@ -448,8 +449,8 @@
     margin-bottom: .8em;
   }
   .modal-thumbnail-images img {
-    margin: .5em;
-    width: 32%;
+    margin: .35em;
+    width: 28%;
   }
   .close-modal {
     top: .16em;
