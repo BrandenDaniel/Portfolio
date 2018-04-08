@@ -7,11 +7,11 @@ let currentMain;
 
 // IMAGE ARRAYS
 let foodieHotspots = ['./img/foodie-hotspots.png', './img/foodie-hotspots-2.png', './img/foodie-hotspots-3.png'];
-let redditSearcher = ['./img/reddit-searcher.png', './img/reddit-searcher-fullpage.png'];
+let redditSearcher = ['./img/reddit-searcher.png', './img/reddit-searcher-1.png', './img/reddit-searcher-fullpage.png'];
 let memoryGame = ['./img/memory-game-playing.png', './img/memory-game.png', './img/memory-game-winner.png'];
 let frogger = ['./img/frogger.png', './img/frogger-playing.png'];
 let eCom = ['./img/e-com.png', './img/e-com-1.png', './img/e-com-2.png', './img/e-com-fullpage.png'];
-let cms = ['./img/cms.png', './img/cms2.png', './img/cms3.png', './img/cms4.png', './img/cms1.png'];
+let cms = ['./img/cms.png', './img/cms-2.png', './img/cms-3.png', './img/cms-4.png', './img/cms-5.png', './img/cms-6.png'];
 
 $(window).click(function(e) {
   if (e.target == modal) {
