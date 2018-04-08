@@ -27,6 +27,17 @@ $('.close-modal').click(function() {
   $('.hamburger-icon').css('display', 'inline-block');
 })
 
+// ARLO MODAL
+$('.arlo').click(function() {
+  $('.arlo-modal').css('display', 'block');
+  $('.hamburger-icon').css('display', 'none');
+});
+
+$('.close-modal').click(function() {
+  $('.arlo-modal').css('display', 'none');
+})
+
+
 $('.foodie-gallery').click(function() {
   $('.hamburger-icon').css('display', 'none');
   $mainImg.attr('src', './img/foodie-hotspots.png');
