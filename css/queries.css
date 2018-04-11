@@ -136,23 +136,24 @@
     vertical-align:top;
     text-align: right;
     float: right;
-    font-family: 'Roboto', helvetica;
     border-right: 4px solid rgb(252, 110, 58);
     padding-right: .5em;
 
   }
   .mobile-form-title-container h2 {
-    margin-top: -.25em;
+    font-family: 'Roboto', helvetica;
+    margin-top: -.2em;
     font-size: 1.85em;
     font-weight: 600;
     padding-top: .2em;
   }
   .mobile-form-title-container p {
+    font-family: 'Roboto', helvetica;
     font-size: .88em;
     margin-bottom: 0;
     width: 150px;
     float: right;
-    color: rgba(0, 0, 0, .75);
+    color: rgba(0, 0, 0, .7);
   }
   .icon-print {
     display: inline-block;
@@ -408,17 +409,17 @@
     text-align: center;
   }
   .mobile-form-title-container {
-    width: 115px;
+    width: 136px;
     padding-top: .4em;
   }
   .mobile-form-title-container h2 {
-    margin-top: -.25em;
-    font-size: 1.25em;
+    margin-top: -.35em;
+    font-size: 1.5em;
     font-weight: 600;
     padding-top: 0;
   }
   .mobile-form-title-container p {
-    font-size: .8em;
+    font-size: .85em;
     margin-bottom: 0;
     width: 100px;
     float: right;
@@ -428,10 +429,10 @@
     display: inline-block;
     text-align: left;
     float: left;
-    margin-bottom: 1.2em;
+    margin-bottom: 1.1em;
   }
   .email-section {
-    margin-top: .8em;
+    margin-top: 0;
   }
   .via-formspree {
     display: inline-block;
@@ -473,7 +474,6 @@
     font-size: 3em;
     color: #bbb;
   }
-
   footer {
     padding: .35em .85em .35em 1.25em;
   }
@@ -526,6 +526,19 @@
   }
   .top-half {
     width: 99%;
+  }
+  .mobile-form-title-container {
+    width: 120px;
+    padding-top: .4em;
+  }
+  .mobile-form-title-container h2 {
+    margin-top: -.35em;
+    font-size: 1.3em;
+  }
+  .mobile-form-title-container p {
+    font-size: .85em;
+    margin-bottom: 0;
+    width: 100px;
   }
   .thumbnail-image, .project-card {
     width: 97% !important;
