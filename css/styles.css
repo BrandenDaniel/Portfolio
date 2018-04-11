@@ -605,6 +605,10 @@ a:hover {
 
 /* SOCIAL SECTION */
 
+.mobile-form-title-container {
+  display: none;
+}
+
 .social-container {
   padding: 0 0 1em 0;
   text-align: center;
@@ -613,12 +617,12 @@ a:hover {
 }
 
 .social-print {
-  width: 195px;
+  width: 200px;
   text-align: left;
-  margin: 0 7.9em 0 auto;
+  margin: 0 7.7em 0 auto;
   padding-top: .4em;
   font-family: monospace;
-  border-top: 1px dashed rgba(0, 0, 0, .2);
+  border-top: 2px dotted rgba(252, 110, 58, .5);
 }
 
 .social-print a {
@@ -633,6 +637,7 @@ a:hover {
 .social-print p, .social-print span {
   font-size: .85em;
   margin-bottom: 2px;
+  margin-left: 3px;
 }
 
 .social-print span {
@@ -834,7 +839,7 @@ footer {
 }
 
 .cp {
-  font-family: 'Actor', helvetica;
+  font-family: 'Roboto', helvetica;
   font-size: .8em;
   display: inline-block;
   margin: .45em 0 0 0;
@@ -846,6 +851,7 @@ footer {
   display: block;
   margin: -.3em 0 0 .1em;
   padding: 0;
+  font-size: .95em;
   text-align: left;
 }
 
