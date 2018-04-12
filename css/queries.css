@@ -151,11 +151,10 @@
   .mobile-form-title-container p {
     font-family: 'Roboto', helvetica;
     font-size: .88em;
-    padding-left: .45em;
+    padding-left: .4em;
     margin-bottom: 0;
     padding-bottom: .25em;
     width: 165px;
-    float: right;
     color: rgba(0, 0, 0, .7);
   }
   .icon-print {
@@ -416,16 +415,16 @@
   }
   .mobile-form-title-container h2 {
     margin-top: 0;
-    font-size: 1.6em;
+    font-size: 1.7em;
     font-weight: 600;
     padding: .2em 0 .3em 0;
   }
   .mobile-form-title-container p {
-    font-size: .85em;
+    font-size: .9em;
     margin-bottom: 0;
     width: 100%;
-    float: right;
     color: rgba(0, 0, 0, .75);
+    padding-left: .3em;
   }
   .icon-print {
     display: inline-block;
@@ -547,20 +546,19 @@
   .top-half {
     width: 99%;
   }
-
   .mobile-form-title-container {
     width: 120px;
     padding-left: .2em;
     margin-bottom: 1.5em;
   }
   .mobile-form-title-container h2 {
-    font-size: 1.3em;
-    padding-left: 1px;
+    font-size: 1.4em;
+    padding: .3em 0 .6em .05em;
   }
   .mobile-form-title-container p {
     font-size: .85em;
     margin-bottom: 0;
-    padding-left: .25em;
+    padding-left: .3em;
   }
   .thumbnail-image, .project-card {
     width: 97% !important;
