@@ -608,17 +608,18 @@ a:hover {
 .mobile-form-title-container {
   display: none;
 }
-.social-container {
+
+.icons-container {
   padding: 0 0 1em 0;
   text-align: center;
   width: 210px;
-  margin: 0.4em 6em 0 auto;
+  margin: 0.4em 5em 0 auto;
 }
 
 .social-print {
   width: 200px;
   text-align: left;
-  margin: 0 7.7em 0 auto;
+  margin: 0 6.4em 0 auto;
   padding-top: .4em;
   font-family: monospace;
   border-top: 2px dotted rgba(252, 110, 58, .5);

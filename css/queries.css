@@ -65,7 +65,6 @@
     margin: 0 auto 1.75em auto;
     display: block !important;
   }
-
   .github-stats {
     font-size: 1.5em;
     color: #000;
@@ -93,14 +92,18 @@
   header {
     width: 77%;
   }
-  .social-container {
+  .icons-container {
     text-align: left;
     margin: 0 auto 0 0;
     padding-bottom: .9em;
     display: block;
   }
+  .icons {
+    text-align: right;
+  }
   .social-print {
     text-align: left;
+    float: right;
     padding-top: .45em;
     margin: 0 auto 0 0;
     width: 188px;
@@ -134,31 +137,31 @@
     display: inline-block;
     width: 175px;
     vertical-align:top;
-    text-align: right;
-    float: right;
-    border-right: 4px solid rgb(252, 110, 58);
-    padding-right: .5em;
-
+    float: left;
+    border-left: 4px solid rgb(252, 110, 58);
+    padding-left: .5em;
   }
   .mobile-form-title-container h2 {
     font-family: 'Roboto', helvetica;
-    margin-top: -.2em;
+    margin-top: 0;
     font-size: 1.85em;
     font-weight: 600;
-    padding-top: .2em;
+    padding: .2em 0 .35em 0;
   }
   .mobile-form-title-container p {
     font-family: 'Roboto', helvetica;
     font-size: .88em;
+    padding-left: .45em;
     margin-bottom: 0;
-    width: 150px;
+    padding-bottom: .25em;
+    width: 165px;
     float: right;
     color: rgba(0, 0, 0, .7);
   }
   .icon-print {
     display: inline-block;
     text-align: left;
-    float: left;
+    float: right;
   }
   .form-title-container {
     display: none;
@@ -405,30 +408,28 @@
     width: 95%;
   }
   .top-half {
-    width: 94%;
+    width: 100%;
     text-align: center;
   }
   .mobile-form-title-container {
     width: 154px;
-    padding-top: .4em;
   }
   .mobile-form-title-container h2 {
-    margin-top: -.35em;
+    margin-top: 0;
     font-size: 1.6em;
     font-weight: 600;
-    padding: 0 0 .1em 0;
+    padding: .2em 0 .3em 0;
   }
   .mobile-form-title-container p {
     font-size: .85em;
     margin-bottom: 0;
-    width: 120px;
+    width: 100%;
     float: right;
     color: rgba(0, 0, 0, .75);
   }
   .icon-print {
     display: inline-block;
     text-align: left;
-    float: left;
     margin-bottom: 1.1em;
   }
   .email-section {
@@ -519,19 +520,18 @@
 @media (min-width: 389px) and (max-width: 430px) {
   .mobile-form-title-container {
     width: 119px;
-    padding-top: .4em;
   }
   .mobile-form-title-container h2 {
-    margin-top: -.35em;
+    margin-top: 0;
     font-size: 1.3em;
     font-weight: 600;
-    padding: 0 0 .2em 0;
   }
   .mobile-form-title-container p {
     font-size: .8em;
     margin-bottom: 0;
-    width: 105px;
-    float: right;
+
+    float: left;
+    padding-left: 0.3em;
     color: rgba(0, 0, 0, .75);
   }
 }
@@ -547,18 +547,20 @@
   .top-half {
     width: 99%;
   }
+
   .mobile-form-title-container {
     width: 120px;
-    padding-top: .4em;
+    padding-left: .2em;
+    margin-bottom: 1.5em;
   }
   .mobile-form-title-container h2 {
-    margin-top: -.35em;
     font-size: 1.3em;
+    padding-left: 1px;
   }
   .mobile-form-title-container p {
     font-size: .85em;
     margin-bottom: 0;
-    width: 100px;
+    padding-left: .25em;
   }
   .thumbnail-image, .project-card {
     width: 97% !important;
