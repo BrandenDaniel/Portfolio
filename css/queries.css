@@ -407,7 +407,7 @@
     width: 95%;
   }
   .top-half {
-    width: 100%;
+    width: 95%;
     text-align: center;
   }
   .mobile-form-title-container {
@@ -554,12 +554,13 @@
   }
   .mobile-form-title-container h2 {
     font-size: 1.4em;
-    padding: .3em 0 .6em .05em;
+    padding: .2em 0 .6em .05em;
   }
   .mobile-form-title-container p {
     font-size: .85em;
     margin-bottom: 0;
     padding-left: .3em;
+    padding-bottom: .1em;
   }
   .thumbnail-image, .project-card {
     width: 97% !important;
