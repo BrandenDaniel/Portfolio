@@ -734,7 +734,7 @@ a:hover {
   font-weight: 600;
   display: block;
   padding: 0 0 .15em 0;
-  font-size: 1.7em;
+  font-size: 1.6em;
   color: #222;
   text-align: left;
   margin: 0;
@@ -760,10 +760,10 @@ a:hover {
   width: 170px;
   margin: .4em .5em .75em 0em;
   padding: .65em .55em .6em .35em;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .1);
   border-top: none;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   background: #fff;
+  border-top: none;
   border-left: none;
   border-right: none;
   font-family: "Roboto", helvetica;
@@ -772,17 +772,15 @@ a:hover {
 }
 
 .email-name:focus, .email-address:focus, .email-msg:focus {
-  outline-color: rgba(0, 0, 0, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid rgb(252, 110, 58);
 }
 
 .email-address {
   width: 268px;
   padding: .65em .55em .6em .35em;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-  border: 1px solid rgba(0, 0, 0, .05);
   font-family: "Roboto", helvetica;
   font-size: .9em;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .1);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   border-top: none;
   background: #fff;
@@ -793,13 +791,11 @@ a:hover {
 
 .email-msg {
   padding: .65em .55em .6em .35em;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
   border: 1px solid rgba(0, 0, 0, .05);
   width: 440px;
   height: 110px;
   font-family: "Roboto", helvetica;
   font-size: .9em;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .1);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   border-top: none;
   border-left: none;
@@ -823,9 +819,16 @@ a:hover {
 }
 
 .email-submit:hover {
-  background: #000;
+  background: rgb(252, 110, 58);
+  border: 1px solid rgb(252, 110, 58);
   color: #fff;
   cursor: pointer;
+}
+
+.email-submit:focus {
+  outline-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(252, 110, 58);
+  color: rgb(252, 110, 58);
 }
 
 /*FOOTER*/
