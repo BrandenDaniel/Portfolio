@@ -622,7 +622,7 @@ a:hover {
   margin: 0 6.4em 0 auto;
   padding-top: .4em;
   font-family: monospace;
-  border-top: 2px dotted rgba(252, 110, 58, .5);
+  border-top: 1px solid rgba(0,0,0,.1);
 }
 
 .social-print a {
