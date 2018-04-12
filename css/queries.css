@@ -124,7 +124,7 @@
   }
   .email-me {
     text-align: center !important;
-    margin: 0 auto;
+    margin: 1.65em auto 0 auto;
   }
   .top-half {
     width: 442px;
@@ -442,20 +442,20 @@
   }
   .email-name {
     width: 100%;
-    margin: .4em .5em 1em 0em;
-    padding: .65em .55em .55em .55em;
+    margin: .4em .5em 1.25em 0em;
+    padding: .75em .55em .75em .4em;
     font-size: .9em;
     display: block;
   }
   .email-address {
     width: 100%;
-    padding: .65em .55em .55em .55em;
-    margin-bottom: 1em;
+    padding: .75em .55em .75em .4em;
+    margin-bottom: 1.25em;
     font-size: .9em;
     display: block;
   }
   .email-msg {
-    padding: .65em .55em .55em .55em;
+    padding: .75em .55em .75em .4em;
     width: 100%;
     height: 130px;
     font-size: .9em;
@@ -542,6 +542,7 @@
   }
   .email-me {
     width: 99%;
+    margin-top: 1em;
   }
   .top-half {
     width: 99%;
