@@ -523,7 +523,7 @@ a:hover {
 }
 
 .github-stats {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #000;
   display: inline-block;
   margin: .6em .25em 0 0;
@@ -539,7 +539,7 @@ a:hover {
 
 .repoData, .contribution, .addition {
   margin-left: 3px;
-  font-size: 1.05em;
+  font-size: 1em;
   font-weight: 900;
   color: #000;
   font-family: monospace;
@@ -548,7 +548,7 @@ a:hover {
 .repos {
   font-family: monospace !important;
   display: inline-block;
-  margin: 0 1em 0 0 !important;
+  margin: 0 .6em 0 0 !important;
   font-size: 1.25em;
   color: rgba(0,0,0,.6) !important;
   margin-bottom: 0 !important;
