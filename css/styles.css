@@ -850,7 +850,7 @@ footer {
 
 .cp span {
   display: block;
-  margin: -.1em 0 0 .1em;
+  margin: -.2em 0 0 .1em;
   padding: 0;
   font-size: .9em;
   text-align: left;
@@ -863,14 +863,14 @@ footer {
 .github-footer {
   float: right;
   padding: 0 .65em;
-  margin: .3em 0 .2em 0;
+  margin: .2em 0 .2em 0;
   font-size: 1.35em;
   border-right: 1px solid rgba(0, 0, 0, .1);
 }
 
 .linkedin-footer {
   padding: 0 .65em;
-  margin: .3em 0 .2em 0;
+  margin: .2em 0 .2em 0;
   float: right;
   font-size: 1.35em;
 }
