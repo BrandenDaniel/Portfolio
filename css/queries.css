@@ -76,7 +76,7 @@
     margin-top: .65em;
   }
   .repoData, .contribution, .addition {
-    margin-right: .4em;
+    margin-right: .3em;
     font-size: 1em;
   }
   .repos {
@@ -491,7 +491,7 @@
   }
   .github-stats {
     margin: .8em 0 .3em 0;
-    font-size: 1.35em;
+    font-size: 1.2em;
   }
 
   /* MODAL */
