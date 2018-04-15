@@ -18,7 +18,7 @@ $(window).click(function(e) {
     $modal.css('display', 'none');
     $body.css('overflow', 'auto');
     $('.hamburger-icon').css('display', 'inline-block');
-    $('.featured-work').css('filter', 'blur(0px)');
+    // $('.featured-work').css('filter', 'blur(0px)');
   }
 })
 
@@ -42,7 +42,7 @@ $('.close-modal').click(function() {
 
 $('.foodie-gallery').click(function() {
   $('.hamburger-icon').css('display', 'none');
-  $('.featured-work').css('filter', 'blur(1px)');
+  // $('.featured-work').css('filter', 'blur(1px)');
   $mainImg.attr('src', './img/foodie-hotspots.png');
   currentMain = $mainImg.attr('src');
   $modal.css('display', 'block');
@@ -66,7 +66,7 @@ $('.foodie-gallery').click(function() {
 
 $('.reddit-gallery').click(function() {
   $('.hamburger-icon').css('display', 'none');
-  $('.featured-work').css('filter', 'blur(1px)');
+  // $('.featured-work').css('filter', 'blur(1px)');
   $mainImg.attr('src', './img/reddit-searcher.png');
   currentMain = $mainImg.attr('src');
   $modal.css('display', 'block');
@@ -90,7 +90,7 @@ $('.reddit-gallery').click(function() {
 
 $('.memory-gallery').click(function() {
   $('.hamburger-icon').css('display', 'none');
-  $('.featured-work').css('filter', 'blur(1px)');
+  // $('.featured-work').css('filter', 'blur(1px)');
   $mainImg.attr('src', './img/memory-game-playing.png');
   currentMain = $mainImg.attr('src');
   $modal.css('display', 'block');
@@ -114,7 +114,7 @@ $('.memory-gallery').click(function() {
 
 $('.frogger-gallery').click(function() {
   $('.hamburger-icon').css('display', 'none');
-  $('.featured-work').css('filter', 'blur(1px)');
+  // $('.featured-work').css('filter', 'blur(1px)');
   $mainImg.attr('src', './img/frogger.png');
   currentMain = $mainImg.attr('src');
   $modal.css('display', 'block');
@@ -137,7 +137,7 @@ $('.frogger-gallery').click(function() {
 
 $('.eCom-gallery').click(function() {
   $('.hamburger-icon').css('display', 'none');
-  $('.featured-work').css('filter', 'blur(1px)');
+  // $('.featured-work').css('filter', 'blur(1px)');
   $mainImg.attr('src', './img/e-com.png');
   currentMain = $mainImg.attr('src');
   $modal.css('display', 'block');
@@ -160,7 +160,7 @@ $('.eCom-gallery').click(function() {
 
 $('.cms-gallery').click(function() {
   $('.hamburger-icon').css('display', 'none');
-  $('.featured-work').css('filter', 'blur(1px)');
+  // $('.featured-work').css('filter', 'blur(1px)');
   $mainImg.attr('src', './img/cms.png');
   currentMain = $mainImg.attr('src');
   $modal.css('display', 'block');
