@@ -91,7 +91,7 @@ header {
 .me {
   width: 65%;
   border-radius: 50%;
-  margin: 0 4em 10em auto;
+  margin: 0 4em 9em auto;
   display: block;
   padding: 4px;
   border: 1px solid rgba(0, 0, 0, .15);

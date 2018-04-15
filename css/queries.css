@@ -61,6 +61,8 @@
     border-radius: 50%;
     margin: 0 auto 1.75em auto;
     display: block !important;
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, .15);
   }
   .github-stats {
     font-size: 1.5em;
@@ -220,7 +222,7 @@
   .mobile-nav a {
     padding: 10px 20px 8px 10px;
     margin: 0 0 6px 0;
-    width: 60%;
+    width: 70%;
     display: block;
     color: #999;
     font-size: 1.2em;
@@ -272,10 +274,9 @@
     color: #0077b5;
   }
   .me-2 {
-    width: 40%;
+    width: 38%;
     border-radius: 50%;
     display: inline;
-    box-shadow: 0 0 1em .1em rgba(0,0,0,.3);
   }
   .thumbnail-image {
     width: 95% !important;
