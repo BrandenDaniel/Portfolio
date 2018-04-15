@@ -840,8 +840,8 @@ footer {
 }
 
 .cp {
-  font-family: 'Roboto', helvetica;
-  font-size: .75em;
+  font-family: monospace;
+  font-size: .95em;
   display: inline-block;
   margin: .45em 0 0 0;
   float: left;

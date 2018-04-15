@@ -477,9 +477,9 @@
     padding: .35em .85em .35em 1.25em;
   }
   .cp {
-    font-size: .85em;
+    font-size: 1em;
     display: inline-block;
-    padding: .1em 0 0 0;
+    padding: 0;
     margin: .15em;
   }
   .github-footer, .linkedin-footer {
