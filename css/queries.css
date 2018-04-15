@@ -47,9 +47,6 @@
     padding: 0;
     display: block !important;
   }
-  .main-img-container {
-    margin: 1em auto;
-  }
   .story-container {
     margin: 1.5em auto 0 auto;
     width: 100%;
@@ -496,11 +493,10 @@
 
   /* MODAL */
   .content-modal {
-    margin: 3.9em auto;
-    width: 93%;
+    margin: 3.5em auto;
+    width: 100%;
   }
   .main-img {
-    margin-bottom: .8em;
   }
   .modal-thumbnail-images img {
     margin: .35em;
