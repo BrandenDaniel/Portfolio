@@ -169,6 +169,7 @@
   }
   .arlo-img {
     width: 400px;
+    margin-top: 0;
   }
 }
 
@@ -508,7 +509,7 @@
     right: .43em;
   }
   .arlo-img {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -580,9 +581,6 @@
   }
   footer {
     padding: .45em .45em .45em .75em;
-  }
-  .arlo-img {
-    width: 90%;
   }
 }
 

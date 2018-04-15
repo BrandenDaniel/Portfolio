@@ -94,7 +94,7 @@ header {
   margin: 0 4em 10em auto;
   display: block;
   padding: 4px;
-  border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(0, 0, 0, .15);
 }
 
 .main-img-container {
@@ -127,7 +127,6 @@ header {
 
 .arlo-img {
   width: 510px;
-  border-radius: 5px;
   margin-top: .75em;
 }
 
@@ -551,7 +550,7 @@ a:hover {
   display: inline-block;
   margin: 0 .6em 0 0 !important;
   font-size: 1.25em;
-  color: rgba(0,0,0,.6) !important;
+  color: rgba(0, 0, 0, .6) !important;
   margin-bottom: 0 !important;
 }
 
@@ -560,7 +559,7 @@ a:hover {
   font-family: monospace !important;
   display: inline-block;
   font-size: 1.25em;
-  color: rgba(0,0,0,.6) !important;
+  color: rgba(0, 0, 0, .6) !important;
   margin-bottom: 0 !important;
 }
 
@@ -622,7 +621,7 @@ a:hover {
   margin: 0 6.4em 0 auto;
   padding-top: .4em;
   font-family: monospace;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
 .social-print a {
@@ -846,7 +845,7 @@ footer {
   display: inline-block;
   margin: .45em 0 0 0;
   float: left;
-  color: rgba(0,0,0,.65);
+  color: rgba(0, 0, 0, .65);
 }
 
 .cp span {
