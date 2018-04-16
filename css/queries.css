@@ -104,7 +104,7 @@
     text-align: left;
     float: right;
     padding-top: .45em;
-    margin: 0 auto 0 0;
+    margin: 2px auto 0 0;
     width: 188px;
   }
   .social-print p, .contact-location {
@@ -146,7 +146,7 @@
     margin-top: 0;
     font-size: 1.85em;
     font-weight: 600;
-    padding: .2em 0 .35em 0;
+    padding: .2em 0 .3em 0;
   }
   .mobile-form-title-container p {
     font-family: 'Roboto', helvetica;
@@ -198,63 +198,70 @@
     margin: .65em auto 0 auto;
   }
   .mobile-nav {
-    background-color: #111;
+    background: #f7f7f7;
     height: 100vh;
     width: 0;
     position: fixed;
     top: 0;
     right: 0;
-    opacity: .95;
     z-index: 10;
     transition: .5s;
-    padding-top: 85px;
+    padding-top: 90px;
     overflow-x: hidden;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,.75);
+    box-shadow: 0 0 8px rgba(0,0,0,.2);
   }
   .overlay {
     height: 100%;
     width: 100%;
-    background: rgba(220,220,220,.7);
+    background: rgba(255,255,255,.45);
     position: absolute;
     z-index: 9;
     display: none;
   }
   .mobile-nav a {
-    padding: 10px 20px 8px 10px;
-    margin: 0 0 6px 0;
-    width: 65%;
+    margin: 0;
+    padding: 7px 44px 7px 0;
+    width: 100%;
     display: block;
-    color: #999;
-    font-size: 1.2em;
+    color: #888;
+    font-size: 1em;
     text-align: right;
-    font-family: "Actor", helvetica;
+    font-family: "Roboto", helvetica;
   }
   .mobile-nav-active {
-    background: #ccc;
+    padding: 7px 40px 7px 0 !important;
     color: #222 !important;
-    padding: 14px 15px 12px 10px !important;
     font-weight: 600;
-    border-right: 5px solid rgba(252, 110, 58);
+    border-right: 4px solid rgba(252, 110, 58);
   }
   .x {
-    color: #ccc;
-    font-size: 1.8em;
+    color: #222 !important;
+    padding: 0 !important;
+    width: 100% !important;
     display: block;
     transition: .5s;
     position: absolute;
-    top: 0;
-    right: .6em;
-    font-size: 1.8em !important;
+    top: 2px;
+    text-align: right !important;
+    right: 14px;
+    font-size: 2.2em !important;
     border: none !important;
   }
-  .side-nav-linkedin, .side-nav-github {
+  .side-nav-linkedin, .side-nav-github, .orng-line {
     display: inline-block;
-    margin: 0 2px;
+    margin: 0 6px;
+  }
+  .orng-line {
+    width: 2px;
+    height: 29px;
+    background-color: rgba(0,0,0,.1);
+    margin-bottom: -6px !important;
   }
   .side-nav-social {
-    text-align: right;
-    padding-right: 1.65em;
-    margin: 3.5em .45em 0 .45em;
+    position: absolute;
+    bottom: 3px;
+    text-align: center;
+    margin: 0;
     width: 100%;
   }
   .side-nav-social a {
@@ -262,15 +269,14 @@
     text-align: center;
     margin: 0 auto !important;
     display: inline-block !important;
-    padding: 4px 4px 2px 4px !important;
+    padding: 0 !important;
     font-size: 1.5em;
   }
   .side-nav-github a {
-    border-bottom: 4px solid #43325b;
-    color: #6e5494;
+    /* border-left: 4px solid rgba(252, 110, 58); */
+    color: #333;
   }
   .side-nav-linkedin a {
-    border-bottom: 4px solid #00476d;
     color: #0077b5;
   }
   .me-2 {
@@ -417,7 +423,7 @@
     margin-top: 0;
     font-size: 1.7em;
     font-weight: 600;
-    padding: .2em 0 .3em 0;
+    padding: .2em 0 .22em 0;
   }
   .mobile-form-title-container p {
     font-size: .9em;
