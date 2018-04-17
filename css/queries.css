@@ -202,6 +202,9 @@
   .hamburger-icon {
     display: inline-block;
   }
+  .title {
+    font-weight: 400;
+  }
   .mobile-nav {
     background: #fff;
     height: 100%;
