@@ -199,6 +199,9 @@
   .work {
     margin: .65em auto 0 auto;
   }
+  .hamburger-icon {
+    display: inline-block;
+  }
   .mobile-nav {
     background: #fff;
     height: 100%;
@@ -243,10 +246,11 @@
     display: block;
     transition: .5s;
     position: absolute;
-    top: 2px;
+    top: 0;
+    margin-top: 0 !important;
     text-align: right !important;
-    right: 14px;
-    font-size: 2.2em !important;
+    right: 15px;
+    font-size: 2.1em !important;
     border: none !important;
   }
   .side-nav-linkedin, .side-nav-github, .orng-line {
@@ -281,7 +285,7 @@
     color: #333;
   }
   .side-nav-linkedin a {
-    color: #0077b5;
+    color: #333;
   }
   .me-2 {
     width: 38%;
@@ -316,9 +320,9 @@
   .hamburger-container {
     display: inline-block;
     float: right;
-    font-size: 1.6em;
-    color: #ddd;
-    margin: .35em .5em 0;
+    font-size: 1.4em;
+    color: #000;
+    margin: .25em .5em 0 0;
   }
   .featured-title {
     margin-bottom: -.5em;
@@ -339,28 +343,15 @@
   header {
     margin: 0;
     padding: 2px 6px 2px 1px;
-    background-color: #222;
+    background-color: #fff;
     width: 100%;
   }
   .header-spacing {
     margin: 0 auto 0 0;
     display: inline-block;
-    padding: .45em .6em 0 .5em;
+    padding: .25em .6em .2em .5em;
   }
-  .name {
-    font-size: 11px;
-    font-family: monospace;
-    color: #ddd;
-    margin: 0;
-  }
-  .title {
-    font-family: monospace;
-    font-size: 10px;
-    color: #ddd;
-    padding: 0;
-    margin: .3em 0 0 0 !important;
-    font-weight: 600;
-  }
+
   .coder {
     margin-left:5px;
   }

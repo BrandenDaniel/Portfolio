@@ -35,36 +35,30 @@ header {
 
 .header-spacing {
   text-align: left;
-  padding: .35em .65em .25em .65em;
+  padding: .5em .65em .25em .65em;
   display: inline-block;
   margin: 0 auto 0 0;
-}
 
-.name {
-  font-size: 12px;
-  font-family: monospace;
-  color: #ccc;
-  margin: 0;
-  font-weight: 600;
 }
 
 .title {
-  font-family: monospace;
+  font-family: 'Roboto', Arial;
   font-size: 11px;
-  color: #ccc;
+  color: #000;
   padding: 0;
   margin: .3em 0 .1em 0;
   font-weight: 600;
 }
 
 .coder {
-  background: #ccc;
+  color: #000;
   color: #292b2c;
   border-radius: 2px;
   padding: 1px 2px 0 2px;
-  font-size: .8em;
+  font-size: 11px;
   display: inline-block;
   margin-left: 5px;
+  font-family: 'Roboto', Arial;
 }
 
 /* THANK YOU PAGE */
@@ -185,7 +179,7 @@ header {
 .menu-container {
   display: inline-block;
   float: right;
-  margin: 1.75em 0 0 0;
+  margin: 1.4em 0 0 0;
 }
 
 .menu {
@@ -196,11 +190,11 @@ header {
 }
 
 .desktop-nav {
-  background-color: #222;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .55);
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
-.hamburger-container {
+.hamburger-container, .hamburger-icon {
   display: none;
 }
 
@@ -215,8 +209,8 @@ header {
 .about, .contact, .projects {
   font-size: .7em;
   font-weight: 400;
-  color: #999;
-  font-family: 'Actor', helvetica;
+  color: #888;
+  font-family: 'Roboto', helvetica;
   display: inline-block;
   padding: 0 .5em !important;
   transition: .1s ease-in-out;
@@ -225,12 +219,12 @@ header {
 .about:hover, .contact:hover, .projects:hover {
   border-bottom: 3px solid rgb(252, 110, 58);
   font-weight: 600;
-  color: #bbb;
+  color: #000;
 }
 
 .active {
   border-bottom: 3px solid rgb(252, 110, 58);
-  color: #bbb;
+  color: #000;
   transition: 1s;
   font-weight: 600;
 }
@@ -812,10 +806,10 @@ footer {
 
 .footer-content-container {
   background: #fff;
-  width: 140px;
+  width: 130px;
   border-radius: 3px;
-  padding: .3em 0;
-  margin: .6em auto 0 auto;
+  padding: .2em 0;
+  margin: .3em auto 0 auto;
 }
 
 .footer-links-container {
@@ -823,8 +817,8 @@ footer {
 }
 
 .cp {
-  font-family: monospace;
-  font-size: .9em;
+  font-family: 'Roboto', helvetica;
+  font-size: .7em;
   display: inline-block;
   color: rgba(0, 0, 0, .65);
   border-bottom: 2px solid rgba(0,0,0,.1);
@@ -833,11 +827,11 @@ footer {
 }
 
 .footer-location {
-  font-family: monospace;
-  font-size: .9em;
+  font-size: .7em;
   color: rgba(0, 0, 0, .65);
   display: inline-block;
   margin-top: 0;
+  font-family: 'Roboto', helvetica;
 
 }
 
