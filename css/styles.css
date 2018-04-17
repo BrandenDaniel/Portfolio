@@ -443,7 +443,7 @@ a:hover {
 }
 
 .opening-statement {
-  border-left: 4px solid rgb(252, 110, 58);
+  border-left: 3px solid rgb(252, 110, 58);
   padding-left: .65em;
   margin-left: -.9em;
   margin-bottom: 1.5em !important;
@@ -801,7 +801,7 @@ a:hover {
 footer {
   background-color: #eee;
   border-top: 1px solid rgba(0,0,0,.1);
-  padding: .2em 1em .2em 2.5em;
+  padding: .2em 0 .2em 0;
   text-align: center;
 }
 
