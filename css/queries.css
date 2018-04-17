@@ -168,7 +168,7 @@
     display: none;
   }
   .mobile a, .email a, .github a, .linkedin a {
-    padding: .4em .3em .25em .3em;
+    padding: .45em .3em .3em .3em;
     margin: 0;
   }
   .arlo-img {
