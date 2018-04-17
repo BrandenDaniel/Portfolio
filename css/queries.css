@@ -145,7 +145,6 @@
     font-family: 'Roboto', helvetica;
     margin-top: 0;
     font-size: 1.85em;
-    font-weight: 600;
     padding: 0 0 .3em 0;
   }
   .mobile-form-title-container p {
@@ -249,7 +248,7 @@
   }
   .side-nav-linkedin, .side-nav-github, .orng-line {
     display: inline-block;
-    margin: 0 6px;
+    margin: 0 4px;
   }
   .orng-line {
     width: 1px;
@@ -424,7 +423,6 @@
   .mobile-form-title-container h2 {
     margin-top: 0;
     font-size: 1.7em;
-    font-weight: 600;
     padding: 0 0 .22em 0;
   }
   .mobile-form-title-container p {
@@ -529,7 +527,6 @@
   .mobile-form-title-container h2 {
     margin-top: 0;
     font-size: 1.3em;
-    font-weight: 600;
   }
   .mobile-form-title-container p {
     font-size: .8em;
