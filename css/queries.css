@@ -146,14 +146,14 @@
     margin-top: 0;
     font-size: 1.85em;
     font-weight: 600;
-    padding: .2em 0 .3em 0;
+    padding: 0 0 .3em 0;
   }
   .mobile-form-title-container p {
     font-family: 'Roboto', helvetica;
     font-size: .88em;
     padding-left: .4em;
     margin-bottom: 0;
-    padding-bottom: .25em;
+    padding-bottom: 0;
     width: 165px;
     color: rgba(0, 0, 0, .7);
   }
@@ -198,8 +198,8 @@
     margin: .65em auto 0 auto;
   }
   .mobile-nav {
-    background: #f7f7f7;
-    height: 100vh;
+    background: #fff;
+    height: 100%;
     width: 0;
     position: fixed;
     top: 0;
@@ -252,17 +252,19 @@
     margin: 0 6px;
   }
   .orng-line {
-    width: 2px;
+    width: 1px;
     height: 29px;
     background-color: rgba(0,0,0,.1);
     margin-bottom: -6px !important;
   }
   .side-nav-social {
     position: absolute;
-    bottom: 3px;
+    bottom: 0;
+    padding: .5em;
     text-align: center;
     margin: 0;
     width: 100%;
+    background: #f3f3f3;
   }
   .side-nav-social a {
     width: 33px;
@@ -423,14 +425,14 @@
     margin-top: 0;
     font-size: 1.7em;
     font-weight: 600;
-    padding: .2em 0 .22em 0;
+    padding: 0 0 .22em 0;
   }
   .mobile-form-title-container p {
     font-size: .9em;
     margin-bottom: 0;
     width: 100%;
     color: rgba(0, 0, 0, .75);
-    padding-left: .25em;
+    padding: 0 0 0 .25em;
   }
   .icon-print {
     display: inline-block;
@@ -532,7 +534,6 @@
   .mobile-form-title-container p {
     font-size: .8em;
     margin-bottom: 0;
-
     float: left;
     padding-left: 0.3em;
     color: rgba(0, 0, 0, .75);
@@ -558,13 +559,12 @@
   }
   .mobile-form-title-container h2 {
     font-size: 1.4em;
-    padding: .2em 0 .6em .05em;
+    padding: 0 0 .6em .05em;
   }
   .mobile-form-title-container p {
     font-size: .85em;
     margin-bottom: 0;
     padding-left: .3em;
-    padding-bottom: .1em;
   }
   .thumbnail-image, .project-card {
     width: 97% !important;
