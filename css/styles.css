@@ -770,17 +770,17 @@ a:hover {
 }
 
 .email-submit {
-  font-family: monospace;
+  font-family: 'Roboto', helvetica;
   display: block;
   padding: .6em;
   width: 100%;
   margin-top: .45em;
   border: 1px solid rgba(0, 0, 0, .2);
   color: #777;
-  font-weight: 600;
+  font-weight: 400;
   background: #fff;
   transition: .15s ease-in-out;
-  font-size: 1.05em;
+  font-size: .8em;
 }
 
 .email-submit:hover {
@@ -793,7 +793,7 @@ a:hover {
 .email-submit:focus {
   outline-color: rgba(255, 255, 255, 0);
   border: 1px solid rgb(252, 110, 58);
-  color: rgb(252, 110, 58);
+  color: #fff;
 }
 
 /*FOOTER*/
