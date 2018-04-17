@@ -228,15 +228,16 @@
     padding: 7px 44px 7px 0;
     width: 100%;
     display: block;
-    color: #888;
+    color: rgba(0,0,0,.45);
     font-size: 1em;
     text-align: right;
     font-family: "Roboto", helvetica;
   }
   .mobile-nav-active {
     padding: 7px 40px 7px 0 !important;
-    color: #000 !important;
+    color: #333 !important;
     border-right: 4px solid rgba(252, 110, 58);
+    font-weight: 600;
   }
   .x {
     color: #222 !important;
