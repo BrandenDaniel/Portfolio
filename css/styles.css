@@ -793,6 +793,7 @@ a:hover {
 .email-submit:focus {
   outline-color: rgba(255, 255, 255, 0);
   border: 1px solid rgb(252, 110, 58);
+  background: rgb(252, 110, 58);
   color: #fff;
 }
 
