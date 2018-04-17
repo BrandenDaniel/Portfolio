@@ -96,6 +96,7 @@
     margin: 0 auto 0 0;
     padding-bottom: .7em;
     display: block;
+    width: 208px;
   }
   .icons {
     text-align: right;
@@ -104,16 +105,17 @@
     text-align: left;
     float: right;
     padding-top: .45em;
-    margin: 2px auto 0 0;
-    width: 188px;
+    margin: 0;
+    width: 208px;
   }
-  .social-print p, .contact-location {
+  .social-print p, .social-print span {
     font-size: 75%;
-    margin-left: .25em;
+    margin-left: 1.5em;
     margin-bottom: 1px;
   }
   .contact-melbourne {
     font-size: 75% !important;
+    margin-left: 2px !important;
   }
   .social-print span {
     margin-top: 1em;
@@ -139,6 +141,7 @@
     float: left;
     border-left: 4px solid rgb(252, 110, 58);
     padding-left: .5em;
+    margin-top: -.4em;
   }
   .mobile-form-title-container h2 {
     color: rgb(252, 110, 58);
@@ -207,7 +210,7 @@
     transition: .5s;
     padding-top: 90px;
     overflow-x: hidden;
-    box-shadow: 0 0 8px rgba(0,0,0,.2);
+    box-shadow: 0 0 8px rgba(0,0,0,.15);
   }
   .overlay {
     height: 100%;
@@ -482,18 +485,6 @@
   }
   footer {
     padding: .35em .85em .35em 1.25em;
-  }
-  .cp {
-    font-size: 1em;
-    display: inline-block;
-    padding: 0;
-    margin: .15em;
-  }
-  .github-footer, .linkedin-footer {
-    float: right;
-    padding: 0 .55em !important;
-    margin: .2em 0 0 0;
-    font-size: 1.45em;
   }
   .github-stats {
     margin: .8em 0 .3em 0;
