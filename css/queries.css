@@ -227,21 +227,20 @@
     display: none;
   }
   .mobile-nav a {
-    margin: 2px 0;
-    padding: 8px 44px 8px 0;
+    margin: 6px 0;
+    padding: 4px 24px 4px 0;
     width: 100%;
     display: block;
     color: rgba(0,0,0,.4);
-    font-size: 1.1em;
+    font-size: .9em;
     text-align: right;
     font-family: "Roboto", helvetica;
   }
   .mobile-nav-active {
-    margin: 2px 0;
-    padding: 8px 40px 8px 0 !important;
+    margin: 6px 0;
+    padding: 4px 20px 4px 0 !important;
     color: #333 !important;
     border-right: 4px solid rgba(252, 110, 58);
-    font-weight: 600;
   }
   .x {
     color: rgba(0,0,0,.4);
