@@ -212,18 +212,19 @@ header {
   color: #888;
   font-family: 'Roboto', helvetica;
   display: inline-block;
-  padding: 0 .5em !important;
+  padding: 0 .35em !important;
   transition: .1s ease-in-out;
+  height: 20px;
 }
 
 .about:hover, .contact:hover, .projects:hover {
-  border-bottom: 3px solid rgb(252, 110, 58);
+  border-bottom: 2px solid rgb(252, 110, 58);
   font-weight: 600;
   color: #000;
 }
 
 .active {
-  border-bottom: 3px solid rgb(252, 110, 58);
+  border-bottom: 2px solid rgb(252, 110, 58);
   color: #333;
   transition: 1s;
   font-weight: 600;
@@ -692,7 +693,7 @@ a:hover {
   text-align: left;
   border-left: 3px solid rgb(252, 110, 58);
   padding: 0 .5em;
-  margin: 1.1em 0;
+  margin: 0 0 1.1em 0;
 }
 
 .form-title-container h2 {
